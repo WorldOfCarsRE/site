@@ -48,7 +48,7 @@ var WorldOfCars = function() {
 		This.heartbeatTick = function() {
 			jQuery.ajax( {
 				cache		: false,
-				dataType	: 'xml',
+				dataType	: 'text', // Previously xml type but our api service returns text
 				type		: 'GET',
 				url			: CFG.whoAmI,
 				error		: function() {
@@ -119,10 +119,10 @@ var WorldOfCars = function() {
 			}
 
 			cto=new CTO();
-			cto.account='worldofcars';   
-			cto.category='dgame';   
+			cto.account='worldofcars';
+			cto.category='dgame';
 			cto.site='woc';
-			cto.pageName='play_button';  
+			cto.pageName='play_button';
 			cto.contentType='regular';
 			cto.property='car';
 			cto.track();
