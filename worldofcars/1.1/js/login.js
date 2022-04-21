@@ -36,7 +36,7 @@ jQuery( document ).ready( function() {
 			qsVars[pair[0]] = pair[1];
 		}
 
-		swfobject.embedSWF( PATH.swf +'/common/DVC_OS.swf', 'pla-regModule', '100%', '100%', '10.0.0', false, jQuery.extend( { mediaMindConversion : 'HTTPS://bs.serving-sys.com/BurstingPipe/activity3.swf?' + escape('ebAS=bs.serving-sys.com&activityParams=ActivityID=73484&f=1&Session=' + ebSession + '&rnd=' + ebRand) }, RAMP.registration.flashVars, qsVars ), RAMP.registration.params );
+		swfobject.embedSWF( PATH.swf + '/common/DVC_OS.swf', 'pla-regModule', '100%', '100%', '10.0.0', false, jQuery.extend( { mediaMindConversion : 'HTTPS://bs.serving-sys.com/BurstingPipe/activity3.swf?' + escape('ebAS=bs.serving-sys.com&activityParams=ActivityID=73484&f=1&Session=' + ebSession + '&rnd=' + ebRand) }, RAMP.registration.flashVars, qsVars ), RAMP.registration.params );
 	};
 
 	function heartbeatTick() {
