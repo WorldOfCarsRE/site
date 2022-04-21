@@ -1,0 +1,1303 @@
+/* CSS Reset ---------------------------------------------*/
+/*
+Copyright (c) 2009, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 2.8.0r4
+*/
+html {
+	color: #000;
+	background: #FFF;
+}
+ 
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,
+form,fieldset,legend,input,button,textarea,p,blockquote,th,td {
+	margin: 0;
+	padding: 0;
+}
+ 
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ 
+fieldset,img {
+	border: 0;
+}
+ 
+address,caption,cite,code,dfn,em,strong,th,var,optgroup {
+	font-style: inherit;
+	font-weight: inherit;
+}
+ 
+del,ins {
+	text-decoration: none;
+}
+ 
+li {
+	list-style: none;
+}
+ 
+caption,th {
+	text-align: left;
+}
+ 
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+ 
+q:before,q:after {
+	content: '';
+}
+ 
+abbr,acronym {
+	border: 0;
+	font-variant: normal;
+}
+ 
+sup {
+	vertical-align: baseline;
+}
+ 
+sub {
+	vertical-align: baseline;
+}
+ 
+/*because legend doesn't inherit in IE */
+legend {
+	color: #000;
+}
+ 
+input,button,textarea,select,optgroup,option {
+	font-family: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+}
+ 
+/*@purpose To enable resizing for IE */
+/*@branch For IE6-Win, IE7-Win */
+input,button,textarea,select {
+	*font-size: 100%;
+}
+/*--------------------------------------------------------*/
+
+/* Global Elements ---------------------------------------*/
+html {
+	background: #000000;
+}
+
+body {
+	background: url(../img/bg/bg-site.jpg) top center no-repeat;
+	font: 12px/14px 'Verdana', 'Geneva', sans-serif;
+}
+
+h1 {
+	font-size: 2em;
+	line-height: 2em;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 1.6em;
+	line-height: 1.2em;
+	color: #ef5319;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+h3 {
+	font-size: 1.4em;
+	line-height: 1.4em;
+	margin-bottom: 10px;
+}
+
+h4 {
+	font-size: 1.2em;
+	line-height: 1.2em;
+	margin-bottom: 10px;
+	border-bottom: 2px solid #7F7F7F;
+}
+
+a {
+	outline: none;
+	color: #459BC9;
+}
+
+a:hover {
+	color: #EF5319;
+}
+
+ol {
+	padding-left: 20px;
+}
+
+ol li {
+	list-style-type: decimal;
+}
+
+p {
+	padding-bottom: 10px;
+}
+
+.sys-clear {
+	font-size: 1px;
+	line-height: 1px;
+	height: 1px;
+	margin-bottom: -1px;
+	clear: both;
+}
+
+.sys-siteWrapper {
+	width: 998px;
+	margin: auto;
+	position: relative;
+}
+
+.sys-frame-bottom {
+	background: url(../img/bg/bg-frame-bottom.png) bottom center no-repeat;
+	margin: auto;
+	position: relative;
+}
+
+.sys-toolbar {
+	width: 978px;
+	height: 24px;
+	margin: auto;
+}
+
+.sys-toolbar a {
+	color: #555555;
+	font-size: 11px;
+	line-height: 24px;
+}
+
+.sys-sprocketLink {
+	background: url(../img/msc/ico-sprocket.gif) center left no-repeat;
+	height: 24px;
+	display: block;
+	float: right;
+	padding-left: 20px;
+}
+
+.sys-header {
+	background: url(../img/bg/bg-frame-top.png) top center no-repeat;
+	height: 251px;
+	z-index: 99;
+/*	position: relative; */
+	margin-bottom: -148px;
+}
+
+.sys-contentWrapper {
+	padding: 0px 7px 27px 7px;
+}
+
+.sys-logo {
+	background: url(../img/msc/logo.png) no-repeat;
+	width: 208px;
+	height: 131px;
+	display: block;
+	position: absolute;
+		left: 5px;
+		top: 10px;
+	z-index: 101;
+	text-indent: -999em;
+}
+
+.sys-logo:hover {
+	background-position: 0px -131px;
+}
+
+.sys-nav {
+	width: 559px;
+	height: 31px;
+	margin: auto;
+	margin-top: 17px;
+}
+
+.sys-nav li {
+	float: left;
+	height: 31px;
+}
+
+.sys-nav li a {
+	height: 31px;
+	display: block;
+	background: url(../img/bg/bg-nav.gif) no-repeat;
+	text-indent: -999em;
+}
+
+.sys-nav .sys-nav-community a {
+	width: 143px;
+}
+
+.sys-nav .sys-nav-community a:hover, .sec-community .sys-nav-community a {
+	background-position: 0px -31px;
+}
+
+.sys-nav .sys-nav-membership a {
+	width: 130px;
+	background-position: -143px 0px;
+}
+
+.sys-nav .sys-nav-membership a:hover, .sec-membership .sys-nav-membership a {
+	width: 140px;
+	margin-left: -10px;
+	background-position: -133px -62px;
+}
+
+.sys-nav .sys-nav-about a {
+	width: 133px;
+	background-position: -273px 0px;
+}
+
+.sys-nav .sys-nav-about a:hover, .sec-about .sys-nav-about a {
+	background-position: -273px -31px;
+}
+
+.sys-nav .sys-nav-parents a {
+	width: 111px;
+	background-position: -406px 0px;
+}
+
+.sys-nav .sys-nav-parents a:hover, .sec-parents .sys-nav-parents a {
+	width: 121px;
+	margin-left: -10px;
+	background-position: -396px -62px;
+}
+
+.sys-nav .sys-nav-help a {
+	width: 42px;
+	background-position: -517px 0px;
+}
+
+.sys-nav .sys-nav-help a:hover, .sec-help .sys-nav-help a {
+	width: 57px;
+	margin-left: -15px;
+	background-position: -502px -31px;
+}
+
+.sys-subNavBg {
+	width: 500px;
+	height: 51px;
+	background: url(../img/bg/bg-subNav.png) no-repeat;
+	position: absolute;
+		left: 234px;
+		top: 50px;
+}
+
+.sys-subNavBg-cap {
+	width: 15px;
+	height: 51px;
+	background: url(../img/bg/bg-subNav.png) top right no-repeat;
+	float: right;
+	margin-right: -15px;
+}
+
+.sys-subNav {
+	width: 500px;
+	margin: auto;
+	margin-top: 25px;
+	text-align: center;
+}
+
+.sys-subNav li {
+	float: left;
+	height: 14px;
+	padding: 0px 15px;
+	border-right: 2px solid #767676;
+}
+
+.sys-subNav li.sys-subNav-last {
+	border: none;
+}
+
+.sys-subNav li a {
+	color: #767676;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.sys-subNav li a:hover, .sys-subNav li.sys-subNav-selected a {
+	color: #459BC9;
+}
+
+.sys-btn-play {
+	width: 159px;
+	height: 48px;
+	display: block;
+	background: url(../img/btn/btn-play.jpg) 0px -96px no-repeat;
+	text-indent: -999em;
+	position: absolute;
+		right: 23px;
+		top: 16px;
+	cursor: default;
+}
+
+.sys-btn-play-active {
+	background-position: 0px 0px;
+	cursor: pointer;
+}
+
+.sys-btn-play-active:hover {
+	background-position: 0px -48px;
+}
+
+.sys-footer {
+	background: #000;
+	padding-top: 10px;
+}
+
+.sys-footer .sys-footNav {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.sys-footer .sys-footNav a {
+	color: #555555;
+	text-decoration: none;
+}
+
+.sys-banner {
+	background: #F5EE31 url(../img/bg/bg-bannerTape.gif) repeat-x;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+.sys-banner .sys-bannerBottom {
+	margin-top: 5px;
+	height: 5px;
+	background: url(../img/bg/bg-bannerTape.gif) -10px 0px repeat-x;
+}
+
+.sys-banner .sys-bannerContent {
+	width: 998px;
+	margin: auto;
+}
+
+.sys-contentBox {
+	width: 923px;
+	margin: auto;
+	position: relative;
+}
+
+.sys-contentBox .sys-contentBoxTitle {
+	background: url(../img/bg/bg-contentBox.png) no-repeat;
+	height: 52px;
+	margin-top: 25px;
+	text-align: center;
+}
+
+.sys-contentBox .sys-contentBoxTitle h1 img {
+	margin-top: 14px !important;
+	margin-top: 0px;
+}
+
+.sys-contentBox .sys-contentBoxBody {
+	background: url(../img/bg/bg-contentBox.png) 0px -52px no-repeat;
+	padding: 10px 20px 7px 20px;
+}
+
+.sys-contentBox .sys-contentBoxBody .sys-contentBoxLeftColumn {
+	width: 515px;
+	float: left;
+}
+
+.sys-contentBox .sys-contentBoxBody .sys-contentBoxRightColumn {
+	width: 515px;
+	float: right;
+}
+
+.sys-contentBox .sys-contentBoxBody .sys-contentBoxLeftColumn ul,
+.sys-contentBox .sys-contentBoxBody .sys-contentBoxRightColumn ul {
+	padding-left: 20px;
+}
+
+.sys-contentBox .sys-contentBoxBody .sys-contentBoxLeftColumn li,
+.sys-contentBox .sys-contentBoxBody .sys-contentBoxRightColumn li {
+	list-style-type: disc;
+}
+
+.sys-contentBox .sys-contentBoxBody li {
+	margin-bottom: 10px;
+}
+
+.sys-contentBox .sys-contentBoxFooter {
+	background: url(../img/bg/bg-contentBox.png) bottom center no-repeat;
+	height: 13px;
+}
+
+.sys-subContentBoxBlackShiny {
+	width: 644px;
+}
+
+.sys-subContentBoxBlackShiny .sys-subContentBoxBlackShinyTitle {
+	background: url(../img/bg/bg-subContentBox-blackShiny.png) no-repeat;
+	height: 46px;
+	padding-bottom: 6px;
+}
+
+.sys-subContentBoxBlackShiny .sys-subContentBoxBlackShinyTitle h2 {
+	color: #FFFFFF;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.4em;
+	line-height: 46px;
+}
+
+.sys-subContentBoxBlackShiny .sys-subContentBoxBlackShinyBody {
+	background: url(../img/bg/bg-subContentBox-blackShiny.png) 0px -50px no-repeat;
+	padding: 5px 10px;
+}
+
+.sys-subContentBoxBlackShiny .sys-subContentBoxBlackShinyFooter {
+	background: url(../img/bg/bg-subContentBox-blackShiny.png) bottom center no-repeat;
+	height: 8px;
+}
+
+.sys-textInput {
+	background: url(../img/bg/bg-inputField.png) no-repeat;
+	height: 28px;
+	line-height: 28px;
+	padding: 0px 5px 4px 6px;
+	border: none;
+	float: left;
+}
+
+.sys-textInputCap {
+	background: url(../img/bg/bg-inputField.png) top right no-repeat;
+	width: 5px;
+	height: 28px;
+	line-height: 28px;
+	padding-bottom: 4px;
+	float: left;
+}
+
+.sys-fileInputHidden {
+	display: none;
+}
+
+.sys-form .sys-formTitle {
+	text-align: right;
+	font-weight: bold;
+}
+
+.sys-form td {
+	padding: 10px 5px;
+}
+
+.sys-formErrorContainer {
+	position: relative;
+	clear: left;
+}
+
+.sys-formErrorContainer ul {
+	position: absolute;
+		left: 0px;
+		top: 3px;
+	color: #FF0000;
+	font-size: .8em;
+	line-height: .8em;
+}
+
+.sys-modalOverlayContainer {
+	background-image: url(../img/bg/bg-modal-overlay.jpg);
+	width: 508px;
+	height: 402px;
+}
+
+.sys-modalOverlayContainer ol {
+	padding-bottom: 5px;
+}
+
+.sys-modalOverlayContainer h2 {
+	text-align: center;
+	height: 34px;
+	line-height: 34px;
+	margin-bottom: 2px;
+}
+
+.sys-modalOverlayContainer h2 img {
+	margin-top: 5px;
+}
+
+.sys-modalOverlayContainer h3 {
+	text-align: center;
+	color: #ef5319;
+	margin: 5px 0px;
+}
+
+.sys-modalOverlayContainer .sys-modalOverlayBody {
+	height: 306px;
+	position: relative;
+	padding: 30px 50px;
+}
+/*--------------------------------------------------------*/
+
+/* Section Specific --------------------------------------*/
+.sys-siteWrapper { /* default bg */
+	background: #AFCDA9 url(../img/bg/bg-content-stadiumLawn.jpg) top center no-repeat;
+}
+
+
+/*
+.sec-membership .sys-siteWrapper {
+	background: #AFCDA9 url(../img/bg/bg-content-stadiumLawn.jpg) top center no-repeat;
+}
+*/
+
+.sec-community .sys-subNav li {
+	padding: 0px 10px;
+}
+
+.sec-help .sys-subNav li {
+	padding: 0px 48px;
+}
+
+.sys-siteWrapper.bg-flos {
+	background: #FFFFFF url(../img/bg/bg-content-flos.jpg) top center no-repeat;
+}
+
+/* Luigi & Guido Thank You */
+.sys-siteWrapper.bg-luigis {
+	background: #FFFFFF url(../img/bg/bg-content-luigis.jpg) top center no-repeat;
+}
+
+/* Mia & Tia Thank You */
+.sys-siteWrapper.bg-flos-miaTia {
+	background: #FFFFFF url(../img/bg/bg-content-flos-mia-and-tia.jpg) top center no-repeat;
+}
+/*--------------------------------------------------------*/
+
+/* Chrome ------------------------------------------------*/
+.sys-chrome-header {
+	background: #D4D0C8;
+}
+
+.sys-chrome-header .gde_homeLink {
+	background-image: url(../img/msc/chm-disneyLogo.png);
+}
+
+.sys-chrome-header .gde_homeLink:hover {
+	background-position: 32px -43px;
+}
+
+.sys-chrome-footer #gde_footerTitleContainer {
+	background-image: url(../img/msc/chm-disneyLogo.png);
+}
+/* -------------------------------------------------------*/
+
+/* Buttons -----------------------------------------------*/
+.btn-change {
+	width: 152px;
+	height: 26px;
+	display: block;
+	background: url(../img/btn/btn-change.png) no-repeat;
+	text-indent: -999em;
+}
+
+.btn-change:hover {
+	background-position: 0px -26px;
+}
+
+.btn-continue-48 {
+	width: 191px;
+	height: 48px;
+	display: block;
+	background: url(../img/btn/btn-continue-48.png) no-repeat;
+	text-indent: -999em;
+}
+
+.btn-continue-48:hover {
+	background-position: 0px -48px;
+}
+
+.btn-link-my-account {
+	width: 152px;
+	height: 26px;
+	display: block;
+	background: url(../img/btn/btn-link-my-account.png) no-repeat;
+	text-indent: -999em;
+}
+
+.btn-link-my-account:hover {
+	background-position: 0px -26px;
+}
+
+.btn-login {
+	width: 134px;
+	height: 36px;
+	display: block;
+	background: url(../img/btn/btn-login.png) no-repeat;
+	text-indent: -999em;
+}
+
+.btn-login:hover {
+	background-position: 0px -36px;
+}
+
+.btn-play-62 {
+	width: 200px;
+	height: 62px;
+	display: block;
+	background: url(../img/btn/btn-play-62.png) no-repeat;
+	text-indent: -999em;
+}
+
+.btn-play-62:hover {
+	background-position: 0px -62px;
+}
+
+.btn-redeem-a-code {
+	background: url(../img/btn/btn-redeem-a-code.jpg) no-repeat;
+	width: 182px;
+	height: 75px;
+	display: block;
+}
+
+.btn-redeem-a-code:hover {
+	background-position: 0px -75px;
+}
+
+.btn-submit-36 {
+	background: url(../img/btn/btn-submit-36.png) no-repeat;
+	cursor: pointer;
+	width: 134px;
+	height: 36px;
+	border: none;
+}
+
+.btn-submit-36:hover {
+	background-position: 0px -36px;
+}
+
+.btn-submit-fan-art {
+	width: 142px;
+	height: 26px;
+	display: block;
+	background: url(../img/btn/btn-submit-fan-art.png) no-repeat;
+	text-indent: -999em;
+}
+
+.btn-submit-fan-art:hover {
+	background-position: 0 -26px;
+}
+
+.btn-submit-screenshots {
+	width: 162px;
+	height: 26px;
+	display: block;
+	background: url(../img/btn/btn-submit-screenshots.png) no-repeat;
+	text-indent: -999em;
+}
+
+.btn-submit-fan-art:hover {
+	background-position: 0 -26px;
+}
+/*--------------------------------------------------------*/
+
+/* Characters --------------------------------------------*/
+.chr-biggestFans {
+	position: absolute;
+		left: 20px;
+		bottom: -5px; 
+}
+
+.chr-materLightning {
+	position: absolute;
+		left: -5px;
+		bottom: -20px; 
+}
+
+.chr-materLightning-small {
+	position: absolute;
+		left: 0px;
+		bottom: 0px; 
+}
+
+.chr-miaAndTia {
+	position: absolute;
+		left: 20px;
+		bottom: -5px; 
+}
+
+.chr-red-small {
+	position: absolute;
+		left: 0px;
+		bottom: 0px; 
+}
+
+.chr-costume-ds,
+.chr-costume-psn,
+.chr-costume-wii,
+.chr-costume-xbl {
+	position: absolute;
+		left: 0px;
+		bottom: 0px;
+}
+/*--------------------------------------------------------*/
+
+/* RAMP --------------------------------------------------*/
+.ramp-bannerMessage {
+	text-align: center;
+	font-weight: bold;
+	padding-top: 170px;
+	font-size: 1.2em;
+	line-height: 1.2em;
+}
+/* -------------------------------------------------------*/
+
+/* Purchase ----------------------------------------------*/
+.ramp-purchContainer {
+	width: 915px;
+	margin: 50px auto 0px auto;
+}
+
+#ramp-purchMod {
+	width: 100%;
+	height: 970px;
+	outline: none;
+}
+/* -------------------------------------------------------*/
+
+/* Manage Account ----------------------------------------*/
+.ramp-accountManagerContainer {
+	width: 915px;
+	margin: 50px auto 0px auto;
+}
+
+#ramp-acctMgrMod {
+	width: 100%;
+	height: 620px;
+	outline: none;
+}
+/* -------------------------------------------------------*/
+
+/* Fan Art Gallery ---------------------------------------*/
+.ugc-container {
+	margin: 10px 0px 30px 14px;
+}
+
+.ugc-container .ugc-thumbContainer {
+	width: 119px;
+	height: 66px;
+	display: block;
+	float: left;
+	margin: 20px 0px 0px 20px; 
+}
+/* -------------------------------------------------------*/
+
+/* Screenshot Gallery ------------------------------------*/
+.pag-screenshots #colorbox, .pag-screenshots #cboxWrapper {
+	overflow: visible;
+}
+
+.pag-screenshots #cboxTitle {
+	top: auto;
+	bottom: -20px;
+}
+/* -------------------------------------------------------*/
+
+/* Upload Fan Art ----------------------------------------*/
+.fanart-form {
+	float: right;
+	margin: 20px 40px 0px 40px;
+}
+/* -------------------------------------------------------*/
+
+/* Upload Screenshots ------------------------------------*/
+.fanart-form {
+	float: right;
+	margin: 20px 40px 0px 40px;
+}
+
+.ugc-instructionColumn {
+	width: 320px;
+}
+
+.ugc-instructionList li {
+	padding-bottom: 5px;
+	border-bottom: 1px solid #C1C1C1;
+}
+
+.ugc-instructionList li .ugc-instructionNumber {
+	background: url(../img/bg/bg-orangeCircle.png) no-repeat;
+	width: 18px;
+	height: 16px;
+	padding-bottom: 2px;
+	display: inline-block;
+	color: #FFFFFF;
+	text-align: center;
+	font-weight: bold;
+	line-height: 16px;
+}
+
+.ugc-instructionList li img {
+	margin: 5px 0px 5px 22px;
+}
+/* -------------------------------------------------------*/
+
+/* Thank You pages ---------------------------------------*/
+.ty-linkList li {
+	padding-top: 10px;
+}
+
+.ty-linkList a {
+	color: #BE3C1D;
+	text-decoration: underline;
+	font-size: 1.2em;
+	line-height: 1.2em;
+}
+
+.bg-luigis .sys-contentWrapper,
+.bg-flos-miaTia .sys-contentWrapper {
+	height: 530px;
+}
+
+.bg-luigis .sys-content,
+.bg-flos-miaTia .sys-content {
+	width: 400px;
+	padding: 300px 0px 0px 45px;
+}
+
+.bg-luigis .sys-content h2,
+.bg-flos-miaTia .sys-content h2{
+	margin-bottom: 0px;
+	color: #000000;
+}
+/* -------------------------------------------------------*/
+
+/* Link Account ------------------------------------------*/
+.lnk-helpContainer {
+	width: 487px;
+	height: 295px;
+	background: url(../img/bg/bg-help-popup.gif) no-repeat;
+	padding: 46px 10px 10px 10px;
+}
+
+.lnk-cars2Packages {
+	margin-top: 40px;
+}
+
+.lnk-descriptionColumn {
+	width: 309px;
+	float: left;
+}
+
+.lnk-esrb {
+	position: absolute;
+	bottom: 40px;
+	right: 40px;
+}
+
+.lnk-login {
+	margin: 10px 0px 5px 0px;
+}
+
+.lnk-loginColumn {
+	width: 574px;
+	float: left;
+}
+
+.lnk-logo {
+	height: 52px;
+	background: url(../img/msc/console-logos.gif) no-repeat;
+	position: absolute;
+		left: 15px;
+		top: 66px;
+}
+
+.lnk-logo.lnk-logo-ds {
+	width: 260px;
+}
+
+.lnk-logo.lnk-logo-wii {
+	width: 116px;
+	background-position: 0px -52px;
+}
+
+.lnk-logo.lnk-logo-xboxLive {
+	width: 309px;
+	background-position: 0px -104px;
+}
+
+.lnk-logo.lnk-logo-psn {
+	width: 323px;
+	background-position: 0px -156px;
+}
+
+.lnk-consoleBox {
+	width: 544px;
+	height: 102px;
+	background: url(../img/bg/bg-linkConsole.png) no-repeat;
+	padding: 15px;
+	position: relative;
+	margin-bottom: 5px;
+}
+
+.lnk-consoleBox .lnk-gamerTagDetails {
+	width: 220px;
+	position: absolute;
+		left: 348px;
+		top: 25px;
+}
+
+.lnk-consoleBox .lnk-dsGamerTagDetails {
+	top: 10px;
+}
+
+.lnk-consoleList {
+	font-weight: bold;
+	margin: 20px 0px 30px 40px;
+}
+
+.lnk-userTag {
+	font-weight: bold;
+	font-size: 1.4em;
+	line-height: 1.4em;
+}
+
+.lnk-linked .lnk-userTag {
+	color: #000000;
+}
+
+.lnk-notLinked .lnk-userTag {
+	color: #858585;
+}
+
+.lnk-consoleBox .lnk-gamerTagDetails .lnk-dsInstructions {
+	font-size: .8em;
+	line-height: 1em;
+	color: #858585;
+	padding-bottom: 5px;
+}
+
+.lnk-consoleBox .lnk-gamerTagDetails .lnk-unlinkButton {
+	display: none;
+	color: #000000;
+	font-size: .9em;
+	line-height: .9em;
+	margin-left: 25px;
+}
+
+.lnk-consoleBox .lnk-gamerTagDetails .lnk-linkButton {
+	display: none;
+	float: left;
+}
+
+.lnk-consoleBox .lnk-gamerTagDetails .lnk-helpLink {
+	color: #000000;
+	font-size: .9em;
+	line-height: .9em;
+}
+
+.lnk-consoleBox .lnk-gamerTagDetails .lnk-helpLinkText {
+	margin: 7px 0px 0px 10px;
+	float: left;
+}
+
+.lnk-consoleBox .lnk-dsGamerTagDetails .lnk-helpLink {
+	margin-left: 0px;
+}
+
+.lnk-consoleBox .lnk-gamerTagDetails .lnk-helpLinkIcon {
+	margin: 5px 0px 0px 3px;
+	float: left;
+}
+
+.lnk-consoleBox .lnk-wlidDisclaimer {
+	font-size: .7em;
+	line-height: .7em;
+	color: #858585;
+	margin-bottom: 2px;
+}
+
+.sys-footer .lnk-legal {
+	text-align: center;
+	color: #FFFFFF;
+	font-size: .8em;
+	line-height: 1.2em;
+}
+
+.rwd-checklist-container {
+	width: 644px;
+	float: left;
+}
+
+.rwd-dsContainer,
+.rwd-wiiContainer,
+.rwd-xblContainer,
+.rwd-psnContainer {
+	margin-bottom: 10px;
+	display: none;
+}
+
+.rwd-rewardTable th h3 {
+	font-weight: bold;
+	font-size: 1.4em;
+	line-height: 1em;
+}
+
+.rwd-rewardTable th .rwd-taskColumnTitle {
+	color: #459BC9;
+}
+
+.rwd-rewardTable th .rwd-receiveColumnTitle {
+	color: #EF5319;
+}
+
+.rwd-rewardTable td {
+	width: 312px;
+	vertical-align: top;
+	padding: 10px 0px;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.rwd-rewardTable .wocReward-4 td {
+	border-bottom: none;
+}
+
+.rwd-rewardTable .rwd-checkbox {
+	width: 34px;
+	height: 34px;
+	background: url(../img/rewards/rwd-checkbox.png) 0px -34px no-repeat;
+	float: left;
+	margin: 8px 5px;
+}
+
+.rwd-rewardTable .rwd-complete .rwd-checkbox {
+	background-position: 0px 0px;
+}
+
+.rwd-rewardTable .rwd-taskDescription {
+	width: 263px;
+	float: left;
+	margin: 15px 5px 0px 0px;
+}
+
+.rwd-rewardTable .rwd-rewardDescription {
+	width: 234px;
+	float: left;
+	margin-top: 12px;
+}
+
+.rwd-rewardTable .rwd-rewardIcon {
+	width: 73px;
+	height: 57px;
+	background: url(../img/rewards/rwd-icon-sprites.jpg) no-repeat;
+	float: left;
+	margin-right: 5px;
+	opacity: 0.3;
+	filter: alpha(opacity=30);
+}
+
+.rwd-rewardTable .rwd-complete .rwd-rewardIcon {
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.rwd-rewardTable .rwd-rewardIcon.rwd-coins-1 { background-position: 0px 0px; }
+.rwd-rewardTable .rwd-rewardIcon.rwd-coins-2 { background-position: 0px -57px; }
+.rwd-rewardTable .rwd-rewardIcon.rwd-ds-hood-sticker-1 { background-position: 0px -114px; }
+.rwd-rewardTable .rwd-rewardIcon.rwd-ds-hood-sticker-2 { background-position: 0px -171px; }
+.rwd-rewardTable .rwd-rewardIcon.rwd-wii-hood-sticker-1 { background-position: 0px -228px; }
+.rwd-rewardTable .rwd-rewardIcon.rwd-wii-hood-sticker-2 { background-position: 0px -285px; }
+.rwd-rewardTable .rwd-rewardIcon.rwd-xbl-hood-sticker-1 { background-position: 0px -342px; }
+.rwd-rewardTable .rwd-rewardIcon.rwd-xbl-hood-sticker-2 { background-position: 0px -399px; }
+.rwd-rewardTable .rwd-rewardIcon.rwd-psn-hood-sticker-1 { background-position: 0px -456px; }
+.rwd-rewardTable .rwd-rewardIcon.rwd-psn-hood-sticker-2 { background-position: 0px -513px; }
+.rwd-rewardTable .rwd-rewardIcon.rwd-ds-costume { background-position: 0px -570px; }
+.rwd-rewardTable .rwd-rewardIcon.rwd-wii-costume { background-position: 0px -627px; }
+.rwd-rewardTable .rwd-rewardIcon.rwd-xbl-costume { background-position: 0px -684px; }
+.rwd-rewardTable .rwd-rewardIcon.rwd-psn-costume { background-position: 0px -741px; }
+.rwd-rewardTable .rwd-rewardIcon.rwd-emblem-2 { background-position: 0px -855px; }
+.rwd-rewardTable .rwd-rewardIcon.rwd-emblem-3 { background-position: 0px -912px; }
+.rwd-rewardTable .rwd-rewardIcon.rwd-emblem-4 { background-position: 0px -969px; }
+.rwd-rewardTable .rwd-rewardIcon.rwd-emblem-5 { background-position: 0px -1026px; }
+.rwd-rewardTable .rwd-rewardIcon.rwd-ds-royal-cup { background-position: 0px -798px; }
+.rwd-rewardTable .rwd-rewardIcon.rwd-ds-tourist-cup { background-position: 0px -798px; }
+.rwd-rewardTable .rwd-rewardIcon.rwd-ds-spy-cup { background-position: 0px -798px; }
+.rwd-rewardTable .rwd-rewardIcon.rwd-ds-euro-cup { background-position: 0px -798px; }
+.rwd-rewardTable .rwd-rewardIcon.rwd-ds-oil-cup { background-position: 0px -798px; }
+
+.rwd-subnavContainer {
+	width: 210px;
+	height: 315px;
+	background: url(../img/rewards/bg-subnav-rewards.png) no-repeat;
+	margin: 0px 18px 0px 7px;
+	float: left;
+}
+
+.rwd-subnav {
+	font-weight: bold;
+}
+
+.rwd-subnav a {
+	text-decoration: none;
+}
+
+.rwd-subnav li {
+	margin-left: -12px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.rwd-subnav li.rwd-subnav-selected a {
+	color: #EF5319;
+	font-size: 1.4em;
+}
+
+.rwd-subnav-arrow {
+	width: 26px;
+	height: 30px;
+	background: url(../img/rewards/bg-subnav-arrow.png) 0px -30px no-repeat;
+	float: left;
+	margin-right: 4px;
+}
+
+.rwd-subnav-selected .rwd-subnav-arrow {
+	background-position: 0px 0px;
+}
+/* -------------------------------------------------------*/
+
+/* Game Card ---------------------------------------------*/
+.mem-accountLinks {
+	width: 883px;
+	padding-top: 5px;
+	border-top: 1px solid #B1B1B1;
+	text-align: center;
+	color: #B1B1B1;
+	font-weight: bold;
+	position: absolute;
+		top: 545px;
+}
+
+.mem-accountLinks a {
+	color: #B1B1B1;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.mem-accountLinks a:hover {
+	color: #459BC9;
+}
+
+.crd-gameCard {
+	position: absolute;
+		left: 70px;
+		top: 85px;
+}
+/* -------------------------------------------------------*/
+
+/* Code Redemption ---------------------------------------*/
+.cod-franchiseDrift {
+	position: absolute;
+		right: 80px;
+		top: 190px;
+}
+
+.cod-login-link {
+	margin: 10px 0px 5px 40px;
+}
+
+.cod-redeemWrapper {
+	text-align: center;
+}
+
+.cod-redeemWrapper h2 {
+	margin-top: 40px;
+}
+
+.cod-redeemWrapper .cod-inputContainer {
+	width: 305px;
+	margin: 40px auto;
+}
+
+.cod-redeemWrapper .btn-submit-36 {
+	margin: auto;
+	display: block;
+}
+
+.cod-modalOverlayBody {
+	background: url(../img/codes/ttl-heres-what-youve-unlocked.jpg) no-repeat center 7px;
+	text-align: center;
+}
+
+.cod-rewardCarousel {
+	margin: 76px auto 0px auto;
+	position: relative;
+}
+
+.cod-rewardCarousel .cod-navButton {
+	background-image: url(../img/btn/btn-arrows.png);
+	width: 37px;
+	height: 64px;
+	text-indent: -999em;
+	display: none;
+}
+
+.cod-rewardCarousel .cod-backButton {
+	position: absolute;
+		left: -50px;
+		top: 50px;
+	background-position: -148px 0px;
+	cursor: default;
+}
+
+.cod-rewardCarousel .cod-nextButton {
+	position: absolute;
+		right: -50px;
+		top: 50px;
+	background-position: -185px 0px;
+	cursor: default;
+}
+
+.cod-rewardCarousel .cod-backButton.active {
+	background-position: 0px 0px;
+	cursor: pointer;
+}
+
+.cod-rewardCarousel .cod-backButton.active:hover {
+	background-position: -74px 0px;
+}
+
+.cod-rewardCarousel .cod-nextButton.active {
+	background-position: -37px 0px;
+	cursor: pointer;
+}
+
+.cod-rewardCarousel .cod-nextButton.active:hover {
+	background-position: -111px 0px;
+}
+
+.cod-rewardCarousel .cod-reward .cod-description {
+	font-weight: bold;
+	font-size: 1.5em;
+	line-height: 1.5em;
+	margin-top: 5px;
+}
+
+.cod-playLink {
+	margin: 2px auto;
+}
+/* -------------------------------------------------------*/
+
+
+
+
+#blk_alpha{
+	display:none;
+	position:fixed;
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	background: #000;
+	z-index:999998;
+	filter:alpha(opacity=70);
+	-moz-opacity:0.7;
+	-khtml-opacity: 0.7;
+	opacity: 0.7;
+}

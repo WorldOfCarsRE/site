@@ -1,0 +1,132 @@
+.stretch_holder {
+    float: left;
+    margin: 20px 0 10px 0;
+    padding-bottom: 12px;
+    position: relative;
+    width: 888px;
+}
+
+.stretch_header {
+    background: url("../../1.0/images/backgrounds/faq/faq_header_repeat.gif") repeat-x scroll left top transparent;
+    float: left;
+    height: 50px;
+    width: 884px;
+}
+
+.faq_count {
+    background: url("../../1.0/images/backgrounds/faq/faq_header_right.gif") no-repeat scroll right top transparent;
+    color: #FFFFFF;
+    float: right;
+    font-weight: bold;
+    height: 35px;
+    margin-right: -4px;
+    padding: 15px 20px 0;
+}
+
+.stretch_header h2 {
+    background: url("../../1.0/images/backgrounds/faq/faq_header_left.gif") no-repeat scroll left top transparent;
+    color: #FFFFFF;
+    float: left;
+    padding: 15px 10px 0;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.stretch_wrap {
+    background: url("../../1.0/images/backgrounds/faq/faq_bg_repeat.gif") repeat-y scroll right top #FFFFFF;
+    border-left: 1px solid #919191;
+    float: left;
+    padding: 10px 10px 0;
+    width: 867px;
+}
+
+.faq_mod {
+    float: left;
+    margin-bottom: 5px;
+    position: relative;
+    width: 863px;
+}
+
+.faq_mod_copy p {
+    border-left: 1px solid #CACACA;
+    border-right: 1px solid #CACACA;
+    border-top: 1px solid #CACACA;
+    margin: 0 !important;
+    padding: 10px;
+}
+
+.faq_close {
+    border-left: 1px solid #CACACA;
+    border-right: 1px solid #CACACA;
+    border-bottom: 1px solid #CACACA;
+    color: #CACACA;
+    display: block;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 2px 0 3px;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 5;
+}
+
+.stretch_cap {
+    background: url("../../1.0/images/backgrounds/faq/faq_btm.gif") no-repeat scroll left top transparent;
+    bottom: 0;
+    display: block;
+    height: 12px;
+    left: 0;
+    position: absolute;
+    width: 888px;
+}
+
+.top_left, .top_right {
+    top: 0;
+}
+
+.top_left, .top_right, .bottom_left, .bottom_right {
+    background: url("../../1.0/images/backgrounds/faq/top_left_closed.gif") no-repeat scroll left top #DDDDDD;
+    bottom: 0;
+    display: block;
+    height: 7px;
+    overflow: hidden;
+    position: absolute;
+    width: 7px;
+    z-index: 10;
+}
+
+.top_right {
+    background: url("../../1.0/images/backgrounds/faq/top_right_closed.gif") no-repeat scroll left top #DDDDDD;
+    right: 0;
+}
+
+.faq_head {
+    background: none repeat scroll 0 0 #DDDDDD;
+    border: 1px solid #8D8D8D;
+}
+
+.faq_trigger {
+    color: #000000;
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.bottom_left {
+    background: url("../../1.0/images/backgrounds/faq/bottom_left_open.gif") no-repeat scroll left top #DDDDDD;
+}
+
+.bottom_right {
+    background: url("../../1.0/images/backgrounds/faq/bottom_right_open.gif") no-repeat scroll left top #DDDDDD;
+    right: 0 !important;
+}
+
+.closing-mater {
+	float: left;
+	margin-right: 20px;
+}
+
+h3 {
+	color: #EF5319;
+    font-size: 14px;
+    text-transform: uppercase;
+}
