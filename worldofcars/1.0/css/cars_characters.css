@@ -1,0 +1,70 @@
+.character{
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+#char_guido{
+	left:-30px;
+}
+#char_doc_hudson{
+	/*bottom:-10px;
+	left:-20px;*/
+}
+#char_lightning_mcqueen{
+	left:-40px;
+}
+#char_lightning_packaging{
+	bottom: 70px;
+	left:70px;
+}
+#char_mater{
+	bottom:10px;
+	left:-55px;
+}
+#char_sally{
+	bottom:-7px;
+}
+#char_hicks{
+}
+#char_ramone{
+	left:20px;
+}
+#char_luigi{
+	/*bottom:-20px;*/
+	right:-80px;
+	left:auto!important;
+}
+#char_cop{
+	right:100px;
+	left:auto!important;
+}
+#char_fillmore{
+	left:-30px;
+}
+#char_timothy_two_stroke{
+	bottom:5px;
+	left:80px;
+}
+#char_flo_ramone{
+	left:-50px;
+}
+#char_red{
+	bottom:10px;
+	left:-50px;
+}
+.bug{
+	position:absolute;
+}
+.bug_1{
+	left:200px;
+	top:80px;
+}
+.bug_2{
+	right:220px;
+	top:100px;
+}
+.bug_3{
+	bottom:10px;
+	height:120px;
+	left:350px;
+}

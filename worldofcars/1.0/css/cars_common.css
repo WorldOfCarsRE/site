@@ -1,0 +1,580 @@
+@import 'cars_buttons.css';	/* base css file to construct button */
+@import 'cars_characters.css'; /* base css file to construct characters */
+
+
+/*The Big Reset.  */
+body, div, h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, dl, dd, dt, blockquote, fieldset, legend, label, input, textarea, form, button {
+	margin: 0; 
+	padding: 0; 
+	list-style:none;
+	text-decoration:none;
+}
+a,button{
+	outline:none!important;
+	cursor:pointer;
+}
+fieldset{
+	border:none;
+}
+legend{
+	text-indent:-9999em;
+	line-height:0em;
+	height:0em;
+	overflow:hidden;
+}
+button{
+	border:none;
+	text-indent:-9999em;
+}
+input{
+	_position:relative;
+}
+
+a img{
+	border:none;
+}
+
+h1{font-size: 200%;}
+h2{font-size: 170%;}
+h3{font-size: 140%;}
+h4{font-size: 120%;}
+h5{font-size: 100%;}
+h6{font-size: 90%;}
+
+body {
+	/*font: 80%/130% Verdana, Arial, Helvetica, sans-serif;*/ /*Setting our body font with a % helps keep it consistent and scalable*/
+	font: 12px Verdana, Geneva, sans-serif;
+	background: #000 url(../images/backgrounds/woc_bg.jpg) center top no-repeat;
+}
+
+/*----------------------------*/
+/*------- structure ----------*/
+/*----------------------------*/
+.noscript {
+	color: #FFFFFF;
+	text-align: center;
+}
+#woc_container{
+	clear:left;
+	width:996px;
+	margin:0em auto;
+	position: relative;
+}
+#chrome{
+	background: #D4D0C8;
+}
+#chrome .gde_homeLink {
+	background-image: url(../images/chm-disneyLogo.png);
+}
+#chrome .gde_homeLink:hover {
+	background-position: 32px -43px;
+}
+#gde_footerContents #gde_footerTitleContainer {
+	background: url(../images/chm-disneyLogo.png) 0px -43px no-repeat;
+}
+
+.sys-banner {
+	background: #F5EE31 url( ../img/bg/bg-bannerTape.gif ) repeat-x;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+.sys-banner .sys-bannerBottom {
+	margin-top: 5px;
+	height: 5px;
+	background: url( ../img/bg/bg-bannerTape.gif ) -10px 0px repeat-x;
+}
+
+.sys-banner .sys-bannerContent {
+	width: 998px;
+	margin: auto;
+}
+
+#gate{
+	float:left;
+	width:100%;
+	display:none;
+	padding:10px 0 0;
+	background: #f5ee31 url(../images/ui/gate-tape.gif) left top repeat-x;
+}
+.l_gate{
+	padding-bottom:10px;
+	background: url(../images/ui/gate-tape.gif) -10px bottom repeat-x;
+}
+#gate p{
+	width:998px;
+	text-align:center;
+	font-weight:bold;
+	margin:0em auto;
+}
+#frame_wrap{
+	float:left;
+	padding:10px 0 7px;
+	background: url(../images/backgrounds/frame_top.gif) left top no-repeat;
+	z-index: 3;
+}
+#content_wrap{
+/*	position:relative;*/
+	float:left;
+	width:998px;
+	background-position: 5px 60px;
+	background-repeat: no-repeat;
+}
+#main_content{
+	position:relative;
+	float:left;
+	width:998px;
+	/*height:399px;
+	padding-top:10px;*/
+	background: url(../images/backgrounds/frame_repeat.gif) left top repeat-y;
+	z-index: 3;
+}
+#frame_footer{
+	float:left;
+	display:block;
+	width:998px;
+	height:13px;
+	background: url(../images/backgrounds/frame_footer.gif) left top no-repeat;
+}
+#woc_promotes{
+	position:relative;
+	float:left;
+	width:998px;
+	height:238px;
+}
+
+/*-------------------------------------------------------*/
+/*------------------(\__ Header __/)---------------------*/
+/*-------------------------------------------------------*/
+
+#head_bar{
+	float:left;
+	width:988px;
+	height:25px;
+	padding-right:10px;
+}
+#head_bar .left{
+	float:left;
+	width:200px;
+	padding-top:5px;
+}
+#head_bar a{
+	color: #555;
+	font-size:11px;
+	text-decoration:underline;
+}
+#head_bar .left *{
+	float:left;
+}
+#head_bar .left a{
+	margin-left:10px;
+}
+#head_bar .right{
+	float:right;
+	padding:5px 10px 0 20px;
+	background: url(../images/misc/sprocket.gif) left bottom no-repeat;
+}
+
+#woc_header{
+/*	position:relative;*/
+	float:left;
+	width:996px;
+	z-index:15;
+}
+
+#woc_logo a{
+	position:relative;
+	float:left;
+	display:block;
+	width:202px;
+	height:137px;
+	text-indent:-9999em;
+	overflow:hidden;
+	background: url(../images/world-of-cars-online-logo.png) top left no-repeat;
+	cursor:pointer;
+}
+
+/*  start navigation  */
+
+#nav{
+	margin:10px 0 0 20px;
+	float:left;
+	/*width:568px;*/
+	height:34px;
+}
+
+#nav li{
+	float:left;
+}
+#nav li a{
+	position:relative;
+	float:left;
+	display:block;
+	background: url(../images/buttons/woc_nav.gif) top left no-repeat;
+	text-indent:-9999em;
+	overflow:hidden;
+	height:34px;
+}
+#nav .nav_community a{
+	width:142px;
+	background-position: 0 0;
+}
+#nav .nav_community a:hover,.sec_community #nav .nav_community a{
+	background-position: 0 -34px;
+}
+.sec_membership #nav .nav_community a:hover{
+	width:151px;
+	margin-right:-9px;
+	background-position: 0 -68px;
+	z-index:500;
+}
+#nav .nav_membership a{
+	width:132px;
+	background-position: -142px 0;
+}
+#nav .nav_membership a:hover,.sec_membership #nav .nav_membership a{
+	margin-left:-9px;
+	width:141px;
+	background-position: -133px -102px;
+}
+.sec_community #nav .nav_membership a:hover{
+	background-position: -133px -68px;
+}
+#nav .nav_about a{
+	width:131px;
+	background-position: -274px 0;
+}
+#nav .nav_about a:hover,.sec_about #nav .nav_about a{
+	background-position: -274px -170px;
+}
+.sec_parents #nav .nav_about a:hover{
+	width:138px;
+	background-position: -274px -204px;
+	margin-right:-7px;
+	z-index:500;
+}
+#nav .nav_parents a{
+	width:112px;
+	background-position: -405px -34px;
+}
+#nav .nav_parents a:hover,.sec_parents #nav .nav_parents a{
+	margin-left:-7px;
+	width:119px;
+	background-position: -398px -238px;
+}
+.sec_about #nav .nav_parents a:hover{
+	background-position: -398px -204px;
+}
+.sec_help #nav .nav_parents a:hover{
+	width:133px;
+	margin-right:-14px;
+	background-position: -398px -272px;
+	z-index:500;
+}
+#nav .nav_help a{
+	width:42px;
+	background-position: -517px 0;
+}
+#nav .nav_help a:hover,.sec_help #nav .nav_help a{
+	margin-left:-14px;
+	width:56px;
+	background-position: -503px -306px;
+}
+.sec_parents #nav .nav_help a:hover{
+	background-position: -503px -272px;
+}
+#subnav_bg{
+	position:absolute;
+	width:496px;
+	height:36px;
+	padding:15px 10px 0;
+	left:50%;
+	top:75px;
+	margin-left: -248px;
+	background:url(../images/backgrounds/subnav_bg.png) left top no-repeat;
+}
+.sec_community #subnav_bg{
+	width:527px;
+	left:50%;
+	margin-left: -263px;
+	background:url(../images/backgrounds/subnav_bg_comm.png) left top no-repeat;
+}
+#about_game #subnav_bg{
+	display:none;
+}
+.subnav{
+	display:none;
+	float:left;
+	margin-top:-20px;
+	padding:5px 0 0 60px;
+}
+#community_sub{
+	padding-left: 75px;
+}
+#parents_sub{
+	padding-left: 235px;
+}
+#membership_sub{
+	padding-left: 55px;
+}
+#help_sub{
+	padding-left:111px;
+}
+.sec_community #community_sub,.sec_membership #membership_sub,.sec_parents #parents_sub,.sec_help #help_sub{/*.sec_about #membership_sub,*/
+	display:block;
+}
+.subnav li{
+	float:left;
+	padding: 0 15px;
+	line-height:1em;
+	border-right:2px solid #767676;
+}
+#community_sub li{
+	padding:0 6px;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0){
+	#community_sub li{
+		padding:0 5px;
+	}
+}
+#help_sub li{
+	padding: 0 30px;
+}
+.subnav li a{
+	position:relative;
+	color:#767676;
+	font-weight:bold;
+}
+.subnav li a:hover,.subnav .selected,#purchase .sub_membership{
+	color:#459bc9;
+}
+
+/* end navigation */
+
+.header_play{
+	float:left;
+	display:block;
+	width:200px;
+	height:77px;
+	margin:0px 0 0 14px;	
+	position:relative;
+}
+
+#header_play a {
+	display: block;
+	width: 159px;
+	height: 48px;
+	position: absolute;
+	top: 6px;
+	left: 21px;
+	background: url(../images/buttons/nav_play.jpg) no-repeat;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+#header_play .play_active {
+	background-position:  0px 0px;
+}
+
+#header_play .play_active:hover {
+	background-position:  0px -48px;
+}
+
+#header_play .play_inactive {
+	background-position:  0px -96px;
+	cursor: default;
+}
+
+
+/*
+#header_play .upgrade_flash_button:hover, #header_play .create_car_button:hover {
+	background-position: 0px -54px;
+}
+/*
+.header_play{
+	float:left;
+	display:block;
+	width:200px;
+	height:100px;
+	margin:-23px 0 0 14px;	
+	position:relative;
+}
+
+#header_play #flash_play {
+	position: relative;
+}
+
+#header_play #flash_play .upgrade_flash_button {
+	display: block;
+	width: 165px;
+	height: 54px;
+	background: url(../images/buttons/upgrade-flash.gif) no-repeat;
+	position: absolute;
+	top: 26px;
+	left: 18px;
+}
+
+#header_play #flash_play .upgrade_flash_button:hover {
+	background-position: 0px -54px;
+}
+*/
+/*-- end header --*/
+
+#content{
+	float:left;
+	display: inline;
+	padding:10px 0 0 10px;
+}
+
+/*---------------- util ----------------*/
+.form_el{
+	float:left;
+	display:block;
+	width:auto;
+	position:relative;
+}
+
+.error_msg{
+	position:absolute;
+	color:#ff0000;
+	left:0;
+	/*top:30px;*/
+}
+
+.custom_file .error_msg {
+	width: 300px;
+}
+/*---------- footer ----------*/
+
+#footer{
+	clear:both;
+	float:left;
+	width:100%;
+	padding-top:10px;
+}
+.footlinks{
+	width:100%;
+	text-align:center;
+	padding-bottom: 10px;
+}
+.footlinks li{
+	display:inline;
+}
+.footlinks a{
+	color:#555;
+	text-decoration:none;
+}
+
+/*
+#footer,#footer td,#footer td span{
+	color:#555!important;	
+}
+#footer a{
+	color:#555!important;
+	text-decoration:none;
+}
+#footer hr{
+	border-top-color:#555!important;
+}
+*/
+#blk_alpha{
+	display:none;
+	position:fixed;
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	background: #000;
+	z-index:999998;
+	filter:alpha(opacity=70);
+	-moz-opacity:0.7;
+	-khtml-opacity: 0.7;
+	opacity: 0.7;
+}
+
+/*---- resusables ------*/
+
+.clear{clear:both;font-size:1px;line-height:1px;height:1px;}
+.lt_blue{color:#b9cddd;}
+.cyan{color:#53aad7;}
+.required{color:#ff0000;}
+.noborderplease{border:none!important;}
+.cars_orange{color:#ef5319;font-weight:bold;}
+.nomargin{margin:0px!important;}
+.hideme{display:none;!important}
+
+
+
+/* 1.1 below */
+
+.sys-chrome-header {
+	background: #D4D0C8;
+}
+
+.sys-chrome-header .gde_homeLink {
+	background-image: url(../img/msc/chm-disneyLogo.png);
+}
+
+.sys-chrome-header .gde_homeLink:hover {
+	background-position: 32px -43px;
+}
+
+.sys-footer {
+	background: #000;
+	padding-top: 10px;
+	clear: both;
+}
+
+.sys-footer .sys-footNav {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.sys-footer .sys-footNav a {
+	color: #555555;
+	text-decoration: none;
+}
+
+.sys-chrome-footer #gde_footerTitleContainer {
+	background-image: url(../img/msc/chm-disneyLogo.png);
+}
+
+.sys-toolbar {
+	width: 978px;
+	height: 24px;
+	margin: auto;
+}
+
+.sys-toolbar a {
+	color: #555555;
+	font-size: 11px;
+	line-height: 24px;
+	text-decoration: underline;
+}
+
+.sys-sprocketLink {
+	background: url(../img/msc/ico-sprocket.gif) center left no-repeat;
+	height: 24px;
+	display: block;
+	float: right;
+	padding-left: 20px;
+}
+
+.sys-banner {
+	background: #F5EE31 url( ../img/bg/bg-bannerTape.gif ) repeat-x;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+.sys-banner .sys-bannerBottom {
+	margin-top: 5px;
+	height: 5px;
+	background: url( ../img/bg/bg-bannerTape.gif ) -10px 0px repeat-x;
+}
+
+.sys-banner .sys-bannerContent {
+	width: 998px;
+	margin: auto;
+}
