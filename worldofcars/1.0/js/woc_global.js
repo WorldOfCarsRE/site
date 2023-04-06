@@ -148,7 +148,7 @@ function checkGate() {
 	jq.ajax( {
 		'type'		: 'GET',
 		'url'		: CFG.whoAmI,
-		'dataType' : 'text', // Previously xml type but our api service returns text
+		'dataType' : 'xml',
 		'success'	: function( data ) {
 			if( typeof data == 'object' || data != false ) {
 				processGate( data );
