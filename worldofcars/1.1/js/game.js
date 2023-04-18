@@ -31,14 +31,14 @@ jQuery(document).ready(function () {
 	function embedFlash(bannerMsg) {
 		var qsVars = {};
 		var pairs = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
-		var closingMessage = 'The World of Cars Online will be closing on February 8, 2012. ALL players can log into the online world and enjoy unlimited access for free through February 8, 2012.';
+		var msg = 'Welcome to the test server. Missing features and bugs are to be expected. Enjoy!';
 
 		for (var i = 0; i < pairs.length; i++) {
 			var pair = pairs[i].split('=');
 			qsVars[pair[0]] = pair[1];
 		}
 
-		swfobject.embedSWF(PATH.cdnRootBase + '/game/DVC_OS.swf?ver=' + clientVersion, 'pla-gameModule', '100%', '100%', '10.0.0', false, jQuery.extend({}, GAME.flashVars, qsVars, { 'customMsg': escape((bannerMsg || closingMessage)) }), GAME.params);
+		swfobject.embedSWF(PATH.cdnRootBase + '/game/DVC_OS.swf?ver=' + clientVersion, 'pla-gameModule', '100%', '100%', '10.0.0', false, jQuery.extend({}, GAME.flashVars, qsVars, { 'customMsg': escape((bannerMsg || msg)) }), GAME.params);
 	};
 
 	function heartbeatTick() {
