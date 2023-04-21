@@ -18,13 +18,13 @@ body {
 }
 #flashDivContent { display:block; }
 
-* html #flashDivContainer { 
-	border-right:994px solid #fff; 
-	border-bottom:690px solid #fff; 
+* html #flashDivContainer {
+	border-right:994px solid #fff;
+	border-bottom:690px solid #fff;
 }
-* html #flashDivContent { 
-	display:inline-block; 
-	position:relative; 
+* html #flashDivContent {
+	display:inline-block;
+	position:relative;
 	margin:0 -994px -690px 0;
 }
 
