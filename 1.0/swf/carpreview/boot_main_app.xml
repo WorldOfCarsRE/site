@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<boot app="CarPreview.swf" id="CarPreview">
+	<libs>
+		<lib url="DVC_Trumpet3D.swf" />
+		<lib url="DVC_AMF.swf" />
+		<lib url="DVC_CarsSupport.swf" />
+	</libs>
+</boot>

@@ -1,0 +1,48 @@
+LOGIN
+REGISTER
+USERNAME
+PASSWORD
+SUBMIT
+Login / Register now to customize your avatar!
+COMMUNITY
+MY PAGE
+PLAYERS
+CHALLENGES
+MY FRIENDS
+FAVORITES
+REWARDS
+CHAT WITH ME
+VIEW MY PROFILE
+XD POINTS
+TROPHIES
+TRUE FRIEND MAKER
+ADD ME AS A FRIEND
+YOU JUST GOT A NEW REWARD!
+Click here to see your reward
+JOIN NOW!
+DETAILS
+ALL
+MINE
+DONE
+LIFETIME POINTS
+MY PROFILE
+CANCEL
+YES
+ARE YOU SURE YOU WANT TO LOGOUT?
+DAYS LEFT:
+REWARDS EARNED:
+EDIT MY AVATAR
+OK
+Your D-Name -
+- is in the process of being approved
+In the meantime, you will see
+listed on High Score boards, in chat windows, and on your Disney XD Channels
+- has been approved.
+You will now be known as
+throughout the Disney community.
+We're sorry, your D-Name
+was not approved.
+I'm sorry, your login was incorrect!
+ACCEPT FRIEND REQUEST
+DECLINE FRIEND REQUEST
+WELCOME BACK!

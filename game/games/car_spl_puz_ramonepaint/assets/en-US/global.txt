@@ -1,0 +1,20 @@
+Instructions
+Use mouse to aim Paint Cannon.  Click to fire Paintball.  Stick 3 or more matching Paintballs together to remove them. Fill all paint buckets, and Ramone will paint the hood at end of round!
+Special Paintballs
+Paint Remover Ball
+Removes Paintball it touches and nearby Paintballs of same color. However, also removes paint from bucket of that color.
+Metallic Paint Ball
+Flies in a straight line and removes all Paintballs in its way.
+Game Over
+Level Complete
+Score
+Timer Bonus
+Combo Bonus
+Paint Bonus
+Your Score
+High Score
+Timer
+Play
+Help
+Play Again
+Next Level

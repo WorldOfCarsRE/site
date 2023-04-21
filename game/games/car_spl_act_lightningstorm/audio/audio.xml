@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<AudioList>
+	<AudioGroup priority="0.7" alias="Main">
+			
+		<!-- Music tracks are streamed -->
+		<AudioEntry priority="0.5" alias="Title" url="audio/MusTitle.mp3" 					loop="true" pan="0" vol=".5" mode="single-channel-restart" stream="true" isMusic="true" />
+		<AudioEntry priority="0.5" alias="Victory" url="audio/MusVictory.mp3" 				loop="true" pan="0" vol=".5" mode="single-channel-restart" stream="true" isMusic="true" />
+		
+		<!-- Static sounds are pre-loaded and ready to play -->
+		<AudioEntry priority="0.5" alias="AddOrbPickUp" url="audio/SndAddOrb.mp3" 			loop="false" pan="0" vol="1.6" mode="multi-channel" />
+		<AudioEntry priority="0.5" alias="Spawn" url="audio/SndAutoSpawnRelease.mp3" 		loop="false" pan="0" vol="1.0" mode="multi-channel" />
+		<AudioEntry priority="0.5" alias="BulletSmall" url="audio/SndEnemyBulletStrong.mp3" loop="false" pan="0" vol="1.0" mode="multi-channel" />
+		<AudioEntry priority="0.5" alias="BulletBig" url="audio/SndEnemyBulletWeak.mp3" 	loop="false" pan="0" vol="1.0" mode="multi-channel" />
+		<AudioEntry priority="0.5" alias="Explode" url="audio/SndExplosion.mp3" 			loop="false" pan="0" vol="0.7" mode="multi-channel" />
+		<AudioEntry priority="0.5" alias="ExtraLife" url="audio/SndExtraLife.mp3" 			loop="false" pan="0" vol="1.6" mode="multi-channel" />
+		<AudioEntry priority="0.5" alias="Rock" url="audio/SndFallingRock.mp3" 				loop="false" pan="0" vol="1.0" mode="multi-channel" />
+		<AudioEntry priority="0.5" alias="GameOver" url="audio/SndGameOver.mp3" 			loop="false" pan="0" vol="1.0" mode="single-channel-restart" />
+		<AudioEntry priority="0.5" alias="HealthPickUp" url="audio/SndHealthPickup.mp3" 	loop="false" pan="0" vol="1.6" mode="multi-channel" />
+		<AudioEntry priority="0.5" alias="Laser" url="audio/SndIonCannon.mp3" 				loop="false" pan="0" vol="1.0" mode="multi-channel" />
+		<AudioEntry priority="0.5" alias="Torpedo" url="audio/SndKabomb.mp3" 				loop="false" pan="0" vol="0.7" mode="multi-channel" />
+		<AudioEntry priority="0.5" alias="Win" url="audio/SndLevelWin.mp3" 					loop="false" pan="0" vol="1.0" mode="single-channel-restart" stream="true" />
+		<AudioEntry priority="0.5" alias="Mater" url="audio/SndMaterAppear.mp3" 			loop="false" pan="0" vol="1.6" mode="multi-channel" />
+		<AudioEntry priority="0.5" alias="Missile" url="audio/SndMissile.mp3" 				loop="false" pan="0" vol="0.5" mode="multi-channel" />
+		<AudioEntry priority="0.5" alias="ShieldPickUp" url="audio/SndOvercharge.mp3" 		loop="false" pan="0" vol="1.2" mode="multi-channel" />
+		<AudioEntry priority="0.5" alias="PistonPickUp" url="audio/SndPiston.mp3" 			loop="false" pan="0" vol="1.0" mode="multi-channel" />
+		<AudioEntry priority="0.5" alias="LoseLife" url="audio/SndPlayerDie.mp3" 			loop="false" pan="0" vol="1.6" mode="multi-channel" />
+		<AudioEntry priority="0.5" alias="TakeHit" url="audio/SndPlayerHit.mp3" 			loop="false" pan="0" vol="1.5" mode="multi-channel" />
+		<AudioEntry priority="0.5" alias="PowerPickUp" url="audio/SndPowerUpAppear.mp3" 	loop="false" pan="0" vol="1.0" mode="multi-channel" />
+		<AudioEntry priority="0.5" alias="SpeedPickUp" url="audio/SndSpeedUp.mp3" 			loop="false" pan="0" vol="1.0" mode="multi-channel" />
+		<AudioEntry priority="0.5" alias="WeaponPickUp" url="audio/SndWeaponPickup.mp3" 	loop="false" pan="0" vol="1.0" mode="multi-channel" />
+		
+		<!-- McQueen VoiceOver -->
+		<AudioEntry priority="0.5" alias="voMcQueen01" url="audio/voMcqueenAlright.mp3" 			loop="false" pan="0" vol="1" mode="multi-channel" cooldown="-3" />
+		<AudioEntry priority="0.5" alias="voMcQueen02" url="audio/voMcqueenBingo.mp3" 				loop="false" pan="0" vol="1" mode="multi-channel" cooldown="-3" />
+		<AudioEntry priority="0.5" alias="voMcQueen03" url="audio/voMcqueenHereComesSpeed.mp3" 		loop="false" pan="0" vol="1" mode="multi-channel" cooldown="-3" />
+		<AudioEntry priority="0.5" alias="voMcQueen04" url="audio/voMcqueenKaChow.mp3" 				loop="false" pan="0" vol="1" mode="multi-channel" cooldown="-3" />
+		<AudioEntry priority="0.5" alias="voMcQueen05" url="audio/voMcqueenNowCookin.mp3" 			loop="false" pan="0" vol="1" mode="multi-channel" cooldown="-3" />
+		<AudioEntry priority="0.5" alias="voMcQueen06" url="audio/voMcqueenOhYeah.mp3" 				loop="false" pan="0" vol="1" mode="multi-channel" cooldown="-3" />
+		<AudioEntry priority="0.5" alias="voMcQueen07" url="audio/voMcqueenWhatImTalkinBout.mp3"	loop="false" pan="0" vol="1" mode="multi-channel" cooldown="-3" />
+		
+		
+		<!-- Sound Chains for SFX -->
+
+		<ChainEntry alias="Collect" chain="WeaponPickUp,voMcQueen" />
+		<ChainEntry alias="SpeedUp" chain="SpeedPickUp,voMcQueen" />
+		<ChainEntry alias="PowerUp" chain="PowerPickUp,voMcQueen" />
+		<ChainEntry alias="Piston" chain="PistonPickUp,voMcQueen" />
+		<ChainEntry alias="Shield" chain="ShieldPickUp,voMcQueen" />
+		<ChainEntry alias="Health" chain="HealthPickUp,voMcQueen" />
+		<ChainEntry alias="Extra" chain="ExtraLife,voMcQueen" />
+		<ChainEntry alias="AddOrb" chain="AddOrbPickUp,voMcQueen" />
+		
+		<SubGroup name="voMcQueen" default="RandomEachPass">
+		  <SubGroupEntry alias="voMcQueen01" weight="5"/>
+		  <SubGroupEntry alias="voMcQueen02" weight="5"/>
+		  <SubGroupEntry alias="voMcQueen03" weight="5"/>
+		  <SubGroupEntry alias="voMcQueen04" weight="5"/>
+		  <SubGroupEntry alias="voMcQueen05" weight="5"/>
+		  <SubGroupEntry alias="voMcQueen06" weight="5"/>
+		  <SubGroupEntry alias="voMcQueen07" weight="5"/>
+		</SubGroup>
+			
+	</AudioGroup>
+	
+	<!-- Only needs to be loaded during level 1 -->
+	<AudioGroup priority="0.7" alias="Level1">
+		<AudioEntry priority="0.5" alias="Boss" url="audio/MusEventHorzBoss.mp3" 	loop="true" pan="0" vol="0.5" mode="single-channel-restart" stream="true" isMusic="true" />
+		<AudioEntry priority="0.5" alias="Level" url="audio/MusEventHorzLevel.mp3" 	loop="true" pan="0" vol="0.5" mode="single-channel-restart" stream="true" isMusic="true" />
+	</AudioGroup>
+
+	<!-- Only needs to be loaded during level 2 -->
+	<AudioGroup priority="0.7" alias="Level2">
+		<AudioEntry priority="0.5" alias="Boss" url="audio/MusZurgPlanetLevel.mp3" 	loop="true" pan="0" vol="0.5" mode="single-channel-restart" stream="true" isMusic="true" />
+		<AudioEntry priority="0.5" alias="Level" url="audio/MusZurgPlanetBoss.mp3" 	loop="true" pan="0" vol="0.5" mode="single-channel-restart" stream="true" isMusic="true" />
+	</AudioGroup>
+	
+	<!-- Only needs to be loaded during level 3 -->
+	<AudioGroup priority="0.7" alias="Level3">
+		<AudioEntry priority="0.5" alias="Boss" url="audio/MusZurgCityBoss.mp3" 		loop="true" pan="0" vol="0.5" mode="single-channel-restart" stream="true" isMusic="true" />
+		<AudioEntry priority="0.5" alias="Level" url="audio/MusZurgCityLevel.mp3" 		loop="true" pan="0" vol="0.5" mode="single-channel-restart" stream="true" isMusic="true" />
+		<AudioEntry priority="0.5" alias="ZurgSpawn" url="audio/SndZurgBigHeadInit.mp3" loop="false" pan="0" vol="1.0" mode="multi-channel" />
+		<AudioEntry priority="0.5" alias="ZurgCharge" url="audio/SndZurgCharge.mp3" 	loop="false" pan="0" vol="1.0" mode="multi-channel" />
+		<AudioEntry priority="0.5" alias="ZurgLaser" url="audio/SndZurgHeadLaser.mp3" 	loop="false" pan="0" vol="1.0" mode="multi-channel" />
+	</AudioGroup>
+	
+</AudioList>

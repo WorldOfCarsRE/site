@@ -1,0 +1,13 @@
+<game_config>
+	<content swf="RamonesPaintPuzzle_content.swf"/>
+	<music url="car_o_mus_mng_gameRamonesPaintBlaster.mp3"/>
+	<stringTable url="assets/en-US/global.txt" />
+	<gating level="2" souvenir="0" />
+	<base></base>
+	<levels start="0">
+		<level val="0" config="levels/level1.xml" />
+		<level val="1" config="levels/level2.xml" />
+		<level val="2" config="levels/level3.xml" />
+		<level val="3" config="levels/level4.xml" />
+	</levels>
+</game_config>

@@ -1,0 +1,8 @@
+﻿<config>
+	<chassis>
+		<strip id="5500,2" url="generic_stock.png"/>
+		<strip id="5501,1" url="generic_sports.png"/>
+		<strip id="5502,3" url="generic_mini.png"/>
+		<strip id="5503" url="generic_stock.png"/>
+	</chassis>
+</config>

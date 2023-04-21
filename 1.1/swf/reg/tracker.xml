@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+	<!-- Base Config -->
+
+	<libPath url="/stat/flash/analyticReportingAS3.swf" />
+	<defaultInfo>
+		<account value='worldofcars' />
+		<site value='woc' />
+		<property value='car' />
+		<category value='dgame' />
+	</defaultInfo>
+
+	<!-- Tracking Data -->
+
+	<purchase>
+		<choosesubscription>
+			<pageview>purchase_sponsor_your_car</pageview>
+			<section>website:sponsorship</section>
+		</choosesubscription>
+
+		<payment>
+			<pageview>purchase_payment</pageview>
+			<section>website:sponsorship</section>
+		</payment>
+
+		<termsofuse>
+			<parent>
+				<pageview>purchase_terms_of_use</pageview>
+				<section>website:sponsorship</section>
+			</parent>
+			<adult>
+				<pageview>purchase_terms_of_use</pageview>
+				<section>website:sponsorship</section>
+			</adult>
+		</termsofuse>
+	</purchase>
+
+	<accountmanagement>
+		<pageview>acctmgr_loads</pageview>
+			<login>
+				<pageview>acctmgr_login</pageview>
+				<signup>acctmgr_exit_to_signup</signup>
+			</login>
+		<managemembership>
+			<becomeamember>
+				<pageview>acctmgr_purchase_button</pageview>
+			</becomeamember>
+			<cancel>
+				<pageview>acctmgr_cancel_button</pageview>
+			</cancel>
+		</managemembership>
+	</accountmanagement>
+</config>

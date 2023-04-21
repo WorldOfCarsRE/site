@@ -1,0 +1,42 @@
+body {
+	margin:0;
+	padding:0;
+	background-color:#000;
+	position:absolute;
+	width:100%;
+	height:100%;
+	color:#fff;
+	font-family:Verdana, Helvetica, sans-serif;
+	font-size:10px;
+}
+#flashDivContainer {
+	position:relative;
+	width:100%;
+	height:100%;
+	min-width:994px;
+	min-height:690px;
+}
+#flashDivContent { display:block; }
+
+* html #flashDivContainer { 
+	border-right:994px solid #fff; 
+	border-bottom:690px solid #fff; 
+}
+* html #flashDivContent { 
+	display:inline-block; 
+	position:relative; 
+	margin:0 -994px -690px 0;
+}
+
+#launch a{
+	color:#fff;
+	display:block;
+	padding:10px;
+	text-align:center;
+	width:90%;
+	margin:0 auto;
+}
+
+#launch a:hover {
+	text-decoration:none;
+}

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<useGameLogin>true</useGameLogin>
+	<systemManager>com.disney.cars.reg.CarsRegSystemManager</systemManager>
+	<dialogs>
+		<dialog>
+			<className>com.disney.cars.reg.ui.dialogs.RegCreateAccountExisting</className>
+			<label>LOGIN</label>
+		</dialog>
+
+		<dialog>
+			<className>com.disney.cars.reg.ui.dialogs.CarCreator</className>
+			<label>CAR_CREATOR</label>
+		</dialog>
+
+		<dialog>
+			<className>com.disney.cars.reg.ui.dialogs.RegCreateAccount</className>
+			<label>CREATE_ACCOUNT</label>
+		</dialog>
+		<!--
+		<dialog>
+			<className>com.disney.cars.reg.ui.dialogs.Congratulations</className>
+			<label></label>
+		</dialog>
+		-->
+	</dialogs>
+</data>

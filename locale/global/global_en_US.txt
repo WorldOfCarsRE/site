@@ -1,0 +1,131 @@
+Print Your Car
+Help
+Sound Options
+Logout
+Play
+Enter Race Codes
+Game Trailer
+About Game
+Parents
+Back
+Next
+Type
+Advanced Options
+Body
+Paint Job
+Tires
+Wheels
+Name
+Number and style
+Number
+Shuffle
+Save
+Body Style
+Basic Options
+Sports
+Stock
+Mini
+Style
+Accessories
+Engine
+Reset
+Save
+Body Shape
+Body Color
+Custom Paint Jobs
+Decals
+Exhaust Systems
+Spoilers
+Lights
+BOY
+GIRL
+None
+Male eyelids
+Female eyelids
+Tail slope
+Tail
+Rear
+Front
+Roof rear
+Roof front
+Print
+OK
+Yes
+No
+RACE
+RACE AGAIN
+MY GARAGE
+Show Info
+STATUS
+PRICE
+MY POINTS
+View Item
+My Garage
+RACE AGAIN!
+My Garage
+Public Track
+Mattel Track
+Emotes
+Daily Top 10
+All Time Top 10
+All Time Top 100
+Racing HQ
+Collectibles
+CARBURETOR COUNTY SPEEDWAY
+TWISTIN' TAILFIN TRACK
+Are you sure you want to exit to the garage?
+Saving racecar
+Select a Track
+Chassis
+Avatar
+Couldn't load the car
+We were unable to successfully log you in.
+Power-ups
+Race
+Catalog
+To: The Cars Team
+Comment Type
+Send
+Characters Remaining
+Send Us Your Comments
+Thank you for your comments.
+Message is invalid.
+Comment or question must be selected.
+Try out new items in 2009!
+News
+TRAIN
+Easy
+Medium
+Hard
+Rotate Left
+Rotate Right
+Move Up
+Move Down
+DRIVE & STEER
+POWER UPS
+Power Ups
+NITRO BOOST:
+Hit the "A" key during a race to trigger your boost!
+OIL CAN:
+Hit the "S" key to drop a slippery oil slick behind you!
+loading track...
+loading complete!
+RACETRACK
+RACER
+TRACK TIME
+LAP TIME
+MY BEST TIME
+#1 ALL TIME
+FASTEST TODAY
+This list gets refreshed once an hour.
+Test your skills on the hottest track in Carburetor County!
+Can you handle the sharpest turns in Tailfin Pass?
+Get that engine warmed up and ready to race on the training track!
+CARBURETOR COUNTY TRAINING TRACK
+Please fix the following errors to submit feed-back:
+Name and/or E-mail address is invalid.
+Selected Comment or Question
+Enter your name
+Enter your parent's e-mail
+Enter a message to send
+If you need help please select "Question", support questions marked as "Comment" will not be answered.

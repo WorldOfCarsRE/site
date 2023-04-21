@@ -1,0 +1,17 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Error</title>
+<meta name="robots" content="nofollow" />
+<meta name="generator" content="FreeBSD-CVSweb 3.0.5" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<link rel="stylesheet" type="text/css" href="/css/cvsweb.css" />
+</head>
+<body>
+ <h1>Error</h1>
+<div id="error">Error: cars/FL_Cars_Minigames/car_spl_act_lightningstorm/car_spl_act_lightningstorm.swf2: no such file or directory</div>
+<hr />
+<address><span style="font-size: smaller">FreeBSD-CVSweb &lt;<a href="mailto:freebsd-cvsweb@FreeBSD.org">freebsd-cvsweb@FreeBSD.org</a>&gt;</span></address>
+</body>
+</html>

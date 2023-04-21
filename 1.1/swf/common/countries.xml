@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<countries>
+	<country name="AFGHANISTAN" abbreviation="AF" iso="4" />
+	<country name="ALBANIA" abbreviation="AL" iso="8" />
+	<country name="ALGERIA" abbreviation="DZ" iso="12" />
+	<country name="AMERICAN SAMOA" abbreviation="AS" iso="16" />
+	<country name="ANDORRA" abbreviation="AD" iso="20" />
+	<country name="ANGOLA" abbreviation="AO" iso="24" />
+	<country name="ANGUILLA" abbreviation="AI" iso="660" />
+	<country name="ANTARCTICA" abbreviation="AQ" iso="10" />
+	<country name="ANTIGUA AND BARBUDA" abbreviation="AG" iso="28" />
+	<country name="ARGENTINA" abbreviation="AR" iso="32" />
+	<country name="ARMENIA" abbreviation="AM" iso="51" />
+	<country name="ARUBA" abbreviation="AW" iso="533" />
+	<country name="AUSTRALIA" abbreviation="AU" iso="36" />
+	<country name="AUSTRIA" abbreviation="AT" iso="40" />
+	<country name="AZERBAIJAN" abbreviation="AZ" iso="31" />
+	<country name="BAHAMAS" abbreviation="BS" iso="44" />
+	<country name="BAHRAIN" abbreviation="BH" iso="48" />
+	<country name="BANGLADESH" abbreviation="BD" iso="50" />
+	<country name="BARBADOS" abbreviation="BB" iso="52" />
+	<country name="BELARUS" abbreviation="BY" iso="112" />
+	<country name="BELGIUM" abbreviation="BE" iso="56" />
+	<country name="BELIZE" abbreviation="BZ" iso="84" />
+	<country name="BENIN" abbreviation="BJ" iso="204" />
+	<country name="BERMUDA" abbreviation="BM" iso="60" />
+	<country name="BHUTAN" abbreviation="BT" iso="64" />
+	<country name="BOLIVIA" abbreviation="BO" iso="68" />
+	<country name="BOSNIA AND HERZEGOVINA" abbreviation="BA" iso="70" />
+	<country name="BOTSWANA" abbreviation="BW" iso="72" />
+	<!--<country name="BOUVET ISLAND" abbreviation="BV" iso="74" />-->
+	<country name="BRAZIL" abbreviation="BR" iso="76" />
+	<country name="BRITISH INDIAN OCEAN" abbreviation="IO" iso="86" />
+	<country name="BRUNEI DARUSSALAM" abbreviation="BN" iso="96" />
+	<country name="BULGARIA" abbreviation="BG" iso="100" />
+	<country name="BURKINA FASO" abbreviation="BF" iso="854" />
+	<country name="BURUNDI" abbreviation="BI" iso="108" />
+	<country name="CAMBODIA" abbreviation="KH" iso="116" />
+	<country name="CAMEROON" abbreviation="CM" iso="120" />
+	<country name="CANADA" abbreviation="CA" iso="124" />
+	<country name="CAPE VERDE" abbreviation="CV" iso="132" />
+	<country name="CAYMAN ISLANDS" abbreviation="KY" iso="136" />
+	<country name="CENTRAL AFRICAN REPUBLIC" abbreviation="CF" iso="140" />
+	<country name="CHAD" abbreviation="TD" iso="148" />
+	<country name="CHILE" abbreviation="CL" iso="152" />
+	<country name="CHINA" abbreviation="CN" iso="156" />
+	<country name="CHRISTMAS ISLAND" abbreviation="CX" iso="162" />
+	<country name="COCOS (KEELING) ISLANDS" abbreviation="CC" iso="166" />
+	<country name="COLOMBIA" abbreviation="CO" iso="170" />
+	<country name="COMOROS" abbreviation="KM" iso="174" />
+	<country name="CONGO" abbreviation="CG" iso="178" />
+	<country name="COOK ISLANDS" abbreviation="CK" iso="184" />
+	<country name="COSTA RICA" abbreviation="CR" iso="188" />
+	<country name="COTE D'IVOIRE" abbreviation="CI" iso="384" />
+	<country name="CROATIA - HRVATSKA" abbreviation="HR" iso="191" />
+	<!-- <country name="CUBA" abbreviation="CU" iso="192" /> -->
+	<country name="CYPRUS" abbreviation="CY" iso="196" />
+	<country name="CZECH REPUBLIC" abbreviation="CZ" iso="203" />
+	<country name="DENMARK" abbreviation="DK" iso="208" />
+	<country name="DJIBOUTI" abbreviation="DJ" iso="262" />
+	<country name="DOMINICA" abbreviation="DM" iso="212" />
+	<country name="DOMINICAN REPUBLIC" abbreviation="DO" iso="214" />
+	<country name="ECUADOR" abbreviation="EC" iso="218" />
+	<country name="EGYPT" abbreviation="EG" iso="818" />
+	<country name="EL SALVADOR" abbreviation="SV" iso="222" />
+	<country name="EQUATORIAL GUINEA" abbreviation="GQ" iso="226" />
+	<country name="ERITREA" abbreviation="ER" iso="232" />
+	<country name="ESTONIA" abbreviation="EE" iso="233" />
+	<country name="ETHIOPIA" abbreviation="ET" iso="210" />
+	<country name="FALKLAND ISS (MALVINAS)" abbreviation="FK" iso="238" />
+	<country name="FAROE ISLANDS" abbreviation="FO" iso="234" />
+	<country name="FIJI" abbreviation="FJ" iso="242" />
+	<country name="FINLAND" abbreviation="FI" iso="246" />
+	<country name="FRANCE" abbreviation="FR" iso="250" />
+	<country name="FRANCE, METROPOLITAN" abbreviation="FX" iso="249" />
+	<country name="FRENCH GUIANA" abbreviation="GF" iso="254" />
+	<country name="FRENCH POLYNESIA" abbreviation="PF" iso="258" />
+	<country name="FRENCH SOUTH TERRITORIES" abbreviation="TF" iso="260" />
+	<country name="GABON" abbreviation="GA" iso="266" />
+	<country name="GAMBIA" abbreviation="GM" iso="270" />
+	<country name="GEORGIA" abbreviation="GE" iso="268" />
+	<country name="GERMANY" abbreviation="DE" iso="276" />
+	<country name="GHANA" abbreviation="GH" iso="288" />
+	<country name="GIBRALTAR" abbreviation="GI" iso="292" />
+	<country name="GREECE" abbreviation="GR" iso="300" />
+	<country name="GREENLAND" abbreviation="GL" iso="304" />
+	<country name="GRENADA" abbreviation="GD" iso="308" />
+	<country name="GUADELOUPE" abbreviation="GP" iso="312" />
+	<country name="GUAM" abbreviation="GU" iso="316" />
+	<country name="GUATEMALA" abbreviation="GT" iso="320" />
+	<country name="GUINEA" abbreviation="GN" iso="324" />
+	<country name="GUINEA-BISSAU" abbreviation="GW" iso="624" />
+	<country name="GUYANA" abbreviation="GY" iso="328" />
+	<country name="HAITI" abbreviation="HT" iso="332" />
+	<!--<country name="HEARD ISLAND & MCDONALD ISLANDS" abbreviation="HM" iso="334" />-->
+	<country name="HONDURAS" abbreviation="HN" iso="340" />
+	<country name="HONG KONG" abbreviation="HK" iso="344" />
+	<country name="HUNGARY" abbreviation="HU" iso="348" />
+	<country name="ICELAND" abbreviation="IS" iso="352" />
+	<country name="INDIA" abbreviation="IN" iso="356" />
+	<country name="INDONESIA" abbreviation="ID" iso="360" />
+	<!-- <country name="IRAN, ISLAMIC REPUBLIC OF" abbreviation="IR" iso="364" /> -->
+	<!-- <country name="IRAQ" abbreviation="IQ" iso="368" /> -->
+	<country name="IRELAND" abbreviation="IE" iso="372" />
+	<country name="ISRAEL" abbreviation="IL" iso="376" />
+	<country name="ITALY" abbreviation="IT" iso="380" />
+	<country name="JAMAICA" abbreviation="JM" iso="388" />
+	<country name="JAPAN" abbreviation="JP" iso="392" />
+	<country name="JORDAN" abbreviation="JO" iso="400" />
+	<country name="KAZAKHSTAN" abbreviation="KZ" iso="398" />
+	<country name="KENYA" abbreviation="KE" iso="404" />
+	<country name="KIRIBATI" abbreviation="KI" iso="296" />
+	<country name="KOREA, DPR" abbreviation="KP" iso="408" />
+	<country name="KOREA, REPUBLIC OF" abbreviation="KR" iso="410" />
+	<country name="KUWAIT" abbreviation="KW" iso="414" />
+	<country name="KYRGYZSTAN" abbreviation="KG" iso="417" />
+	<country name="LAOS" abbreviation="LA" iso="418" />
+	<country name="LATVIA" abbreviation="LV" iso="428" />
+	<country name="LEBANON" abbreviation="LB" iso="422" />
+	<country name="LESOTHO" abbreviation="LS" iso="426" />
+	<country name="LIBERIA" abbreviation="LR" iso="430" />
+	<country name="LIBYAN ARAB JAMAHIRIYA" abbreviation="LY" iso="434" />
+	<country name="LIECHTENSTEIN" abbreviation="LI" iso="438" />
+	<country name="LITHUANIA" abbreviation="LT" iso="440" />
+	<country name="LUXEMBOURG" abbreviation="LU" iso="442" />
+	<country name="MACAU" abbreviation="MO" iso="446" />
+	<country name="MACEDONIA" abbreviation="MK" iso="807" />
+	<country name="MADAGASCAR" abbreviation="MG" iso="450" />
+	<country name="MALAWI" abbreviation="MW" iso="454" />
+	<country name="MALAYSIA" abbreviation="MY" iso="458" />
+	<country name="MALDIVES" abbreviation="MV" iso="462" />
+	<country name="MALI" abbreviation="ML" iso="466" />
+	<country name="MALTA" abbreviation="MT" iso="470" />
+	<country name="MARSHALL ISLANDS" abbreviation="MH" iso="584" />
+	<country name="MARTINIQUE" abbreviation="MQ" iso="474" />
+	<country name="MAURITANIA" abbreviation="MR" iso="478" />
+	<country name="MAURITIUS" abbreviation="MU" iso="480" />
+	<country name="MAYOTTE" abbreviation="YT" iso="175" />
+	<country name="MEXICO" abbreviation="MX" iso="484" />
+	<country name="MICRONESIA" abbreviation="FM" iso="583" />
+	<country name="MOLDOVA, REPUBLIC OF" abbreviation="MD" iso="498" />
+	<country name="MONACO" abbreviation="MC" iso="492" />
+	<country name="MONGOLIA" abbreviation="MN" iso="496" />
+	<country name="MONTSERRAT" abbreviation="MS" iso="500" />
+	<country name="MOROCCO" abbreviation="MA" iso="504" />
+	<country name="MOZAMBIQUE" abbreviation="MZ" iso="508" />
+	<country name="MYANMAR" abbreviation="MM" iso="104" />
+	<country name="NAMIBIA" abbreviation="NA" iso="516" />
+	<country name="NAURU" abbreviation="NR" iso="520" />
+	<country name="NEPAL" abbreviation="NP" iso="524" />
+	<country name="NETHERLANDS" abbreviation="NL" iso="528" />
+	<country name="NETHERLANDS ANTILLES" abbreviation="AN" iso="530" />
+	<country name="NEW CALEDONIA" abbreviation="NC" iso="540" />
+	<country name="NEW ZEALAND" abbreviation="NZ" iso="554" />
+	<country name="NICARAGUA" abbreviation="NI" iso="558" />
+	<country name="NIGER" abbreviation="NE" iso="562" />
+	<country name="NIGERIA" abbreviation="NG" iso="566" />
+	<country name="NIUE" abbreviation="NU" iso="570" />
+	<country name="NORFOLK ISLAND" abbreviation="NF" iso="574" />
+	<country name="NORTHERN MARIANA ISLANDS" abbreviation="MP" iso="580" />
+	<country name="NORWAY" abbreviation="NO" iso="578" />
+	<country name="OMAN" abbreviation="OM" iso="512" />
+	<country name="PAKISTAN" abbreviation="PK" iso="586" />
+	<country name="PALAU" abbreviation="PW" iso="585" />
+	<country name="PANAMA" abbreviation="PA" iso="591" />
+	<country name="PAPUA NEW GUINEA" abbreviation="PG" iso="598" />
+	<country name="PARAGUAY" abbreviation="PY" iso="600" />
+	<country name="PERU" abbreviation="PE" iso="604" />
+	<country name="PHILIPPINES" abbreviation="PH" iso="608" />
+	<country name="PITCAIRN" abbreviation="PN" iso="612" />
+	<country name="POLAND" abbreviation="PL" iso="616" />
+	<country name="PORTUGAL" abbreviation="PT" iso="620" />
+	<country name="PUERTO RICO" abbreviation="PR" iso="630" />
+	<country name="QATAR" abbreviation="QA" iso="634" />
+	<country name="REUNION" abbreviation="RE" iso="638" />
+	<country name="ROMANIA" abbreviation="RO" iso="642" />
+	<country name="RUSSIAN FEDERATION" abbreviation="RU" iso="643" />
+	<country name="RWANDA" abbreviation="RW" iso="646" />
+	<country name="SAINT HELENA" abbreviation="SH" iso="654" />
+	<country name="SAINT KITTS AND NEVIS" abbreviation="KN" iso="659" />
+	<country name="SAINT LUCIA" abbreviation="LC" iso="662" />
+	<country name="SAINT PIERRE / MIQUELON" abbreviation="PM" iso="666" />
+	<country name="SAINT VINCENT/GRENADINES" abbreviation="VC" iso="670" />
+	<country name="SAMOA" abbreviation="WS" iso="882" />
+	<country name="SAN MARINO" abbreviation="SM" iso="674" />
+	<country name="SAO TOME AND PRINCIPE" abbreviation="ST" iso="678" />
+	<country name="SAUDI ARABIA" abbreviation="SA" iso="682" />
+	<country name="SENEGAL" abbreviation="SN" iso="686" />
+	<country name="SEYCHELLES" abbreviation="SC" iso="690" />
+	<country name="SIERRA LEONE" abbreviation="SL" iso="694" />
+	<country name="SINGAPORE" abbreviation="SG" iso="702" />
+	<country name="SLOVAKIA-SLOVAK REPUBLIC" abbreviation="SK" iso="703" />
+	<country name="SLOVENIA" abbreviation="SI" iso="705" />
+	<country name="SOLOMON ISLANDS" abbreviation="SB" iso="90" />
+	<country name="SOMALIA" abbreviation="SO" iso="706" />
+	<country name="SOUTH AFRICA" abbreviation="ZA" iso="710" />
+	<country name="SPAIN" abbreviation="ES" iso="724" />
+	<country name="SRI LANKA" abbreviation="LK" iso="144" />
+	<country name="SUDAN" abbreviation="SD" iso="736" />
+	<country name="SURINAME" abbreviation="SR" iso="740" />
+	<country name="SVALBARD/JAN MAYEN ISS" abbreviation="SJ" iso="744" />
+	<country name="SWAZILAND" abbreviation="SZ" iso="748" />
+	<country name="SWEDEN" abbreviation="SE" iso="752" />
+	<country name="SWITZERLAND" abbreviation="CH" iso="756" />
+	<!-- <country name="SYRIAN ARAB REPUBLIC" abbreviation="SY" iso="760" /> -->
+	<country name="TAIWAN" abbreviation="TW" iso="158" />
+	<country name="TAJIKISTAN" abbreviation="TJ" iso="762" />
+	<country name="TANZANIA" abbreviation="TZ" iso="834" />
+	<country name="THAILAND" abbreviation="TH" iso="764" />
+	<country name="TOGO" abbreviation="TG" iso="768" />
+	<country name="TOKELAU" abbreviation="TK" iso="772" />
+	<country name="TONGA" abbreviation="TO" iso="776" />
+	<country name="TRINIDAD AND TOBAGO" abbreviation="TT" iso="780" />
+	<country name="TUNISIA" abbreviation="TN" iso="788" />
+	<country name="TURKEY" abbreviation="TR" iso="792" />
+	<country name="TURKMENISTAN" abbreviation="TM" iso="795" />
+	<country name="TURKS AND CAICOS ISLANDS" abbreviation="TC" iso="796" />
+	<country name="TUVALU" abbreviation="TV" iso="798" />
+	<country name="UGANDA" abbreviation="UG" iso="800" />
+	<country name="UKRAINE" abbreviation="UA" iso="804" />
+	<country name="UNITED ARAB EMIRATES" abbreviation="AE" iso="784" />
+	<country name="UNITED KINGDOM" abbreviation="GB" iso="826" />
+	<country name="UNITED STATES" abbreviation="US" iso="840" />
+	<country name="U.S. OUTLYING ISLANDS" abbreviation="UM" iso="581" />
+	<country name="URUGUAY" abbreviation="UY" iso="858" />
+	<country name="UZBEKISTAN" abbreviation="UZ" iso="860" />
+	<country name="VANUATU" abbreviation="VU" iso="548" />
+	<country name="VATICAN CITY STATE" abbreviation="VA" iso="336" />
+	<country name="VENEZUELA" abbreviation="VE" iso="862" />
+	<country name="VIETNAM" abbreviation="VN" iso="704" />
+	<country name="VIRGIN ISLANDS-B.V.I." abbreviation="VG" iso="92" />
+	<country name="VIRGIN ISLANDS-U.S.V.I." abbreviation="VI" iso="850" />
+	<country name="WALLIS AND FUTUNA ISS" abbreviation="WF" iso="876" />
+	<country name="WESTERN SAHARA" abbreviation="EH" iso="732" />
+	<country name="YEMEN" abbreviation="YE" iso="887" />
+	<country name="YUGOSLAVIA" abbreviation="YU" iso="891" />
+	<country name="ZAIRE" abbreviation="ZR" iso="180" />
+	<country name="ZAMBIA" abbreviation="ZM" iso="" />
+	<country name="ZIMBABWE" abbreviation="ZW" iso="716" />
+</countries>

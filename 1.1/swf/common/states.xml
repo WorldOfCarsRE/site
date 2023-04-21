@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<states>
+	<country name="US">
+		<state name="ALABAMA" abbreviation="AL" />
+		<state name="ALASKA" abbreviation="AK" />
+		<state name="ARIZONA" abbreviation="AZ" />
+		<state name="ARKANSAS" abbreviation="AR" />
+		<state name="CALIFORNIA" abbreviation="CA" />
+		<state name="COLORADO" abbreviation="CO" />
+		<state name="CONNECTICUT" abbreviation="CT" />
+		<state name="DELAWARE" abbreviation="DE" />
+		<state name="DISTRICT OF COLUMBIA" abbreviation="DC" />
+		<state name="FLORIDA" abbreviation="FL" />
+		<state name="GEORGIA" abbreviation="GA" />
+		<state name="HAWAII" abbreviation="HI" />
+		<state name="IDAHO" abbreviation="ID" />
+		<state name="ILLINOIS" abbreviation="IL" />
+		<state name="INDIANA" abbreviation="IN" />
+		<state name="IOWA" abbreviation="IA" />
+		<state name="KANSAS" abbreviation="KS" />
+		<state name="KENTUCKY" abbreviation="KY" />
+		<state name="LOUISIANA" abbreviation="LA" />
+		<state name="MAINE" abbreviation="ME" />
+		<state name="MARYLAND" abbreviation="MD" />
+		<state name="MASSACHUSETTS" abbreviation="MA" />
+		<state name="MICHIGAN" abbreviation="MI" />
+		<state name="MINNESOTA" abbreviation="MN" />
+		<state name="MISSISSIPPI" abbreviation="MS" />
+		<state name="MISSOURI" abbreviation="MO" />
+		<state name="MONTANA" abbreviation="MT" />
+		<state name="NEBRASKA" abbreviation="NE" />
+		<state name="NEVADA" abbreviation="NV" />
+		<state name="NEW HAMPSHIRE" abbreviation="NH" />
+		<state name="NEW JERSEY" abbreviation="NJ" />
+		<state name="NEW MEXICO" abbreviation="NM" />
+		<state name="NEW YORK" abbreviation="NY" />
+		<state name="NORTH CAROLINA" abbreviation="NC" />
+		<state name="NORTH DAKOTA" abbreviation="ND" />
+		<state name="OHIO" abbreviation="OH" />
+		<state name="OKLAHOMA" abbreviation="OK" />
+		<state name="OREGON" abbreviation="OR" />
+		<state name="PENNSYLVANIA" abbreviation="PA" />
+		<!--<state name="PUERTO RICO" abbreviation="PR" />-->
+		<state name="RHODE ISLAND" abbreviation="RI" />
+		<state name="SOUTH CAROLINA" abbreviation="SC" />
+		<state name="SOUTH DAKOTA" abbreviation="SD" />
+		<state name="TENNESSEE" abbreviation="TN" />
+		<state name="TEXAS" abbreviation="TX" />
+		<state name="UTAH" abbreviation="UT" />
+		<state name="VERMONT" abbreviation="VT" />
+		<state name="VIRGINIA" abbreviation="VA" />
+		<state name="WASHINGTON" abbreviation="WA" />
+		<state name="WEST VIRGINIA" abbreviation="WV" />
+		<state name="WISCONSIN" abbreviation="WI" />
+		<state name="WYOMING" abbreviation="WY" />
+	</country>
+	<!--country name="AU">
+		<state name="AUSTRALIAN CAPITAL TERRITORY" abbreviation="AU-ACT" />
+		<state name="CHRISTMAS ISLAND" abbreviation="CX" />
+		<state name="COCOS (KEELING) ISLANDS" abbreviation="CC" />
+		<state name="HEARD ISLAND AND MCDONALD ISLANDS" abbreviation="HM" />
+		<state name="NEW SOUTH WALES" abbreviation="AU-NSW" />
+		<state name="NORFOLK ISLAND" abbreviation="NF" />
+		<state name="NORTHERN TERRITORY" abbreviation="AU-NT" />
+		<state name="QUEENSLAND" abbreviation="AU-QLD" />
+		<state name="SOUTH AUSTRALIA" abbreviation="AU-SA" />
+		<state name="TASMANIA" abbreviation="AU-TAS" />
+		<state name="VICTORIA" abbreviation="AU-VIC" />
+		<state name="WESTERN AUSTRALIA" abbreviation="AU-WA" />
+	</country-->
+	<country name="CA">
+		<state name="ALBERTA" abbreviation="AB" />
+		<state name="BRITISH COLUMBIA" abbreviation="BC" />
+		<state name="MANITOBA" abbreviation="MB" />
+		<state name="NEW BRUNSWICK" abbreviation="NB" />
+		<state name="NEWFOUNDLAND" abbreviation="NL" />
+		<state name="NORTHWEST TERRITORIES" abbreviation="NT" />
+		<state name="NOVA SCOTIA" abbreviation="NS" />
+		<state name="NUNAVUT" abbreviation="NU" />
+		<state name="ONTARIO" abbreviation="ON" />
+		<state name="PRINCE EDWARD ISLAND" abbreviation="PE" />
+		<state name="QUEBEC" abbreviation="QC" />
+		<state name="SASKATCHEWAN" abbreviation="SK" />
+		<state name="YUKON" abbreviation="YT" />
+	</country>
+</states>

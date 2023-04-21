@@ -5,7 +5,7 @@
 			queryString: {},
 			colorbox: $.colorbox,
 			launchGame: WOC.launchGame,
-			disneyLoginPage: PATH.siteRoot + '/site/play/login.html',
+			disneyLoginPage: PATH.siteRoot + '/play/login.html',
 			whoAmI: CFG.api + 'WhoAmIRequest',
 			promoCodeService: CFG.api + 'RedeemPromoCodeRequest',
 			selectors: {
@@ -19,9 +19,9 @@
 				rewardPageBackLink: '.cod-backButton',
 				rewardPageNextLink: '.cod-nextButton'
 			},
-			loginCallback: 'function(){parent.window.location="' + PATH.siteRoot + '/site/community/codes/redeem/";}',
+			loginCallback: 'function(){parent.window.location="' + PATH.siteRoot + '/community/codes/redeem/";}',
 			step: 1,
-			step1: PATH.siteRoot + '/site/community/codes/',
+			step1: PATH.siteRoot + '/community/codes/',
 			rewardHtmlTemplate: '<li class="cod-reward"><img src="{thumbnail}" alt="{description}" /><div class="cod-description">{quantity} {description}</div></li>',
 			successHtmlTemplate: '<div class="sys-modalOverlayContainer">' +
 				'<h2><img src="' + PATH.img + '/pageTitle/ttl-overlay-congratulations.png" alt="Congratulations" /></h2>' +
@@ -97,8 +97,8 @@
 			errorCodeMap = {
 				ALREADY_REDEEMED_PROMO_CODE: 'The code you entered has already been redeemed',
 				INVALID_PROMO_CODE: 'Invalid code',
-				USER_NOT_LOGGED_IN: 'You need to <a href="' + PATH.siteRoot + '/site/community/codes/">log in</a> before redeeming a code',
-				RACECAR_NOT_FOUND: 'You need to <a href="' + PATH.siteRoot + '/site/community/codes/">log in and create a racecar</a> before redeeming this code'
+				USER_NOT_LOGGED_IN: 'You need to <a href="' + PATH.siteRoot + '/community/codes/">log in</a> before redeeming a code',
+				RACECAR_NOT_FOUND: 'You need to <a href="' + PATH.siteRoot + '/community/codes/">log in and create a racecar</a> before redeeming this code'
 			};
 
 		if ($(xml).find('success').text().toLowerCase() !== 'true') {

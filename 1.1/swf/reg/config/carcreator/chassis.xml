@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+<chassis><name>Sports</name><buttonName>chassis1Button</buttonName><id>5501</id></chassis>
+<chassis><name>Stock</name><buttonName>chassis2Button</buttonName><id>5500</id></chassis>
+<chassis><name>Mini</name><buttonName>chassis3Button</buttonName><id>5502</id></chassis>
+</data>

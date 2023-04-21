@@ -19,7 +19,7 @@ jq( document ).ready( function() {
 jq( document ).ready( loadFanArt );
 
 function loadFanArt() {
-	jq.getJSON( '/site/worldofcars/1.0/js/fan-art.json', false, onFanArtLoad );
+	jq.getJSON( '/worldofcars/1.0/js/fan-art.json', false, onFanArtLoad );
 }
 
 function onFanArtLoad( data ) {

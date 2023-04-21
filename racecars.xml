@@ -1,0 +1,29 @@
+<config>
+	<submodels>
+		<body>
+			<main>body</main>
+		</body>
+		<eyes>
+			<eye>eye_left</eye>
+			<eye>eye_right</eye>
+		</eyes>
+		<eyelids>
+			<maleTexture>assets/texture/customization/eyelid/car_t_cst_eyl_avatar.jpg</maleTexture>
+			<femaleTexture>assets/texture/customization/eyelid/car_t_cst_eyl_avatar_female.jpg</femaleTexture>
+			<eyelid>eyelid_top</eyelid>
+			<eyelid>eyelid_bot</eyelid>
+		</eyelids>
+		<wheels>
+			<wheel>rim_left_front</wheel>
+			<wheel>rim_left_rear</wheel>
+			<wheel>rim_right_front</wheel>
+			<wheel>rim_right_rear</wheel>
+		</wheels>
+		<tireWalls>
+			<tireWall>tirewall_left_front</tireWall>
+			<tireWall>tirewall_left_rear</tireWall>
+			<tireWall>tirewall_right_front</tireWall>
+			<tireWall>tirewall_right_rear</tireWall>
+		</tireWalls>
+	</submodels>
+</config>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<game_config>
+  <content swf="car_spl_act_lightningstorm_content.swf"/>
+  <gating level="4" souvenir="0" />
+  <Settings>
+  	<DebugMode active="0" />
+   	<LowDetailMode active="0" override="0"/>
+  	<Piston health="20" />
+  	<Powerup health="10" />
+  	<Difficulty lives="4" />
+  	<Orb numSlots="10" pixelsPerSlot="7" />
+  </Settings>
+</game_config>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- Types: topNews gossip leaderboards racing events townNews trafficReport -->
+<data>
+	<mainArticle url="car_f_gui_new_ch1wk1ThisTestArticle" type="topNews" />
+	<subArticle1 url="car_f_gui_new_ch1wk2ThisAnotherArticle" type="topNews" />
+	<subArticle2 url="car_f_gui_new_ch1wk3AnotherGreatNewsStory" type="topNews" />
+	
+	<archive>
+		<article title="July" />
+		<article title="ThisTestArticle" url="car_f_gui_new_ch1wk1ThisTestArticle" type="topNews" />
+		<article title="ThisAnotherArticle" url="car_f_gui_new_ch1wk2ThisAnotherArticle" type="topNews" />
+		<article title="AnotherGreatNewsStory" url="car_f_gui_new_ch1wk3AnotherGreatNewsStory" type="topNews" />
+		<article title="ThisTestArticle" url="car_f_gui_new_ch1wk1ThisTestArticle" type="topNews" />
+		<article title="June" />
+		<article title="ThisTestArticle" url="car_f_gui_new_ch1wk1ThisTestArticle" type="topNews" />
+		<article title="ThisAnotherArticle" url="car_f_gui_new_ch1wk2ThisAnotherArticle" type="topNews" />
+		<article title="AnotherGreatNewsStory" url="car_f_gui_new_ch1wk3AnotherGreatNewsStory" type="topNews" />
+		<article title="ThisTestArticle" url="car_f_gui_new_ch1wk1ThisTestArticle" type="topNews" />
+	</archive>
+</data>

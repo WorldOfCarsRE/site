@@ -5,7 +5,7 @@
             queryString: {},
             colorbox: $.colorbox,
             launchGame: WOC.launchGame,
-            disneyLoginPage: PATH.siteRoot + '/site/play/login.html',
+            disneyLoginPage: PATH.siteRoot + '/play/login.html',
             psnLogin: CFG.psn + '/index.vm?returnURL=' + encodeURIComponent(CFG.apiProxy + 'SynergyPlaystationLogin'),
             xblLogin: CFG.wlid + '/signin.aspx?redirect=' + encodeURIComponent(CFG.apiProxy + 'SynergyXblLogin'),
             unlinkNetwork: CFG.apiProxy + 'SynergyUnlinkNetwork',
@@ -51,7 +51,7 @@
                 xblRewardNavLink: '#rwd-xblNavLink',
                 wiiErrorContainer: '#lnk-wiiErrorContainer'
             },
-            loginCallback: 'function(){parent.window.location="' + PATH.siteRoot + '/site/community/cars-connections/accounts/";}',
+            loginCallback: 'function(){parent.window.location="' + PATH.siteRoot + '/community/cars-connections/accounts/";}',
             step: 1,
             step1: PATH.siteRoot + '/community/cars-connections/',
             dsTeaserHTML: '<div class="sys-modalOverlayContainer">' +

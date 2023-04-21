@@ -1,0 +1,326 @@
+<config>
+	<debug>1</debug>
+	<local language="en" region="US"/>
+	<offlineMode>false</offlineMode>
+	<avatarAssets url="avatarassets.xml" />
+	<names file="names.xml" />
+	<faqs moreInfo="moreinfo.xml" parents="parents.xml" whatisthis="whatisthis.xml" />
+	<globalStringTable>
+		<url locale="en_US">locale/global/global_en_US.txt</url>
+	</globalStringTable>
+	<ui>
+		<landingPage url="landing_page_config.xml">
+			<devBlogButton url="http://blog.worldofcars.go.com" />
+			<skin>assets/flash/gui/previewsite/car_f_gui_pvs_landingPage.swf</skin>
+			<backgroundAssets>
+				<asset url="names.xml"/>
+				<asset url="avatarassets.xml"/>
+				<asset url="assets/texture/customization/decal/car_t_cst_dec_numbersAndShapes.swf"/>
+				<asset url="assets/model/garage/room/car_m_gar_rom_floorWall.smod"/>
+				<asset url="assets/model/garage/gaspump/car_m_gar_gas_rusteze.smod"/>
+				<asset url="assets/model/garage/door/car_m_gar_dor_3Panel.smod"/>
+				<asset url="assets/model/garage/platform/car_m_gar_pfm_metalShiny.smod"/>
+				<asset url="assets/texture/garage/room/car_t_gar_rom_wal_redHalf.jpg"/>
+				<asset url="assets/texture/garage/platform/car_t_gar_pfm_metalShiny.jpg"/>
+				<asset url="assets/texture/garage/door/car_t_gar_dor_3panels.jpg"/>
+				<asset url="assets/texture/garage/gaspump/car_t_gar_gas_rusteeze.jpg"/>
+				<asset url="assets/texture/garage/room/car_t_gar_rom_flr_blackChecker.jpg"/>
+				<asset url="assets/animation/character/avatar/car_a_chr_avt_sports_idlescan.sani"/>
+				<asset url="assets/animation/character/avatar/car_a_chr_avt_sports_lookBackRight.sani"/>
+				<asset url="assets/animation/character/avatar/car_a_chr_avt_sports_lookBackRight_m.sani"/>
+				<asset url="assets/animation/character/avatar/car_a_chr_avt_sports_idlescan_f.sani"/>
+				<asset url="assets/animation/character/avatar/car_a_chr_avt_sports_lookBackRight_f.sani"/>
+				<asset url="assets/animation/character/avatar/car_a_chr_avt_sports_idleBlink_m.sani"/>
+				<asset url="assets/animation/character/avatar/car_a_chr_avt_sports_lookFrontLeft.sani"/>
+				<asset url="assets/animation/character/avatar/car_a_chr_avt_sports_land.sani"/>
+				<asset url="assets/animation/character/avatar/car_a_chr_avt_sports_lookFrontLeft_m.sani"/>
+				<asset url="assets/animation/character/avatar/car_a_chr_avt_sports_land_f.sani"/>
+				<asset url="assets/animation/character/avatar/car_a_chr_avt_sports_lookFrontLeft_f.sani"/>
+				<asset url="assets/animation/character/avatar/car_a_chr_avt_sports_idleBlink.sani"/>
+				<asset url="assets/animation/camera/cutscene/car_a_cam_csc_intro_to_default.sani"/>
+				<asset url="assets/animation/character/avatar/car_a_chr_avt_sports_land_m.sani"/>
+				<asset url="assets/animation/camera/cutscene/car_a_cam_csc_default_to_top.sani"/>
+				<asset url="assets/animation/character/avatar/car_a_chr_avt_sports_idlescan_m.sani"/>
+				<asset url="assets/animation/character/avatar/car_a_chr_avt_sports_idleBlink_f.sani"/>
+				<asset url="assets/animation/camera/cutscene/car_a_cam_csc_top_to_default.sani"/>
+				<asset url="assets/rig/character/avatar/car_r_chr_avt_stock.xml"/>
+				<asset url="racecars.xml"/>
+				<asset url="assets/rig/character/avatar/car_r_chr_avt_stock.smod"/>
+				<asset url="assets/texture/character/avatar/car_t_chr_avt_stock.jpg"/>
+				<asset url="assets/texture/character/avatar/car_t_chr_avt_tongue_01.jpg"/>
+				<asset url="assets/texture/character/avatar/car_t_chr_avt_teeth_01.png"/>
+				<asset url="assets/texture/customization/eye/car_t_chr_avt_eye_01.png"/>
+				<asset url="assets/texture/character/avatar/car_t_chr_avt_windshield.png"/>
+				<asset url="assets/texture/customization/eyelid/car_t_cst_eyl_avatar.jpg"/>
+				<asset url="assets/texture/customization/rim/car_t_cst_rim_01.jpg"/>
+				<asset url="assets/texture/customization/tire/car_t_cst_tir_wall_black.jpg"/>
+				<asset url="assets/texture/customization/tire/car_t_cst_tir_tread01.jpg"/>
+				<asset url="assets/texture/character/avatar/car_t_chr_avt_stock_sideWindows.jpg"/>
+				<asset url="assets/texture/character/avatar/car_t_chr_avt_stock_rearWindow.jpg"/>
+				<asset url="assets/texture/customization/light/car_t_cst_lit_headLight01.swf"/>
+				<asset url="assets/texture/customization/light/car_t_cst_lit_tailLight01.swf"/>
+				<asset url="assets/texture/customization/rim/car_t_cst_rim_03.swf"/>
+				<asset url="assets/texture/customization/tire/car_t_cst_tir_wallBlack.png"/>
+				<asset url="assets/texture/customization/paintjob/car_t_cst_pjb_stock_shading.swf"/>
+				<asset url="assets/sound/effect/garage/car_o_efx_gar_button_select.mp3"/>
+				<asset url="assets/sound/effect/garage/car_o_efx_gar_button_selectCarModel.mp3"/>
+				<asset url="assets/sound/effect/garage/car_o_efx_gar_button_eyelidsSelect.mp3"/>
+				<asset url="assets/sound/effect/garage/car_o_efx_gar_carStretch.mp3"/>
+				<asset url="assets/sound/effect/garage/car_o_efx_gar_itemAttach_bodyPaint.mp3"/>
+				<asset url="assets/sound/effect/garage/car_o_efx_gar_itemAttach_grill.mp3"/>
+				<asset url="assets/sound/effect/garage/car_o_efx_gar_itemChoose_tires.mp3"/>
+				<asset url="assets/sound/effect/garage/car_o_efx_gar_itemChoose_wheels.mp3"/>
+				<asset url="assets/sound/effect/garage/car_o_efx_gar_button_raceNow.mp3"/>
+				<asset url="assets/sound/effect/garage/car_o_efx_gar_itemDetach_lights.mp3"/>
+				<asset url="assets/sound/effect/engine/car_o_efx_eng_carRev_nascar.mp3"/>
+				<asset url="assets/sound/effect/engine/car_o_efx_eng_carRev_mustang.mp3"/>
+				<asset url="assets/sound/effect/engine/car_o_efx_eng_carRev_porsche.mp3"/>
+				<asset url="assets/sound/effect/garage/car_o_efx_gar_carHorn_smallHappy.mp3"/>
+				<asset url="assets/sound/effect/garage/car_o_efx_gar_carHorn_medHappy.mp3"/>
+				<asset url="assets/sound/effect/garage/car_o_efx_gar_carHorn_largeHappy.mp3"/>
+				<asset url="assets/sound/effect/garage/car_o_efx_gar_button_randomSelect.mp3"/>
+				<asset url="assets/sound/effect/garage/car_o_efx_gar_button_nameNumberColorBackgroundSelect.mp3"/>
+				<asset url="assets/sound/voiceover/franchise/car_o_voo_frn_mcqueen_coolName.mp3"/>
+				<asset url="assets/sound/voiceover/franchise/car_o_voo_frn_mcqueen_knockYourselfOut.mp3"/>
+				<asset url="assets/sound/voiceover/franchise/car_o_voo_frn_mcqueen_likeYourStyle.mp3"/>
+				<asset url="assets/sound/voiceover/franchise/car_o_voo_frn_mcqueen_thereYouAreRookie.mp3"/>
+				<asset url="assets/sound/voiceover/franchise/car_o_voo_frn_mcqueen_allSetUp.mp3"/>
+				<asset url="assets/sound/voiceover/franchise/car_o_voo_frn_mcqueen_welcomeToTheBestShop.mp3"/>
+				<asset url="assets/flash/gui/previewsite/car_f_gui_pvs_carCreator.swf"/>
+				<asset url="assets/graphic/gui/title/car_g_gui_ttl_buildmycar.png"/>
+				<asset url="assets/graphic/icon/tire/car_g_ico_tir_whitewall.png"/>
+				<asset url="assets/graphic/icon/paintjob/car_g_ico_pjb_whiteBack.png"/>
+				<asset url="assets/graphic/icon/tire/car_g_ico_tir_blackwall.png"/>
+				<asset url="assets/graphic/icon/tire/car_g_ico_tir_speedster.png"/>
+				<asset url="assets/graphic/icon/paintjob/car_g_ico_pjb_doubleStripe.png"/>
+				<asset url="assets/sound/music/garage/car_o_mus_gar_hudson_radioFilter.mp3"/>
+				<asset url="assets/video/promo/previewsite/car_v_pro_pvs_landingPage.flv"/>
+			</backgroundAssets>
+		</landingPage>
+		<store>
+			<catalogView url="assets/flash/gui/previewsite/car_f_gui_pvs_catalogView.swf" />
+			<titleImage url="assets/graphic/gui/title/car_g_gui_ttl_store" type=".swf" />
+		</store>
+		<carView hFOV="40" near="5" far="100" >
+			<viewPoint x="20" y="10" z="0" magMod="1.16" />
+			<atPoint x="-2.3" y="4" z="-2.3" />
+			<upDir x="0" y="1" z="0" />
+		</carView>
+		<badgeView url="assets/graphic/badge/car_f_bad_mat_badgeView.swf" />
+		<collectionView 
+			url="assets/flash/gui/previewsite/car_f_gui_pvs_collectionView.swf" 
+			questionMarkUrl="assets/graphic/badge/mattel/car_g_bad_mat_unlock_sm.png"
+		/>
+		<congratsScreen url="assets/flash/gui/registration/car_f_gui_reg_congrats.swf" />
+		<codeRedeemer 
+			url="assets/flash/gui/previewsite/car_f_gui_pvs_codeRedeem.swf" 
+			questionMarkIcon="assets/graphic/icon/symbol/car_g_ico_sym_questionMark.png"
+		/>
+		<errorPage url="assets/flash/gui/previewsite/car_f_gui_pvs_errorPage.swf" />
+		<wizard url="assets/flash/gui/previewsite/car_f_gui_pvs_wickedWizard.swf" />
+		<alertView url="assets/flash/gui/previewsite/car_f_gui_pvs_alertView.swf" />
+		<rewardView url="assets/flash/gui/previewsite/car_f_gui_pvs_codeRewardView.swf">
+			<firstTrack url="assets/graphic/gui/title/car_g_gui_ttl_twistinTailfinTrack" type=".swf" />
+		</rewardView>
+		<registration url="assets/flash/gui/registration/car_f_gui_reg_Registration.swf" />
+		<supportFAQ url="assets/flash/gui/previewsite/car_f_gui_pvs_supportFaqs.swf" />
+		<trailerView url="assets/flash/gui/previewsite/car_f_gui_pvs_trailerView.swf" />
+		<transition url="assets/flash/transition/previewsite/car_f_trn_pvs_garageWipe.swf" />
+		<printView url="assets/flash/gui/previewsite/car_f_gui_pvs_printView.swf">
+			<logoUrl url="assets/graphic/gui/title/car_g_gui_ttl_urlLogo" type=".swf" />
+			<backgrounds>
+				<background 
+					url="assets/graphic/print/background/car_g_prt_bcg_blank.swf"
+					thumbnail="assets/graphic/icon/print/car_g_ico_prt_blank.jpg"
+				/>
+				<background 
+					url="assets/graphic/print/background/car_g_prt_bcg_diamonds.swf"
+					thumbnail="assets/graphic/icon/print/car_g_ico_prt_diamonds.jpg"
+				/>
+				<background 
+					url="assets/graphic/print/background/car_g_prt_bcg_tailfinSkyline.swf"
+					thumbnail="assets/graphic/icon/print/car_g_ico_prt_tailfinSkyline.jpg"
+				/>
+				<background 
+					url="assets/graphic/print/background/car_g_prt_bcg_checkeredSlanted.swf"
+					thumbnail="assets/graphic/icon/print/car_g_ico_prt_checkeredSlanted.jpg"
+				/>
+				<background 
+					url="assets/graphic/print/background/car_g_prt_bcg_pinstripe.swf"
+					thumbnail="assets/graphic/icon/print/car_g_ico_prt_pinstripe.jpg"
+				/>
+			</backgrounds>
+		</printView>
+		<soundPreferences url="assets/flash/gui/previewsite/car_f_gui_pvs_soundPreferences.swf" />
+		<sendFeedback url="assets/flash/gui/previewsite/car_f_gui_pvs_sendFeedback.swf" />
+		<trackChooser url="assets/flash/gui/previewsite/car_f_gui_pvs_trackChooser.swf">
+			<desc>trackdesc.xml</desc>
+			<track0>
+				<title>
+					<graphic locale="en_US">assets/graphic/gui/title/car_g_gui_ttl_ccTrainingTrk_en_US.swf</graphic>
+				</title>
+			</track0>
+			<track1>
+				<title>
+					<graphic locale="en_US">assets/graphic/gui/title/car_g_gui_ttl_carburetorCounty_en_US.swf</graphic>
+				</title>
+				<track>
+					<graphic>assets/graphic/icon/track/car_g_ico_trk_ccsMap.jpg</graphic>
+				</track>
+			</track1>
+			<track2>
+				<title>
+					<graphic locale="en_US">assets/graphic/gui/title/car_g_gui_ttl_twistinTailfinTrack_en_US.swf</graphic>
+				</title>
+				<track>
+					<graphic>assets/graphic/icon/track/car_g_ico_trk_ovaMap.jpg</graphic>
+				</track>
+			</track2>
+		</trackChooser>
+		<garage url="garage_config.xml" >
+			<camera>
+				<upDir x="0" y="1" z="0" />
+				<hFOV>40</hFOV>
+				<nearClip>5</nearClip>
+				<farClip>100</farClip>
+			</camera>
+			<car>
+				<position x="0" y="0.95" z="0" />
+				<rotation x="0" y="-30" z="0" />
+				<shadow alpha="A5" red="0" green="0" blue="0" />
+			</car>
+			<upDownGestureTolerance>100</upDownGestureTolerance>
+			<models>
+				<model id="room"     url="assets/model/garage/room/car_m_gar_rom_floorWall.smod"      x="0"  y="0"    z="0"   />
+				<model id="platform" url="assets/model/garage/platform/car_m_gar_pfm_metalShiny.smod" x="0"  y="0.95" z="0"   />
+				<model id="door"     url="assets/model/garage/door/car_m_gar_dor_3Panel.smod"         x="0"  y="0"    z="1.3" />
+				<model id="gas_pump" url="assets/model/garage/gaspump/car_m_gar_gas_rusteze.smod"     x="15" y="0"    z="-5"  />
+			</models>                                                                                                                                                        
+			<ui>
+				<carCreator url="assets/flash/gui/previewsite/car_f_gui_pvs_carCreator.swf" x="0" y="414">
+					<header>
+						<graphic locale="en_US">assets/graphic/gui/title/car_g_gui_ttl_buildmycar.png</graphic>
+					</header>
+					<animations>
+						<dir target="car" url="assets/animation/character/avatar/" />
+						<dir target="camera" url="assets/animation/camera/cutscene/" />
+						<animation id="idle_scan" target="car" user="false" url="car_a_chr_avt_sports_idlescan.sani">
+							<male id="idle_scan_m" url="car_a_chr_avt_sports_idlescan_m.sani" />
+							<female id="idle_scan_f" url="car_a_chr_avt_sports_idlescan_f.sani" />
+						</animation>
+						<animation id="idle_blink" target="car" user="false" url="car_a_chr_avt_sports_idleBlink.sani">
+							<male id="idle_blink_m" url="car_a_chr_avt_sports_idleBlink_m.sani" />
+							<female id="idle_blink_f" url="car_a_chr_avt_sports_idleBlink_f.sani" />
+						</animation>
+						<animation id="land" target="car" user="false" url="car_a_chr_avt_sports_land.sani">
+							<male id="land_m" url="car_a_chr_avt_sports_land_m.sani" />
+							<female id="land_m" url="car_a_chr_avt_sports_land_f.sani" />
+						</animation>
+						<animation id="look_back_left" target="car" user="false" url="car_a_chr_avt_sports_lookBackRight.sani">
+							<male id="look_back_left_m" url="car_a_chr_avt_sports_lookBackRight_m.sani" />
+							<female id="look_back_left_f" url="car_a_chr_avt_sports_lookBackRight_f.sani" />
+						</animation>
+						<animation id="look_back_right" target="car" user="false" url="car_a_chr_avt_sports_lookFrontLeft.sani">
+							<male id="look_back_right_m" url="car_a_chr_avt_sports_lookFrontLeft_m.sani" />
+							<female id="look_back_right_f" url="car_a_chr_avt_sports_lookFrontLeft_f.sani" />
+						</animation>
+						<animation id="camera_intro" target="camera" user="false" url="car_a_cam_csc_intro_to_default.sani" />
+						<animation id="camera_default_to_overhead" target="camera" user="false" url="car_a_cam_csc_default_to_top.sani" />
+						<animation id="camera_overhead_to_default" target="camera" user="false" url="car_a_cam_csc_top_to_default.sani" />
+					</animations>
+				</carCreator>
+				<sceneControls x="10" y="400" />
+				<playerLog url="assets/flash/gui/previewsite/car_f_gui_pvs_playerLog.swf" x="10" y="35" />
+				<workBench x="0" y="432">
+					<header>
+						<graphic locale="en_US">assets/graphic/gui/title/car_g_gui_ttl_workbench.png</graphic>
+					</header>
+					<animations>
+						<dir target="car" url="assets/animation/character/avatar/" />
+						<animation id="bored" desc="Bored" target="car" user="true" url="car_a_chr_avt_sports_bored.sani">
+							<male id="bored_m" url="car_a_chr_avt_sports_bored_m.sani" />
+							<female id="bored_f" url="car_a_chr_avt_sports_bored_f.sani" />
+						</animation>
+						<animation id="cross_eye" desc="Cross Eyes" target="car" user="true" url="car_a_chr_avt_sports_crosseye.sani">
+							<male id="cross_eye_m" url="car_a_chr_avt_sports_crosseye_m.sani" />
+							<female id="cross_eye_f" url="car_a_chr_avt_sports_crosseye_f.sani" />
+						</animation>
+						<animation id="sad" desc="Sad" target="car" user="true" url="car_a_chr_avt_sports_sad.sani">
+							<male id="sad_m" url="car_a_chr_avt_sports_sad_m.sani" />
+							<female id="sad_f" url="car_a_chr_avt_sports_sad_f.sani" />
+						</animation>
+						<animation id="smile" desc="Happy" target="car" user="true" url="car_a_chr_avt_sports_smile.sani">
+							<male id="smile_m" url="car_a_chr_avt_sports_smile_m.sani" />
+							<female id="smile_f" url="car_a_chr_avt_sports_smile_f.sani" />
+						</animation>
+						<animation id="surprise" desc="Surprised" target="car" user="true" url="car_a_chr_avt_sports_surprise.sani">
+							<male id="surprise_m" url="car_a_chr_avt_sports_surprise_m.sani" />
+							<female id="surprise_f" url="car_a_chr_avt_sports_surprise_f.sani" />
+						</animation>
+						<animation id="wink" desc="Wink" target="car" user="true" url="car_a_chr_avt_sports_wink.sani">
+							<male id="wink_m" url="car_a_chr_avt_sports_wink_m.sani" />
+							<female id="wink_f" url="car_a_chr_avt_sports_wink_f.sani" />
+						</animation>
+						<animation id="rev" target="car" user="false" url="car_a_chr_avt_sports_revEngine.sani">
+							<male id="rev_m" url="car_a_chr_avt_sports_revEngine_m.sani" />
+							<female id="rev_f" url="car_a_chr_avt_sports_revEngine_f.sani" />
+						</animation>
+						<animation id="horn" target="car" user="false" url="car_a_chr_avt_sports_horn.sani">
+							<male id="horn_m" url="car_a_chr_avt_sports_horn_m.sani" />
+							<female id="horn_f" url="car_a_chr_avt_sports_horn_f.sani" />
+						</animation>
+					</animations>
+				</workBench>
+				<carStats url="assets/flash/gui/previewsite/car_f_gui_pvs_carStats.swf" x="10" y="235" stats="carstats.xml" />
+				<rsnBug url="assets/flash/gui/previewsite/car_f_gui_pvs_rsnBug.swf" x="0" y="23" />
+				<rsnLeaderboard url="assets/flash/gui/previewsite/car_f_gui_pvs_rsnView.swf" x="0" y="0" >
+					<trackTitle url="assets/graphic/gui/title/car_g_gui_ttl_carburetorCounty_en_US.swf" />
+					<trackTitle url="assets/graphic/gui/title/car_g_gui_ttl_twistinTailfinTrack_en_US.swf" />
+					<trackTitle url="assets/graphic/gui/title/car_g_gui_ttl_ccTrainingTrk_en_US.swf" />
+					<camera hFOV="40" near="1" far="100" >
+						<viewPoint x="28" y="7" z="7" />
+						<!-- <atPoint x="-2.3" y="4" z="-0.3" /> -->
+						<atPoint x="-5" y="0" z="5" />
+						<upDir x="0" y="1" z="0" />
+					</camera>
+				</rsnLeaderboard>
+				<!-- ccsTitle="assets/graphic/gui/title/car_g_gui_ttl_carburetorCounty_en_US.swf" 
+					ccsTrack="assets/graphic/icon/track/car_g_ico_trk_ccsMap.jpg" 
+					ccsName="Carburetor County Speedway" 
+					ccsInfo="Carburetor County Speedway - The basic track."	
+					ovaTitle="assets/graphic/gui/title/car_g_gui_ttl_twistinTailfinTrack_en_US.swf" 
+					ovaTrack="assets/graphic/icon/track/car_g_ico_trk_ovaMap.jpg" 
+					ovaName="Ornament Valley Alley" 
+					ovaInfo="Ornament Valley Alley - Presented by Mattel.">
+						-->
+				<regCarView angleDegrees="135" rotationSpeed="0.1" />
+			</ui>
+			<stretchSnap targetDegrees="90" toleranceDegrees="30" />
+		</garage>
+	</ui>
+	<chassisTypes>
+		<chassisType id="1" url="assets/rig/character/avatar/car_r_chr_avt_sports.smod" />
+		<chassisType id="2" url="assets/rig/character/avatar/car_r_chr_avt_stock.smod" />
+		<chassisType id="3" url="assets/rig/character/avatar/car_r_chr_avt_mini.smod" />
+	</chassisTypes>
+	<detailings detailing1="20308" detailing2="20307" />
+	<tires tire1="30501" tire2="30502" tire3="30503" />
+	<wheels wheel1="30601" wheel2="30602" />
+	<isoRacingConfig url="isoRacing_race.xml" />
+	<topNav url="assets/flash/gui/previewsite/car_f_gui_pvs_topNav.swf" />
+	<background url="assets/flash/gui/background/car_f_gui_bcg_siteBackground.swf" />
+    <landingPageVideo url="assets/video/promo/previewsite/car_v_pro_pvs_landingPage.flv" />
+	<headlights id="51103" />
+	<taillights id="51104" />
+	<trackId>
+		<track map="0" difficulty="easy" id="0" />
+		<track map="0" difficulty="normal" id="0" />
+		<track map="0" difficulty="hard" id="0" />
+		<track map="1" difficulty="easy" id="1" />
+		<track map="1" difficulty="normal" id="2" />
+		<track map="1" difficulty="hard" id="3" />
+		<track map="2" difficulty="easy" id="4" />
+		<track map="2" difficulty="normal" id="5" />
+		<track map="2" difficulty="hard" id="6" />
+	</trackId>
+</config>

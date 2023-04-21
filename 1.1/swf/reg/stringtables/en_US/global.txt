@@ -1,0 +1,79 @@
+﻿PADDING
+OK
+Continue
+Back
+Play!
+Register
+Login
+Shuffle
+Next
+Boy
+Girl
+Account ID
+Password
+Don't Have A Car?
+If you've previously registered here or at any other Disney site, you may log in below using your existing Disney Account ID and Password.
+Forgot Your Account ID?
+Your Date Of Birth:
+Create Account ID:
+Create Password:
+Type Password Again:
+Your E-mail Address:
+By clicking on the Continue button you agree to our                                   and
+If you've previously registered here at a  Disney Site,
+What's this?
+Your E-mail Address:
+Please choose a different Account ID:
+- Account ID is a unique name that will be used to login<br>   to the game. It will not be displayed to other players.<br>- Account ID must have 4 - 64 characters.<br>- Account ID can have letters (a-z), numbers (0-9), dash (-),<br>  underscores (_), periods (.) and spaces ( ). Account ID<br>  can't begin or end with spaces.<br>- Account ID can be an e-mail address if you are over <br>  13 years old.
+- Password is a unique word that you create and will use<br>  to login to the game.<br>- Password must have 4 - 25 characters.<br>- Password can have letters (a-z), numbers (0-9),<br>  dashes (-), underscores (_), periods (.), question marks (?),<br>  exclamation marks (!), at symbols (@), and carets (^).<br>- Password can't match the Account ID.
+Month
+Day
+Year
+Please enter your date of age:
+Date of Birth
+Create Account ID
+Create Password
+Please fix the following errors to create an account:
+Oops!
+Your Car is ready for you when we launch the beta!
+Step 1
+Select boy or girl and an eye color
+Step 2
+Select Car type
+Step 3
+Pick your Car number
+Step 4
+Select your Car name
+Create Your Car
+Forgot Your Password?
+Communication Preferences
+Click here if you would like to receive occasional updates and offers from the Walt Disney family of companies.
+Create Account
+Congratulations
+Login
+Privacy Policy
+log in here.
+Create a unique name to login to the game.
+Make it different from your Account ID.
+Make sure it matches.
+What do you want us to call you?
+You know this one, right?
+If you want to be able to Chat, we'll need this.
+If you want to be able to Chat, we'll need this.
+Terms of Use.
+Used for account verification and game news.
+Parent's E-mail Address:
+Step 5
+Pick a color
+We need this to keep your account safe.
+By clicking on the Continue button you agree to our                               and
+Rules of the Road
+Already Have A Car?
+Create A Car
+Welcome Back
+Enter your Password to continue, or enter your Account ID and Password to log in as a different Car.
+Create A New Car?
+We need all of this information to keep your account safe.
+How Old Are You?
+Age
+When Is Your Birthday?

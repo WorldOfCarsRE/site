@@ -1,0 +1,117 @@
+<parents title="Help" expand="true">
+	<item
+	topic="How do I contact Disney if I have any questions about World of Cars Online?"
+	response="If you have any questions, please email us at __EMAIL__."
+	/>
+
+	<item 
+		topic="What is the World of Cars: Test Track?"
+		response="The World of Cars isn’t quite finished yet but we’re inviting everyone to come take a test drive with our little preview, World of Cars: Test Track!  You can build your own car, race it, unlock items for your Car with Race Codes and even show it off to your friends!  This is a chance for you to get an exclusive sneak peek under the hood of the World of Cars coming in 2009."
+	/>
+
+	<item 
+		topic="What is the World of Cars Online?"
+		response="__WOCONLINE__" 
+	/>
+	
+	<item 
+		topic="What can my Car do in the World of Cars: Test Track?"
+		response="The World of Cars: Test Track is your first sneak peek into the World of Cars Massively Multiplayer Online Game (MMOG) coming in 2009! Here you can create your very own Car and race it on our recently unveiled test tracks. Racing on the test tracks earns you Car Coins that you can spend when the World of Cars launches!  You’ll even be able to compare your track times against other players with the Racing Sports Network (RSN) Leaderboards-—just like the movie!"
+	/>
+	
+	<item 
+		topic="How old do I have to be to play World of Cars: Test Track?"
+		response="The World of Cars: Test Track is recommended for players ages 6 and up, but it was designed for racers of all ages to enjoy!"
+	/>
+	
+	<item 
+		topic="How do I create my own Car?"
+		response="Creating your Car starts when you click the big button marked 'Play.'  The preview site will start with 3 simple steps to help you customize your own Car.  You’ll be asked to register in order to save your Car and start racing, but once you do, you’ll have access to the racetrack and the rewards that come with it!"
+	/>
+	
+	<item
+		topic="What is a Race Code and where do I find one?"
+		response="Race Codes can be found inside specially marked Cars toys from Mattel. These codes can be used to unlock special items for a Car that you create in the World of Cars Online."
+	/>	
+	
+	<item 
+		topic="Can I give my Car a name I created?"
+		response="Right now you can only name your Car using the Name Selector. We spent a lot of time coming up with the gear-tastic names that are in there, but if there is another one you wish you could choose from, please let us know! Send in your name suggestions here, and maybe one day your Car name will appear in the Name Selector!"
+	/>
+	
+	<item 
+		topic="Can I play World of Cars: Test Track by myself if I want, or do I have to play in a group?"
+		response="Several residents of Carburetor County have offered to race against you and so for now, these brave racers will be your competition. Fear not! You can always click the RSN button in the upper-right corner of the Garage to see the Leaderboards for each track and all the non-Radiator Springs residents rankings! Best of all, in 2009 you’ll be able to play with your friends or go head-to-head with the best racers in the world!"
+	/>
+	
+	<item 
+		topic="What happens to my Car when the game officially releases?"
+		response="When the game officially launches in 2009, your Car will be safe and sound in your garage waiting for you to put the pedal-to-the-metal in the World of Cars--this time with all your friends cruising with you."
+	/>
+	
+	<item 
+		topic="What controls do I use to race my Car?"
+		response="Once you’re on the track, the easiest way to race is to use the arrow keys.  When you pick up items on the track, you can use your SPACE key to use them.  Each item you pick up has a different effect—some give you a burst of speed and others are designed to slow your challengers down—so be sure to try them all out!"
+	/>
+	
+	<item 
+		topic="What should I do if I find a problem in World of Cars: Test Track?"
+		response="Tell us about it! Describe the problem you found, attach a screenshot if you can, and then email the problem to: __EMAIL__. We cannot respond to every issue individually, but for problems occurring to many users we will address them with a system wide messaging on this Web site. You can also send us your comments by clicking on the envelope icon (see below) in the navigation. __ENVELOPE_ICON__"
+	/>
+	
+	<item 
+		topic="Is World of Cars: Test Track safe?"
+		response="World of Cars: Test Track and the soon-to-be-released World of Cars are developed by Disney Online, a leader in creating safe and fun virtual environments for everyone to enjoy.  All our games will always be free from third-party advertising and we offer extensive parental controls."
+	/>
+	
+	<item 
+		topic="What kind of computer do I need to be able to play?"
+		response="You can play on a PC or a Mac!"
+	/>
+	
+	<item 
+		topic="What kind of PC do I need to play World of Cars: Test Track?"
+		response="For PC you need: Windows Vista, XP or 2000. You need the latest version of Adobe Flash (9.0.1.2.4); a Pentium 3 800 Mhz, or faster processor; 256 MB of RAM; 350KB or faster Internet Connection."
+	/>
+	
+	<item 
+		topic="What kind of Mac do I need to play World of Cars: Test Track?"
+		response="Your Mac needs to have: OS X Tiger (10.4.6); The latest version of Adobe Flash (9.0.124); a PowerPC G4 or newer; 256 MB of RAM; 350KB or faster Internet Connection."
+	/>
+	
+	<item 
+		topic="Does World of Cars: Test Track support Windows Vista?"
+		response="You bet! World of Cars: Test Track and the upcoming World of Cars both run under Windows Vista."
+	/>
+	
+	<item 
+		topic="What kind of Internet connection do I need to be able to play?"
+		response="A broadband Internet connection is recommended but not required. The faster your connection, the better the game will operate."
+	/>
+	
+	<item 
+		topic="What do I do if I'm trying to race but my Car won't move?"
+		response="This could be a problem with the servers that run the game. The World of Cars needs regular maintenance and updates. We try to schedule these when the fewest Cars are online — usually late at night on the weekends. Cars that are online will always be notified that these short, but necessary, shutdowns are coming. Occasionally our servers get the hiccups, which can cause them to unexpectedly shut down. We do our best to keep that from happening and try to fix any problems quicker than Doc in his garage. Thank you for your patience!"
+	/>
+	
+	<item 
+		topic="The game keeps crashing and/or freezing up! What do I do?"
+		response="This could be a problem with the servers that run the game. The World of Cars needs regular maintenance and updates. We try to schedule these when the fewest Cars are online — usually late at night on the weekends. Cars that are online will always be notified that these short, but necessary, shutdowns are coming. Occasionally our servers get the hiccups, which can cause them to unexpectedly shut down. We do our best to keep that from happening and try to fix any problems quicker than Doc in his garage. Thank you for your patience!"
+	/>
+	
+	<item 
+		topic="Why does the game feel slow on my computer?"
+		response="If you are noticing issues while playing the World of Cars it could be for one of many reasons.  Please double-check and make sure your computer meets our system requirements in order to play this game.  If you are still experiencing issues, you can send an email to: __EMAIL__.  We cannot respond to every issue individually, but for problems occurring to many users we will address them with system wide messaging on this Web site."
+	/>
+	
+	<item 
+		topic="What do I do if I still have issues?" 
+		response="If you are still experiencing issues, you can send an email to: __EMAIL__.  We cannot respond to every issue individually, but for problems occurring to many users we will address them with system wide messaging on this Web site."
+	/>
+	
+	<item 
+		topic="What if I forget my Account ID or Password?"
+		response="If a forgetful Car needs help remembering their Account ID or Password, all they need to do is click 'Forgot Your Password' on the login screen for Account ID or Password recovery and follow the instructions on the page."
+	/>
+	
+</parents>

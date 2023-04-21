@@ -1,0 +1,5 @@
+<carstats>
+	<sports hp="580" topSpeed="140" accel="4.5"  />
+	<mini hp="350" topSpeed="140" accel="4.5" />
+	<stock hp="600" topSpeed="140" accel="4.5" />
+</carstats>

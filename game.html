@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>Disney Pixar The World of Cars Online</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="description" content="Create, race and play in the World of Cars Online, the new online game from Disney & Pixar where you can create your own race car and meet thousands of other players on the ride of a lifetime." />
+		<meta name="author" content="Disney Interactive Media Group" />
+		<meta name="keywords" content="Cars, Pixar, Disney, Lightning McQueen, games, racing, MMO" />
+		<meta name="facet1" content="" />
+        <script type="text/javascript" src="js/flash_detect_min.js"></script>
+        <script type="text/javascript" src="js/swfobject.js"></script>
+		<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+		<script type="text/javascript" src="js/environment.js"></script>
+        <script type="text/javascript" src="js/common.js"></script>
+		<script type="text/javascript" src="js/windowManager.js"></script>
+        <script type="text/javascript">
+			// Window mangaer
+			var WMG = new windowManager( {
+				pages				: RDR,
+				omnitureTracking	: {
+					'purchase_sponsor_your_car_nav'		: { property : 'car', account : 'worldofcars', category : 'dgame', site : 'woc', siteSection : 'game:sponsorship', contentType : 'regular' },
+					'crews_news_landing_nav'			: { property : 'car', account : 'worldofcars', category : 'dgame', site : 'woc', siteSection : 'game:community', contentType : 'regular' },
+					'help_contact_us_report_a_bug_nav'	: { property : 'car', account : 'worldofcars', category : 'dgame', site : 'woc', siteSection : 'game:community', contentType : 'regular' },
+					'help_home_nav'						: { property : 'car', account : 'worldofcars', category : 'dgame', site : 'woc', siteSection : 'game:community', contentType : 'homepage' },
+					'change_server_nav'					: { property : 'car', account : 'worldofcars', category : 'dgame', site : 'woc', siteSection : 'game:server', contentType : 'regular' }
+				}
+			} );
+
+			if (querySt("assets")=="local")  {
+				assetsBaseUrl = "y:/";
+				rsnAssetBaseURL = assetsBaseUrl + "flash/gui/news/";
+			}
+			if (querySt("mapAssets")=="local") {
+				mapAssetsBaseUrl = "y:/";
+				physicsAssetsBaseUrl = "y:/track_physics";
+			}
+			if (querySt("minigameAssets")=="local") {
+				minigameBaseUrl = "V:/FL_Cars_Minigames/";
+			}
+
+            var bgcolor = "#0a0c0e";
+
+            var flashvars = {};
+            flashvars["assetsBaseUrl"] = CFG.assetsBaseUrl;
+			flashvars["mapAssetsBaseUrl"] = CFG.mapAssetsBaseUrl;
+            flashvars["minigameBaseUrl"] = CFG.minigameBaseUrl;
+			flashvars["disableAssetService"] = true;
+            flashvars["assetServiceHost"] = CFG.assetServiceHost;
+            flashvars["carsServiceHost"] = CFG.assetServiceHost;
+            flashvars["physicsAssetsBaseUrl"] = CFG.physicsAssetsBaseUrl;
+            flashvars["isoMapServiceHost"] = GAME["flashVars"].isoMapServiceHost;
+            flashvars["whoAmI"] = CFG.whoAmI;
+            flashvars["errorReportUrl"] = GAME["flashVars"].errorReportUrl;
+            flashvars["loginURL"] = CFG.login;
+            flashvars["otpTokenURL"] = GAME["flashVars"].otpTokenURL;
+            flashvars["otpTokenPort"] = GAME["flashVars"].otpTokenPort;
+            flashvars["otpLoginURL"] = GAME["flashVars"].otpLoginURL;
+            flashvars["clientVersion"] = CFG.clientVersion;
+			flashvars["signUpNow"] = RDR.signUpNow;
+            flashvars["cast"] = CFG.cast;
+            flashvars["live"] = CFG.live;
+			flashvars["vipWeekendTag"] = GAME["flashVars"].ipWeekendTag;
+            flashvars["cheats"] = "true";
+			flashvars["queueEntranceRequestUrl"] = GAME["flashVars"].queueEntranceRequestUrl;
+            flashvars["queueStatusRequestUrl"] = GAME["flashVars"].queueStatusRequestUrl;
+			flashvars["spriteStripRendererURL"] = GAME["flashVars"].spriteStripRendererURL;
+			flashvars["chatPermissionUrl"] = CFG.chatPermissionUrl || "";
+			flashvars["promotionName"] = CFG.promotionName || "";
+			flashvars["templateId"] = CFG.templateId || "";
+			flashvars["customMsg"] = CFG.customMsg;
+			flashvars["rsnBaseUrl"] = GAME["flashVars"].rsnBaseUrl;
+			flashvars["rsnAssetBaseURL"] = GAME["flashVars"].rsnAssetBaseURL;
+
+            var params = {};
+            params["bgcolor"] = bgcolor;
+            params["base"] = CFG.swfBaseUrl;
+			params["allowScriptAccess"] = "always";
+			//	params["menu"] = "false";
+			//	params["wmode"] = "opaque";
+
+            var questionMark = window.location.href.indexOf("?");
+            var flashVars = questionMark < 0 ? "" : window.location.href.substr(questionMark+1);
+            var splitFlashVars = flashVars.split("&");
+            for( var i in splitFlashVars )
+            {
+                var myVar = splitFlashVars[i].split("=");
+                flashvars[myVar[0]] = myVar[1];
+            }
+
+            startSWF( flashvars, params );
+        </script>
+
+		<!-- BH - temp for testing
+        <script type="text/javascript">
+			function parentRedirectX(where,doClose)
+			{
+				var msg = "When this JS function is finished, I would be ";
+				if( doClose == "true" )
+					msg += "closing this window and ";
+				msg += "redirecting to " + where
+				alert( msg );
+				window.parent.parentRedirect(where, doClose);
+			}
+        </script>
+		-->
+
+		<link rel="stylesheet" href="css/game.css" type="text/css" />
+	</head>
+	<body>
+		<div id="flashDivContainer">
+		<div id="flashDivContent">
+		<noscript>
+			<!-- begin non-flash copy -->
+			<h1>The World of Cars Online</h1>
+			<h2>Action, Adventure, Suspension!</h2>
+			<p>Coming 2009...until then, race of the Test Track!</p>
+			<h2>About the game</h2>
+			<p>Join us in The World of Cars, an online game where you create your own car and play with thousands of others in a world full of action.</p>
+			<div><h3>In The World of Cars, you'll be able to:</h3>
+				<ul>
+					<li>Create a Car</li>
+					<li>Race</li>
+					<li>Build Your Own Racetrack and Garage</li>
+					<li>Explore the Open Road</li>
+					<li>Play Fun Mini-games</li>
+					<li>Customize Your Car</li>
+					<li>Make New Friends</li>
+					<li>Play as Other Vehicles</li>
+					<li>Build a Race Team</li>
+					<li>Become a Legend</li>
+				</ul></div>
+			<p>Quick Quiz:<br />
+			Question:  What has four wheels, a big smile, is ready for the ride of a lifetime and backfires occasionally?<br /><br />
+			Answer: You, as you join thousands of other players in The World of Cars, coming in 2009!</p>
+			<div>
+				<ul>
+					<li><strong>Create a Car:</strong> From slick 'n' quick to down 'n' dirty: choose from millions of options to create your own Car.  You pick the body style, color, wheels, name and lots more to make it totally your own!</li>
+					<li><strong>Race:</strong> Feel the thrill as your work your way up from local dirt tracks to the national circuit.  Race one on one or against a fleet of other players to become the new Piston Cup Champ.  Please Note:  Whole pursuing a racing career it is important to stop and smell the oil cans every once and a while.</li>
+					<li><strong>Build Your Own Racetrack and Garage:</strong> Just like every racing legend, you can build your own garage and headquarters to showcase all of your trophies and mementoes from your racing career.  Expand and decorate it more over time - even build your own tracks and invite other Cars over to race (and to also admire your fancy lawn ornaments)</li>
+					<li><strong>Explore the Open Road:</strong> Start off in Radiator Springs, explore all of Carburetor County, and then head out on the open road to check out new towns around the country.  Each city will have totally different tracks, a few new crazy characters (watch out for the corvettes) and new types of races to test your skills, slide around in the snow, jump sand dunes in the desert, and do wheelies on the beach!</li>
+					<li><strong>Play Fun Mini-Games:</strong> Hold on tight and join Mater and others players for tons of fun mini-games including: backwards tow truck driving (a Mater specialty), tractor games, Car jump and stunt shows, tumbleweed soccer, Car checkers, tag, and more!</li>
+					<li><strong>Add on to Your Car:</strong> Throughout the game you can continue to customize, personalize and optimize your Car with new paint colors, spoilers, rims, fins, engines, shocks, brakes, and tons of other unique items.</li>
+					<li><strong>Make New Friends:</strong> Meet Lightning, Mater, Doc, Ramone and tons of other offbeat characters form the film as well as thousands of others players.  Make friends, form a crew, hangout, chat, interact, and race with all the Cars!</li>
+					<li><strong>Play as Other Vehicles:</strong> There's more than just chasing your racing dreams. How about being a fire truck and putting out the flames at the old Gas and Match factory?  Catching speeders as a police cruiser? Rescuing broken down Cars as a tow truck?  Or spotting trouble as a helicopter?  You can volunteer to play these and many other vehicles while on your journey!</li>
+					<li><strong>Build a Race Team:</strong> As you keep winning, you'll be able to expand your crew to include extra Cars, support vehicles and more!</li>
+			<li><strong>Become a Legend:</strong> Join the ranks of Lightning McQueen by not only winning races, but also by helping your fellow Cars, the towns you visit and by being an VIP (not Very Important Pinto) of the community.</li>
+				</ul></div>
+
+
+			<p>Please enable JavaScript in your browser to enjoy The World of Cars Online.</p>
+			<p><small>&copy; Disney. All rights reserved.</small></p>
+			<!-- end non-flash copy -->
+		</noscript>
+		</div>
+		</div>
+
+        <script type="text/javascript">
+           	if (!FlashDetect.majorAtLeast(10))
+            {
+				var html = '<div id="errorMessage">';
+				if (!FlashDetect.installed)
+				{
+					html += '   You don\'t have Flash installed.<br>';
+				}
+				else
+				{
+					html += '   You don\'t have the correct version of Flash installed.<br>';
+				}
+				html += '    <a href="http://www.adobe.com/go/getflashplayer">Get Flash Now!</a>'
+                       +'</div>';
+
+                document.getElementById("flashDivContent").innerHTML = html;
+            }
+	    </script>
+	</body>
+</html>
+

@@ -1,0 +1,50 @@
+<config>
+	<base>config/racecars.xml</base>
+	<joints>
+		<defaults user="true">
+			<joint name="def_tailslope" value="0"  min="-0.4" max="0.8" type="tz" />
+			<joint name="def_tail"      value="-1" min="-1"   max="0"   type="tz" />
+			<joint name="def_rear"      value="0"  min="-1"   max="0"   type="tz"  >
+				<linked name="dx_scale_tire_left_rear"  />
+				<linked name="dx_scale_tire_right_rear" />
+			</joint>
+			<joint name="def_front"     value="0" min="-0.5"  max="1.5"  type="tz"  />
+			<joint name="def_roofrear"  value="1" min="0.8"   max="1.2"  type="sy"  />
+			<joint name="def_rooffront" value="1" min="0.8"   max="1.2"  type="sy"  />
+		</defaults>                           
+		<defaults user="false">
+			<joint name="dx_scale_tire_left_front"  tx=".235"  ty="-0.22" tz="0"	sx="0.825" sy="0.825" sz="0.825" />
+			<joint name="dx_scale_tire_right_front" tx="-.235" ty="-0.22" tz="0"	sx="0.825" sy="0.825" sz="0.825" />
+			<joint name="dx_scale_tire_left_rear"   tx=".235"  ty="-0.22" tz="0"	sx="0.825" sy="0.825" sz="0.825" />
+			<joint name="dx_scale_tire_right_rear"  tx="-.235" ty="-0.22" tz="0"	sx="0.825" sy="0.825" sz="0.825" />
+		</defaults>
+		<offsets>
+			<joint name="cj_ornament"       x="0"     y="1.6"  z="4.6"   />
+			<joint name="cj_spoiler"        x="0"     y="0.4"  z="0.4"   />
+			<joint name="cj_exhaust_left"   x="3.35"  y="-0.5" z="-0.45" />
+			<joint name="cj_exhaust_right"  x="-3.35" y="-0.5" z="-0.45" />
+			<joint name="cj_tailpipe_left"  x="1.8"   y="-1.6" z="-0.6"  />
+			<joint name="cj_tailpipe_right" x="-1.8"  y="-1.6" z="-0.6"  />
+		</offsets>
+	</joints>
+	<decals>
+		<decal pos="top_front"           x="382" y="150" frameWidth="-1" frameHeight="-1" />
+		<decal pos="top_center"          x="220" y="150" frameWidth="53" frameHeight="78" />
+		<decal pos="top_rear"            x="103" y="150" frameWidth="-1" frameHeight="-1" />
+		<decal pos="left_front"          x="298" y="45"  frameWidth="-1" frameHeight="-1" />
+		<decal pos="left_center"         x="260" y="47"  frameWidth="96" frameHeight="46" />
+		<decal pos="left_rear"           x="112" y="53"  frameWidth="-1" frameHeight="-1" />
+		<decal pos="right_front"         x="298" y="256" frameWidth="-1" frameHeight="-1" />
+		<decal pos="right_center"        x="260" y="252" frameWidth="96" frameHeight="46" />
+		<decal pos="right_rear"          x="112" y="247" frameWidth="-1" frameHeight="-1" />
+		<decal pos="rear"                x="59"  y="150" frameWidth="-1" frameHeight="-1" />
+		<decal pos="grill_left"          x="455" y="133" frameWidth="-1" frameHeight="-1" />
+		<decal pos="grill_right"         x="455" y="166" frameWidth="-1" frameHeight="-1" />
+		<decal pos="lights_front_left"   x="447" y="86"  frameWidth="-1" frameHeight="-1" />
+		<decal pos="lights_front_right"  x="447" y="213" frameWidth="-1" frameHeight="-1" />
+		<decal pos="lights_rear_left"    x="58"  y="94"  frameWidth="-1" frameHeight="-1" />
+		<decal pos="lights_rear_right"   x="58"  y="205" frameWidth="-1" frameHeight="-1" />
+	</decals>                                       
+	<subClip>stock</subClip>
+	<shading>assets/texture/customization/paintjob/car_t_cst_pjb_stock_shading.swf</shading>
+</config>

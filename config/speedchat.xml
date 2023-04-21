@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<speedchat>
+	<tier name="New"> 
+		<entry>Lightning is faster than Francesco!</entry>
+		<entry>Francesco is faster than Lightning!</entry>
+		<entry>I'm an undercover Lemon Car</entry>
+		<entry>Did you see Cars 2?</entry>
+        <entry>I'm a Piston Cup Champ!</entry>
+		<entry>Invite your friends</entry>		
+		<entry>Hay Bale Bounce Party!</entry>
+		<entry>Racers take your places</entry>
+		<entry>Welcome to the World Grand Prix</entry>	
+		<entry>Don't tip the Tractor</entry>		
+		<entry>This is my pet Tractor</entry>
+		<entry>Moooo!</entry>
+		<entry>Hey little tractor tractor</entry>
+		<entry>ROCKSLIDE!!!!!!!!!</entry>
+		<entry>RADIATOR SPRINGS EMERGENCY ALERT</entry>
+		<entry>Happy Haulidays!</entry>		
+		<entry>Tanks-a-lot!</entry>		
+		<entry>Happy Tanksgiving!</entry>
+		</tier>
+	
+	<tier name="Help">
+		<entry>Help!</entry>
+		<entry>Can I help you?</entry>
+		<entry>Where do you want to go?</entry>		
+		<entry>Click on my Profile to drive to me</entry>		
+		<entry>Look on the dashboard</entry>
+		<entry>Use your map</entry>
+		<tier name="Directions">
+			<entry>Follow me</entry>
+			<entry>Stop!</entry>			
+			<entry>Over here</entry>
+			<entry>This way</entry>
+			<entry>Wait here</entry>			
+		</tier>
+		<tier name="SpeedChat">
+			<entry>I'm using SpeedChat</entry>
+			<entry>I can only see SpeedChat</entry>
+			<entry>Please use SpeedChat</entry>			
+		</tier>
+		<entry>You should report that problem</entry>
+		<entry>Check out Tips and Tricks on the website</entry>
+		<entry>Have you read the Crews News blog?</entry>
+		<entry>There's BRAKING NEWS on the RSN</entry>
+	</tier>
+	
+	<tier name="Racing">
+		<tier name="Let's race">
+			<entry>Let's race!</entry>
+			<entry>Let's race at Backfire Canyon Speedway</entry>				
+			<entry>Let's race at Big Heartland Speedway</entry>			
+			<entry>Let's race at Carburetor County Speedway</entry>
+			<entry>Let's race at Fillmore's Fields Rally</entry>
+			<entry>Let's race at Los Angeles International Speedway</entry>
+			<entry>Let's race at Motor Speedway of the South</entry>
+			<entry>Let's race at Petroleum City Super Speedway</entry>			
+			<entry>Let's race at Tailgator Speedway</entry>
+			<entry>Let's race at Twistin' Tailfin Trails</entry>
+			<entry>Let's race at Willys Butte Rally</entry>
+		</tier>
+		<entry>Let's race again!</entry>
+		<tier name="I placed...">
+			<entry>I got 1st place!</entry>
+			<entry>I got 2nd place!</entry>
+			<entry>I got 3rd place</entry>
+			<entry>I got 4th place</entry>
+		</tier>
+		<entry>I got a photo finish!</entry>
+		<entry>I'm on the leaderboard!</entry>
+		<entry>I'm gonna be a Piston Cup Champion!</entry>
+		<entry>Good race!</entry>
+		<entry>Better luck next time!</entry>
+		<entry>I got stuck!</entry>
+		<entry>I passed you with my boost!</entry>
+		<tier name="Hazards">
+			<entry>You slipped on my oil slick!</entry>
+			<entry>You got lost in my smoke screen!</entry>
+			<entry>You bounced on my hay bale!</entry>
+		</tier>
+		<tier name="Tips">
+			<entry>Use boosts to speed up!</entry>
+			<entry>Use hazards to slow down other racers</entry>
+			<entry>Slow down on the turns</entry>
+			<entry>Speed up on the straightaway</entry>
+		</tier>
+	</tier>
+	
+	<tier name="Play">
+		<entry>Everybody honk!</entry>
+		<entry>Everybody Fizzy Fuel!</entry>
+		<entry>Everybody do donuts!</entry>	
+		<entry>Let's go Tractor Tipping!</entry>
+		<entry>Let's hang out at Flo's V8 Cafe!</entry>
+		<entry>Jump in the geysers!</entry>
+		<entry>Spin in the dust devils!</entry>
+		<entry>Let's go tease Frank!</entry>
+		<tier name="Cafe">		
+			<entry>Welcome to my Cafe!</entry>
+			<entry>Park anywhere you like</entry>
+			<entry>Can I get some service here?</entry> 
+			<entry>May I take your order?</entry>
+			<entry>I'd like a gallon of gas please</entry>
+			<entry>Would you like some grease with that?</entry>
+			<entry>Enjoy your gas!</entry>
+			<entry>You've got great gas!</entry>
+			<entry>I'm looking for workers for my Cafe</entry>		
+			<entry>Can I work at your Cafe?</entry>
+			<entry>I used to work at Flo's V8 Cafe</entry>
+			<entry>You're hired!</entry> 
+			<entry>Go help those customers</entry>
+		</tier>
+		<tier name="Hide and Seek">
+			<entry>Want to play hide and seek?</entry>
+			<entry>I'll count to 10 and you hide</entry>
+			<entry>1, 2, 3, 4, 5, 6, 7, 8, 9, 10!</entry>		
+			<entry>I found you!</entry>
+		</tier>
+		<tier name="Tag">
+			<entry>Want to play Tag?</entry>
+			<entry>Tag! You're it!</entry>
+		</tier>
+		<tier name="Red Light, Green Light">
+			<entry>Want to play Red Light, Green Light?</entry>
+			<entry>Red light!</entry>
+			<entry>Green light!</entry>
+		</tier>
+		<tier name="Colors">
+			<entry>Everybody be blue!</entry>
+			<entry>Everybody be green!</entry>
+			<entry>Everybody be gray!</entry>	
+			<entry>Everybody be orange!</entry>
+			<entry>Everybody be purple!</entry>					
+		</tier>
+	</tier>
+	
+	<tier name="Fun">
+		<entry>Haha!</entry>
+		<entry>LOL</entry>
+		<entry>Awesome!</entry>
+		<entry>Whee!</entry>
+		<entry>That's cool!</entry>
+		<entry>You're fast!</entry>
+		<entry>Dadgum!</entry>
+		<entry>KA-CHOW!</entry>
+		<entry>KA-CHIGA!</entry>
+		<entry>KA-CIAO!</entry>
+		<entry>KA-BOOM!</entry>		
+		<entry>Gear-tastic!</entry>
+		<entry>Just kidding!</entry>
+		<entry>Eat my dust!</entry>
+		<entry>Outta my way!</entry>		
+	</tier>
+	
+	<tier name="Answers">	
+		<entry>Yes</entry>
+		<entry>No</entry>
+		<entry>I don't know</entry>
+		<entry>Me</entry>
+		<entry>You</entry>
+		<entry>Ok</entry>
+		<entry>Thanks</entry>
+		<entry>No problem</entry>
+		<entry>Sorry!</entry>
+		<entry>Leave me alone</entry>
+		<entry>I don't like that</entry>
+		<tier name="Cars 2">
+			<entry>Siddeley</entry>
+			<entry>Jeff Gorvette</entry>
+			<entry>Lewis Hamilton</entry>
+			<entry>Miguel Camino</entry>
+			<entry>Max Schnell</entry>
+			<entry>Darrell Cartrip</entry>
+			<entry>Rip Clutchgoneski</entry>
+			<entry>Raoul Caroule</entry>
+			<entry>Carla Veloso</entry>
+			<entry>Shu Todoroki</entry>
+			<entry>Francesco Bernoulli</entry>			
+			<entry>Grem</entry>
+			<entry>Acer</entry>
+			<entry>Professor Z</entry>
+			<entry>Miles Axlerod</entry>
+			<entry>Rod Redline</entry>
+			<entry>Holley Shiftwell</entry>
+			<entry>Finn McMissile</entry>			
+		</tier>
+		<tier name="Cars">
+			<entry>Lightning</entry>
+			<entry>Mater</entry>
+			<entry>Sally</entry>
+			<entry>Fillmore</entry>
+			<entry>Ramone</entry>
+			<entry>Flo</entry>
+			<entry>Luigi</entry>
+			<entry>Guido</entry>
+			<entry>Doc</entry>
+			<entry>Lizzie</entry>
+			<entry>Sarge</entry>			
+			<entry>Red</entry>
+			<entry>Sheriff</entry>
+			<entry>Snot Rod</entry>
+			<entry>DJ</entry>
+			<entry>Wingo</entry>
+			<entry>Boost</entry>
+			<entry>Mack</entry>			
+			<entry>Chick Hicks</entry>
+			<entry>Sparks</entry>			
+		</tier>
+		<tier name="Sponsors">
+			<entry>Dinoco</entry>
+			<entry>Gask-its</entry>
+			<entry>Gasprin</entry>
+			<entry>hostile takeover Bank</entry>			
+			<entry>Leak Less</entry>
+			<entry>Lil' Torquey Pistons</entry>
+			<entry>Mood Springs</entry>						
+			<entry>N20 Cola</entry>
+			<entry>Nitroade</entry>
+			<entry>No Stall</entry>
+			<entry>Octane Gain</entry>
+			<entry>Rev-N-Go</entry>
+			<entry>Re-Volting</entry>			
+			<entry>Rust-eze</entry>
+			<entry>Shiny Wax</entry>
+			<entry>Sputter Stop</entry>
+			<entry>Spare Mint</entry>
+			<entry>Tank Coat</entry>			
+			<entry>Trunk Fresh</entry>
+			<entry>Vitoline</entry>			
+			<entry>ViewZeen</entry>
+			<tier name="My Sponsor is...">
+				<entry>My Sponsor is Dinoco</entry>
+				<entry>My Sponsor is Gask-its</entry>
+				<entry>My Sponsor is Gasprin</entry>
+				<entry>My Sponsor is hostile takeover Bank</entry>					
+				<entry>My Sponsor is Leak Less</entry>
+				<entry>My Sponsor is Lil' Torquey Pistons</entry>
+				<entry>My Sponsor is Mood Springs</entry>				
+				<entry>My Sponsor is N20 Cola</entry>
+				<entry>My Sponsor is Nitroade</entry>				
+				<entry>My Sponsor is No Stall</entry>
+				<entry>My Sponsor is Octane Gain</entry>					
+				<entry>My Sponsor is Rev-N-Go</entry>
+				<entry>My Sponsor is Re-Volting</entry>
+				<entry>My Sponsor is Rust-eze</entry>				
+				<entry>My Sponsor is Shiny Wax</entry>
+				<entry>My Sponsor is Sputter Stop</entry>
+				<entry>My Sponsor is Spare Mint</entry>
+				<entry>My Sponsor is Tank Coat</entry>
+				<entry>My Sponsor is Trunk Fresh</entry>
+				<entry>My Sponsor is Vitoline</entry>
+				<entry>My Sponsor is ViewZeen</entry>
+			</tier>			
+		</tier>
+		<tier name="Places">
+			<tier name="Downtown Radiator Springs">
+				<entry>Downtown Radiator Springs</entry>
+				<entry>Carburetor County Speedway</entry>	
+				<entry>Courthouse</entry>
+				<entry>Cozy Cone Motel</entry>
+				<entry>Doc's Clinic</entry>
+				<entry>Fillmore's Organic Fuels</entry>
+				<entry>Flo's V8 Cafe</entry>
+				<entry>Great Outdoors Store</entry>
+				<entry>Lightning McQueen's Racing HQ</entry>
+				<entry>Lightning Storm: Space Assault</entry>
+				<entry>Luigi's Casa Della Tires</entry>
+				<entry>Luigi's Tire Toss</entry>				
+				<entry>Mater's Junk Yard</entry>
+				<entry>Ramone's House of Body Art</entry>
+				<entry>Ramone's Paint Blaster</entry>
+				<entry>Sarge's Surplus Hut</entry>																					
+			</tier>
+			<tier name="Fillmore's Fields">
+				<entry>Fillmore's Fields</entry>
+				<entry>Fillmore's Fields Rally</entry>
+				<entry>Fillmore's Fizzy Fuel Hut</entry>	
+				<entry>Fillmore's Fuel Mixin' Area, Man</entry>	
+			</tier>
+			<tier name="Redhood Valley">
+				<entry>Redhood Valley</entry>
+				<entry>Lake Floaty</entry>
+				<entry>Twistin' Tailfin Trails</entry>
+			</tier>
+			<tier name="Willys Butte">
+				<entry>Willys Butte</entry>
+				<entry>Mater's Sling Shoot</entry>			
+				<entry>Willys Butte Rally</entry>		
+			</tier>	
+			<tier name="Piston Cup Speedways">
+				<entry>Tailgator Speedway</entry>
+				<entry>Big Heartland Speedway</entry>				
+				<entry>Backfire Canyon Speedway</entry>
+				<entry>Petroleum City Super Speedway</entry>
+				<entry>Motor Speedway of the South</entry>
+				<entry>Los Angeles International Speedway</entry>					
+			</tier>	
+		</tier>
+		<tier name="Time">
+			<entry>Today</entry>
+			<entry>Tomorrow</entry>
+			<entry>Yesterday</entry>
+			<entry>In 5 minutes</entry>
+			<entry>In 30 minutes</entry>
+			<entry>In an hour</entry>		
+		</tier>
+	</tier>
+	
+	<tier name="Questions">
+		<tier name="Who">
+			<entry>Who?</entry>
+			<entry>Who's your favorite Car?</entry>
+			<entry>Who's your Sponsor?</entry>
+		</tier>
+		<tier name="What">
+			<entry>What?</entry>
+			<entry>What's your favorite race track?</entry>
+			<entry>What's your favorite game?</entry>
+		</tier>
+		<tier name="Where">
+			<entry>Where?</entry>
+			<entry>Where are you going?</entry>
+			<entry>Where did you get that?</entry>
+		</tier>
+		<tier name="When">
+			<entry>When?</entry>
+		</tier>
+	</tier>	
+	
+	<tier name="Friends">
+		<entry>Want to be friends?</entry>
+		<entry>Follow me</entry>	
+		<entry>This is fun!</entry>	
+		<entry>Where do you want to go?</entry>
+		<entry>Do you want a tour?</entry>	
+		<entry>Click on my Profile to drive to me</entry>
+		<tier name="I like...">
+			<entry>I like hanging out with you!</entry>
+			<entry>I like your paint!</entry>
+			<entry>I like your Home!</entry>
+			<entry>I like your Sponsor!</entry>			
+		</tier>		
+		<tier name="Home">
+			<entry>Check out my Home!</entry>
+			<entry>Click on my Profile to get to my Home!</entry>
+			<entry>Party at my Home!</entry>
+			<entry>I built a race track in my Yard!</entry>			
+		</tier>		
+		<entry>Join my Sponsor team!</entry>	
+		<entry>Let's wait for my friends</entry>			
+	</tier>
+
+	<tier name="Goodbye">
+		<entry>Bye</entry>
+		<entry>Gotta go</entry>
+		<entry>See you later!</entry>
+		<entry>I only have a few minutes</entry>
+		<entry>Be right back</entry>
+		<entry>I'll be back later</entry>
+		<entry>Adios</entry>
+		<entry>Have fun!</entry>
+		<entry>Drive safely</entry>
+		<entry>Keep coolant!</entry>
+	</tier>
+	
+	<tier name="Hello">
+		<entry>Hello</entry>
+		<entry>Hey!</entry>
+		<entry>Hi everybody</entry>
+		<entry>How are you?</entry>
+		<entry>What's up?</entry>
+		<entry>Welcome back!</entry>		
+		<entry>Good</entry>		
+		<entry>Not much</entry>
+		<entry>Just cruisin'</entry>
+	</tier>	
+</speedchat>

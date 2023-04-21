@@ -1,0 +1,8 @@
+<level rows='6' columns='12' radius='16' left='200' top='35' padding='5' duration='25' hood='hood3'>
+	<colors>
+		<color index='0' name='0xFFF772' />
+		<color index='1' name='0xFF2F01' />
+		<color index='2' name='0xFABA00' />
+		<color index='3' name='0x6B085B' />
+	</colors>
+</level>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<country name="Us" urlPrefix="car_f_gui_map_unitedStates" className="com.disney.cars.ui.map.UsMap">
+	<county name="CarburetorCounty" urlPrefix="car_f_gui_map_carburetorCounty" className="com.disney.cars.ui.map.CarburetorCountyMap">
+		<zone name="RadiatorSprings">
+			<area name="Downtown" id="15001"/>
+			<area name="FillmoresFields" id="15002"/>
+			<area name="WillysButte" id="15006"/>
+		</zone>
+		<zone name="TailfinPass">
+			<area name="RedhoodValley" id="15003"/>
+		</zone>
+	</county>
+		
+	<area name="TailgatorSpeedway" id="15005" ignoreRule="true" />
+	
+	<area name="BigHeartlandSpeedway" id="15008" ignoreRule="true" />
+	
+	<area name="BackfireCanyonSpeedway" id="15009" ignoreRule="true" />
+	
+	<area name="PetroleumCitySpeedway" id="15010" ignoreRule="true" />
+	
+	<area name="MotorSpeedwaySouth" id="15011" ignoreRule="true" />
+	
+	<area name="LASpeedway" id="15012" ignoreRule="true" />
+</country>

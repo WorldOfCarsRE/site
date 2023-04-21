@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<boot app="CarsRegistration.swf" id="reg">
+	<libs>
+		<lib url="DVC_RegUtils.swf" />
+		<lib url="DVC_UI.swf" />
+		<lib url="DVC_Cars_UI.swf" />
+		<lib url="DVC_Trumpet3D.swf" />
+		<lib url="DVC_AMF.swf" />
+		<lib url="DVC_CarsSupport.swf" />
+		<lib url="DVC_Tracking.swf" />
+		<lib url="SharedAssetsLibrary_Fonts.swf" />
+		<lib url="SharedAssetsLibrary_Game.swf" />
+	</libs>
+</boot>

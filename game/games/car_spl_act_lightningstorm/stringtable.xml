@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stringtable>
+  <textobjs>
+    <textobj>
+      <text>Loading...</text>
+      <x>315</x>
+      <y>538</y>
+      <size>12</size>
+      <align>right</align>
+      <color>0xFFFFFF</color>
+      <font>Frutiger 55 Roman</font>
+    </textobj>
+    <textobj>
+      <text>LIGHTNING</text>
+      <x>500</x>
+      <y>40</y>
+      <size>62</size>
+      <align>left</align>
+      <color>0xFFFFFF</color>
+      <font>SF Collegiate Solid</font>
+    </textobj>
+    <textobj>
+      <text>STORM</text>
+      <x>495</x>
+      <y>95</y>
+      <size>96</size>
+      <align>left</align>
+      <color>0xFFFFFF</color>
+      <font>SF Collegiate Solid</font>
+    </textobj>
+    <textobj>
+      <text>SPACE ASSAULT</text>
+      <x>500</x>
+      <y>175</y>
+      <size>41</size>
+      <align>left</align>
+      <color>0xFFFFFF</color>
+      <font>SF Collegiate Solid</font>
+    </textobj>
+    <textobj>
+      <text>Play</text>
+      <x>606</x>
+      <y>280</y>
+      <size>18</size>
+      <align>left</align>
+      <color>0xFFFFFF</color>
+      <font>SF Collegiate Solid</font>
+    </textobj>
+    <textobj>
+      <text>Now</text>
+      <x>606</x>
+      <y>300</y>
+      <size>18</size>
+      <align>left</align>
+      <color>0xFFFFFF</color>
+      <font>SF Collegiate Solid</font>
+    </textobj>
+    <textobj>
+      <text>Move</text>
+      <x>702</x>
+      <y>510</y>
+      <size>18</size>
+      <align>left</align>
+      <color>0xFFFFFF</color>
+      <font>SF Collegiate Solid</font>
+    </textobj>
+    <textobj>
+      <text>Shoot</text>
+      <x>574</x>
+      <y>510</y>
+      <size>18</size>
+      <align>left</align>
+      <color>0xFFFFFF</color>
+      <font>SF Collegiate Solid</font>
+    </textobj>
+    <textobj>
+      <text>Pause</text>
+      <x>472</x>
+      <y>510</y>
+      <size>18</size>
+      <align>left</align>
+      <color>0xFFFFFF</color>
+      <font>SF Collegiate Solid</font>
+    </textobj>
+    <textobj>
+      <text>Score:</text>
+      <x>663</x>
+      <y>42</y>
+      <size>26</size>
+      <align>right</align>
+      <color>0xADD4FF</color>
+      <font>SF Collegiate Solid</font>
+    </textobj>
+    <textobj>
+      <text>MISSILE</text>
+      <x>447</x>
+      <y>43</y>
+      <size>18</size>
+      <align>center</align>
+      <color>0xADD4FF</color>
+      <font>SF Collegiate Solid</font>
+    </textobj>
+    <textobj>
+      <text>TWIN MISSILE</text>
+      <x>0</x>
+      <y>0</y>
+      <size>0</size>
+      <align>0</align>
+      <color>0</color>
+      <font>0</font>
+    </textobj>
+    <textobj>
+      <text>QUAD MISSILE</text>
+      <x>0</x>
+      <y>0</y>
+      <size>0</size>
+      <align>0</align>
+      <color>0</color>
+      <font>0</font>
+    </textobj>
+    <textobj>
+      <text>LASER CANNON</text>
+      <x>0</x>
+      <y>0</y>
+      <size>0</size>
+      <align>0</align>
+      <color>0</color>
+      <font>0</font>
+    </textobj>
+    <textobj>
+      <text>TORPEDO</text>
+      <x>0</x>
+      <y>0</y>
+      <size>0</size>
+      <align>0</align>
+      <color>0</color>
+      <font>0</font>
+    </textobj>
+    <textobj>
+      <text>TWIN TORPEDO</text>
+      <x>0</x>
+      <y>0</y>
+      <size>0</size>
+      <align>0</align>
+      <color>0</color>
+      <font>0</font>
+    </textobj>
+    <textobj>
+      <text>4</text>
+      <x>235</x>
+      <y>37</y>
+      <size>22</size>
+      <align>center</align>
+      <color>0x8AC3F9</color>
+      <font>SF Collegiate Solid</font>
+    </textobj>
+    <textobj>
+      <text>PLASMA SHIELD</text>
+      <x>41</x>
+      <y>72</y>
+      <size>18</size>
+      <align>left</align>
+      <color>0xADD4FF</color>
+      <font>SF Collegiate Solid</font>
+    </textobj>
+    <textobj>
+      <text>...PAUSED...</text>
+      <x>355</x>
+      <y>210</y>
+      <size>54</size>
+      <align>center</align>
+      <color>0xFFFFFF</color>
+      <font>SF Collegiate Solid</font>
+    </textobj>
+    <textobj>
+      <text>Continue</text>
+      <x>355</x>
+      <y>285</y>
+      <size>32</size>
+      <align>center</align>
+      <color>0x666666</color>
+      <font>SF Collegiate Solid</font>
+    </textobj>
+    <textobj>
+      <text>Quit</text>
+      <x>355</x>
+      <y>315</y>
+      <size>32</size>
+      <align>center</align>
+      <color>0x666666</color>
+      <font>SF Collegiate Solid</font>
+    </textobj>
+    <textobj>
+      <text>Ignition System stage</text>
+      <x>355</x>
+      <y>245</y>
+      <size>36</size>
+      <align>center</align>
+      <color>0xFFFF00</color>
+      <font>SF Collegiate Solid</font>
+    </textobj>
+    <textobj>
+      <text>Ignition System - Catalytic Star</text>
+      <x>0</x>
+      <y>0</y>
+      <size>0</size>
+      <align>0</align>
+      <color>0</color>
+      <font>0</font>
+    </textobj>
+    <textobj>
+      <text>Planet Zurg stage</text>
+      <x>0</x>
+      <y>0</y>
+      <size>0</size>
+      <align>0</align>
+      <color>0</color>
+      <font>0</font>
+    </textobj>
+    <textobj>
+      <text>Planet Zurg - Zurg Guard</text>
+      <x>0</x>
+      <y>0</y>
+      <size>0</size>
+      <align>0</align>
+      <color>0</color>
+      <font>0</font>
+    </textobj>
+    <textobj>
+      <text>Zurg City stage</text>
+      <x>0</x>
+      <y>0</y>
+      <size>0</size>
+      <align>0</align>
+      <color>0</color>
+      <font>0</font>
+    </textobj>
+    <textobj>
+      <text>Zurg City - Emperor Zurg</text>
+      <x>0</x>
+      <y>0</y>
+      <size>0</size>
+      <align>0</align>
+      <color>0</color>
+      <font>0</font>
+    </textobj>
+    <textobj>
+      <text>Enemy Health</text>
+      <x>675</x>
+      <y>315</y>
+      <size>12</size>
+      <align>left</align>
+      <color>0xFFA000</color>
+      <font>SF Collegiate Solid</font>
+    </textobj>
+    <textobj>
+      <text>Warning:</text>
+      <x>355</x>
+      <y>245</y>
+      <size>24</size>
+      <align>center</align>
+      <color>0xFFFF00</color>
+      <font>SF Collegiate Solid</font>
+    </textobj>
+    <textobj>
+      <text>detected in this area. Distance to enemy</text>
+      <x>355</x>
+      <y>275</y>
+      <size>24</size>
+      <align>center</align>
+      <color>0xFFFF00</color>
+      <font>SF Collegiate Solid</font>
+    </textobj>
+    <textobj>
+      <text>parsecs.</text>
+      <x>0</x>
+      <y>0</y>
+      <size>0</size>
+      <align>0</align>
+      <color>0</color>
+      <font>0</font>
+    </textobj>
+    <textobj>
+      <text>Press ANY KEY to continue</text>
+      <x>132</x>
+      <y>488</y>
+      <size>26</size>
+      <align>left</align>
+      <color>0xFFFFFF</color>
+      <font>Frutiger 55 Roman</font>
+    </textobj>
+    <textobj>
+      <text>Cleared</text>
+      <x>335</x>
+      <y>65</y>
+      <size>45</size>
+      <align>left</align>
+      <color>0xB2F7FE</color>
+      <font>SF Collegiate Solid</font>
+    </textobj>
+    <textobj>
+      <text>Level Name Win Screen Placement</text>
+      <x>280</x>
+      <y>15</y>
+      <size>45</size>
+      <align>left</align>
+      <color>0xB2F7FE</color>
+      <font>SF Collegiate Solid</font>
+    </textobj>
+    <textobj>
+      <text>Enemies Destroyed (Level / Overall):</text>
+      <x>410</x>
+      <y>130</y>
+      <size>18</size>
+      <align>left</align>
+      <color>0xFBB309</color>
+      <font>Frutiger 55 Roman</font>
+    </textobj>
+    <textobj>
+      <text>Weapon Accuracy (Level / Overall):</text>
+      <x>410</x>
+      <y>200</y>
+      <size>18</size>
+      <align>left</align>
+      <color>0xFBB309</color>
+      <font>Frutiger 55 Roman</font>
+    </textobj>
+    <textobj>
+      <text>Enemy destroyed number placement</text>
+      <x>550</x>
+      <y>160</y>
+      <size>18</size>
+      <align>center</align>
+      <color>0xFFFFFF</color>
+      <font>Frutiger 55 Roman</font>
+    </textobj>
+    <textobj>
+      <text>Weapon Accuracy number placement</text>
+      <x>550</x>
+      <y>230</y>
+      <size>18</size>
+      <align>center</align>
+      <color>0xFFFFFF</color>
+      <font>Frutiger 55 Roman</font>
+    </textobj>
+    <textobj>
+      <text>Current Score:</text>
+      <x>598</x>
+      <y>485</y>
+      <size>24</size>
+      <align>center</align>
+      <color>0xFFFFFF</color>
+      <font>SF Collegiate Solid</font>
+    </textobj>
+    <textobj>
+      <text>parsec.</text>
+      <x>0</x>
+      <y>0</y>
+      <size>0</size>
+      <align>0</align>
+      <color>0</color>
+      <font>0</font>
+    </textobj>
+    <textobj>
+      <text>You have saved the galaxy!</text>
+      <x>335</x>
+      <y>65</y>
+      <size>45</size>
+      <align>center</align>
+      <color>0xB2F7FE</color>
+      <font>SF Collegiate Solid</font>
+    </textobj>
+    <textobj>
+      <text>Congratulations!</text>
+      <x>335</x>
+      <y>15</y>
+      <size>45</size>
+      <align>center</align>
+      <color>0xB2F7FE</color>
+      <font>SF Collegiate Solid</font>
+    </textobj>
+    <textobj>
+      <text>Final Score:</text>
+      <x>598</x>
+      <y>485</y>
+      <size>24</size>
+      <align>center</align>
+      <color>0xFFFFFF</color>
+      <font>SF Collegiate Solid</font>
+    </textobj>
+    <textobj>
+      <text>GAME</text>
+      <x>335</x>
+      <y>65</y>
+      <size>45</size>
+      <align>center</align>
+      <color>0xB2F7FE</color>
+      <font>SF Collegiate Solid</font>
+    </textobj>
+    <textobj>
+      <text>OVER!</text>
+      <x>335</x>
+      <y>15</y>
+      <size>45</size>
+      <align>center</align>
+      <color>0xB2F7FE</color>
+      <font>SF Collegiate Solid</font>
+    </textobj>
+    <textobj>
+      <text>This Level:</text>
+      <x>0</x>
+      <y>0</y>
+      <size>0</size>
+      <align>center</align>
+      <color>0xB2F7FE</color>
+      <font>SF Collegiate Solid</font>
+    </textobj>
+    <textobj>
+      <text>Total:</text>
+      <x>0</x>
+      <y>0</y>
+      <size>0</size>
+      <align>center</align>
+      <color>0xB2F7FE</color>
+      <font>SF Collegiate Solid</font>
+    </textobj>
+    <textobj>
+      <text>of</text>
+      <x>0</x>
+      <y>0</y>
+      <size>0</size>
+      <align>center</align>
+      <color>0xB2F7FE</color>
+      <font>SF Collegiate Solid</font>
+    </textobj>
+  </textobjs>
+</stringtable>
