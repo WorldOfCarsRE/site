@@ -45,7 +45,7 @@
 	<productData>
 		<!-- <promotionName>disney_cars</promotionName> -->							<!-- formerly known as.. affiliate name -->
 		<promotionName>World_Of_Cars_Online_Virtual_World</promotionName>
-		<siteCode>US.EN.CAR<Code>										<!-- site code -->
+		<siteCode>US.EN.CAR</siteCode>										<!-- site code -->
 		<product>cars</product>												<!-- product name in the commerce database, used by account management too -->
 		<productDisplayName>The World of Cars Online</productDisplayName>	<!-- display name for paypal -->
 		<fobNewsletterID>WDIGFamilySites</fobNewsletterID>					<!-- FOB emails -->
