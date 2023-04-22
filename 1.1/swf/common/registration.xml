@@ -2,265 +2,561 @@
 <config>
 	<!-- Tea Templates -->
 	<flashAPI>
-		<login>http://localhost/dxd/flashAPI/login</login>
-		<createAccount>http://localhost/dxd/flashAPI/createAccount</createAccount>
-		<checkUsernameAvailability>http://localhost/dxd/flashAPI/checkUsernameAvailability</checkUsernameAvailability>
-		<checkUsernameApproval>http://localhost/dxd/flashAPI/checkUsernameApproval</checkUsernameApproval>
-		<checkValidationStatus>http://localhost/dxd/flashAPI/checkValidationStatus</checkValidationStatus>
-		<submitAliasForApproval>http://localhost/dxd/flashAPI/submitAliasForApproval</submitAliasForApproval>
-		<getFamilyStructure>http://localhost/dxd/flashAPI/getFamilyStructure</getFamilyStructure>
-		<verifyAccountCredentials>http://localhost/dxd/flashAPI/verifyAccountCredentials</verifyAccountCredentials>
-		<linkAccountToFamily>http://localhost/dxd/flashAPI/linkAccountToFamily</linkAccountToFamily>
-		<removeAccountFromFamily>http://localhost/dxd/flashAPI/removeAccountFromFamily</removeAccountFromFamily>
-		<updateAccount>http://localhost/dxd/flashAPI/updateAccount</updateAccount>
-		<lookupAccount>http://localhost/dxd/flashAPI/lookupAccount</lookupAccount>
-		<getAllNewsletterMetadata>http://localhost/dxd/flashAPI/getAllNewsletterMetadata</getAllNewsletterMetadata>
-		<notifyParent>http://localhost/dxd/flashAPI/notifyParent</notifyParent>
-		<authenticateAndUpdateOptins>http://localhost/dxd/flashAPI/authenticateAndUpdateOptins</authenticateAndUpdateOptins>
-		<sendChatPermissionEmails>http://localhost/dxd/flashAPI/sendChatPermissionEmails</sendChatPermissionEmails>
-		<getTermsOfUseText>http://localhost/dxd/flashAPI/getTermsOfUseText</getTermsOfUseText>
-		<logout>http://localhost/dxd/flashAPI/logout</logout>
+		<login>
+			/dxd/flashAPI/login
+		</login>
+		<createAccount>
+			/dxd/flashAPI/createAccount
+		</createAccount>
+		<checkUsernameAvailability>
+			/dxd/flashAPI/checkUsernameAvailability
+		</checkUsernameAvailability>
+		<checkUsernameApproval>
+			/dxd/flashAPI/checkUsernameApproval
+		</checkUsernameApproval>
+		<checkValidationStatus>
+			/dxd/flashAPI/checkValidationStatus
+		</checkValidationStatus>
+		<submitAliasForApproval>
+			/dxd/flashAPI/submitAliasForApproval
+		</submitAliasForApproval>
+		<getFamilyStructure>
+			/dxd/flashAPI/getFamilyStructure
+		</getFamilyStructure>
+		<verifyAccountCredentials>
+			/dxd/flashAPI/verifyAccountCredentials
+		</verifyAccountCredentials>
+		<linkAccountToFamily>
+			/dxd/flashAPI/linkAccountToFamily
+		</linkAccountToFamily>
+		<removeAccountFromFamily>
+			/dxd/flashAPI/removeAccountFromFamily
+		</removeAccountFromFamily>
+		<updateAccount>
+			/dxd/flashAPI/updateAccount
+		</updateAccount>
+		<lookupAccount>
+			/dxd/flashAPI/lookupAccount
+		</lookupAccount>
+		<getAllNewsletterMetadata>
+			/dxd/flashAPI/getAllNewsletterMetadata
+		</getAllNewsletterMetadata>
+		<notifyParent>
+			/dxd/flashAPI/notifyParent
+		</notifyParent>
+		<authenticateAndUpdateOptins>
+			/dxd/flashAPI/authenticateAndUpdateOptins
+		</authenticateAndUpdateOptins>
+		<sendChatPermissionEmails>
+			/dxd/flashAPI/sendChatPermissionEmails
+		</sendChatPermissionEmails>
+		<getTermsOfUseText>
+			/dxd/flashAPI/getTermsOfUseText
+		</getTermsOfUseText>
+		<logout>
+			/dxd/flashAPI/logout
+		</logout>
 		<!-- purchasing -->
-		<creditCardValidation>https://register.go.com/dxd/validation/authorize</creditCardValidation>
-		<lookupSubscriptions>https://register.go.com/commerce/flashapi/lookupSubscriptions</lookupSubscriptions>
-		<lookupOffers>https://register.go.com/commerce/flashapi/lookupOffers</lookupOffers>
-	    <purchaseOffer>https://register.go.com/commerce/flashapi/purchaseOffer</purchaseOffer>
-	    <validatePaymentAccount>https://register.go.com/commerce/flashapi/validatePaymentAccount</validatePaymentAccount>
-	    <lookupPaymentAccounts>https://register.go.com/commerce/flashapi/lookupPaymentAccounts</lookupPaymentAccounts>
-	    <lookupShippingAddresses>https://register.go.com/commerce/flashapi/lookupShippingAddresses</lookupShippingAddresses>
-	    <updateShippingAddress>https://register.go.com/commerce/flashapi/updateShippingAddressOnSubscription</updateShippingAddress>
-	    <updateShippingAddressOnSubscription>https://register.go.com/commerce/flashapi/updateShippingAddressOnSubscription</updateShippingAddressOnSubscription>
-	    <updatePaymentAccountOnSubscription>https://register.go.com/commerce/flashapi/updatePaymentAccountOnSubscription</updatePaymentAccountOnSubscription>
-	    <paypal>https://register.go.com/commerce/paypal/redirect</paypal>
-		<paypalSuccessDestination>http://worldofcars.go.com/welcome-sponsored-racer/</paypalSuccessDestination>
-	    <paypalErrorDestination>http://worldofcars.go.com/sponsorship/paypal-error/</paypalErrorDestination>
-		<disableAutoRenew>https://register.go.com/commerce/flashapi/disableAutoRenew</disableAutoRenew>
-	    <!-- /purchasing -->
+		<creditCardValidation>
+			https://register.go.com/dxd/validation/authorize
+		</creditCardValidation>
+		<lookupSubscriptions>
+			https://register.go.com/commerce/flashapi/lookupSubscriptions
+		</lookupSubscriptions>
+		<lookupOffers>
+			https://register.go.com/commerce/flashapi/lookupOffers
+		</lookupOffers>
+		<purchaseOffer>
+			https://register.go.com/commerce/flashapi/purchaseOffer
+		</purchaseOffer>
+		<validatePaymentAccount>
+			https://register.go.com/commerce/flashapi/validatePaymentAccount
+		</validatePaymentAccount>
+		<lookupPaymentAccounts>
+			https://register.go.com/commerce/flashapi/lookupPaymentAccounts
+		</lookupPaymentAccounts>
+		<lookupShippingAddresses>
+			https://register.go.com/commerce/flashapi/lookupShippingAddresses
+		</lookupShippingAddresses>
+		<updateShippingAddress>
+			https://register.go.com/commerce/flashapi/updateShippingAddressOnSubscription
+		</updateShippingAddress>
+		<updateShippingAddressOnSubscription>
+			https://register.go.com/commerce/flashapi/updateShippingAddressOnSubscription
+		</updateShippingAddressOnSubscription>
+		<updatePaymentAccountOnSubscription>
+			https://register.go.com/commerce/flashapi/updatePaymentAccountOnSubscription
+		</updatePaymentAccountOnSubscription>
+		<paypal>
+			https://register.go.com/commerce/paypal/redirect
+		</paypal>
+		<paypalSuccessDestination>
+			http://worldofcars.go.com/welcome-sponsored-racer/
+		</paypalSuccessDestination>
+		<paypalErrorDestination>
+			http://worldofcars.go.com/sponsorship/paypal-error/
+		</paypalErrorDestination>
+		<disableAutoRenew>
+			https://register.go.com/commerce/flashapi/disableAutoRenew
+		</disableAutoRenew>
+		<!-- /purchasing -->
 		<!-- whoami service -->
-		<whoami>http://localhost/carsds/api/WhoAmIRequest</whoami>
+		<whoami>
+			/carsds/api/WhoAmIRequest
+		</whoami>
 		<!-- /whoami service -->
 	</flashAPI>
-
 	<!-- Product-specific Data -->
 	<productData>
-		<!-- <promotionName>disney_cars</promotionName> -->							<!-- formerly known as.. affiliate name -->
-		<promotionName>World_Of_Cars_Online_Virtual_World</promotionName>
-		<siteCode>US.EN.CAR</siteCode>										<!-- site code -->
-		<product>cars</product>												<!-- product name in the commerce database, used by account management too -->
-		<productDisplayName>The World of Cars Online</productDisplayName>	<!-- display name for paypal -->
-		<fobNewsletterID>WDIGFamilySites</fobNewsletterID>					<!-- FOB emails -->
-		<carsNewsletterID>Disney_WorldofCars_NLO_102008</carsNewsletterID>	<!-- Cars Newsletter -->
-		<templateID>851</templateID>										<!-- Template ID -->
-		<parentGuide>http://worldofcars.go.com/parents/</parentGuide>
+		<!-- <promotionName>disney_cars</promotionName> -->
+		<!-- formerly known as.. affiliate name -->
+		<promotionName>
+			World_Of_Cars_Online_Virtual_World
+		</promotionName>
+		<siteCode>
+			US.EN.CAR
+		</siteCode>
+		<!-- site code -->
+		<product>
+			cars
+		</product>
+		<!-- product name in the commerce database, used by account management too -->
+		<productDisplayName>
+			The World of Cars Online
+		</productDisplayName>
+		<!-- display name for paypal -->
+		<fobNewsletterID>
+			WDIGFamilySites
+		</fobNewsletterID>
+		<!-- FOB emails -->
+		<carsNewsletterID>
+			Disney_WorldofCars_NLO_102008
+		</carsNewsletterID>
+		<!-- Cars Newsletter -->
+		<templateID>
+			851
+		</templateID>
+		<!-- Template ID -->
+		<parentGuide>
+			http://worldofcars.go.com/parents/
+		</parentGuide>
 	</productData>
-
 	<!-- Required Fields -->
 	<requirements>
 		<registration>
 			<!-- Child -->
 			<child>
-				<birthday></birthday>
-				<username></username>
-				<password></password>
-				<confirmPassword></confirmPassword>
-				<firstName></firstName>
-				<parentEmail></parentEmail>
-				<agreedToTOU></agreedToTOU>
+				<birthday>
+				</birthday>
+				<username>
+				</username>
+				<password>
+				</password>
+				<confirmPassword>
+				</confirmPassword>
+				<firstName>
+				</firstName>
+				<parentEmail>
+				</parentEmail>
+				<agreedToTOU>
+				</agreedToTOU>
 			</child>
-
 			<!-- Teen -->
 			<teen>
-				<birthday></birthday>
-				<username></username>
-				<password></password>
-				<confirmPassword></confirmPassword>
-				<firstName></firstName>
-				<lastName></lastName>
-				<email></email>
-				<agreedToTOU></agreedToTOU>
-				<subscribe></subscribe>
+				<birthday>
+				</birthday>
+				<username>
+				</username>
+				<password>
+				</password>
+				<confirmPassword>
+				</confirmPassword>
+				<firstName>
+				</firstName>
+				<lastName>
+				</lastName>
+				<email>
+				</email>
+				<agreedToTOU>
+				</agreedToTOU>
+				<subscribe>
+				</subscribe>
 			</teen>
-
 			<!-- Adult -->
 			<adult>
-				<birthday></birthday>
-				<username></username>
-				<password></password>
-				<confirmPassword></confirmPassword>
-				<firstName></firstName>
-				<lastName></lastName>
-				<email></email>
-				<agreedToTOU></agreedToTOU>
-				<subscribe></subscribe>
+				<birthday>
+				</birthday>
+				<username>
+				</username>
+				<password>
+				</password>
+				<confirmPassword>
+				</confirmPassword>
+				<firstName>
+				</firstName>
+				<lastName>
+				</lastName>
+				<email>
+				</email>
+				<agreedToTOU>
+				</agreedToTOU>
+				<subscribe>
+				</subscribe>
 			</adult>
 		</registration>
 		<purchasing>
 			<adult>
-				<birthday></birthday>
-				<username></username>
-				<password></password>
-				<confirmPassword></confirmPassword>
-				<email></email>
-				<agreedToTOU></agreedToTOU>
+				<birthday>
+				</birthday>
+				<username>
+				</username>
+				<password>
+				</password>
+				<confirmPassword>
+				</confirmPassword>
+				<email>
+				</email>
+				<agreedToTOU>
+				</agreedToTOU>
 			</adult>
 		</purchasing>
 		<accountManagement>
 			<!-- Child -->
 			<child>
-				<birthday></birthday>
-				<username></username>
-				<password></password>
-				<confirmPassword></confirmPassword>
-				<firstName></firstName>
-				<parentEmail></parentEmail>
-				<agreedToTOU></agreedToTOU>
+				<birthday>
+				</birthday>
+				<username>
+				</username>
+				<password>
+				</password>
+				<confirmPassword>
+				</confirmPassword>
+				<firstName>
+				</firstName>
+				<parentEmail>
+				</parentEmail>
+				<agreedToTOU>
+				</agreedToTOU>
 			</child>
-
 			<!-- Teen -->
 			<teen>
-				<birthday></birthday>
-				<username></username>
-				<password></password>
-				<confirmPassword></confirmPassword>
-				<firstName></firstName>
-				<lastName></lastName>
-				<email></email>
-				<agreedToTOU></agreedToTOU>
-				<subscribe></subscribe>
+				<birthday>
+				</birthday>
+				<username>
+				</username>
+				<password>
+				</password>
+				<confirmPassword>
+				</confirmPassword>
+				<firstName>
+				</firstName>
+				<lastName>
+				</lastName>
+				<email>
+				</email>
+				<agreedToTOU>
+				</agreedToTOU>
+				<subscribe>
+				</subscribe>
 			</teen>
-
 			<!-- Adult -->
 			<adult>
-				<birthday></birthday>
-				<username></username>
-				<password></password>
-				<confirmPassword></confirmPassword>
-				<firstName></firstName>
-				<lastName></lastName>
-				<email></email>
-				<agreedToTOU></agreedToTOU>
-				<subscribe></subscribe>
+				<birthday>
+				</birthday>
+				<username>
+				</username>
+				<password>
+				</password>
+				<confirmPassword>
+				</confirmPassword>
+				<firstName>
+				</firstName>
+				<lastName>
+				</lastName>
+				<email>
+				</email>
+				<agreedToTOU>
+				</agreedToTOU>
+				<subscribe>
+				</subscribe>
 			</adult>
 		</accountManagement>
-
 	</requirements>
-
 	<!-- Constants -->
 	<!-- DO NOT CHANGE THESE WITHOUT GOOD REASON - They are determined by the server!! -->
 	<constants>
-		<USERNAME_MIN_LENGTH>4</USERNAME_MIN_LENGTH>
-		<USERNAME_MAX_LENGTH>64</USERNAME_MAX_LENGTH>
-
-		<DNAME_MIN_LENGTH>4</DNAME_MIN_LENGTH>
-		<DNAME_MAX_LENGTH>16</DNAME_MAX_LENGTH>
-
-		<PASSWORD_MIN_LENGTH>4</PASSWORD_MIN_LENGTH>
-		<PASSWORD_MAX_LENGTH>25</PASSWORD_MAX_LENGTH>
-
-		<EMAIL_MAX_LENGTH>150</EMAIL_MAX_LENGTH>
-
-		<NAME_MIN_LENGTH>1</NAME_MIN_LENGTH>
-		<NAME_MAX_LENGTH>40</NAME_MAX_LENGTH>
-
-		<AGE_MIN>2</AGE_MIN>
-		<AGE_TEEN>13</AGE_TEEN>
-		<AGE_OLD_TEEN>16</AGE_OLD_TEEN>
-		<AGE_ADULT>18</AGE_ADULT>
-		<AGE_MAX>100</AGE_MAX>
+		<USERNAME_MIN_LENGTH>
+			4
+		</USERNAME_MIN_LENGTH>
+		<USERNAME_MAX_LENGTH>
+			64
+		</USERNAME_MAX_LENGTH>
+		<DNAME_MIN_LENGTH>
+			4
+		</DNAME_MIN_LENGTH>
+		<DNAME_MAX_LENGTH>
+			16
+		</DNAME_MAX_LENGTH>
+		<PASSWORD_MIN_LENGTH>
+			4
+		</PASSWORD_MIN_LENGTH>
+		<PASSWORD_MAX_LENGTH>
+			25
+		</PASSWORD_MAX_LENGTH>
+		<EMAIL_MAX_LENGTH>
+			150
+		</EMAIL_MAX_LENGTH>
+		<NAME_MIN_LENGTH>
+			1
+		</NAME_MIN_LENGTH>
+		<NAME_MAX_LENGTH>
+			40
+		</NAME_MAX_LENGTH>
+		<AGE_MIN>
+			2
+		</AGE_MIN>
+		<AGE_TEEN>
+			13
+		</AGE_TEEN>
+		<AGE_OLD_TEEN>
+			16
+		</AGE_OLD_TEEN>
+		<AGE_ADULT>
+			18
+		</AGE_ADULT>
+		<AGE_MAX>
+			100
+		</AGE_MAX>
 	</constants>
-
 	<!-- Error messages -->
 	<errors>
-		<NO_ERROR></NO_ERROR>
-
-		<ACCESS_VIOLATION>You're not allowed to link to this account.</ACCESS_VIOLATION>
-		<GENERIC_INVALID_DATA>Generic Invalid Data Error</GENERIC_INVALID_DATA>
-		<REG_APPLICATION_ERROR>Account information was not saved. Please check that the form was filled out correctly.</REG_APPLICATION_ERROR>
-		<PURCHASE_MANAGER_INIT_FAILED>Purchase Manager failed to initialize!</PURCHASE_MANAGER_INIT_FAILED>
-		<ACCOUNT_MANAGER_INIT_FAILED>Account Manager failed to initialize!</ACCOUNT_MANAGER_INIT_FAILED>
-		<USER_NOT_LOGGED_IN>User is not logged in!</USER_NOT_LOGGED_IN>
-		<USER_BANNED>You cannot login at this time because your account has been banned.</USER_BANNED>
-
-		<!-- purchasing errors start-->
-		<NON_ADULT_LOGIN>Sorry, you cannot purchase a Membership at this time. For assistance, please call our toll free number at (888) KACHOWW or (888) 522-4699. Mon.-Fri. 8 a.m. to 6 p.m., Sat. 8 a.m. to 4 p.m., Sun. 10 a.m. to 6 p.m. Pacific Standard Time.</NON_ADULT_LOGIN>
-		<CC_EXPIRE_INVALID>Invalid Expiration Date.</CC_EXPIRE_INVALID>
-		<CC_NUMBER_INVALID>Invalid Credit Card Number.</CC_NUMBER_INVALID>
-		<ADDRESS_STATE_INVALID>Please provide a valid State / Province.</ADDRESS_STATE_INVALID>
-		<PAYMENT_TYPE_MISSING>Missing or invalid Payment Type.</PAYMENT_TYPE_MISSING>
-		<GIFTCARD_NUMBER_INVALID>Please provide a valid membership card number.</GIFTCARD_NUMBER_INVALID>
-		<ADDRESS_STREET_INVALID>Please enter a valid street address.</ADDRESS_STREET_INVALID>
-		<ADDRESS_CITY_INVALID>Please enter a valid city.</ADDRESS_CITY_INVALID>
-		<!-- purchasing errors end-->
-
-		<LOGIN_FAILED>We were unable to successfully log you in. Please try again!</LOGIN_FAILED>
-		<REGISTRATION_FAILED>Registration is unavailable at this time. Please come back again later...</REGISTRATION_FAILED>
-		<SERVER_UNAVAILABLE>Our servers have decided to take a temporary snooze! Please come back again later...</SERVER_UNAVAILABLE>
-		<ACCOUNT_DATA_MISSING>Account data is not provided</ACCOUNT_DATA_MISSING>
-		<AFFILIATE_MISSING>Valid affiliate is not provided</AFFILIATE_MISSING>
-		<AFFILIATE_INVALID>Affiliate is invalid</AFFILIATE_INVALID>
-		<USERNAME_MISSING>Valid username is not provided</USERNAME_MISSING>
-		<USERNAME_TAKEN>Account ID is already taken</USERNAME_TAKEN>
-		<USERNAME_INVALID_LENGTH>Account ID must have @USERNAME_MIN_LENGTH - @USERNAME_MAX_LENGTH characters</USERNAME_INVALID_LENGTH>
-		<USERNAME_CANT_BEGIN_END_SPACE>Account ID can't begin or end with a space</USERNAME_CANT_BEGIN_END_SPACE>
-		<USERNAME_ILLEGAL_CHARS>Account ID must have valid characters</USERNAME_ILLEGAL_CHARS>
-		<USERNAME_MUST_MATCH_EMAIL>Account ID must match email</USERNAME_MUST_MATCH_EMAIL>		<!-- if username is an email, it must match supplied account email (children cannot use email as username) -->
-		<USERNAME_CANNOT_BE_EMAIL>Account ID cannot be email</USERNAME_CANNOT_BE_EMAIL>			<!-- children cannot use email as username -->
-
-		<DNAME_MISSING>Valid D-Name is not provided</DNAME_MISSING>
-		<DNAME_TAKEN>D-Name is already taken</DNAME_TAKEN>
-		<DNAME_INVALID_LENGTH>D-Name must have @DNAME_MIN_LENGTH - @DNAME_MAX_LENGTH characters</DNAME_INVALID_LENGTH>
-		<DNAME_ILLEGAL_CHARS>D-Name must have valid characters</DNAME_ILLEGAL_CHARS>
-		<DNAME_MUST_HAVE_TWO_LETTERS>D-Name must have two or more letters</DNAME_MUST_HAVE_TWO_LETTERS>
-		<DNAME_MUST_HAVE_A_VOWEL>D-Name must have at least one vowel (including 'y')</DNAME_MUST_HAVE_A_VOWEL>
-		<DNAME_ENDING_WITH_TOO_MANY_DIGITS>D-Name can't end with more than four numbers</DNAME_ENDING_WITH_TOO_MANY_DIGITS>
-		<DNAME_CANNOT_CONTAIN_LAST_NAME>D-Name can't contain last name</DNAME_CANNOT_CONTAIN_LAST_NAME>
-		<DNAME_CANNOT_CONTAIN_USERNAME>D-Name can't contain account ID</DNAME_CANNOT_CONTAIN_USERNAME>
-		<DNAME_CANNOT_CONTAIN_EMAIL>D-Name can't contain email</DNAME_CANNOT_CONTAIN_EMAIL>
-
-		<PASSWORD_MISSING>Valid password is not provided</PASSWORD_MISSING>
-		<PASSWORD_INVALID_LENGTH>Password must have @PASSWORD_MIN_LENGTH - @PASSWORD_MAX_LENGTH characters</PASSWORD_INVALID_LENGTH>
-		<PASSWORD_ILLEGAL_CHARS>Password must have valid characters</PASSWORD_ILLEGAL_CHARS>
-		<PASSWORD_CANNOT_MATCH_USERNAME>Password can't match account ID</PASSWORD_CANNOT_MATCH_USERNAME>
-		<PASSWORDS_DO_NOT_MATCH>Passwords must match</PASSWORDS_DO_NOT_MATCH>
-
-		<BIRTHDAY_MISSING>Valid birthday is not provided</BIRTHDAY_MISSING>
-		<BIRTHDAY_AGE_INVALID>Must be between @AGE_MIN - @AGE_MAX years old</BIRTHDAY_AGE_INVALID>
-		<BIRTHDAY_DATE_INVALID>Invalid Date</BIRTHDAY_DATE_INVALID>
-
-		<EMAIL_MISSING>Valid e-mail address is not provided</EMAIL_MISSING>
-		<PARENT_EMAIL_MISSING>Valid parent e-mail address is not provided</PARENT_EMAIL_MISSING>
-		<EMAIL_INVALID_LENGTH>E-mail address must be less than @EMAIL_MAX_LENGTH characters</EMAIL_INVALID_LENGTH>
-		<EMAIL_INVALID>E-mail address must have valid characters</EMAIL_INVALID>
-
-		<NAME_FIRST_MISSING>Valid first name is not provided</NAME_FIRST_MISSING>
-		<NAME_LAST_MISSING>Valid last name is not provided</NAME_LAST_MISSING>
-		<NAME_INVALID_LENGTH>Name must have @NAME_MIN_LENGTH - @NAME_MAX_LENGTH characters</NAME_INVALID_LENGTH>
-		<NAME_ILLEGAL_CHARS>Name must have valid characters</NAME_ILLEGAL_CHARS>
-
-		<POSTAL_CODE_MISSING>Valid postal code is not provided</POSTAL_CODE_MISSING>
-		<POSTAL_CODE_INVALID>Postal code is invalid</POSTAL_CODE_INVALID>
-
-		<TOU_AGREEMENT_MISSING>TOU has not been agreed to</TOU_AGREEMENT_MISSING>
-
-		<TEMPLATE_ID_MISSING>Valid template ID is not provided</TEMPLATE_ID_MISSING>
+		<NO_ERROR>
+		</NO_ERROR>
+		<ACCESS_VIOLATION>
+			You're not allowed to link to this account.
+		</ACCESS_VIOLATION>
+		<GENERIC_INVALID_DATA>
+			Generic Invalid Data Error
+		</GENERIC_INVALID_DATA>
+		<REG_APPLICATION_ERROR>
+			Account information was not saved. Please check that the form was filled out correctly.
+		</REG_APPLICATION_ERROR>
+		<PURCHASE_MANAGER_INIT_FAILED>
+			Purchase Manager failed to initialize!
+		</PURCHASE_MANAGER_INIT_FAILED>
+		<ACCOUNT_MANAGER_INIT_FAILED>
+			Account Manager failed to initialize!
+		</ACCOUNT_MANAGER_INIT_FAILED>
+		<USER_NOT_LOGGED_IN>
+			User is not logged in!
+		</USER_NOT_LOGGED_IN>
+		<USER_BANNED>
+			You cannot login at this time because your account has been banned.
+		</USER_BANNED>
+		<!-- purchasing errors start -->
+		<NON_ADULT_LOGIN>
+			Sorry, you cannot purchase a Membership at this time. For assistance, please call our toll free number at (888) KACHOWW or (888) 522-4699. Mon.-Fri. 8 a.m. to 6 p.m., Sat. 8 a.m. to 4 p.m., Sun. 10 a.m. to 6 p.m. Pacific Standard Time.
+		</NON_ADULT_LOGIN>
+		<CC_EXPIRE_INVALID>
+			Invalid Expiration Date.
+		</CC_EXPIRE_INVALID>
+		<CC_NUMBER_INVALID>
+			Invalid Credit Card Number.
+		</CC_NUMBER_INVALID>
+		<ADDRESS_STATE_INVALID>
+			Please provide a valid State / Province.
+		</ADDRESS_STATE_INVALID>
+		<PAYMENT_TYPE_MISSING>
+			Missing or invalid Payment Type.
+		</PAYMENT_TYPE_MISSING>
+		<GIFTCARD_NUMBER_INVALID>
+			Please provide a valid membership card number.
+		</GIFTCARD_NUMBER_INVALID>
+		<ADDRESS_STREET_INVALID>
+			Please enter a valid street address.
+		</ADDRESS_STREET_INVALID>
+		<ADDRESS_CITY_INVALID>
+			Please enter a valid city.
+		</ADDRESS_CITY_INVALID>
+		<!-- purchasing errors end -->
+		<LOGIN_FAILED>
+			We were unable to successfully log you in. Please try again!
+		</LOGIN_FAILED>
+		<REGISTRATION_FAILED>
+			Registration is unavailable at this time. Please come back again later...
+		</REGISTRATION_FAILED>
+		<SERVER_UNAVAILABLE>
+			Our servers have decided to take a temporary snooze! Please come back again later...
+		</SERVER_UNAVAILABLE>
+		<ACCOUNT_DATA_MISSING>
+			Account data is not provided
+		</ACCOUNT_DATA_MISSING>
+		<AFFILIATE_MISSING>
+			Valid affiliate is not provided
+		</AFFILIATE_MISSING>
+		<AFFILIATE_INVALID>
+			Affiliate is invalid
+		</AFFILIATE_INVALID>
+		<USERNAME_MISSING>
+			Valid username is not provided
+		</USERNAME_MISSING>
+		<USERNAME_TAKEN>
+			Account ID is already taken
+		</USERNAME_TAKEN>
+		<USERNAME_INVALID_LENGTH>
+			Account ID must have @USERNAME_MIN_LENGTH - @USERNAME_MAX_LENGTH characters
+		</USERNAME_INVALID_LENGTH>
+		<USERNAME_CANT_BEGIN_END_SPACE>
+			Account ID can't begin or end with a space
+		</USERNAME_CANT_BEGIN_END_SPACE>
+		<USERNAME_ILLEGAL_CHARS>
+			Account ID must have valid characters
+		</USERNAME_ILLEGAL_CHARS>
+		<USERNAME_MUST_MATCH_EMAIL>
+			Account ID must match email
+		</USERNAME_MUST_MATCH_EMAIL>
+		<!-- if username is an email, it must match supplied account email (children cannot use email as username) -->
+		<USERNAME_CANNOT_BE_EMAIL>
+			Account ID cannot be email
+		</USERNAME_CANNOT_BE_EMAIL>
+		<!-- children cannot use email as username -->
+		<DNAME_MISSING>
+			Valid D-Name is not provided
+		</DNAME_MISSING>
+		<DNAME_TAKEN>
+			D-Name is already taken
+		</DNAME_TAKEN>
+		<DNAME_INVALID_LENGTH>
+			D-Name must have @DNAME_MIN_LENGTH - @DNAME_MAX_LENGTH characters
+		</DNAME_INVALID_LENGTH>
+		<DNAME_ILLEGAL_CHARS>
+			D-Name must have valid characters
+		</DNAME_ILLEGAL_CHARS>
+		<DNAME_MUST_HAVE_TWO_LETTERS>
+			D-Name must have two or more letters
+		</DNAME_MUST_HAVE_TWO_LETTERS>
+		<DNAME_MUST_HAVE_A_VOWEL>
+			D-Name must have at least one vowel (including 'y')
+		</DNAME_MUST_HAVE_A_VOWEL>
+		<DNAME_ENDING_WITH_TOO_MANY_DIGITS>
+			D-Name can't end with more than four numbers
+		</DNAME_ENDING_WITH_TOO_MANY_DIGITS>
+		<DNAME_CANNOT_CONTAIN_LAST_NAME>
+			D-Name can't contain last name
+		</DNAME_CANNOT_CONTAIN_LAST_NAME>
+		<DNAME_CANNOT_CONTAIN_USERNAME>
+			D-Name can't contain account ID
+		</DNAME_CANNOT_CONTAIN_USERNAME>
+		<DNAME_CANNOT_CONTAIN_EMAIL>
+			D-Name can't contain email
+		</DNAME_CANNOT_CONTAIN_EMAIL>
+		<PASSWORD_MISSING>
+			Valid password is not provided
+		</PASSWORD_MISSING>
+		<PASSWORD_INVALID_LENGTH>
+			Password must have @PASSWORD_MIN_LENGTH - @PASSWORD_MAX_LENGTH characters
+		</PASSWORD_INVALID_LENGTH>
+		<PASSWORD_ILLEGAL_CHARS>
+			Password must have valid characters
+		</PASSWORD_ILLEGAL_CHARS>
+		<PASSWORD_CANNOT_MATCH_USERNAME>
+			Password can't match account ID
+		</PASSWORD_CANNOT_MATCH_USERNAME>
+		<PASSWORDS_DO_NOT_MATCH>
+			Passwords must match
+		</PASSWORDS_DO_NOT_MATCH>
+		<BIRTHDAY_MISSING>
+			Valid birthday is not provided
+		</BIRTHDAY_MISSING>
+		<BIRTHDAY_AGE_INVALID>
+			Must be between @AGE_MIN - @AGE_MAX years old
+		</BIRTHDAY_AGE_INVALID>
+		<BIRTHDAY_DATE_INVALID>
+			Invalid Date
+		</BIRTHDAY_DATE_INVALID>
+		<EMAIL_MISSING>
+			Valid e-mail address is not provided
+		</EMAIL_MISSING>
+		<PARENT_EMAIL_MISSING>
+			Valid parent e-mail address is not provided
+		</PARENT_EMAIL_MISSING>
+		<EMAIL_INVALID_LENGTH>
+			E-mail address must be less than @EMAIL_MAX_LENGTH characters
+		</EMAIL_INVALID_LENGTH>
+		<EMAIL_INVALID>
+			E-mail address must have valid characters
+		</EMAIL_INVALID>
+		<NAME_FIRST_MISSING>
+			Valid first name is not provided
+		</NAME_FIRST_MISSING>
+		<NAME_LAST_MISSING>
+			Valid last name is not provided
+		</NAME_LAST_MISSING>
+		<NAME_INVALID_LENGTH>
+			Name must have @NAME_MIN_LENGTH - @NAME_MAX_LENGTH characters
+		</NAME_INVALID_LENGTH>
+		<NAME_ILLEGAL_CHARS>
+			Name must have valid characters
+		</NAME_ILLEGAL_CHARS>
+		<POSTAL_CODE_MISSING>
+			Valid postal code is not provided
+		</POSTAL_CODE_MISSING>
+		<POSTAL_CODE_INVALID>
+			Postal code is invalid
+		</POSTAL_CODE_INVALID>
+		<TOU_AGREEMENT_MISSING>
+			TOU has not been agreed to
+		</TOU_AGREEMENT_MISSING>
+		<TEMPLATE_ID_MISSING>
+			Valid template ID is not provided
+		</TEMPLATE_ID_MISSING>
 	</errors>
-
 	<!-- Cancel reason in alphabetical order -->
 	<cancelReasons>
-		<CHAT_POLICY name="Chat Policy">Chat policy issue</CHAT_POLICY>
-        <FORGOT_ACCOUNT name="Forgot Account">Didn't realize still had account</FORGOT_ACCOUNT>
-		<DONT_USE name="Don't Use">Don't use</DONT_USE>
-        <TECH_ISSUES name="Game won't work">Game won't work</TECH_ISSUES>
-		<GRAPHICS name="Graphics">Graphics</GRAPHICS>
-       	<OTHER_GAME name="Other Game">Leaving for another game</OTHER_GAME>
-		<MORE_FEATURES name="More Features">Not enough features</MORE_FEATURES>
-		<NOT_ENOUGH name="Not Enough">Not enough to do</NOT_ENOUGH>
-		<OTHER name="Other">Not listed/other</OTHER>
-		<OUTGREW name="Outgrew">Outgrew the game</OUTGREW>
-		<POOR_SUPPORT name="Poor Support">Poor customer support</POOR_SUPPORT>
-		<TOO_EASY name="Too Easy">Too easy</TOO_EASY>
-		<TOO_EXPENSIVE name="Too Expensive">Too expensive</TOO_EXPENSIVE>
-		<TOO_HARD name="Too Hard">Too hard</TOO_HARD>
-		<UNAUTH_PURCHASE name="Unauth Purchase">Unauthorized purchase</UNAUTH_PURCHASE>
+		<CHAT_POLICY name="Chat Policy">
+			Chat policy issue
+		</CHAT_POLICY>
+		<FORGOT_ACCOUNT name="Forgot Account">
+			Didn't realize still had account
+		</FORGOT_ACCOUNT>
+		<DONT_USE name="Don't Use">
+			Don't use
+		</DONT_USE>
+		<TECH_ISSUES name="Game won't work">
+			Game won't work
+		</TECH_ISSUES>
+		<GRAPHICS name="Graphics">
+			Graphics
+		</GRAPHICS>
+		<OTHER_GAME name="Other Game">
+			Leaving for another game
+		</OTHER_GAME>
+		<MORE_FEATURES name="More Features">
+			Not enough features
+		</MORE_FEATURES>
+		<NOT_ENOUGH name="Not Enough">
+			Not enough to do
+		</NOT_ENOUGH>
+		<OTHER name="Other">
+			Not listed/other
+		</OTHER>
+		<OUTGREW name="Outgrew">
+			Outgrew the game
+		</OUTGREW>
+		<POOR_SUPPORT name="Poor Support">
+			Poor customer support
+		</POOR_SUPPORT>
+		<TOO_EASY name="Too Easy">
+			Too easy
+		</TOO_EASY>
+		<TOO_EXPENSIVE name="Too Expensive">
+			Too expensive
+		</TOO_EXPENSIVE>
+		<TOO_HARD name="Too Hard">
+			Too hard
+		</TOO_HARD>
+		<UNAUTH_PURCHASE name="Unauth Purchase">
+			Unauthorized purchase
+		</UNAUTH_PURCHASE>
 	</cancelReasons>
 </config>
