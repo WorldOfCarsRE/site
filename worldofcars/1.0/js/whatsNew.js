@@ -66,7 +66,7 @@ var WhatsNewCarousel = function( config ) {
 						HTML += '<h3>'+ jq( this ).children( 'title' ).text() +'</h3>';
 						HTML += '<div class="whatsNewPreview">'+ jq( this ).children( '*[type=html]' ).text() +'</div>';
 					HTML += '</div>';
-				
+
 				slides.push( HTML );
 			} );
 
