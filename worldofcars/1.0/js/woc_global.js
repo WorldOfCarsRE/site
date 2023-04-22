@@ -263,7 +263,7 @@ function loadPlayButton() {
 
 function loadDataservice() {
 	var callback = arguments[0] ? arguments[0] : false;
-	var basePath = arguments[1] ? arguments[1] : PATH.cdnRoot + '/1.0/swf';
+	var basePath = arguments[1] ? arguments[1] : PATH.cdnRootBase + '/1.0/swf';
 	var wrap = jq('<div>');//.css({'height':'0px','width':'0px'});
 	jq('body').append('<div id="flash_content"></div>');
 	jq('#flash_content').wrap(wrap);
@@ -380,7 +380,7 @@ function callRaceCodes() {
 		allowFullscreen: "true",
 		allowScriptAccess: "always",
 		bgcolor: "#FFFFFF",
-		base: PATH.cdnRoot + '/1.0/swf/race_codes/',
+		base: PATH.cdnRootBase + '/1.0/swf/race_codes/',
 		wmode: 'transparent'
 	};
 	var attributes = {

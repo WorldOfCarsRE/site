@@ -1,38 +1,38 @@
-jq( document ).ready( function() {
-		jq('.com-poll').poll( { container : '.com-poll' } );
-//	loadSlideXML();
+jq(document).ready(function () {
+	jq('.com-poll').poll({ container: '.com-poll' });
+	//	loadSlideXML();
 
-	 var params = {
+	var params = {
 		bgcolor: "#0c171b",
 		quality: "high",
-		allowscriptaccess : "always",
-		base: PATH.cdnRoot + '/1.0/swf/carpreview/',
-		wmode:'transparent'
+		allowscriptaccess: "always",
+		base: PATH.cdnRootBase + '/1.0/swf/carpreview/',
+		wmode: 'transparent'
 	}
 
 	var attributes = {
-		id:"CarPreview"
+		id: "CarPreview"
 	};
 
-	swfobject.embedSWF( PATH.cdnRoot + '/1.0/swf/carpreview/DVC_OS.swf', "com-carPreview", 152, 158, '10.0.0', false, RAMP.flashVars, params, attributes);
-} );
-jq( document ).ready( loadFanArt );
+	swfobject.embedSWF(PATH.cdnRootBase + '/1.0/swf/carpreview/DVC_OS.swf', "com-carPreview", 152, 158, '10.0.0', false, RAMP.flashVars, params, attributes);
+});
+jq(document).ready(loadFanArt);
 
 function loadFanArt() {
-	jq.getJSON( '/worldofcars/1.0/js/fan-art.json', false, onFanArtLoad );
+	jq.getJSON('/worldofcars/1.0/js/fan-art.json', false, onFanArtLoad);
 }
 
-function onFanArtLoad( data ) {
-	fanArt = data.slice( 0, 4 );
+function onFanArtLoad(data) {
+	fanArt = data.slice(0, 4);
 
 	var HTML = '';
-	for( i in fanArt ) {
+	for (i in fanArt) {
 		console.debug(fanArt[i]);
-		HTML += '<a href="'+ PATH.siteRoot +'/community/fan-art/" class="com-downloadThumb"><img src="'+ PATH.cdnRoot + fanArt[i].sizes.promo.src +'" alt="'+ fanArt[i].title +'"/></a>';
+		HTML += '<a href="' + PATH.siteRoot + '/community/fan-art/" class="com-downloadThumb"><img src="' + PATH.cdnRootBase + fanArt[i].sizes.promo.src + '" alt="' + fanArt[i].title + '"/></a>';
 	}
 
 	HTML += '<div class="clear">&nbsp;</div>';
-	HTML += '<a href="'+ PATH.siteRoot +'/community/fan-art/" class="see_more">See More</a>';
+	HTML += '<a href="' + PATH.siteRoot + '/community/fan-art/" class="see_more">See More</a>';
 
-	jq( '.com-fanArt' ).html( HTML );
+	jq('.com-fanArt').html(HTML);
 }
