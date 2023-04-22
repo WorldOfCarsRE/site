@@ -10,19 +10,6 @@ var WMG = new windowManager({
 	}
 });
 
-// Omniture page tracking
-if (window.CTO) {
-	var cto = new CTO();
-	cto.account = 'worldofcars';
-	cto.category = 'dgame';
-	cto.site = 'woc';
-	cto.siteSection = 'website:game';
-	cto.pageName = 'game_play';
-	cto.contentType = 'regular';
-	cto.property = 'car';
-	cto.track();
-}
-
 jQuery(document).ready(function () {
 	function displayGate(gateMsg) {
 		jQuery('#pla-gameModule').html('<div class="pla-gateMessage">' + gateMsg + '</div>');

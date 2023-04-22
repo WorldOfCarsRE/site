@@ -60,9 +60,6 @@ var windowManager = function( config ) {
 		};
 
 		This.sendOmnitureTrack = function( omnitureTrack ) {
-			var cto			= new CTO();
-			jQuery.extend( true, cto, This._config.omnitureTracking[omnitureTrack], { pageName : omnitureTrack } );
-			cto.track();
 		};
 
 		This.refresh = function() {

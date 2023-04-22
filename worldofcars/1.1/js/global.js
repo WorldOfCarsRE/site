@@ -118,15 +118,6 @@ var WorldOfCars = function() {
 				return false;
 			}
 
-			cto=new CTO();
-			cto.account='worldofcars';
-			cto.category='dgame';
-			cto.site='woc';
-			cto.pageName='play_button';
-			cto.contentType='regular';
-			cto.property='car';
-			cto.track();
-
 			This.launchGame();
 			return false;
 		};

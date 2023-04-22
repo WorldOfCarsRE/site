@@ -1,16 +1,3 @@
-// Omniture page tracking
-if (window.CTO) {
-	var cto = new CTO();
-	cto.account = 'worldofcars';
-	cto.category = 'dgame';
-	cto.site = 'woc';
-	cto.siteSection = 'website:game';
-	cto.pageName = 'game_login';
-	cto.contentType = 'homepage';
-	cto.property = 'car';
-	cto.track();
-}
-
 // Window mangaer
 var WMG = new windowManager({
 	pages: RDR
@@ -23,11 +10,6 @@ jQuery(document).ready(function () {
 	};
 
 	function embedFlash(bannerMsg) {
-		// media mind tracking cookie
-		var ebSession = MMD.getSessionID();
-		var ebRand = Math.random() + '';
-		ebRand = ebRand * 1000000;
-
 		var qsVars = {};
 		var pairs = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
 
@@ -36,7 +18,7 @@ jQuery(document).ready(function () {
 			qsVars[pair[0]] = pair[1];
 		}
 
-		swfobject.embedSWF(PATH.swf + '/common/DVC_OS.swf', 'pla-regModule', '100%', '100%', '10.0.0', false, jQuery.extend({ mediaMindConversion: 'HTTPS://bs.serving-sys.com/BurstingPipe/activity3.swf?' + escape('ebAS=bs.serving-sys.com&activityParams=ActivityID=73484&f=1&Session=' + ebSession + '&rnd=' + ebRand) }, RAMP.registration.flashVars, qsVars), RAMP.registration.params);
+		swfobject.embedSWF(PATH.swf + '/common/DVC_OS.swf', 'pla-regModule', '100%', '100%', '10.0.0', false, jQuery.extend(RAMP.registration.flashVars, qsVars), RAMP.registration.params);
 	};
 
 	function heartbeatTick() {
