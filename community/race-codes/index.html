@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta name="description" content="World of Cars Description" />
+    <meta name="author" content="Disney Interactive Media Group" />
+    <meta name="keywords" content="World of Cars Keys" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="icon" href="/worldofcars/1.0/images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/worldofcars/1.0/images/favicon.ico" type="image/x-icon" />
+
+
+    <title>World of Cars Online | World of Cars</title>
+
+    <script type="text/javascript" src="/worldofcars/1.0/js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="/js/environment.js"></script>
+    <script type="text/javascript" src="/worldofcars/1.0/js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="/worldofcars/1.0/js/swfobject.js"></script>
+    <script type="text/javascript" src="/worldofcars/1.0/js/woc_global.js"></script>
+    <script type="text/javascript" src="/worldofcars/1.0/js/reportutils.js"></script>
+    <link rel="stylesheet" type="text/css" href="/worldofcars/1.0/css/cars_subpage.css" />
+
+    <script type="text/javascript" src="/worldofcars/1.0/js/le_validator.js"></script>
+    <script type="text/javascript">
+        jQuery(function () {
+            jQuery('.evt-triggerRegMod').click(launchGame);
+            jQuery('form').submit(function (form) {
+                var err = 0;
+
+                if (jQuery('#account_username').val() == '') {
+                    jQuery('#account_username').inputError({ msg: "Please enter your Account ID" });
+                    err++;
+                }
+                if (jQuery('#account_password').val() == '') {
+                    jQuery('#account_password').inputError({ msg: "Please enter your password" });
+                    err++;
+                }
+
+                if (err > 0)
+                    return false;
+
+                moduleSpawning = 'raceCodes';
+                carsLogin(jQuery('#account_username').val(), jQuery('#account_password').val());
+
+                return false;
+
+            });
+        });
+        function loginSuccess(data) {
+            if (jQuery('success', data).text() == 'true') {
+                callRaceCodes();
+            } else {
+                moduleSpawning = false;
+                switch (jQuery('error', data).attr('code')) {
+                    case 'LOGIN_FAILED':
+                        jQuery('#account_username').inputError({ msg: "Invalid Login combination" });
+                        break;
+
+                    default:
+                        handleError(jQuery('error', data).attr('code'));
+                        break;
+                }
+            }
+        }
+    </script>
+    <!--[if IE 6]>
+<link rel="stylesheet" type="text/css" href="/worldofcars/1.0/css/ie6.css" />
+<![endif]-->
+
+</head>
+
+<body id="race_codes" class="sec_community"><a name="top"></a>
+
+    <div id="woc_container">
+
+        <div class="sys-toolbar">
+            <a href="/membership/manage-account/" class="sys-sprocketLink " name="lid=toolbar/manage_account">Manage
+                Account</a>
+        </div>
+
+        <div id="content_wrap">
+
+            <div id="subnav_bg"></div>
+
+            <div id="main_content">
+                <div id="frame_wrap">
+
+                    <div id="woc_header">
+
+                        <h2 id="woc_logo"><a name="lid=nav/logo" href="/" title="The World of Cars Online">The World of
+                                Cars Online</a></h2>
+
+                        <ul id="nav">
+                            <li class="nav_community"><a name="lid=nav/community" href="/community/">community</a></li>
+                            <li class="nav_membership"><a name="lid=nav/membership" href="/membership/">membership</a>
+                            </li>
+                            <li class="nav_about"><a name="lid=nav/about" href="/about-game/">about game</a></li>
+                            <li class="nav_parents"><a name="lid=nav/parents" href="/parents/">parents</a></li>
+                            <li class="nav_help"><a name="lid=nav/help" href="/help/">help</a></li>
+                        </ul>
+
+                        <div id="header_play" class="header_play"><a name="lid=nav/play" id="play_button"
+                                class="play_inactive" href="javascript:void(0);">Play</a></div>
+
+                        <ul id="community_sub" class="subnav">
+                            <li><a name="lid=subnav/sec_community" href="/blog/" class="sub_crews-news-blog">Crews News
+                                    Blog</a></li>
+                            <li><a name="lid=subnav/sec_community" href="/community/downloads/"
+                                    class="sub_downloads">Downloads</a></li>
+                            <li><a name="lid=subnav/sec_community" href="/community/screenshots/"
+                                    class="sub_screenshots">Screenshots</a></li>
+                            <li><a name="lid=subnav/sec_community" href="/community/fan-art/" class="sub_fan-art">Fan
+                                    Art</a></li>
+                            <li class="noborderplease"><a name="lid=subnav/sec_community" href="/community/contests/"
+                                    class="sub_contests">Contests</a></li>
+                        </ul>
+
+                    </div><!-- cars header -->
+
+                    <div id="page_content">
+
+                        <div id="page_header">
+                            <h1>Enter Race Codes</h1>
+                        </div>
+                        <div id="content">
+
+
+                            <div class="col_left">
+                                <p>Race Codes may be found on the back of tickets inside specially marked Cars die-cast
+                                    toys. Use these codes to unlock cool stuff!</p>
+                            </div><!-- col left -->
+
+                            <div class="col_right">
+                                <div class="account_mod">
+                                    <h3>Already have an account?</h3>
+                                    <div class="gray_divider"></div>
+                                    <div class="clear">&nbsp;</div>
+                                    <p>Please log in with an existing account or <a class="evt-triggerRegMod"
+                                            href="javascript:void(0);">create a new account</a>.</p>
+
+                                    <a href="https://register.go.com/global/cars/recoverPassword?appRedirect="
+                                        class="forgot_login">Forgot your Account ID?</a>
+
+                                    <form name="cars_login" action="#" method="post">
+                                        <fieldset>
+                                            <legend>World of Cars Login</legend>
+                                            <label for="account_username">Account ID:</label><input type="text"
+                                                name="account_username" id="account_username" />
+                                            <label for="account_password">Account Password:</label><input
+                                                type="password" name="account_password" id="account_password" />
+
+                                            <button type="submit" name="login_btn" id="login_btn" class="login_btn"
+                                                title="Login" value="login">Login</button>
+                                        </fieldset>
+                                    </form>
+                                </div><!-- parent account mod -->
+
+                            </div><!-- col right -->
+
+                        </div> <!-- content -->
+
+                    </div><!-- page content --><img src="/worldofcars/1.0/images/characters/lightning-packaging.png"
+                        class="character" id="char_lightning_packaging"
+                        title="World of Cars Online | Lightning Packaging"
+                        alt="World of Cars Online | Lightning Packaging" />
+                </div><!-- frame wrap -->
+                <div id="frame_footer"></div>
+            </div><!-- main content -->
+
+        </div><!-- content -->
+
+        <div class="sys-footer">
+            <div class="sys-footNav">
+                <a href="http://disney.go.com/cars/" target="_blank"><img
+                        src="/worldofcars/1.0/img/msc/ico-leftArrow.gif" /> Visit the Official Cars Site</a> |
+                <a href="/sitemap/">Sitemap</a>
+            </div>
+        </div>
+
+    </div><!-- cars container -->
+
+</body>
+
+</html>

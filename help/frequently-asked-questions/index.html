@@ -1,0 +1,1236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta name="description" content="World of Cars Description" />
+    <meta name="author" content="Disney Interactive Media Group" />
+    <meta name="keywords" content="World of Cars Keys" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="icon" href="/worldofcars/1.0/images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/worldofcars/1.0/images/favicon.ico" type="image/x-icon" />
+
+    <title>World of Cars Online | Frequently Asked Questions</title>
+
+    <script type="text/javascript" src="/worldofcars/1.0/js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="/js/environment.js"></script>
+    <script type="text/javascript" src="/worldofcars/1.0/js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="/worldofcars/1.0/js/swfobject.js"></script>
+    <script type="text/javascript" src="/worldofcars/1.0/js/woc_global.js"></script>
+    <script type="text/javascript" src="/worldofcars/1.0/js/reportutils.js"></script>
+    <link rel="stylesheet" type="text/css" href="/worldofcars/1.0/css/cars_subpage.css" />
+
+    <script type="text/javascript">
+        jq(function () {
+            jq('.faq_trigger').click(openFAQ).css('cursor', 'pointer');
+            jq('.faq_close').click(closeFAQ).css('cursor', 'pointer');
+        });
+
+        function openFAQ() {
+            jq(this).css('cursor', 'default');
+            jq(this).parent().next('.faq_mod_copy').slideDown('fast');
+            var realParent = jq(this).parent().parent();
+
+            realParent.find('.faq_head').css('backgroundColor', '#8d8d8d');
+            realParent.find('.faq_trigger').css('color', '#fff');
+            realParent.find('.top_left').css('backgroundImage', 'url(' + PATH.cdnRoot + '/1.0/images/backgrounds/faq/faq_top_left_open.gif)');
+            realParent.find('.top_right').css('backgroundImage', 'url(' + PATH.cdnRoot + '/1.0/images/backgrounds/faq/top_right_open.gif)');
+            realParent.find('.bottom_left').css('backgroundImage', 'url(' + PATH.cdnRoot + '/1.0/images/backgrounds/faq/bottom_left_open.gif)');
+            realParent.find('.bottom_right').css('backgroundImage', 'url(' + PATH.cdnRoot + '/1.0/images/backgrounds/faq/bottom_right_open.gif)');
+        }
+
+        function closeFAQ() {
+            jq(this).closest('.faq_mod').find('.faq_trigger').css('cursor', 'pointer');
+            var realParent = jq(this).parent().parent();
+            realParent.find('.faq_mod_copy').slideUp('fast');
+            realParent.find('.faq_head').css('backgroundColor', '#ddd');
+            realParent.find('.faq_trigger').css('color', '#000');
+            realParent.find('.top_left').css('backgroundImage', 'url(' + PATH.cdnRoot + '/1.0/images/backgrounds/faq/top_left_closed.gif)');
+            realParent.find('.top_right').css('backgroundImage', 'url(' + PATH.cdnRoot + '/1.0/images/backgrounds/faq/top_right_closed.gif)');
+            realParent.find('.bottom_left').css('backgroundImage', 'url(' + PATH.cdnRoot + '/1.0/images/backgrounds/faq/bottom_left_closed.gif)');
+            realParent.find('.bottom_right').css('backgroundImage', 'url(' + PATH.cdnRoot + '/1.0/images/backgrounds/faq/bottom_right_closed.gif)');
+        }
+
+    </script>
+    <!--[if IE 6]>
+<link rel="stylesheet" type="text/css" href="/worldofcars/1.0/css/ie6.css" />
+<![endif]-->
+
+
+</head>
+
+<body id="faq" class="sec_help"><a name="top"></a>
+
+    <div id="woc_container">
+
+        <div class="sys-toolbar">
+            <a href="/membership/manage-account/" class="sys-sprocketLink " name="lid=toolbar/manage_account">Manage
+                Account</a>
+        </div>
+
+        <div id="content_wrap">
+
+            <div id="subnav_bg"></div>
+
+            <div id="main_content">
+                <div id="frame_wrap">
+
+
+
+                    <div id="woc_header">
+
+
+                        <h2 id="woc_logo"><a name="lid=nav/logo" href="/" title="The World of Cars Online">The World of
+                                Cars Online</a></h2>
+
+
+
+                        <ul id="nav">
+                            <li class="nav_community"><a name="lid=nav/community" href="/community/">community</a></li>
+                            <li class="nav_membership"><a name="lid=nav/membership" href="/membership/">membership</a>
+                            </li>
+                            <li class="nav_about"><a name="lid=nav/about" href="/about-game/">about game</a></li>
+                            <li class="nav_parents"><a name="lid=nav/parents" href="/parents/">parents</a></li>
+                            <li class="nav_help"><a name="lid=nav/help" href="/help/">help</a></li>
+                        </ul>
+
+                        <div id="header_play" class="header_play"><a name="lid=nav/play" id="play_button"
+                                class="play_inactive" href="javascript:void(0);">Play</a></div>
+
+                        <ul id="help_sub" class="subnav">
+                            <li><a name="lid=subnav/sec_help" href="/help/tips-tricks" class="sub_tips-tricks">Tips &
+                                    Tricks</a></li>
+                            <li><a name="lid=subnav/sec_help" href="/help/frequently-asked-questions/"
+                                    class="sub_faqs">FAQs</a></li>
+                            <li class="noborderplease"><a name="lid=subnav/sec_help" href="/help/contact-us/"
+                                    class="sub_contact-us">Contact Us</a></li>
+                        </ul>
+
+                    </div><!-- cars header -->
+                    <div id="page_content">
+
+
+                        <div id="page_header">
+                            <h1>Frequently Asked Questions</h1>
+                        </div>
+
+                        <div id="content">
+
+                            <img src="/worldofcars/1.0/images/backgrounds/side_grad_1099.gif" class="emb_left" />
+                            <img src="/worldofcars/1.0/images/backgrounds/side_grad_1099.gif" class="emb_right" />
+
+                            <div class="stretch_holder">
+                                <div class="stretch_header">
+                                    <h2>Top Questions</h2>
+                                    <p class="faq_count">3 Total</p>
+                                </div>
+
+                                <div class="stretch_wrap">
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">Is World of Cars Online free?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>There is no cost for creating a Car, racing with friends, and playing in
+                                                the World of Cars Online. However, to have access to certain features
+                                                like advanced levels in mini games, buying items to customize your car,
+                                                garage and yard, pursuing a professional racing career, and much more,
+                                                there is a small monthly fee. </p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">What is the World of Cars Online?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>The World of Cars Online is a virtual world based on the Disney/Pixar
+                                                animated feature where kids can create their own Car and join a safe and
+                                                fun community. From racing, playing games and exploring, to chatting and
+                                                making friends, The World of Cars Online offers fun activities for kids
+                                                and peace of mind for parents. There is no third-party advertising and
+                                                it's free to play but access to special features requires a
+                                                subscription.</p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">What if I forget my Account ID or Password?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>If you forget your Account ID or Password, all you need to do is <a
+                                                    href="https://register.go.com/global/cars/recoverMemberNames?appRedirect=http://www.worldofcars.go.com">click
+                                                    here for Account ID</a> or <a
+                                                    href="https://register.go.com/global/cars/recoverPassword?appRedirect=http://www.worldofcars.go.com">here
+                                                    for Password</a> and follow the instructions on the page.</p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                </div><!-- stretch -->
+
+                                <div class="stretch_cap"></div>
+
+                            </div><!-- faq holder -->
+
+                            <div class="faq_nav">
+
+                                <a href="#basic_info">Basic Info</a>
+
+                                <a href="#accounts">Accounts</a>
+
+                                <a href="#contact_us">Contact Us</a>
+
+                                <a href="#membership">Membership</a>
+
+                                <a href="#membership_cards">Membership Cards</a>
+
+                                <a href="#playing_the_game">Playing the Game</a>
+
+                                <a href="#race_codes">Race Codes</a>
+
+                                <a href="#get_technical_help">Get Technical Help</a>
+
+                                <a href="#technical_info">Technical Info</a>
+
+                                <a href="#troubleshooting">Troubleshooting</a>
+
+                                <a href="#internet">Internet</a>
+
+                            </div>
+
+                            <div class="stretch_holder">
+                                <div class="stretch_header">
+                                    <h2>Basic Info</h2><a name="basic_info"></a>
+                                    <p class="faq_count">6 Total</p>
+                                </div>
+                                <div class="stretch_wrap">
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">Is World of Cars Online free?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>There is no cost for creating a Car, racing with friends, and playing in
+                                                the World of Cars Online. However, to have access to certain features
+                                                like advanced levels in mini games, buying items to customize your car,
+                                                garage and yard, pursuing a professional racing career, and much more,
+                                                there is a small monthly fee. </p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">How old do I have to be to play on the World of
+                                                Cars Online?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>The World of Cars Online is recommended for players ages 6 to 12, but it
+                                                was designed for racers of all ages to enjoy!</p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">What is the World of Cars Online?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>The World of Cars Online is a virtual world based on the Disney/Pixar
+                                                animated feature where kids can create their own Car and join a safe and
+                                                fun community. From racing, playing games and exploring, to chatting and
+                                                making friends, The World of Cars Online offers fun activities for kids
+                                                and peace of mind for parents. There is no third-party advertising and
+                                                it's free to play but access to special features requires a
+                                                subscription.</p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">Is the World of Cars Online safe?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>World of Cars Online is dedicated to creating a safe environment for all
+                                                Cars. The game is free of third-party advertising and offers parent
+                                                controls. </p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">What can I do in the World of Cars Online?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>You can design and customize your car, become a racing legend, play
+                                                awesome mini games, or just make new friends!</p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">Can I play World of Cars Online by myself, or does
+                                                it have to be in a group?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>There are plenty of things to do in the World of Cars Online by yourself,
+                                                but there are extra bonuses and rewards for cooperating or even
+                                                competing with your friends!</p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                </div><!-- stretch wrap -->
+                                <div class="stretch_cap"></div>
+                            </div><!-- stretch holder -->
+                            <a href="#top" class="back_to_top">Back to Top</a>
+
+                            <div class="stretch_holder">
+                                <div class="stretch_header">
+                                    <h2>Accounts</h2><a name="accounts"></a>
+                                    <p class="faq_count">2 Total</p>
+                                </div>
+                                <div class="stretch_wrap">
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">What if I forget my Account ID or Password?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>If you forget your Account ID or Password, all you need to do is <a
+                                                    href="https://register.go.com/global/cars/recoverMemberNames?appRedirect=http://www.worldofcars.go.com">click
+                                                    here for Account ID</a> or <a
+                                                    href="https://register.go.com/global/cars/recoverPassword?appRedirect=http://www.worldofcars.go.com">here
+                                                    for Password</a> and follow the instructions on the page.</p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">What happens if my Car is no longer there when I
+                                                login?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>It may be under a different Member name, <a
+                                                    href="https://register.go.com/global/cars/recoverMemberNames?appRedirect=http://www.worldofcars.go.com">click
+                                                    here</a> to retrieve your Member name. </p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                </div><!-- stretch wrap -->
+                                <div class="stretch_cap"></div>
+                            </div><!-- stretch holder -->
+                            <a href="#top" class="back_to_top">Back to Top</a>
+
+                            <div class="stretch_holder">
+                                <div class="stretch_header">
+                                    <h2>Contact Us</h2><a name="contact_us"></a>
+                                    <p class="faq_count">3 Total</p>
+                                </div>
+                                <div class="stretch_wrap">
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">How do I report another Car if they're causing
+                                                problems? </div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>If you're logged into the game, click on the players name and select
+                                                "Report Player". If you're not in-game, please use the <a
+                                                    href="/help/contact-us/general-questions/">General Questions
+                                                    form</a> and make sure to include the player's name and what they
+                                                were doing. Don't worry, we'll never tell a Car who reported them, it's
+                                                strictly confidential!</p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">How do I contact Disney if I have any questions
+                                                about the World of Cars Online?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>To contact us, please use the <a
+                                                    href="/help/contact-us/general-questions/">General Questions
+                                                    form</a>! Try to be as clear as possible with your question and
+                                                include any information that may help. (For example: Your account name)
+                                            </p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">What should I do if I find a problem in the World
+                                                of Cars Online?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>Tell us about it! Use the <a href="/help/contact-us/report-a-bug/">Report
+                                                    a Bug form</a> in the Contact Us section to describe the problem you
+                                                found, attach a screenshot if you can, and then click the "Submit"
+                                                button to send it our way. </p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                </div><!-- stretch wrap -->
+                                <div class="stretch_cap"></div>
+                            </div><!-- stretch holder -->
+                            <a href="#top" class="back_to_top">Back to Top</a>
+
+                            <div class="stretch_holder">
+                                <div class="stretch_header">
+                                    <h2>Membership</h2><a name="membership"></a>
+                                    <p class="faq_count">8 Total</p>
+                                </div>
+                                <div class="stretch_wrap">
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">Why should I become a Member?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>The World of Cars Online is free to play, but becoming a Member means
+                                                access to exclusive gear, games, races, and events for you and your
+                                                friends!</p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">How do I become a Member?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>Check out the <a href="/membership/">Membership Page</a> for all the
+                                                details. </p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">What payment methods do you accept?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>The World of Cars Online accepts credit card payments including Visa,
+                                                Mastercard, and American Express. We also accept Paypal payments. If
+                                                there is an additional payment method you would like to suggest, please
+                                                contact us using the <a
+                                                    href="/help/contact-us/billing-membership/">Billing and Membership
+                                                    form</a>.</p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">How soon does Membership take effect?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>Memberships will be activated as soon as payment is received. This will
+                                                depend on the method of payment you choose.</p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">How do I renew my Membership?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>
+                                            <p>To renew your Membership, simply go to the <a
+                                                    href="/membership/">Membership page</a>, and choose the Membership
+                                                package of your choice. As long as you use the same Username and
+                                                Password when renewing, your Membership will pick up right from where it
+                                                left off. </p>
+                                            <p>Note: If you currently have an active monthly recurring Membership, you
+                                                will not be allowed to renew your Membership. You must first cancel your
+                                                recurring billing and then renew your Membership.</p>
+                                            </p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">How do I cancel my Membership?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>To cancel your Membership please go to the <a
+                                                    href="/membership/manage-account/">Account Manager</a> page and
+                                                login, then click on "Cancel".</p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">What is your refund policy?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>World of Cars Online Memberships are non-refundable.</p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">What happens to my Car's items and racing progress
+                                                after cancellation?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>If you cancel your Membership, the Car's belongings will go into storage
+                                                and will be automatically retrieved when you renew.</p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                </div><!-- stretch wrap -->
+                                <div class="stretch_cap"></div>
+                            </div><!-- stretch holder -->
+                            <a href="#top" class="back_to_top">Back to Top</a>
+
+                            <div class="stretch_holder">
+                                <div class="stretch_header">
+                                    <h2>Membership Cards</h2><a name="membership_cards"></a>
+                                    <p class="faq_count">7 Total</p>
+                                </div>
+                                <div class="stretch_wrap">
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">What are Membership Cards?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>A membership card is a special card that is available for purchase and
+                                                can be redeemed for one month of Membership on WorldofCars.com.</p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">Where can I get a Membership Card?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>Membership Cards are sold at Toys "R" Us stores in the USA only.
+                                                Availability may vary by store location, and we recommend contacting
+                                                your local Toys "R" Us store to see if the membership cards are in
+                                                stock.</p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">Where do I go to redeem my Membership Card?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>To redeem your Membership Card, go to the <a href="/gamecard/">game card
+                                                    page</a> and follow the instructions.</p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">How can I get help with my Membership Card if it's
+                                                not working? </div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>If you need help with redeeming your Membership Card, please call
+                                                Customer Service toll-free at 1(888) Kachoww (522-4699), Monday through
+                                                Friday 8 a.m. to 6 p.m., Saturday 8 a.m. to 4 p.m., and Sunday 10 a.m.
+                                                to 6 p.m. Pacific Time.</p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">Can I use more than one Membership Card? </div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>Yes, you may use more than one Membership Card per account; however, you
+                                                must visit the card redemption page and enter each card number
+                                                separately. For Membership Cards, the 31 days of Membership can be used
+                                                to add days to an existing account.</p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">Can I use a Membership Card on my paid account?
+                                            </div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>You may use Membership Card on paid accounts; however, there are not
+                                                additional benefits of Membership Card Membership that paid Members do
+                                                not already enjoy.</p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">Can I redeem Membership cards if I'm not in the
+                                                USA?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>Yes! Currently, they are available at Target and Toys "R" Us in the USA
+                                                only; but Membership Cards can be redeemed for any account.</p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                </div><!-- stretch wrap -->
+                                <div class="stretch_cap"></div>
+                            </div><!-- stretch holder -->
+                            <a href="#top" class="back_to_top">Back to Top</a>
+
+                            <div class="stretch_holder">
+                                <div class="stretch_header">
+                                    <h2>Playing the Game</h2><a name="playing_the_game"></a>
+                                    <p class="faq_count">3 Total</p>
+                                </div>
+                                <div class="stretch_wrap">
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">How do I create my own Car?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>Creating your Car starts when you click the big button marked "Play".
+                                                You'll be asked to register in order to save your Car and start playing,
+                                                but once you do, you'll have access to the World of Cars Online and the
+                                                rewards that come with it!</p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">Can I give my car a name I created?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>Right now you can only name your Car using the Name Selector. We spent a
+                                                lot of time coming up with the gear-tastic names that are in there, but
+                                                if there is another one you wish you could choose, please let us know!
+                                                Send in your name suggestions using the <a
+                                                    href="/help/contact-us/comments/">Comments form</a>, and maybe one
+                                                day your Car name will appear in the Name Selector.</p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">What controls do I use to drive my Car?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>Once you're in the world, the easiest way to explore is to use the mouse,
+                                                but you can use the arrow keys too. </p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                </div><!-- stretch wrap -->
+                                <div class="stretch_cap"></div>
+                            </div><!-- stretch holder -->
+                            <a href="#top" class="back_to_top">Back to Top</a>
+
+                            <div class="stretch_holder">
+                                <div class="stretch_header">
+                                    <h2>Race Codes</h2><a name="race_codes"></a>
+                                    <p class="faq_count">2 Total</p>
+                                </div>
+                                <div class="stretch_wrap">
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">What is a Race Code and where do I find one?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>Race Codes can be found on the back of tickets inside specially-marked
+                                                Car-branded toys from Mattel. These codes can be used to unlock special
+                                                items for your Car.</p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">Can I get credit for the Mattel Car-branded toys I
+                                                bought before they had race codes?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>Unfortunately, we cannot give you credit for Cars you bought that were
+                                                released before we started doing Race Codes or provide you with the code
+                                                the newer version of the Car would have. Please be sure to check the
+                                                packaging carefully when buying new Cars to make sure they include an
+                                                online code!</p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                </div><!-- stretch wrap -->
+                                <div class="stretch_cap"></div>
+                            </div><!-- stretch holder -->
+                            <a href="#top" class="back_to_top">Back to Top</a>
+
+                            <div class="stretch_holder">
+                                <div class="stretch_header">
+                                    <h2>Get Technical Help</h2><a name="get_technical_help"></a>
+                                    <p class="faq_count">2 Total</p>
+                                </div>
+                                <div class="stretch_wrap">
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">How do I contact Disney if I have any technical
+                                                questions about the World of Cars Online?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>To contact us, please use the <a
+                                                    href="/help/contact-us/technical-questions/">Technical Questions
+                                                    form</a>! Try to be as clear as possible with your question and
+                                                include any information that may help us. (For example: Your account
+                                                name) </p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">What should I do if I find a problem in the World
+                                                of Cars Online?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>Tell us about it! Use the <a href="/help/contact-us/report-a-bug/">Report
+                                                    a Bug form</a> in the Contact Us section to describe the problem you
+                                                found, attach a screenshot if you can, and then click the "Submit"
+                                                button to send it our way. </p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                </div><!-- stretch wrap -->
+                                <div class="stretch_cap"></div>
+                            </div><!-- stretch holder -->
+                            <a href="#top" class="back_to_top">Back to Top</a>
+
+                            <div class="stretch_holder">
+                                <div class="stretch_header">
+                                    <h2>Technical Info</h2><a name="technical_info"></a>
+                                    <p class="faq_count">4 Total</p>
+                                </div>
+                                <div class="stretch_wrap">
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">What kind of computer do I need to be able to play?
+                                            </div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>You can play on a PC or a Mac!</p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">What kind of PC do I need to play World of Cars
+                                                Online?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>For PC you need: Windows 7, Windows Vista, XP or 2000. You need the
+                                                latest version of Adobe Flash (10 or higher); a Pentium 4 2GHz, or
+                                                faster processor; 512 MB of RAM; 350KB/s or faster Internet Connection.
+                                            </p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">Does World of Cars Online support Windows Vista?
+                                            </div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>You bet! World of Cars Online will run under Windows Vista and Windows 7.
+                                            </p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">What kind of Mac do I need to play World of Cars
+                                                Online?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>Your MAC needs to have: OS X Tiger (10.4.6); The latest version of Adobe
+                                                Flash (10 or higher); a PowerPC G4 or newer; 256 MB of RAM; 350KB/s or
+                                                faster Internet Connection.</p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                </div><!-- stretch wrap -->
+                                <div class="stretch_cap"></div>
+                            </div><!-- stretch holder -->
+                            <a href="#top" class="back_to_top">Back to Top</a>
+
+                            <div class="stretch_holder">
+                                <div class="stretch_header">
+                                    <h2>Troubleshooting</h2><a name="troubleshooting"></a>
+                                    <p class="faq_count">4 Total</p>
+                                </div>
+                                <div class="stretch_wrap">
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">Why does the game feel slow on my computer?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>If you are noticing issues while playing the World of Cars, it could be
+                                                for one of many reasons. Please double check that your computer meets
+                                                our system requirements to play this game. If you are still experiencing
+                                                issues, you can <a href="/help/contact-us/report-a-bug/">Report a
+                                                    Bug</a>. </p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">What should I do if I can't connect to a server?
+                                            </div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>
+                                            <p>1. This might be a problem on the World of Car's end, not yours. The
+                                                server might be offline so that we can update or work on the Web site.
+                                                If you can get the World of Cars Online Community section, click on
+                                                "Crews News Blog". You can find important news there about what's
+                                                happening on the site.</p>
+
+                                            <p>2. Check to make sure you are using the latest version of Adobe Flash
+                                                Player. Your Flash Player is the part of your computer that lets you
+                                                play the World of Cars Online. You might need to install the newest
+                                                version. The best way to do that is to go to the <a
+                                                    href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash">Flash
+                                                    Player Download Center</a>.</p>
+
+                                            <p>3. Your computer might have a firewall built into it. Programs such as
+                                                Windows XP, Vista, and Mac OS X have a firewall that might prevent you
+                                                from logging on to World of Cars Online. Talk to a parent about how to
+                                                change the settings on your firewall.</p>
+                                            </p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">What do I do if I'm trying to race/drive but my Car
+                                                won't move?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>This could be a problem with the servers that run the game. The World of
+                                                Cars Online needs regular maintenance and updates. We try to schedule
+                                                these when the fewest Cars are online - usually late at night on the
+                                                weekends. Cars that are online will always be notified that these short,
+                                                but necessary, shutdowns are coming. Occasionally our servers get the
+                                                hiccups, which can cause them to unexpectedly shutdown. We do our best
+                                                to keep that from happening and try to fix any problems faster than you
+                                                can cross the finish line. Thank you for your patience!</p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">The game keeps crashing and/or freezing! What do I
+                                                do?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>This could be a problem with the servers that run the game. The World of
+                                                Cars Online needs regular maintenance and updates. We try to schedule
+                                                these when the fewest Cars are online, usually late at night on the
+                                                weekends. Cars that are online will always be notified that these short,
+                                                but necessary, shutdowns are coming. Occasionally our servers get the
+                                                hiccups, which can cause them to unexpectedly shutdown. We do our best
+                                                to keep that from happening and try to fix any problems faster than you
+                                                can cross the finish line. Thank you for your patience!</p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                </div><!-- stretch wrap -->
+                                <div class="stretch_cap"></div>
+                            </div><!-- stretch holder -->
+                            <a href="#top" class="back_to_top">Back to Top</a>
+
+                            <div class="stretch_holder">
+                                <div class="stretch_header">
+                                    <h2>Internet</h2><a name="internet"></a>
+                                    <p class="faq_count">2 Total</p>
+                                </div>
+                                <div class="stretch_wrap">
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">What kind of Internet Connection do I need to be
+                                                able to play?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>A Broadband Internet connection is recommended but not required. The
+                                                faster your connection, the better the game will operate.</p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                    <div class="faq_mod">
+                                        <div class="top_left"></div>
+                                        <div class="top_right"></div>
+
+                                        <div class="faq_head">
+                                            <div class="faq_trigger">Will World of Cars Online work on a wireless
+                                                Internet connection?</div>
+                                        </div>
+                                        <div class="faq_mod_copy">
+                                            <p>You bet! However wireless Internet connections can be slower than an
+                                                Ethernet or Modem connection, so if you start to experience the game
+                                                running slow or lagging we recommend switching to one of these other
+                                                methods. </p>
+                                            <div class="faq_close">click to close</div>
+                                        </div>
+                                        <div class="bottom_left"></div>
+                                        <div class="bottom_right"></div>
+                                    </div><!-- faq mod -->
+
+
+                                </div><!-- stretch wrap -->
+                                <div class="stretch_cap"></div>
+                            </div><!-- stretch holder -->
+                            <a href="#top" class="back_to_top">Back to Top</a>
+
+
+                        </div> <!-- content -->
+                        <div id="content_footer"></div>
+
+
+                    </div><!-- page content -->
+                </div><!-- frame wrap -->
+                <div id="frame_footer"></div>
+            </div><!-- main content -->
+
+        </div><!-- content -->
+
+        <div class="sys-footer">
+
+            <div class="sys-footNav">
+                <a href="http://disney.go.com/cars/" target="_blank"><img
+                        src="/worldofcars/1.0/img/msc/ico-leftArrow.gif" /> Visit the Official Cars Site</a> |
+                <a href="/sitemap/">Sitemap</a>
+            </div>
+        </div>
+
+    </div><!-- cars container -->
+
+</body>
+
+</html>

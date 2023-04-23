@@ -30,7 +30,7 @@ CFG.dxd = CFG.ssl ? CFG.dxdSecure : 'http://localhost/dxd'; // live = apps.dxd.g
 CFG.swfBaseUrl = '';
 CFG.clientVersion = '1.1'; // TODO: Real version
 
-CFG.ajaxLogin = CFG.carsDS + 'AccountLoginRequest'; // same-domain login request for AJAX apps
+CFG.ajaxLogin = CFG.carsDS + '/api/AccountLoginRequest'; // same-domain login request for AJAX apps
 CFG.ajaxLogout = CFG.apiProxy + 'AccountLogoutRequest'; // same-domain logout request for AJAX apps
 CFG.assetsBaseUrl = PATH.cdnRootBase + '/game/assets/';
 CFG.assetServiceHost = CFG.carsDS + '/messagebroker/amf';
