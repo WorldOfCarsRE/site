@@ -1,0 +1,331 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="description" content="World of Cars Description" />
+<meta name="author" content="Disney Interactive Media Group" />
+<meta name="keywords" content="World of Cars Keys" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="icon" href="/worldofcars/1.0/images/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="/worldofcars/1.0/images/favicon.ico" type="image/x-icon" />
+
+<title>World of Cars Online | Upgrade Flash Player</title>
+
+
+<script type="text/javascript" src="/worldofcars/1.0/js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="/js/environment.js"></script>
+<script type="text/javascript" src="/worldofcars/1.0/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="/worldofcars/1.0/js/swfobject.js"></script>
+<script type="text/javascript" src="/worldofcars/1.0/js/woc_global.js"></script>
+<script type="text/javascript" src="/worldofcars/1.0/js/reportutils.js"></script>
+<script type="text/javascript">
+// Base Class ------------------------------------------[MN]
+var DIMGFlashUpgrade = function( config ) {
+	var This = function() {
+		// Public Vars -----------------------------------------[MN]
+		This.config = {
+			'versionCurrent'	: 0,
+			'versionObject'		: {},
+			'versionRequired'	: 0,
+			'versionSplit'		: [],
+			'confirmationSWF'	: {
+				'src'				: false,
+				'id'				: false,
+				'width'				: 0,
+				'height'			: 0,
+				'expressInstall'	: false,
+				'flashVars'			: {},
+				'params'			: {},
+				'attributes'		: {},
+				'callback'			: function(){}
+			},
+			'events'			: {
+				'continueClicked'			: function(){},
+				'onConfirmationSWFReady'	: function(){},
+				'renderInstructions'		: function(){},
+				'upgradeStarted'			: function(){}
+			}
+		};
+		//------------------------------------------------------[MN]
+
+		// Constructor -----------------------------------------[MN]
+		function DIMGFlashUpgrade() {
+			jQuery.extend( This.config, config );
+
+			This.setCurrentVersion();
+			This.config.confirmationSWF.flashVersion = This.config.versionRequired;
+		}
+		//------------------------------------------------------[MN]
+
+		// Public Functions ------------------------------------[MN]
+		This.init = function() {
+			// Trigger Events
+			This.config.events.renderInstructions( {
+				'versionCurrent'		: This.config.versionCurrent,
+				'versionRequired'		: This.config.versionSplit.join( '.' ),
+				'hasRequiredVersion'	: This.config.swfobject.hasFlashPlayerVersion( This.config.versionRequired )
+			} );
+		};
+
+		This.loadConfirmationSWF = function() {
+			// Config override
+			var config = This.config.confirmationSWF;
+			if( arguments[0] ) {
+				jQuery.extend( config, arguments[0] );
+			}
+
+			// Embed SWF
+			This.config.swfobject.embedSWF(
+				config.src,
+				config.id,
+				config.width,
+				config.height,
+				config.flashVersion,
+				config.expressInstall,
+				config.flashVars,
+				config.params,
+				config.attributes,
+				config.callback
+			);
+		};
+
+		This.setCurrentVersion	= function() {
+			This.config.versionObject	= This.config.swfobject.getFlashPlayerVersion();
+			This.config.versionCurrent	= This.config.versionObject.major +'.'+ This.config.versionObject.minor +'.'+ This.config.versionObject.release;
+			This.config.versionSplit	= This.config.versionRequired.split( '.' );
+			for( i=This.config.versionSplit.length; i<3; i++ )
+				This.config.versionSplit.push( 0 );
+		};
+
+		This.triggerUpgrade = function() {
+			// Flash not detected
+			if( This.config.versionCurrent == '0.0.0' ) {
+				// ActiveX install
+				if( jQuery.browser.msie ) {
+					var swfAttr = {
+						data		: This.config.confirmationSWF.src,
+						codebase	: 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version='+ This.config.versionSplit.join( ',' ) +',0',
+						width		: This.config.confirmationSWF.width,
+						height		: This.config.confirmationSWF.height
+					};
+
+					var tmp = [];
+					for( i in This.config.confirmationSWF.flashVars ) {
+						tmp.push( i +'='+ This.config.confirmationSWF.flashVars[i] );
+					}
+
+					var swfParam = {
+						flashvars	: tmp.join( '&' )
+					};
+
+					jQuery.extend( swfAttr, This.config.confirmationSWF.attributes );
+					jQuery.extend( swfParam, This.config.confirmationSWF.params );
+					This.config.swfobject.createSWF( swfAttr, swfParam, This.config.confirmationSWF.id );
+
+					This.config.events.upgradeStarted( {
+						type	: 'activex'
+					} );
+				// Manual install
+				} else {
+					This.config.events.upgradeStarted( {
+						type	: 'manual'
+					} );
+				}
+
+			// Flash detected
+			} else {
+				// Supports expressinstall ( support added in 6.0.65 )
+				if( This.config.confirmationSWF.expressInstall && ( This.config.versionObject.major > 6 || ( This.config.versionObject.major == 6 && This.config.versionObject.release > 65 ) ) ) {
+					var configOverride = {}
+					if( jQuery.browser.msie ) {
+						configOverride.attributes = {
+							classid		: 'clsid:D27CDB6E-AE6D-11cf-96B8-444553540000',
+							codebase	: 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version='+ This.config.versionSplit.join( ',' ) +',0'
+						};
+					}
+					This.loadConfirmationSWF( configOverride );
+
+					This.config.events.upgradeStarted( {
+						type	: 'expressInstall'
+					} );
+
+				// Manual install
+				} else {
+					This.config.events.upgradeStarted( {
+						type	: 'manual'
+					} );
+				}
+			}
+
+			return false;
+		};
+		//------------------------------------------------------[MN]
+
+		// Send Reference Back ---------------------------------[MN]
+		return DIMGFlashUpgrade();
+		//------------------------------------------------------[MN]
+	}
+
+	This();
+	return This;
+};
+//------------------------------------------------------[MN]
+</script>
+<script>
+var FUG = new DIMGFlashUpgrade( {
+	'swfobject'			: swfobject,
+	'versionRequired'	: '10',
+	'confirmationSWF'	: {
+		'src'				: PATH.swf +'/flashUpgrade.swf',
+		'id'				: 'DIMGFlashUpgrade',
+		'width'				: 300,
+		'height'			: 410,
+		'expressInstall'	: '/swf/dcom/expressInstall.swf',
+		'flashVars'			: {
+			'readyCallback'		: 'FUG.config.events.onConfirmationSWFReady',
+			'continueCallback'	: 'FUG.config.events.continueClicked'
+		},
+		'params'			: {
+			'allowScriptAccess'	: 'always',
+			'wmode'				: 'transparent'
+		},
+		'attributes'		: {},
+		'callback'			: function(){}
+	},
+	'events'			: {
+		'continueClicked'			: function() {
+			launchGame();
+		},
+		'onConfirmationSWFReady'	: function() {
+			if( jQuery.browser.msie && FUG.config.versionCurrent == '0.0.0' ) {
+				window.location = window.location;
+			}
+		},
+		'renderInstructions'		: function( data ){
+			// Display instructions
+			var HTML	= '<div class="col_left">';
+					HTML	+= '<div class="DIMGFlashUpgradeInstructionsContainer">';
+					HTML		+= '<div class="DIMGFlashUpgradeInstructions">';
+						HTML		+= '<h2>Rev up your car and explore the world</h2>';
+						HTML		+= '<table class="flash-version-table">';
+							HTML		+= '<tr><td>Your Flash Player version:</td><td class="flash-version flash-version-current">'+ ( data.versionCurrent == '0.0.0' ? 'not installed' : data.versionCurrent ) +'</td></tr>';
+							HTML		+= '<tr><td>Required Flash Player version:</td><td class="flash-version">'+ data.versionRequired +'</td></tr>';
+						HTML		+= '</table>';
+						HTML	+= '</div>';
+			if( !data.hasRequiredVersion ) {
+						HTML	+= '<div class="DIMGFlashUpgradeAction">';
+						HTML		+= '<p>To experience The World of Cars Online, click the button below to head to the Pits and download a new Flash Player.</p>';
+						HTML		+= '<p>Concerned about updating your Flash Player? Please <a href="/help/contact-us/technical-questions/">Contact Us</a>.</p>';
+						HTML		+= '<a href="#" class="upgrade-flash-player DIMGFlashUpgradeTrigger">Upgrade Flash Player</a>';
+						HTML	+= '</div>';
+			}
+					HTML	+= '</div>';
+				HTML	+= '</div>';
+				HTML	+= '<div id="DIMGFlashUpgrade" style="z-index: 1000;"><img id="DIMGFlashUpgradePromo" src="'+ PATH.img +'/promotes/image_download_flashplayer.png" /></div>';
+
+			jq( '#flash_upgrade_canvas' ).html( HTML ).find( '.DIMGFlashUpgradeTrigger' ).click( FUG.triggerUpgrade );
+
+			// Load Confirmation SWF
+			if( data.hasRequiredVersion ) {
+				FUG.loadConfirmationSWF();
+			}
+		},
+		'upgradeStarted'			: function( data ) {
+			switch( data.type ) {
+				case 'activex':
+				case 'expressInstall':
+					jq( '#flash_upgrade_canvas' ).find( '.DIMGFlashUpgradeAction' ).html( '<p>Give us just a minute, and we\'ll auto-install the Flash Player on your computer. When installation is done, an animation will appear to guide you.</p>' );
+				break;
+
+				case 'manual':
+					jq( '#flash_upgrade_canvas' ).find( '.DIMGFlashUpgradeAction' ).html( '<p>Your browser does not support automatic installation of the Flash Player. Please <a href="http://home.disney.go.com/guestservices/disclaimers/redirect?destination=http://get.adobe.com/flashplayer/" target="_blank">click here</a> to download and install the player.</p>' );
+				break;
+			}
+		}
+	}
+} );
+
+jq( 'document' ).ready( function() {
+	FUG.init();
+} );
+</script>
+
+<link rel="stylesheet" type="text/css" href="/worldofcars/1.0/css/cars_subpage.css" />
+<!--[if IE 6]>
+<link rel="stylesheet" type="text/css" href="/worldofcars/1.0/css/ie6.css" />
+<![endif]-->
+</head>
+
+<body id="flash_upgrade" class="sec_flash_upgrade"><a name="top"></a>
+
+<noscript>
+	<div class="sys-banner">
+		<div class="sys-bannerContent">
+			Sorry for the unexpected pit stop, but your browser has JavaScript disabled. Please enable JavaScript to enter World of Cars!</div>
+		<div class="sys-bannerBottom"></div>
+	</div>
+</noscript>
+
+<div id="woc_container">
+	<div class="sys-toolbar">
+		<a href="/membership/manage-account/" class="sys-sprocketLink " name="lid=toolbar/manage_account">Manage Account</a>
+	</div>
+
+  <div id="content_wrap">
+
+  	<div id="main_content">
+    	<div id="frame_wrap">
+
+
+
+		<div id="woc_header">
+
+
+			<h2 id="woc_logo"><a href="/" title="The World of Cars Online">The World of Cars Online</a></h2>
+
+
+
+			<ul id="nav">
+      	<li class="nav_community" name="lid=nav/community"><a href="/community/">community</a></li>
+        <li class="nav_membership" name="lid=nav/membership"><a href="/membership/">membership</a></li>
+        <li class="nav_about" name="lid=nav/about"><a href="/about-game/">about game</a></li>
+        <li class="nav_parents" name="lid=nav/parents"><a href="/parents/">parents</a></li>
+        <li class="nav_help" name="lid=nav/help"><a href="/help/">help</a></li>
+      </ul>
+
+		<div id="header_play" class="header_play"><a name="lid=nav/play" id="play_button" class="play_inactive" href="javascript:void(0);">Play</a></div>
+
+
+    </div><!-- cars header -->
+
+			<div id="page_content">
+       	<div id="page_header">
+        	<h1>Upgrade Flash Player</h1>
+        </div>
+		<div id="content">
+			<div id="flash_upgrade_canvas"></div>
+
+</div> <!-- content -->
+			</div>
+			<img class="character" src="/worldofcars/1.0/images/characters/pitties.png" />
+			</div><!-- frame wrap -->
+      <div id="frame_footer"></div>
+  	</div><!-- main content -->
+
+  </div><!-- content -->
+
+
+
+<div id="footer">
+	<ul class="footlinks">
+		<li><img src="/worldofcars/1.0/images/ui/grey_left_arrow.gif" alt="See More CARS Products" />
+      <a href="http://disney.go.com/cars/" target="_blank">See More CARS Products</a> | </li>
+		<li><a href="/sitemap/">Sitemap</a></li>
+	</ul>
+	</div>
+<!-- disney footer -->
+
+</div><!-- cars container -->
+
+</body>
+
+</html>
