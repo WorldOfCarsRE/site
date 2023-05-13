@@ -1,0 +1,1377 @@
+<map version="3.0.4" width="13" height="36">
+	<version>2</version>
+	<layers>
+		<layer name="ground" tileWidth="140" tileHeight="70">
+			<tile asset="3900133806" x="0" y="0" flags=""/>
+			<tile asset="208420659" x="1" y="0" flags=""/>
+			<tile asset="316057576" x="2" y="0" flags=""/>
+			<tile asset="4284656364" x="3" y="0" flags=""/>
+			<tile asset="4284656364" x="4" y="0" flags=""/>
+			<tile asset="316057576" x="5" y="0" flags=""/>
+			<tile asset="3900133806" x="6" y="0" flags=""/>
+			<tile asset="3900133806" x="7" y="0" flags=""/>
+			<tile asset="3900133806" x="8" y="0" flags=""/>
+			<tile asset="4284656364" x="9" y="0" flags=""/>
+			<tile asset="316057576" x="10" y="0" flags=""/>
+			<tile asset="316057576" x="11" y="0" flags=""/>
+			<tile asset="208420659" x="12" y="0" flags=""/>
+			<tile asset="4284656364" x="0" y="1" flags=""/>
+			<tile asset="316057576" x="1" y="1" flags=""/>
+			<tile asset="316057576" x="2" y="1" flags=""/>
+			<tile asset="410146348" x="3" y="1" flags=""/>
+			<tile asset="316057576" x="4" y="1" flags=""/>
+			<tile asset="316057576" x="5" y="1" flags=""/>
+			<tile asset="3805519978" x="6" y="1" flags=""/>
+			<tile asset="316057576" x="7" y="1" flags=""/>
+			<tile asset="3805519978" x="8" y="1" flags=""/>
+			<tile asset="258452846" x="9" y="1" flags=""/>
+			<tile asset="3805519978" x="10" y="1" flags=""/>
+			<tile asset="4284656364" x="11" y="1" flags=""/>
+			<tile asset="3900133806" x="12" y="1" flags=""/>
+			<tile asset="316057576" x="0" y="2" flags=""/>
+			<tile asset="208420659" x="1" y="2" flags=""/>
+			<tile asset="4284656364" x="2" y="2" flags=""/>
+			<tile asset="3805519978" x="3" y="2" flags=""/>
+			<tile asset="316057576" x="4" y="2" flags=""/>
+			<tile asset="3805519978" x="5" y="2" flags=""/>
+			<tile asset="3805519978" x="6" y="2" flags=""/>
+			<tile asset="4284656364" x="7" y="2" flags=""/>
+			<tile asset="208420659" x="8" y="2" flags=""/>
+			<tile asset="410146348" x="9" y="2" flags=""/>
+			<tile asset="4284656364" x="10" y="2" flags=""/>
+			<tile asset="208420659" x="11" y="2" flags=""/>
+			<tile asset="258452846" x="12" y="2" flags=""/>
+			<tile asset="4284656364" x="0" y="3" flags=""/>
+			<tile asset="3900133806" x="1" y="3" flags=""/>
+			<tile asset="3805519978" x="2" y="3" flags=""/>
+			<tile asset="316057576" x="3" y="3" flags=""/>
+			<tile asset="3805519978" x="4" y="3" flags=""/>
+			<tile asset="4284656364" x="5" y="3" flags=""/>
+			<tile asset="208420659" x="6" y="3" flags=""/>
+			<tile asset="258452846" x="7" y="3" flags=""/>
+			<tile asset="4284656364" x="8" y="3" flags=""/>
+			<tile asset="208420659" x="9" y="3" flags=""/>
+			<tile asset="3900133806" x="10" y="3" flags=""/>
+			<tile asset="4284656364" x="11" y="3" flags=""/>
+			<tile asset="316057576,277308816" x="12" y="3" flags=""/>
+			<tile asset="208420659" x="0" y="4" flags=""/>
+			<tile asset="4284656364" x="1" y="4" flags=""/>
+			<tile asset="4284656364" x="2" y="4" flags=""/>
+			<tile asset="4284656364,4016334364" x="3" y="4" flags=""/>
+			<tile asset="3900133806" x="4" y="4" flags=""/>
+			<tile asset="3900133806" x="5" y="4" flags=""/>
+			<tile asset="410146348" x="6" y="4" flags=""/>
+			<tile asset="316057576" x="7" y="4" flags=""/>
+			<tile asset="258452846" x="8" y="4" flags=""/>
+			<tile asset="410146348" x="9" y="4" flags=""/>
+			<tile asset="316057576,4016334364" x="10" y="4" flags=""/>
+			<tile asset="410146348" x="11" y="4" flags=""/>
+			<tile asset="3900133806,277308816" x="12" y="4" flags=""/>
+			<tile asset="3900133806" x="0" y="5" flags=""/>
+			<tile asset="208420659" x="1" y="5" flags=""/>
+			<tile asset="258452846,315848312" x="2" y="5" flags=""/>
+			<tile asset="3805519978,4085701151" x="3" y="5" flags=""/>
+			<tile asset="4284656364" x="4" y="5" flags=""/>
+			<tile asset="208420659" x="5" y="5" flags=""/>
+			<tile asset="208420659" x="6" y="5" flags=""/>
+			<tile asset="208420659" x="7" y="5" flags=""/>
+			<tile asset="4284656364" x="8" y="5" flags=""/>
+			<tile asset="4284656364,303883593" x="9" y="5" flags=""/>
+			<tile asset="316057576,4085701151" x="10" y="5" flags=""/>
+			<tile asset="4284656364,277308816" x="11" y="5" flags=""/>
+			<tile asset="3805519978,259974361" x="12" y="5" flags=""/>
+			<tile asset="3900133806" x="0" y="6" flags=""/>
+			<tile asset="410146348" x="1" y="6" flags=""/>
+			<tile asset="208420659" x="2" y="6" flags=""/>
+			<tile asset="410146348,4023074819" x="3" y="6" flags=""/>
+			<tile asset="258452846,4242295579" x="4" y="6" flags=""/>
+			<tile asset="316057576" x="5" y="6" flags=""/>
+			<tile asset="3805519978" x="6" y="6" flags=""/>
+			<tile asset="316057576" x="7" y="6" flags=""/>
+			<tile asset="316057576" x="8" y="6" flags=""/>
+			<tile asset="410146348,303883593" x="9" y="6" flags=""/>
+			<tile asset="4284656364,510858537" x="10" y="6" flags=""/>
+			<tile asset="316057576,3845311785,4242295579" x="11" y="6" flags=""/>
+			<tile asset="316057576,369553182" x="12" y="6" flags=""/>
+			<tile asset="410146348" x="0" y="7" flags=""/>
+			<tile asset="3805519978" x="1" y="7" flags=""/>
+			<tile asset="316057576,303883593" x="2" y="7" flags=""/>
+			<tile asset="3900133806,345862087" x="3" y="7" flags=""/>
+			<tile asset="208420659" x="4" y="7" flags=""/>
+			<tile asset="3805519978" x="5" y="7" flags=""/>
+			<tile asset="3805519978" x="6" y="7" flags=""/>
+			<tile asset="316057576" x="7" y="7" flags=""/>
+			<tile asset="316057576,315848312" x="8" y="7" flags=""/>
+			<tile asset="3805519978,345862087" x="9" y="7" flags=""/>
+			<tile asset="3900133806,411426125,4289778509" x="10" y="7" flags=""/>
+			<tile asset="3900133806,139552796" x="11" y="7" flags=""/>
+			<tile asset="316057576" x="12" y="7" flags=""/>
+			<tile asset="410146348" x="0" y="8" flags=""/>
+			<tile asset="4284656364" x="1" y="8" flags=""/>
+			<tile asset="258452846,315848312" x="2" y="8" flags=""/>
+			<tile asset="208420659,345862087" x="3" y="8" flags=""/>
+			<tile asset="3900133806" x="4" y="8" flags=""/>
+			<tile asset="410146348" x="5" y="8" flags=""/>
+			<tile asset="316057576" x="6" y="8" flags=""/>
+			<tile asset="4284656364" x="7" y="8" flags=""/>
+			<tile asset="4284656364" x="8" y="8" flags=""/>
+			<tile asset="258452846,411426125,4289778509" x="9" y="8" flags=""/>
+			<tile asset="410146348,277308816" x="10" y="8" flags=""/>
+			<tile asset="208420659,188608586" x="11" y="8" flags=""/>
+			<tile asset="208420659,4016334364" x="12" y="8" flags=""/>
+			<tile asset="258452846" x="0" y="9" flags=""/>
+			<tile asset="4284656364" x="1" y="9" flags=""/>
+			<tile asset="208420659,4289778509" x="2" y="9" flags=""/>
+			<tile asset="410146348" x="3" y="9" flags=""/>
+			<tile asset="3900133806" x="4" y="9" flags=""/>
+			<tile asset="316057576" x="5" y="9" flags=""/>
+			<tile asset="3900133806" x="6" y="9" flags=""/>
+			<tile asset="3900133806" x="7" y="9" flags=""/>
+			<tile asset="3805519978,3845311785" x="8" y="9" flags=""/>
+			<tile asset="4284656364,54478999" x="9" y="9" flags=""/>
+			<tile asset="208420659,369553182" x="10" y="9" flags=""/>
+			<tile asset="316057576,303883593" x="11" y="9" flags=""/>
+			<tile asset="410146348,4242295579" x="12" y="9" flags=""/>
+			<tile asset="410146348" x="0" y="10" flags=""/>
+			<tile asset="258452846" x="1" y="10" flags=""/>
+			<tile asset="410146348" x="2" y="10" flags=""/>
+			<tile asset="3805519978" x="3" y="10" flags=""/>
+			<tile asset="258452846" x="4" y="10" flags=""/>
+			<tile asset="3805519978" x="5" y="10" flags=""/>
+			<tile asset="258452846" x="6" y="10" flags=""/>
+			<tile asset="410146348" x="7" y="10" flags=""/>
+			<tile asset="258452846" x="8" y="10" flags=""/>
+			<tile asset="410146348,3772367382" x="9" y="10" flags=""/>
+			<tile asset="4284656364,3772367382" x="10" y="10" flags=""/>
+			<tile asset="4284656364,315848312" x="11" y="10" flags=""/>
+			<tile asset="410146348,345862087" x="12" y="10" flags=""/>
+			<tile asset="316057576" x="0" y="11" flags=""/>
+			<tile asset="3805519978" x="1" y="11" flags=""/>
+			<tile asset="3900133806" x="2" y="11" flags=""/>
+			<tile asset="3805519978" x="3" y="11" flags=""/>
+			<tile asset="3805519978" x="4" y="11" flags=""/>
+			<tile asset="3805519978" x="5" y="11" flags=""/>
+			<tile asset="208420659" x="6" y="11" flags=""/>
+			<tile asset="258452846" x="7" y="11" flags=""/>
+			<tile asset="258452846,277308816" x="8" y="11" flags=""/>
+			<tile asset="3900133806,527955479" x="9" y="11" flags=""/>
+			<tile asset="410146348,188608586" x="10" y="11" flags=""/>
+			<tile asset="208420659,4289778509" x="11" y="11" flags=""/>
+			<tile asset="4284656364" x="12" y="11" flags=""/>
+			<tile asset="4284656364" x="0" y="12" flags=""/>
+			<tile asset="316057576" x="1" y="12" flags=""/>
+			<tile asset="4284656364" x="2" y="12" flags=""/>
+			<tile asset="4284656364" x="3" y="12" flags=""/>
+			<tile asset="4284656364" x="4" y="12" flags=""/>
+			<tile asset="4284656364" x="5" y="12" flags=""/>
+			<tile asset="3900133806" x="6" y="12" flags=""/>
+			<tile asset="316057576" x="7" y="12" flags=""/>
+			<tile asset="410146348,3845311785" x="8" y="12" flags=""/>
+			<tile asset="208420659,153257761" x="9" y="12" flags=""/>
+			<tile asset="316057576,369553182" x="10" y="12" flags=""/>
+			<tile asset="258452846" x="11" y="12" flags=""/>
+			<tile asset="4284656364" x="12" y="12" flags=""/>
+			<tile asset="258452846" x="0" y="13" flags=""/>
+			<tile asset="208420659" x="1" y="13" flags=""/>
+			<tile asset="258452846" x="2" y="13" flags=""/>
+			<tile asset="316057576" x="3" y="13" flags=""/>
+			<tile asset="3900133806" x="4" y="13" flags=""/>
+			<tile asset="258452846" x="5" y="13" flags=""/>
+			<tile asset="316057576" x="6" y="13" flags=""/>
+			<tile asset="410146348" x="7" y="13" flags=""/>
+			<tile asset="316057576,4274434547" x="8" y="13" flags=""/>
+			<tile asset="410146348,4210163903" x="9" y="13" flags=""/>
+			<tile asset="258452846" x="10" y="13" flags=""/>
+			<tile asset="3805519978,4016334364" x="11" y="13" flags=""/>
+			<tile asset="208420659" x="12" y="13" flags=""/>
+			<tile asset="3805519978" x="0" y="14" flags=""/>
+			<tile asset="3900133806" x="1" y="14" flags=""/>
+			<tile asset="208420659" x="2" y="14" flags=""/>
+			<tile asset="316057576" x="3" y="14" flags=""/>
+			<tile asset="208420659" x="4" y="14" flags=""/>
+			<tile asset="208420659" x="5" y="14" flags=""/>
+			<tile asset="316057576" x="6" y="14" flags=""/>
+			<tile asset="3900133806" x="7" y="14" flags=""/>
+			<tile asset="4284656364,3845311785" x="8" y="14" flags=""/>
+			<tile asset="3805519978,153257761" x="9" y="14" flags=""/>
+			<tile asset="316057576,4045232838" x="10" y="14" flags=""/>
+			<tile asset="208420659,315848312" x="11" y="14" flags=""/>
+			<tile asset="3900133806,4085701151" x="12" y="14" flags=""/>
+			<tile asset="3805519978" x="0" y="15" flags=""/>
+			<tile asset="410146348" x="1" y="15" flags=""/>
+			<tile asset="316057576" x="2" y="15" flags=""/>
+			<tile asset="410146348" x="3" y="15" flags=""/>
+			<tile asset="258452846" x="4" y="15" flags=""/>
+			<tile asset="410146348" x="5" y="15" flags=""/>
+			<tile asset="3900133806" x="6" y="15" flags=""/>
+			<tile asset="3900133806" x="7" y="15" flags=""/>
+			<tile asset="4284656364,493802098" x="8" y="15" flags=""/>
+			<tile asset="3805519978,259974361" x="9" y="15" flags=""/>
+			<tile asset="3900133806,4045232838" x="10" y="15" flags=""/>
+			<tile asset="4284656364,536171179" x="11" y="15" flags=""/>
+			<tile asset="208420659,4242295579" x="12" y="15" flags=""/>
+			<tile asset="3805519978" x="0" y="16" flags=""/>
+			<tile asset="208420659" x="1" y="16" flags=""/>
+			<tile asset="258452846" x="2" y="16" flags=""/>
+			<tile asset="3805519978" x="3" y="16" flags=""/>
+			<tile asset="258452846" x="4" y="16" flags=""/>
+			<tile asset="258452846" x="5" y="16" flags=""/>
+			<tile asset="4284656364" x="6" y="16" flags=""/>
+			<tile asset="3805519978" x="7" y="16" flags=""/>
+			<tile asset="4284656364" x="8" y="16" flags=""/>
+			<tile asset="3900133806,139552796" x="9" y="16" flags=""/>
+			<tile asset="3805519978,493802098" x="10" y="16" flags=""/>
+			<tile asset="410146348,4045232838" x="11" y="16" flags=""/>
+			<tile asset="208420659,4289778509" x="12" y="16" flags=""/>
+			<tile asset="316057576" x="0" y="17" flags=""/>
+			<tile asset="316057576" x="1" y="17" flags=""/>
+			<tile asset="208420659" x="2" y="17" flags=""/>
+			<tile asset="410146348" x="3" y="17" flags=""/>
+			<tile asset="410146348" x="4" y="17" flags=""/>
+			<tile asset="316057576" x="5" y="17" flags=""/>
+			<tile asset="208420659" x="6" y="17" flags=""/>
+			<tile asset="316057576" x="7" y="17" flags=""/>
+			<tile asset="3900133806" x="8" y="17" flags=""/>
+			<tile asset="3805519978" x="9" y="17" flags=""/>
+			<tile asset="410146348,493802098" x="10" y="17" flags=""/>
+			<tile asset="3805519978,4045232838" x="11" y="17" flags=""/>
+			<tile asset="3805519978" x="12" y="17" flags=""/>
+			<tile asset="316057576" x="0" y="18" flags=""/>
+			<tile asset="3900133806" x="1" y="18" flags=""/>
+			<tile asset="410146348" x="2" y="18" flags=""/>
+			<tile asset="3900133806" x="3" y="18" flags=""/>
+			<tile asset="208420659" x="4" y="18" flags=""/>
+			<tile asset="4284656364" x="5" y="18" flags=""/>
+			<tile asset="208420659" x="6" y="18" flags=""/>
+			<tile asset="208420659" x="7" y="18" flags=""/>
+			<tile asset="208420659" x="8" y="18" flags=""/>
+			<tile asset="208420659" x="9" y="18" flags=""/>
+			<tile asset="4284656364,4016334364" x="10" y="18" flags=""/>
+			<tile asset="410146348,493802098" x="11" y="18" flags=""/>
+			<tile asset="258452846,4045232838" x="12" y="18" flags=""/>
+			<tile asset="3900133806" x="0" y="19" flags=""/>
+			<tile asset="208420659" x="1" y="19" flags=""/>
+			<tile asset="4284656364" x="2" y="19" flags=""/>
+			<tile asset="4284656364" x="3" y="19" flags=""/>
+			<tile asset="316057576" x="4" y="19" flags=""/>
+			<tile asset="258452846" x="5" y="19" flags=""/>
+			<tile asset="4284656364" x="6" y="19" flags=""/>
+			<tile asset="4284656364" x="7" y="19" flags=""/>
+			<tile asset="4284656364" x="8" y="19" flags=""/>
+			<tile asset="208420659,315848312" x="9" y="19" flags=""/>
+			<tile asset="3805519978,4085701151" x="10" y="19" flags=""/>
+			<tile asset="410146348,493802098" x="11" y="19" flags=""/>
+			<tile asset="258452846,4045232838" x="12" y="19" flags=""/>
+			<tile asset="258452846" x="0" y="20" flags=""/>
+			<tile asset="258452846" x="1" y="20" flags=""/>
+			<tile asset="3805519978" x="2" y="20" flags=""/>
+			<tile asset="208420659" x="3" y="20" flags=""/>
+			<tile asset="410146348" x="4" y="20" flags=""/>
+			<tile asset="4284656364" x="5" y="20" flags=""/>
+			<tile asset="258452846" x="6" y="20" flags=""/>
+			<tile asset="4284656364" x="7" y="20" flags=""/>
+			<tile asset="410146348" x="8" y="20" flags=""/>
+			<tile asset="3805519978" x="9" y="20" flags=""/>
+			<tile asset="4284656364,536171179" x="10" y="20" flags=""/>
+			<tile asset="4284656364,4242295579" x="11" y="20" flags=""/>
+			<tile asset="208420659,4274434547" x="12" y="20" flags=""/>
+			<tile asset="4284656364" x="0" y="21" flags=""/>
+			<tile asset="3900133806" x="1" y="21" flags=""/>
+			<tile asset="316057576" x="2" y="21" flags=""/>
+			<tile asset="410146348" x="3" y="21" flags=""/>
+			<tile asset="3805519978" x="4" y="21" flags=""/>
+			<tile asset="4284656364" x="5" y="21" flags=""/>
+			<tile asset="3805519978" x="6" y="21" flags=""/>
+			<tile asset="4284656364" x="7" y="21" flags=""/>
+			<tile asset="3805519978" x="8" y="21" flags=""/>
+			<tile asset="3900133806" x="9" y="21" flags=""/>
+			<tile asset="3900133806,4289778509" x="10" y="21" flags=""/>
+			<tile asset="316057576,3845311785" x="11" y="21" flags=""/>
+			<tile asset="3805519978,153257761" x="12" y="21" flags=""/>
+			<tile asset="410146348" x="0" y="22" flags=""/>
+			<tile asset="208420659" x="1" y="22" flags=""/>
+			<tile asset="410146348" x="2" y="22" flags=""/>
+			<tile asset="410146348" x="3" y="22" flags=""/>
+			<tile asset="3900133806" x="4" y="22" flags=""/>
+			<tile asset="3900133806" x="5" y="22" flags=""/>
+			<tile asset="4284656364" x="6" y="22" flags=""/>
+			<tile asset="316057576" x="7" y="22" flags=""/>
+			<tile asset="4284656364" x="8" y="22" flags=""/>
+			<tile asset="258452846" x="9" y="22" flags=""/>
+			<tile asset="316057576" x="10" y="22" flags=""/>
+			<tile asset="410146348" x="11" y="22" flags=""/>
+			<tile asset="3805519978,493802098" x="12" y="22" flags=""/>
+			<tile asset="3805519978" x="0" y="23" flags=""/>
+			<tile asset="258452846" x="1" y="23" flags=""/>
+			<tile asset="316057576" x="2" y="23" flags=""/>
+			<tile asset="3900133806" x="3" y="23" flags=""/>
+			<tile asset="208420659" x="4" y="23" flags=""/>
+			<tile asset="3805519978" x="5" y="23" flags=""/>
+			<tile asset="3805519978" x="6" y="23" flags=""/>
+			<tile asset="3805519978" x="7" y="23" flags=""/>
+			<tile asset="258452846" x="8" y="23" flags=""/>
+			<tile asset="258452846" x="9" y="23" flags=""/>
+			<tile asset="3805519978" x="10" y="23" flags=""/>
+			<tile asset="4284656364" x="11" y="23" flags=""/>
+			<tile asset="3900133806,493802098" x="12" y="23" flags=""/>
+			<tile asset="258452846" x="0" y="24" flags=""/>
+			<tile asset="316057576" x="1" y="24" flags=""/>
+			<tile asset="3805519978" x="2" y="24" flags=""/>
+			<tile asset="258452846" x="3" y="24" flags=""/>
+			<tile asset="208420659" x="4" y="24" flags=""/>
+			<tile asset="258452846" x="5" y="24" flags=""/>
+			<tile asset="410146348" x="6" y="24" flags=""/>
+			<tile asset="4284656364" x="7" y="24" flags=""/>
+			<tile asset="208420659" x="8" y="24" flags=""/>
+			<tile asset="316057576" x="9" y="24" flags=""/>
+			<tile asset="410146348" x="10" y="24" flags=""/>
+			<tile asset="4284656364" x="11" y="24" flags=""/>
+			<tile asset="258452846" x="12" y="24" flags=""/>
+			<tile asset="258452846" x="0" y="25" flags=""/>
+			<tile asset="258452846" x="1" y="25" flags=""/>
+			<tile asset="208420659" x="2" y="25" flags=""/>
+			<tile asset="3900133806" x="3" y="25" flags=""/>
+			<tile asset="316057576" x="4" y="25" flags=""/>
+			<tile asset="3900133806" x="5" y="25" flags=""/>
+			<tile asset="410146348" x="6" y="25" flags=""/>
+			<tile asset="410146348" x="7" y="25" flags=""/>
+			<tile asset="208420659" x="8" y="25" flags=""/>
+			<tile asset="208420659" x="9" y="25" flags=""/>
+			<tile asset="316057576" x="10" y="25" flags=""/>
+			<tile asset="410146348" x="11" y="25" flags=""/>
+			<tile asset="316057576" x="12" y="25" flags=""/>
+			<tile asset="410146348" x="0" y="26" flags=""/>
+			<tile asset="410146348" x="1" y="26" flags=""/>
+			<tile asset="410146348" x="2" y="26" flags=""/>
+			<tile asset="3805519978" x="3" y="26" flags=""/>
+			<tile asset="410146348" x="4" y="26" flags=""/>
+			<tile asset="316057576" x="5" y="26" flags=""/>
+			<tile asset="3805519978" x="6" y="26" flags=""/>
+			<tile asset="3805519978" x="7" y="26" flags=""/>
+			<tile asset="316057576" x="8" y="26" flags=""/>
+			<tile asset="316057576" x="9" y="26" flags=""/>
+			<tile asset="316057576" x="10" y="26" flags=""/>
+			<tile asset="3805519978" x="11" y="26" flags=""/>
+			<tile asset="4284656364" x="12" y="26" flags=""/>
+			<tile asset="208420659" x="0" y="27" flags=""/>
+			<tile asset="4284656364" x="1" y="27" flags=""/>
+			<tile asset="4284656364" x="2" y="27" flags=""/>
+			<tile asset="316057576" x="3" y="27" flags=""/>
+			<tile asset="258452846" x="4" y="27" flags=""/>
+			<tile asset="316057576" x="5" y="27" flags=""/>
+			<tile asset="208420659" x="6" y="27" flags=""/>
+			<tile asset="208420659" x="7" y="27" flags=""/>
+			<tile asset="208420659" x="8" y="27" flags=""/>
+			<tile asset="316057576" x="9" y="27" flags=""/>
+			<tile asset="208420659" x="10" y="27" flags=""/>
+			<tile asset="208420659" x="11" y="27" flags=""/>
+			<tile asset="4284656364" x="12" y="27" flags=""/>
+			<tile asset="410146348" x="0" y="28" flags=""/>
+			<tile asset="258452846" x="1" y="28" flags=""/>
+			<tile asset="316057576" x="2" y="28" flags=""/>
+			<tile asset="258452846" x="3" y="28" flags=""/>
+			<tile asset="3900133806" x="4" y="28" flags=""/>
+			<tile asset="208420659" x="5" y="28" flags=""/>
+			<tile asset="4284656364" x="6" y="28" flags=""/>
+			<tile asset="316057576" x="7" y="28" flags=""/>
+			<tile asset="3805519978" x="8" y="28" flags=""/>
+			<tile asset="316057576" x="9" y="28" flags=""/>
+			<tile asset="208420659" x="10" y="28" flags=""/>
+			<tile asset="258452846" x="11" y="28" flags=""/>
+			<tile asset="410146348" x="12" y="28" flags=""/>
+			<tile asset="208420659" x="0" y="29" flags=""/>
+			<tile asset="316057576" x="1" y="29" flags=""/>
+			<tile asset="410146348" x="2" y="29" flags=""/>
+			<tile asset="4284656364" x="3" y="29" flags=""/>
+			<tile asset="258452846" x="4" y="29" flags=""/>
+			<tile asset="3805519978" x="5" y="29" flags=""/>
+			<tile asset="3805519978" x="6" y="29" flags=""/>
+			<tile asset="4284656364" x="7" y="29" flags=""/>
+			<tile asset="4284656364" x="8" y="29" flags=""/>
+			<tile asset="3805519978" x="9" y="29" flags=""/>
+			<tile asset="4284656364" x="10" y="29" flags=""/>
+			<tile asset="316057576" x="11" y="29" flags=""/>
+			<tile asset="3805519978" x="12" y="29" flags=""/>
+			<tile asset="4284656364" x="0" y="30" flags=""/>
+			<tile asset="3805519978" x="1" y="30" flags=""/>
+			<tile asset="4284656364" x="2" y="30" flags=""/>
+			<tile asset="208420659" x="3" y="30" flags=""/>
+			<tile asset="258452846" x="4" y="30" flags=""/>
+			<tile asset="258452846" x="5" y="30" flags=""/>
+			<tile asset="410146348" x="6" y="30" flags=""/>
+			<tile asset="4284656364" x="7" y="30" flags=""/>
+			<tile asset="208420659" x="8" y="30" flags=""/>
+			<tile asset="316057576" x="9" y="30" flags=""/>
+			<tile asset="208420659" x="10" y="30" flags=""/>
+			<tile asset="410146348" x="11" y="30" flags=""/>
+			<tile asset="316057576" x="12" y="30" flags=""/>
+			<tile asset="410146348" x="0" y="31" flags=""/>
+			<tile asset="258452846" x="1" y="31" flags=""/>
+			<tile asset="316057576" x="2" y="31" flags=""/>
+			<tile asset="316057576" x="3" y="31" flags=""/>
+			<tile asset="3900133806" x="4" y="31" flags=""/>
+			<tile asset="258452846" x="5" y="31" flags=""/>
+			<tile asset="316057576" x="6" y="31" flags=""/>
+			<tile asset="410146348" x="7" y="31" flags=""/>
+			<tile asset="316057576" x="8" y="31" flags=""/>
+			<tile asset="4284656364" x="9" y="31" flags=""/>
+			<tile asset="258452846" x="10" y="31" flags=""/>
+			<tile asset="3805519978" x="11" y="31" flags=""/>
+			<tile asset="258452846" x="12" y="31" flags=""/>
+			<tile asset="3805519978" x="0" y="32" flags=""/>
+			<tile asset="3805519978" x="1" y="32" flags=""/>
+			<tile asset="3900133806" x="2" y="32" flags=""/>
+			<tile asset="410146348" x="3" y="32" flags=""/>
+			<tile asset="410146348" x="4" y="32" flags=""/>
+			<tile asset="258452846" x="5" y="32" flags=""/>
+			<tile asset="3805519978" x="6" y="32" flags=""/>
+			<tile asset="3805519978" x="7" y="32" flags=""/>
+			<tile asset="4284656364" x="8" y="32" flags=""/>
+			<tile asset="410146348" x="9" y="32" flags=""/>
+			<tile asset="3805519978" x="10" y="32" flags=""/>
+			<tile asset="3900133806" x="11" y="32" flags=""/>
+			<tile asset="410146348" x="12" y="32" flags=""/>
+			<tile asset="316057576" x="0" y="33" flags=""/>
+			<tile asset="4284656364" x="1" y="33" flags=""/>
+			<tile asset="258452846" x="2" y="33" flags=""/>
+			<tile asset="258452846" x="3" y="33" flags=""/>
+			<tile asset="258452846" x="4" y="33" flags=""/>
+			<tile asset="208420659" x="5" y="33" flags=""/>
+			<tile asset="4284656364" x="6" y="33" flags=""/>
+			<tile asset="258452846" x="7" y="33" flags=""/>
+			<tile asset="4284656364" x="8" y="33" flags=""/>
+			<tile asset="208420659" x="9" y="33" flags=""/>
+			<tile asset="316057576" x="10" y="33" flags=""/>
+			<tile asset="3805519978,411426125" x="11" y="33" flags=""/>
+			<tile asset="3805519978,277308816" x="12" y="33" flags=""/>
+			<tile asset="208420659" x="0" y="34" flags=""/>
+			<tile asset="3805519978" x="1" y="34" flags=""/>
+			<tile asset="316057576" x="2" y="34" flags=""/>
+			<tile asset="208420659" x="3" y="34" flags=""/>
+			<tile asset="258452846" x="4" y="34" flags=""/>
+			<tile asset="410146348" x="5" y="34" flags=""/>
+			<tile asset="4284656364" x="6" y="34" flags=""/>
+			<tile asset="316057576" x="7" y="34" flags=""/>
+			<tile asset="258452846" x="8" y="34" flags=""/>
+			<tile asset="4284656364" x="9" y="34" flags=""/>
+			<tile asset="4284656364" x="10" y="34" flags=""/>
+			<tile asset="410146348,277308816" x="11" y="34" flags=""/>
+			<tile asset="258452846,527955479" x="12" y="34" flags=""/>
+			<tile asset="3900133806" x="0" y="35" flags=""/>
+			<tile asset="410146348" x="1" y="35" flags=""/>
+			<tile asset="258452846" x="2" y="35" flags=""/>
+			<tile asset="258452846" x="3" y="35" flags=""/>
+			<tile asset="4284656364" x="4" y="35" flags=""/>
+			<tile asset="258452846" x="5" y="35" flags=""/>
+			<tile asset="3805519978" x="6" y="35" flags=""/>
+			<tile asset="208420659" x="7" y="35" flags=""/>
+			<tile asset="4284656364" x="8" y="35" flags=""/>
+			<tile asset="208420659" x="9" y="35" flags=""/>
+			<tile asset="3805519978,3845311785" x="10" y="35" flags=""/>
+			<tile asset="208420659,153257761" x="11" y="35" flags=""/>
+			<tile asset="3805519978,153257761" x="12" y="35" flags=""/>
+		</layer>
+		<layer name="road" tileWidth="140" tileHeight="70">
+			<tile asset="4267355469" name="" priority="0" x="0" y="0" flags="hF"/>
+			<tile asset="4267355469" name="" priority="0" x="0" y="1" flags="hF"/>
+			<tile asset="4167697765" name="" priority="2" x="6" y="1" flags="vF"/>
+			<tile asset="4150107611" name="" priority="0" x="0" y="2" flags="hF"/>
+			<tile asset="354361024" name="" priority="0" x="1" y="2" flags="hF"/>
+			<tile asset="4050466291" name="" priority="2" x="6" y="2" flags="vF"/>
+			<tile asset="321894120" name="" priority="2" x="7" y="2" flags="vF"/>
+			<tile asset="3964980321" name="" priority="0" x="0" y="3" flags="hF"/>
+			<tile asset="4267355469" name="" priority="0" x="1" y="3" flags="hF"/>
+			<tile asset="392538894" name="" priority="2" x="5" y="3" flags="vF"/>
+			<tile asset="3956418658" name="" priority="2" x="6" y="3" flags="vF"/>
+			<tile asset="160476025" name="" priority="2" x="7" y="3" flags="vF"/>
+			<tile asset="4187495658" name="" priority="0" x="8" y="3" flags="vF"/>
+			<tile asset="4150107611" name="" priority="0" x="1" y="4" flags="hF"/>
+			<tile asset="354361024" name="" priority="0" x="2" y="4" flags="hF"/>
+			<tile asset="354361024" name="" priority="0" x="5" y="4" flags=""/>
+			<tile asset="3805616372" name="" priority="2" x="6" y="4" flags="vF"/>
+			<tile asset="9935855" name="" priority="2" x="7" y="4" flags="vF"/>
+			<tile asset="4290644562" name="" priority="0" x="8" y="4" flags="vF"/>
+			<tile asset="503089481" name="" priority="0" x="9" y="4" flags="vF"/>
+			<tile asset="116775155" name="" priority="0" x="10" y="4" flags="hF"/>
+			<tile asset="3964980321" name="" priority="0" x="1" y="5" flags="hF"/>
+			<tile asset="4267355469" name="" priority="0" x="2" y="5" flags="hF"/>
+			<tile asset="4267355469" name="" priority="0" x="4" y="5" flags=""/>
+			<tile asset="3964980321" name="" priority="0" x="5" y="5" flags=""/>
+			<tile asset="4191963470" name="" priority="2" x="6" y="5" flags="vF"/>
+			<tile asset="4139334340" name="" priority="0" x="7" y="5" flags="vF"/>
+			<tile asset="352041439" name="" priority="0" x="8" y="5" flags="vF"/>
+			<tile asset="267577445" name="" priority="0" x="9" y="5" flags="hF"/>
+			<tile asset="4150107611" name="" priority="0" x="2" y="6" flags="hF"/>
+			<tile asset="354361024" name="" priority="0" x="3" y="6" flags="vF|hF"/>
+			<tile asset="4267355469" name="" priority="0" x="4" y="6" flags=""/>
+			<tile asset="4150107611" name="" priority="0" x="5" y="6" flags=""/>
+			<tile asset="3987762046" name="" priority="0" x="8" y="6" flags="vF"/>
+			<tile asset="267577445" name="" priority="0" x="9" y="6" flags="vF"/>
+			<tile asset="191832928" name="" priority="2" x="11" y="6" flags="oT"/>
+			<tile asset="3964980321" name="" priority="0" x="2" y="7" flags=""/>
+			<tile asset="354361024" name="" priority="0" x="3" y="7" flags=""/>
+			<tile asset="4150107611" name="" priority="0" x="4" y="7" flags=""/>
+			<tile asset="116775155" name="" priority="0" x="8" y="7" flags="vF"/>
+			<tile asset="30845573" name="" priority="2" x="10" y="7" flags="oT"/>
+			<tile asset="221130869" name="" priority="2" x="11" y="7" flags=""/>
+			<tile asset="4267355469" name="" priority="0" x="3" y="8" flags=""/>
+			<tile asset="3964980321" name="" priority="0" x="4" y="8" flags=""/>
+			<tile asset="147954195" name="" priority="2" x="11" y="8" flags=""/>
+			<tile asset="354361024" name="" priority="0" x="2" y="9" flags=""/>
+			<tile asset="4150107611" name="" priority="0" x="3" y="9" flags=""/>
+			<tile asset="302482760" name="" priority="2" x="12" y="9" flags="hF"/>
+			<tile asset="4267355469" name="" priority="0" x="2" y="10" flags=""/>
+			<tile asset="3964980321" name="" priority="0" x="3" y="10" flags=""/>
+			<tile asset="4167697765" name="" priority="2" x="5" y="10" flags="vF"/>
+			<tile asset="3902148764" name="" priority="2" x="11" y="10" flags="hF"/>
+			<tile asset="337744880" name="" priority="2" x="12" y="10" flags="hF"/>
+			<tile asset="3796592511" name="" priority="2" x="1" y="11" flags=""/>
+			<tile asset="4150107611" name="" priority="0" x="2" y="11" flags=""/>
+			<tile asset="4050466291" name="" priority="2" x="4" y="11" flags="vF"/>
+			<tile asset="321894120" name="" priority="2" x="5" y="11" flags="vF"/>
+			<tile asset="489071462" name="" priority="2" x="11" y="11" flags="hF"/>
+			<tile asset="3983163729" name="" priority="2" x="12" y="11" flags="vF|hF"/>
+			<tile asset="4181866181" name="" priority="2" x="1" y="12" flags=""/>
+			<tile asset="99988905" name="" priority="2" x="2" y="12" flags=""/>
+			<tile asset="392538894" name="" priority="2" x="4" y="12" flags="vF"/>
+			<tile asset="3956418658" name="" priority="2" x="5" y="12" flags="vF"/>
+			<tile asset="160476025" name="" priority="2" x="6" y="12" flags="vF"/>
+			<tile asset="103805660" name="" priority="2" x="12" y="12" flags="vF|hF"/>
+			<tile asset="302482760" name="" priority="2" x="0" y="13" flags=""/>
+			<tile asset="4031055443" name="" priority="2" x="1" y="13" flags=""/>
+			<tile asset="3775881089" name="" priority="2" x="3" y="13" flags=""/>
+			<tile asset="3805616372" name="" priority="2" x="4" y="13" flags="vF"/>
+			<tile asset="9935855" name="" priority="2" x="5" y="13" flags="vF"/>
+			<tile asset="525555843" name="" priority="0" x="6" y="13" flags="hF"/>
+			<tile asset="489071462" name="" priority="2" x="11" y="13" flags="vF|hF"/>
+			<tile asset="4284751997" name="" priority="2" x="12" y="13" flags="vF|hF"/>
+			<tile asset="337744880" name="" priority="2" x="1" y="14" flags=""/>
+			<tile asset="3902148764" name="" priority="2" x="2" y="14" flags=""/>
+			<tile asset="172682252" name="" priority="2" x="3" y="14" flags=""/>
+			<tile asset="3892866839" name="" priority="2" x="4" y="14" flags=""/>
+			<tile asset="4191963470" name="" priority="2" x="5" y="14" flags="vF"/>
+			<tile asset="374630421" name="" priority="0" x="6" y="14" flags="hF"/>
+			<tile asset="4095142670" name="" priority="0" x="7" y="14" flags="hF"/>
+			<tile asset="3902148764" name="" priority="2" x="11" y="14" flags="vF|hF"/>
+			<tile asset="337744880" name="" priority="2" x="12" y="14" flags="vF|hF"/>
+			<tile asset="3983163729" name="" priority="2" x="0" y="15" flags="vF"/>
+			<tile asset="489071462" name="" priority="2" x="1" y="15" flags=""/>
+			<tile asset="3996023215" name="" priority="2" x="2" y="15" flags=""/>
+			<tile asset="208468660" name="" priority="2" x="3" y="15" flags=""/>
+			<tile asset="4040915416" name="" priority="2" x="4" y="15" flags=""/>
+			<tile asset="41688961" name="" priority="0" x="5" y="15" flags="vF"/>
+			<tile asset="224213423" name="" priority="0" x="6" y="15" flags="hF"/>
+			<tile asset="302482760" name="" priority="2" x="12" y="15" flags="vF|hF"/>
+			<tile asset="103805660" name="" priority="2" x="1" y="16" flags="vF"/>
+			<tile asset="3878242617" name="" priority="2" x="3" y="16" flags=""/>
+			<tile asset="90950178" name="" priority="2" x="4" y="16" flags=""/>
+			<tile asset="3860367906" name="" priority="0" x="6" y="16" flags="vF"/>
+			<tile asset="3860367906" name="" priority="0" x="7" y="16" flags="hF"/>
+			<tile asset="191832928" name="" priority="2" x="11" y="16" flags="hF"/>
+			<tile asset="4284751997" name="" priority="2" x="0" y="17" flags="vF"/>
+			<tile asset="489071462" name="" priority="2" x="1" y="17" flags="vF"/>
+			<tile asset="509778840" name="" priority="2" x="3" y="17" flags=""/>
+			<tile asset="4267355469" name="" priority="0" x="4" y="17" flags="hF"/>
+			<tile asset="224213423" name="" priority="0" x="6" y="17" flags="vF"/>
+			<tile asset="41688961" name="" priority="0" x="7" y="17" flags="hF"/>
+			<tile asset="221130869" name="" priority="2" x="10" y="17" flags="hF|oT"/>
+			<tile asset="30845573" name="" priority="2" x="11" y="17" flags="hF"/>
+			<tile asset="337744880" name="" priority="2" x="1" y="18" flags="vF"/>
+			<tile asset="3902148764" name="" priority="2" x="2" y="18" flags="vF"/>
+			<tile asset="4150107611" name="" priority="0" x="4" y="18" flags="hF"/>
+			<tile asset="354361024" name="" priority="0" x="5" y="18" flags="hF"/>
+			<tile asset="4095142670" name="" priority="0" x="6" y="18" flags="vF"/>
+			<tile asset="374630421" name="" priority="0" x="7" y="18" flags="vF"/>
+			<tile asset="147954195" name="" priority="2" x="11" y="18" flags="hF|oT"/>
+			<tile asset="302482760" name="" priority="2" x="0" y="19" flags="vF"/>
+			<tile asset="4031055443" name="" priority="2" x="1" y="19" flags="vF"/>
+			<tile asset="3964980321" name="" priority="0" x="4" y="19" flags="hF"/>
+			<tile asset="3775881089" name="" priority="2" x="5" y="19" flags="hF"/>
+			<tile asset="525555843" name="" priority="0" x="6" y="19" flags="vF"/>
+			<tile asset="3796592511" name="" priority="2" x="7" y="19" flags="hF"/>
+			<tile asset="4119750336" name="" priority="0" x="9" y="19" flags=""/>
+			<tile asset="4181866181" name="" priority="2" x="1" y="20" flags="vF"/>
+			<tile asset="99988905" name="" priority="2" x="2" y="20" flags="vF"/>
+			<tile asset="3892866839" name="" priority="2" x="5" y="20" flags="hF"/>
+			<tile asset="172682252" name="" priority="2" x="6" y="20" flags="hF"/>
+			<tile asset="99988905" name="" priority="2" x="7" y="20" flags="hF"/>
+			<tile asset="4181866181" name="" priority="2" x="8" y="20" flags="hF"/>
+			<tile asset="4001838970" name="" priority="0" x="9" y="20" flags=""/>
+			<tile asset="214283361" name="" priority="0" x="10" y="20" flags=""/>
+			<tile asset="4034017037" name="" priority="0" x="11" y="20" flags=""/>
+			<tile asset="3796592511" name="" priority="2" x="1" y="21" flags="vF"/>
+			<tile asset="3775881089" name="" priority="2" x="2" y="21" flags="hF"/>
+			<tile asset="4040915416" name="" priority="2" x="4" y="21" flags="hF"/>
+			<tile asset="208468660" name="" priority="2" x="5" y="21" flags="hF"/>
+			<tile asset="3996023215" name="" priority="2" x="6" y="21" flags="hF"/>
+			<tile asset="4031055443" name="" priority="2" x="7" y="21" flags="hF"/>
+			<tile asset="302482760" name="" priority="2" x="8" y="21" flags="hF"/>
+			<tile asset="3883927532" name="" priority="0" x="9" y="21" flags=""/>
+			<tile asset="96634103" name="" priority="0" x="10" y="21" flags=""/>
+			<tile asset="3892866839" name="" priority="2" x="2" y="22" flags="hF"/>
+			<tile asset="172682252" name="" priority="2" x="3" y="22" flags="hF"/>
+			<tile asset="90950178" name="" priority="2" x="5" y="22" flags="hF"/>
+			<tile asset="3878242617" name="" priority="2" x="6" y="22" flags="hF"/>
+			<tile asset="3902148764" name="" priority="2" x="7" y="22" flags="hF"/>
+			<tile asset="337744880" name="" priority="2" x="8" y="22" flags="hF"/>
+			<tile asset="65311311" name="" priority="0" x="9" y="22" flags=""/>
+			<tile asset="3785757012" name="" priority="0" x="10" y="22" flags=""/>
+			<tile asset="4040915416" name="" priority="2" x="1" y="23" flags="hF"/>
+			<tile asset="208468660" name="" priority="2" x="2" y="23" flags="hF"/>
+			<tile asset="3996023215" name="" priority="2" x="3" y="23" flags="hF"/>
+			<tile asset="525555843" name="" priority="0" x="4" y="23" flags=""/>
+			<tile asset="509778840" name="" priority="2" x="5" y="23" flags="hF"/>
+			<tile asset="489071462" name="" priority="2" x="7" y="23" flags="hF"/>
+			<tile asset="4284751997" name="" priority="2" x="8" y="23" flags="hF"/>
+			<tile asset="182690521" name="" priority="0" x="9" y="23" flags="vF"/>
+			<tile asset="3902874050" name="" priority="0" x="10" y="23" flags="vF"/>
+			<tile asset="90950178" name="" priority="2" x="2" y="24" flags="hF"/>
+			<tile asset="3878242617" name="" priority="2" x="3" y="24" flags="hF"/>
+			<tile asset="4095142670" name="" priority="0" x="4" y="24" flags=""/>
+			<tile asset="374630421" name="" priority="0" x="5" y="24" flags=""/>
+			<tile asset="103805660" name="" priority="2" x="8" y="24" flags="hF"/>
+			<tile asset="65311311" name="" priority="0" x="9" y="24" flags="vF"/>
+			<tile asset="3785757012" name="" priority="0" x="10" y="24" flags="vF"/>
+			<tile asset="3775881089" name="" priority="2" x="1" y="25" flags=""/>
+			<tile asset="509778840" name="" priority="2" x="2" y="25" flags="hF"/>
+			<tile asset="224213423" name="" priority="0" x="4" y="25" flags=""/>
+			<tile asset="41688961" name="" priority="0" x="5" y="25" flags="vF|hF"/>
+			<tile asset="3983163729" name="" priority="2" x="7" y="25" flags="vF"/>
+			<tile asset="3983163729" name="" priority="2" x="8" y="25" flags="hF"/>
+			<tile asset="3883927532" name="" priority="0" x="9" y="25" flags="vF"/>
+			<tile asset="96634103" name="" priority="0" x="10" y="25" flags="vF"/>
+			<tile asset="172682252" name="" priority="2" x="1" y="26" flags=""/>
+			<tile asset="3892866839" name="" priority="2" x="2" y="26" flags=""/>
+			<tile asset="3860367906" name="" priority="0" x="4" y="26" flags=""/>
+			<tile asset="3860367906" name="" priority="0" x="5" y="26" flags="vF|hF"/>
+			<tile asset="103805660" name="" priority="2" x="8" y="26" flags="vF"/>
+			<tile asset="4001838970" name="" priority="0" x="9" y="26" flags="vF"/>
+			<tile asset="214283361" name="" priority="0" x="10" y="26" flags="vF"/>
+			<tile asset="4034017037" name="" priority="0" x="11" y="26" flags="vF"/>
+			<tile asset="3996023215" name="" priority="2" x="0" y="27" flags=""/>
+			<tile asset="208468660" name="" priority="2" x="1" y="27" flags=""/>
+			<tile asset="4040915416" name="" priority="2" x="2" y="27" flags=""/>
+			<tile asset="41688961" name="" priority="0" x="3" y="27" flags=""/>
+			<tile asset="224213423" name="" priority="0" x="4" y="27" flags="vF|hF"/>
+			<tile asset="4284751997" name="" priority="2" x="7" y="27" flags="vF"/>
+			<tile asset="489071462" name="" priority="2" x="8" y="27" flags="vF"/>
+			<tile asset="4119750336" name="" priority="0" x="9" y="27" flags="vF"/>
+			<tile asset="399304155" name="" priority="0" x="10" y="27" flags="vF"/>
+			<tile asset="3878242617" name="" priority="2" x="1" y="28" flags=""/>
+			<tile asset="90950178" name="" priority="2" x="2" y="28" flags=""/>
+			<tile asset="4191963470" name="" priority="2" x="3" y="28" flags=""/>
+			<tile asset="374630421" name="" priority="0" x="4" y="28" flags="vF|hF"/>
+			<tile asset="4095142670" name="" priority="0" x="5" y="28" flags="vF|hF"/>
+			<tile asset="337744880" name="" priority="2" x="8" y="28" flags="vF"/>
+			<tile asset="3902148764" name="" priority="2" x="9" y="28" flags="vF"/>
+			<tile asset="516674893" name="" priority="0" x="10" y="28" flags="vF"/>
+			<tile asset="49585258" name="" priority="2" x="11" y="28" flags="hF"/>
+			<tile asset="509778840" name="" priority="2" x="1" y="29" flags=""/>
+			<tile asset="3805616372" name="" priority="2" x="2" y="29" flags=""/>
+			<tile asset="9935855" name="" priority="2" x="3" y="29" flags=""/>
+			<tile asset="525555843" name="" priority="0" x="4" y="29" flags="vF|hF"/>
+			<tile asset="302482760" name="" priority="2" x="7" y="29" flags="vF"/>
+			<tile asset="4031055443" name="" priority="2" x="8" y="29" flags="vF"/>
+			<tile asset="80906962" name="" priority="2" x="10" y="29" flags="hF"/>
+			<tile asset="3868199369" name="" priority="2" x="11" y="29" flags="hF"/>
+			<tile asset="392538894" name="" priority="2" x="2" y="30" flags=""/>
+			<tile asset="3956418658" name="" priority="2" x="3" y="30" flags=""/>
+			<tile asset="160476025" name="" priority="2" x="4" y="30" flags=""/>
+			<tile asset="4181866181" name="" priority="2" x="8" y="30" flags="vF"/>
+			<tile asset="99988905" name="" priority="2" x="9" y="30" flags="vF"/>
+			<tile asset="232110660" name="" priority="2" x="10" y="30" flags="hF"/>
+			<tile asset="4019665247" name="" priority="2" x="11" y="30" flags="hF"/>
+			<tile asset="4050466291" name="" priority="2" x="2" y="31" flags=""/>
+			<tile asset="321894120" name="" priority="2" x="3" y="31" flags=""/>
+			<tile asset="3796592511" name="" priority="2" x="8" y="31" flags="vF"/>
+			<tile asset="3932907666" name="" priority="2" x="9" y="31" flags="hF"/>
+			<tile asset="383577086" name="" priority="2" x="10" y="31" flags="hF"/>
+			<tile asset="4104022245" name="" priority="2" x="11" y="31" flags="hF"/>
+			<tile asset="4167697765" name="" priority="2" x="3" y="32" flags=""/>
+			<tile asset="3815528452" name="" priority="2" x="9" y="32" flags="hF"/>
+			<tile asset="534502248" name="" priority="2" x="10" y="32" flags="hF"/>
+			<tile asset="4254685299" name="" priority="2" x="11" y="32" flags="hF"/>
+			<tile asset="4191372693" name="" priority="2" x="9" y="33" flags="hF"/>
+			<tile asset="90490617" name="" priority="2" x="10" y="33" flags="hF"/>
+		</layer>
+		<layer name="object" tileWidth="35" tileHeight="17.5">
+			<tile asset="4174743976" name="" priority="2" x="29" y="6" flags="oT"/>
+			<tile asset="4174743976" name="" priority="2" x="23" y="7" flags="oT"/>
+			<tile asset="4174743976" name="" priority="2" x="32" y="7" flags="oT"/>
+			<tile asset="4174743976" name="" priority="2" x="27" y="8" flags="oT"/>
+			<tile asset="190385595" name="" priority="2" x="6" y="9" flags="hF|oT"/>
+			<tile asset="235660424" name="" priority="2" x="33" y="9" flags=""/>
+			<tile asset="4174804558" name="" priority="2" x="39" y="10" flags=""/>
+			<tile asset="302331353" name="" priority="2" x="7" y="11" flags="hF"/>
+			<tile asset="3916729668" name="" priority="2" x="35" y="12" flags=""/>
+			<tile asset="302331353" name="" priority="2" x="8" y="13" flags="hF"/>
+			<tile asset="4174743976" name="" priority="2" x="11" y="13" flags="oT"/>
+			<tile asset="4174743976" name="" priority="2" x="43" y="13" flags="oT"/>
+			<tile asset="4174743976" name="" priority="2" x="47" y="13" flags="oT"/>
+			<tile asset="4174743976" name="" priority="2" x="49" y="13" flags="oT"/>
+			<tile asset="190385595" name="" priority="2" x="9" y="14" flags="hF|oT"/>
+			<tile asset="4174743976" name="" priority="2" x="37" y="14" flags="oT"/>
+			<tile asset="4174743976" name="" priority="2" x="19" y="15" flags=""/>
+			<tile asset="331113360" name="" priority="2" x="36" y="15" flags=""/>
+			<tile asset="4174743976" name="" priority="2" x="40" y="15" flags=""/>
+			<tile asset="302331353" name="" priority="2" x="10" y="16" flags="hF"/>
+			<tile asset="4174804558" name="" priority="2" x="39" y="16" flags=""/>
+			<tile asset="4174743976" name="" priority="2" x="42" y="16" flags=""/>
+			<tile asset="4174804558" name="" priority="2" x="12" y="17" flags=""/>
+			<tile asset="302331353" name="" priority="2" x="11" y="18" flags="hF"/>
+			<tile asset="4247509540" name="" priority="2" x="31" y="18" flags=""/>
+			<tile asset="3861023646" name="" priority="2" x="39" y="18" flags=""/>
+			<tile asset="4174743976" name="" priority="2" x="45" y="18" flags="oT"/>
+			<tile asset="190385595" name="" priority="2" x="2" y="19" flags="hF|oT"/>
+			<tile asset="302331353" name="" priority="2" x="12" y="20" flags="hF"/>
+			<tile asset="4247509540" name="" priority="2" x="22" y="20" flags=""/>
+			<tile asset="4174804558" name="" priority="2" x="46" y="20" flags=""/>
+			<tile asset="302331353" name="" priority="2" x="3" y="21" flags="hF"/>
+			<tile asset="190385595" name="" priority="2" x="12" y="21" flags="hF|oT"/>
+			<tile asset="4247509540" name="" priority="2" x="14" y="21" flags=""/>
+			<tile asset="4174743976" name="" priority="2" x="15" y="21" flags="oT"/>
+			<tile asset="4174804558" name="" priority="2" x="16" y="21" flags=""/>
+			<tile asset="3861023646" name="" priority="2" x="33" y="21" flags=""/>
+			<tile asset="302331353" name="" priority="2" x="13" y="23" flags="hF"/>
+			<tile asset="302331353" name="" priority="2" x="5" y="24" flags="hF"/>
+			<tile asset="190385595" name="" priority="2" x="5" y="24" flags="hF|oT"/>
+			<tile asset="302331353" name="" priority="2" x="14" y="25" flags="hF"/>
+			<tile asset="190385595" name="" priority="2" x="14" y="25" flags=""/>
+			<tile asset="3861023646" name="" priority="2" x="39" y="26" flags=""/>
+			<tile asset="190385595" name="" priority="2" x="45" y="26" flags=""/>
+			<tile asset="4174743976" name="" priority="2" x="1" y="27" flags="oT"/>
+			<tile asset="4276243837" name="" priority="2" x="14" y="27" flags="hF"/>
+			<tile asset="302331353" name="" priority="2" x="7" y="28" flags="hF"/>
+			<tile asset="4247509540" name="" priority="2" x="18" y="28" flags=""/>
+			<tile asset="3861023646" name="" priority="2" x="46" y="28" flags=""/>
+			<tile asset="302331353" name="" priority="2" x="7" y="29" flags="hF"/>
+			<tile asset="190385595" name="" priority="2" x="8" y="30" flags="hF|oT"/>
+			<tile asset="4174743976" name="" priority="2" x="3" y="31" flags="oT"/>
+			<tile asset="190385595" name="" priority="2" x="42" y="31" flags=""/>
+			<tile asset="302331353" name="" priority="2" x="9" y="32" flags="hF"/>
+			<tile asset="3861023646" name="" priority="2" x="39" y="32" flags=""/>
+			<tile asset="3861023646" name="" priority="2" x="12" y="33" flags=""/>
+			<tile asset="190385595" name="" priority="2" x="48" y="33" flags=""/>
+			<tile asset="4174743976" name="" priority="2" x="51" y="33" flags="oT"/>
+			<tile asset="190385595" name="" priority="2" x="10" y="34" flags=""/>
+			<tile asset="302331353" name="" priority="2" x="10" y="34" flags="hF"/>
+			<tile asset="433755808" name="" priority="2" x="34" y="35" flags="hF"/>
+			<tile asset="4276243837" name="" priority="2" x="10" y="36" flags="hF"/>
+			<tile asset="4174804558" name="" priority="2" x="31" y="36" flags=""/>
+			<tile asset="3861023646" name="" priority="2" x="46" y="36" flags=""/>
+			<tile asset="3861023646" name="" priority="2" x="16" y="37" flags=""/>
+			<tile asset="190385595" name="" priority="2" x="46" y="38" flags=""/>
+			<tile asset="4132220020" name="" priority="2" x="18" y="39" flags="hF"/>
+			<tile asset="3963394044" name="" priority="2" x="24" y="39" flags=""/>
+			<tile asset="4174743976" name="" priority="2" x="29" y="39" flags="oT"/>
+			<tile asset="3775386169" name="" priority="2" x="17" y="40" flags="vF|hF|oB"/>
+			<tile asset="4174743976" name="" priority="2" x="22" y="41" flags="oT"/>
+			<tile asset="4176516998" name="" priority="2" x="21" y="43" flags="hF"/>
+			<tile asset="190385595" name="" priority="2" x="25" y="43" flags="hF"/>
+			<tile asset="4174743976" name="" priority="2" x="26" y="43" flags="oT"/>
+			<tile asset="4174804558" name="" priority="2" x="22" y="44" flags=""/>
+			<tile asset="4174804558" name="" priority="2" x="24" y="44" flags=""/>
+			<tile asset="4247509540" name="" priority="2" x="25" y="44" flags=""/>
+			<tile asset="4132220020" name="" priority="2" x="15" y="45" flags="hF"/>
+			<tile asset="4174804558" name="" priority="2" x="29" y="45" flags=""/>
+			<tile asset="4174743976" name="" priority="2" x="32" y="45" flags="oT"/>
+			<tile asset="4174743976" name="" priority="2" x="3" y="47" flags="oT"/>
+			<tile asset="302331353" name="" priority="2" x="27" y="47" flags="hF"/>
+			<tile asset="4174743976" name="" priority="2" x="28" y="47" flags="oT"/>
+			<tile asset="4174743976" name="" priority="2" x="4" y="48" flags=""/>
+			<tile asset="4247509540" name="" priority="2" x="7" y="48" flags=""/>
+			<tile asset="190385595" name="" priority="2" x="28" y="48" flags="hF"/>
+			<tile asset="4174743976" name="" priority="2" x="44" y="49" flags="oT"/>
+			<tile asset="302331353" name="" priority="2" x="29" y="50" flags="hF"/>
+			<tile asset="4132220020" name="" priority="2" x="12" y="51" flags="hF"/>
+			<tile asset="3861023646" name="" priority="2" x="31" y="52" flags=""/>
+			<tile asset="4247509540" name="" priority="2" x="20" y="53" flags=""/>
+			<tile asset="3861023646" name="" priority="2" x="29" y="53" flags=""/>
+			<tile asset="302331353" name="" priority="2" x="30" y="53" flags="hF"/>
+			<tile asset="3861023646" name="" priority="2" x="6" y="54" flags=""/>
+			<tile asset="4247509540" name="" priority="2" x="34" y="54" flags=""/>
+			<tile asset="4174743976" name="" priority="2" x="2" y="55" flags="oT"/>
+			<tile asset="4247509540" name="" priority="2" x="30" y="55" flags=""/>
+			<tile asset="190385595" name="" priority="2" x="30" y="55" flags="hF"/>
+			<tile asset="3861023646" name="" priority="2" x="2" y="57" flags="oB"/>
+			<tile asset="4174743976" name="" priority="2" x="32" y="58" flags="oT"/>
+			<tile asset="4174743976" name="" priority="2" x="46" y="58" flags="oT"/>
+			<tile asset="3861023646" name="" priority="2" x="22" y="60" flags=""/>
+			<tile asset="3861023646" name="" priority="2" x="24" y="60" flags=""/>
+			<tile asset="4174804558" name="" priority="2" x="45" y="60" flags=""/>
+			<tile asset="3861023646" name="" priority="2" x="5" y="61" flags="oB"/>
+			<tile asset="3861023646" name="" priority="2" x="28" y="61" flags=""/>
+			<tile asset="3861023646" name="" priority="2" x="29" y="61" flags=""/>
+			<tile asset="4174743976" name="" priority="2" x="12" y="62" flags="oT"/>
+			<tile asset="4276243837" name="" priority="2" x="23" y="64" flags=""/>
+			<tile asset="3963394044" name="" priority="2" x="20" y="65" flags=""/>
+			<tile asset="190385595" name="" priority="2" x="46" y="66" flags=""/>
+			<tile asset="4276243837" name="" priority="2" x="21" y="68" flags=""/>
+			<tile asset="4247509540" name="" priority="2" x="44" y="68" flags=""/>
+			<tile asset="3861023646" name="" priority="2" x="45" y="68" flags=""/>
+			<tile asset="4174804558" name="" priority="2" x="10" y="69" flags=""/>
+			<tile asset="4174743976" name="" priority="2" x="33" y="70" flags="oT"/>
+			<tile asset="4174743976" name="" priority="2" x="9" y="71" flags="oT"/>
+			<tile asset="190385595" name="" priority="2" x="48" y="71" flags=""/>
+			<tile asset="4247509540" name="" priority="2" x="20" y="73" flags=""/>
+			<tile asset="190385595" name="" priority="2" x="42" y="73" flags=""/>
+			<tile asset="495804292" name="" priority="2" x="33" y="74" flags=""/>
+			<tile asset="4174743976" name="" priority="2" x="2" y="75" flags="oT"/>
+			<tile asset="4174743976" name="" priority="2" x="38" y="75" flags="oT"/>
+			<tile asset="3861023646" name="" priority="2" x="45" y="76" flags=""/>
+			<tile asset="4112277350" name="" priority="2" x="34" y="77" flags=""/>
+			<tile asset="4176516998" name="" priority="2" x="25" y="78" flags="hF"/>
+			<tile asset="190385595" name="" priority="2" x="45" y="78" flags=""/>
+			<tile asset="4174804558" name="" priority="2" x="10" y="79" flags=""/>
+			<tile asset="4174743976" name="" priority="2" x="12" y="79" flags="oT"/>
+			<tile asset="4247509540" name="" priority="2" x="32" y="80" flags=""/>
+			<tile asset="331113360" name="" priority="2" x="35" y="80" flags=""/>
+			<tile asset="433755808" name="" priority="2" x="38" y="80" flags="hF"/>
+			<tile asset="4176516998" name="" priority="2" x="11" y="81" flags="hF"/>
+			<tile asset="4247509540" name="" priority="2" x="11" y="82" flags=""/>
+			<tile asset="4247509540" name="" priority="2" x="23" y="83" flags=""/>
+			<tile asset="4247509540" name="" priority="2" x="25" y="84" flags=""/>
+			<tile asset="4247509540" name="" priority="2" x="37" y="84" flags=""/>
+			<tile asset="3861023646" name="" priority="2" x="10" y="85" flags=""/>
+			<tile asset="190385595" name="" priority="2" x="4" y="86" flags="hF"/>
+			<tile asset="4174743976" name="" priority="2" x="2" y="89" flags="oT"/>
+			<tile asset="4174743976" name="" priority="2" x="14" y="89" flags="oT"/>
+			<tile asset="302331353" name="" priority="2" x="6" y="90" flags="hF"/>
+			<tile asset="3861023646" name="" priority="2" x="24" y="90" flags=""/>
+			<tile asset="302331353" name="" priority="2" x="6" y="91" flags="hF"/>
+			<tile asset="190385595" name="" priority="2" x="6" y="91" flags="hF"/>
+			<tile asset="4174743976" name="" priority="2" x="17" y="91" flags="oT"/>
+			<tile asset="302331353" name="" priority="2" x="18" y="92" flags=""/>
+			<tile asset="4174743976" name="" priority="2" x="36" y="93" flags=""/>
+			<tile asset="3963394044" name="" priority="2" x="15" y="94" flags=""/>
+			<tile asset="4174743976" name="" priority="2" x="45" y="94" flags="oT"/>
+			<tile asset="45432471" name="" priority="2" x="2" y="95" flags=""/>
+			<tile asset="3861023646" name="" priority="2" x="10" y="95" flags=""/>
+			<tile asset="4247509540" name="" priority="2" x="16" y="95" flags=""/>
+			<tile asset="331113360" name="" priority="2" x="6" y="96" flags=""/>
+			<tile asset="4247509540" name="" priority="2" x="26" y="97" flags=""/>
+			<tile asset="4174743976" name="" priority="2" x="27" y="97" flags="oT"/>
+			<tile asset="159026140" name="" priority="2" x="4" y="98" flags=""/>
+			<tile asset="4247509540" name="" priority="2" x="37" y="101" flags=""/>
+			<tile asset="4174743976" name="" priority="2" x="29" y="103" flags="oT"/>
+			<tile asset="4174743976" name="" priority="2" x="48" y="103" flags="oT"/>
+			<tile asset="4174804558" name="" priority="2" x="50" y="106" flags=""/>
+			<tile asset="4174804558" name="" priority="2" x="14" y="107" flags=""/>
+			<tile asset="4174743976" name="" priority="2" x="16" y="107" flags="oT"/>
+			<tile asset="4174743976" name="" priority="2" x="24" y="107" flags="oT"/>
+			<tile asset="4176516998" name="" priority="2" x="30" y="107" flags="hF"/>
+			<tile asset="4174743976" name="" priority="2" x="45" y="107" flags="oT"/>
+			<tile asset="4174804558" name="" priority="2" x="28" y="109" flags=""/>
+			<tile asset="4174743976" name="" priority="2" x="37" y="109" flags="oT"/>
+			<tile asset="331113360" name="" priority="2" x="48" y="111" flags=""/>
+			<tile asset="4174743976" name="" priority="2" x="13" y="113" flags="oT"/>
+			<tile asset="3963394044" name="" priority="2" x="24" y="114" flags=""/>
+			<tile asset="4174804558" name="" priority="2" x="38" y="114" flags=""/>
+			<tile asset="4247509540" name="" priority="2" x="48" y="114" flags=""/>
+			<tile asset="3861023646" name="" priority="2" x="50" y="114" flags=""/>
+			<tile asset="4176516998" name="" priority="2" x="12" y="115" flags="hF"/>
+			<tile asset="4247509540" name="" priority="2" x="14" y="115" flags=""/>
+			<tile asset="3861023646" name="" priority="2" x="14" y="115" flags=""/>
+			<tile asset="4247509540" name="" priority="2" x="26" y="115" flags=""/>
+			<tile asset="45432471" name="" priority="2" x="48" y="115" flags=""/>
+			<tile asset="433755808" name="" priority="2" x="38" y="116" flags="hF"/>
+			<tile asset="4247509540" name="" priority="2" x="4" y="117" flags=""/>
+			<tile asset="4174743976" name="" priority="2" x="27" y="117" flags="oT"/>
+			<tile asset="3861023646" name="" priority="2" x="28" y="117" flags=""/>
+			<tile asset="159026140" name="" priority="2" x="50" y="118" flags=""/>
+			<tile asset="4174804558" name="" priority="2" x="25" y="119" flags=""/>
+			<tile asset="4174743976" name="" priority="2" x="39" y="119" flags=""/>
+			<tile asset="4174804558" name="" priority="2" x="3" y="121" flags=""/>
+			<tile asset="4174804558" name="" priority="2" x="22" y="121" flags=""/>
+			<tile asset="190385595" name="" priority="2" x="5" y="122" flags="hF"/>
+			<tile asset="3861023646" name="" priority="2" x="38" y="122" flags=""/>
+			<tile asset="3861023646" name="" priority="2" x="50" y="122" flags=""/>
+			<tile asset="3861023646" name="" priority="2" x="14" y="123" flags=""/>
+			<tile asset="4174743976" name="" priority="2" x="23" y="123" flags="oT"/>
+			<tile asset="3861023646" name="" priority="2" x="28" y="125" flags=""/>
+			<tile asset="4174743976" name="" priority="2" x="29" y="125" flags="oT"/>
+			<tile asset="302331353" name="" priority="2" x="7" y="126" flags="hF"/>
+			<tile asset="302331353" name="" priority="2" x="7" y="126" flags="hF"/>
+			<tile asset="190385595" name="" priority="2" x="21" y="126" flags="hF"/>
+			<tile asset="190385595" name="" priority="2" x="7" y="127" flags="hF"/>
+			<tile asset="3861023646" name="" priority="2" x="25" y="127" flags=""/>
+			<tile asset="302331353" name="" priority="2" x="20" y="128" flags=""/>
+			<tile asset="190385595" name="" priority="2" x="48" y="128" flags=""/>
+			<tile asset="302331353" name="" priority="2" x="19" y="130" flags=""/>
+			<tile asset="190385595" name="" priority="2" x="19" y="130" flags="hF"/>
+			<tile asset="3861023646" name="" priority="2" x="38" y="130" flags=""/>
+			<tile asset="4174743976" name="" priority="2" x="26" y="131" flags="oT"/>
+			<tile asset="4174743976" name="" priority="2" x="2" y="132" flags="oT"/>
+			<tile asset="302331353" name="" priority="2" x="46" y="132" flags=""/>
+			<tile asset="3861023646" name="" priority="2" x="3" y="133" flags=""/>
+			<tile asset="4174743976" name="" priority="2" x="6" y="133" flags="oT"/>
+			<tile asset="4174743976" name="" priority="2" x="10" y="133" flags="oT"/>
+			<tile asset="190385595" name="" priority="2" x="45" y="133" flags=""/>
+			<tile asset="3861023646" name="" priority="2" x="25" y="135" flags=""/>
+			<tile asset="4174743976" name="" priority="2" x="31" y="135" flags="oT"/>
+			<tile asset="302331353" name="" priority="2" x="44" y="135" flags=""/>
+			<tile asset="4174743976" name="" priority="2" x="12" y="136" flags="oT"/>
+			<tile asset="3861023646" name="" priority="2" x="3" y="137" flags=""/>
+			<tile asset="4174743976" name="" priority="2" x="16" y="137" flags="oT"/>
+			<tile asset="3861023646" name="" priority="2" x="22" y="137" flags=""/>
+			<tile asset="4174743976" name="" priority="2" x="22" y="137" flags="oT"/>
+			<tile asset="4174743976" name="" priority="2" x="36" y="137" flags="oT"/>
+			<tile asset="302331353" name="" priority="2" x="43" y="138" flags=""/>
+			<tile asset="190385595" name="" priority="2" x="43" y="138" flags="hF"/>
+			<tile asset="4247509540" name="" priority="2" x="17" y="139" flags=""/>
+			<tile asset="4247509540" name="" priority="2" x="22" y="139" flags=""/>
+		</layer>
+		<layer name="shadow" tileWidth="35" tileHeight="17.5">
+			<tile asset="76510203" name="" priority="2" x="36" y="137" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="49" y="58" flags=""/>
+			<tile asset="315312713" name="" priority="2" x="25" y="78" flags="hF"/>
+			<tile asset="307153591" name="" priority="2" x="39" y="137" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="25" y="108" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="27" y="108" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="48" y="19" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="27" y="118" flags=""/>
+			<tile asset="3987115600" name="" priority="2" x="20" y="128" flags="hF"/>
+			<tile asset="76510203" name="" priority="2" x="10" y="79" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="4" y="89" flags=""/>
+			<tile asset="3987115600" name="" priority="2" x="6" y="89" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="47" y="19" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="22" y="10" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="23" y="10" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="12" y="79" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="2" y="40" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="2" y="89" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="14" y="89" flags=""/>
+			<tile asset="162015146" name="" priority="2" x="35" y="10" flags="hF"/>
+			<tile asset="307153591" name="" priority="2" x="49" y="59" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="1" y="60" flags=""/>
+			<tile asset="315312713" name="" priority="2" x="38" y="79" flags="hF"/>
+			<tile asset="76510203" name="" priority="2" x="46" y="20" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="28" y="109" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="23" y="119" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="24" y="119" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="17" y="129" flags=""/>
+			<tile asset="3987115600" name="" priority="2" x="4" y="21" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="14" y="11" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="31" y="109" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="25" y="119" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="6" y="90" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="24" y="70" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="25" y="70" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="15" y="21" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="16" y="21" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="41" y="119" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="42" y="119" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="19" y="21" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="32" y="70" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="33" y="70" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="19" y="90" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="36" y="70" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="45" y="60" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="18" y="21" flags=""/>
+			<tile asset="162015146" name="" priority="2" x="35" y="11" flags="hF"/>
+			<tile asset="307153591" name="" priority="2" x="48" y="60" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="5" y="41" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="35" y="70" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="39" y="119" flags=""/>
+			<tile asset="3987115600" name="" priority="2" x="9" y="31" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="47" y="60" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="17" y="11" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="22" y="41" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="13" y="70" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="24" y="41" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="20" y="90" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="3" y="71" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="4" y="71" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="9" y="71" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="30" y="110" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="51" y="11" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="3" y="51" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="19" y="130" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="28" y="120" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="14" y="12" flags=""/>
+			<tile asset="315312713" name="" priority="2" x="11" y="81" flags="hF"/>
+			<tile asset="76510203" name="" priority="2" x="6" y="91" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="11" y="71" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="17" y="91" flags=""/>
+			<tile asset="4111051083" name="" priority="2" x="18" y="91" flags="hF"/>
+			<tile asset="307153591" name="" priority="2" x="8" y="42" flags=""/>
+			<tile asset="162015146" name="" priority="2" x="36" y="12" flags="hF"/>
+			<tile asset="307153591" name="" priority="2" x="33" y="71" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="3" y="121" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="5" y="121" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="6" y="121" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="27" y="32" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="48" y="71" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="49" y="12" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="38" y="91" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="51" y="12" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="12" y="62" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="14" y="62" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="46" y="91" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="11" y="72" flags=""/>
+			<tile asset="3987115600" name="" priority="2" x="9" y="13" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="11" y="13" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="30" y="91" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="26" y="131" flags=""/>
+			<tile asset="3987115600" name="" priority="2" x="31" y="52" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="28" y="131" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="29" y="131" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="6" y="33" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="7" y="33" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="21" y="62" flags=""/>
+			<tile asset="3987115600" name="" priority="2" x="14" y="23" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="38" y="13" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="39" y="13" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="5" y="122" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="42" y="13" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="15" y="112" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="20" y="43" flags=""/>
+			<tile asset="315312713" name="" priority="2" x="21" y="43" flags="hF"/>
+			<tile asset="76510203" name="" priority="2" x="2" y="132" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="47" y="13" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="4" y="132" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="49" y="13" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="26" y="43" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="43" y="13" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="32" y="102" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="45" y="13" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="46" y="13" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="23" y="43" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="32" y="43" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="5" y="132" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="2" y="73" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="31" y="102" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="40" y="102" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="8" y="122" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="26" y="122" flags=""/>
+			<tile asset="315312713" name="" priority="2" x="23" y="63" flags="hF"/>
+			<tile asset="76510203" name="" priority="2" x="48" y="33" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="13" y="14" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="33" y="33" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="39" y="102" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="20" y="63" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="28" y="43" flags=""/>
+			<tile asset="315312713" name="" priority="2" x="22" y="63" flags="hF"/>
+			<tile asset="76510203" name="" priority="2" x="3" y="34" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="16" y="83" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="21" y="14" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="26" y="73" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="51" y="33" flags=""/>
+			<tile asset="315312713" name="" priority="2" x="11" y="34" flags="hF"/>
+			<tile asset="307153591" name="" priority="2" x="17" y="93" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="22" y="14" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="38" y="73" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="23" y="73" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="37" y="14" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="42" y="73" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="13" y="113" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="16" y="113" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="5" y="54" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="22" y="44" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="24" y="44" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="29" y="103" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="6" y="133" flags=""/>
+			<tile asset="315312713" name="" priority="2" x="35" y="34" flags="hF"/>
+			<tile asset="307153591" name="" priority="2" x="8" y="133" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="9" y="133" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="10" y="133" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="31" y="44" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="36" y="93" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="13" y="133" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="34" y="44" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="23" y="123" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="36" y="44" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="25" y="123" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="12" y="133" flags=""/>
+			<tile asset="3987115600" name="" priority="2" x="46" y="132" flags="hF"/>
+			<tile asset="307153591" name="" priority="2" x="39" y="113" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="48" y="103" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="41" y="113" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="19" y="15" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="16" y="84" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="25" y="74" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="18" y="84" flags=""/>
+			<tile asset="315312713" name="" priority="2" x="15" y="25" flags="hF"/>
+			<tile asset="307153591" name="" priority="2" x="0" y="45" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="26" y="44" flags=""/>
+			<tile asset="315312713" name="" priority="2" x="10" y="35" flags="hF"/>
+			<tile asset="4111051083" name="" priority="2" x="15" y="94" flags="hF"/>
+			<tile asset="307153591" name="" priority="2" x="16" y="94" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="37" y="74" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="2" y="55" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="4" y="55" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="41" y="14" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="40" y="15" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="42" y="15" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="40" y="113" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="38" y="94" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="11" y="65" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="12" y="65" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="29" y="45" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="30" y="45" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="32" y="45" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="33" y="45" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="38" y="114" flags=""/>
+			<tile asset="3987115600" name="" priority="2" x="7" y="26" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="48" y="104" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="17" y="16" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="50" y="104" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="16" y="85" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="29" y="6" flags=""/>
+			<tile asset="315312713" name="" priority="2" x="15" y="26" flags="hF"/>
+			<tile asset="307153591" name="" priority="2" x="32" y="6" flags=""/>
+			<tile asset="315312713" name="" priority="2" x="10" y="36" flags="hF"/>
+			<tile asset="76510203" name="" priority="2" x="25" y="34" flags=""/>
+			<tile asset="162015146" name="" priority="2" x="34" y="75" flags="hF"/>
+			<tile asset="307153591" name="" priority="2" x="28" y="85" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="38" y="75" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="40" y="75" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="17" y="105" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="5" y="36" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="39" y="16" flags=""/>
+			<tile asset="315312713" name="" priority="2" x="12" y="115" flags="hF"/>
+			<tile asset="76510203" name="" priority="2" x="42" y="16" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="27" y="36" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="44" y="16" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="41" y="75" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="31" y="36" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="33" y="36" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="34" y="36" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="39" y="95" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="46" y="95" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="4" y="86" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="1" y="27" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="3" y="27" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="12" y="17" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="29" y="125" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="14" y="17" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="23" y="7" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="32" y="125" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="25" y="7" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="26" y="7" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="19" y="17" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="4" y="27" flags=""/>
+			<tile asset="315312713" name="" priority="2" x="14" y="27" flags="hF"/>
+			<tile asset="76510203" name="" priority="2" x="31" y="135" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="32" y="7" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="33" y="135" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="34" y="135" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="3" y="47" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="4" y="37" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="5" y="47" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="6" y="37" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="27" y="86" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="31" y="125" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="45" y="56" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="46" y="66" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="47" y="56" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="51" y="105" flags=""/>
+			<tile asset="162015146" name="" priority="2" x="35" y="76" flags="hF"/>
+			<tile asset="307153591" name="" priority="2" x="28" y="86" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="8" y="37" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="15" y="17" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="19" y="106" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="28" y="106" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="20" y="7" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="3" y="77" flags=""/>
+			<tile asset="3987115600" name="" priority="2" x="28" y="47" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="30" y="47" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="12" y="136" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="14" y="136" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="11" y="77" flags=""/>
+			<tile asset="315312713" name="" priority="2" x="20" y="67" flags="hF"/>
+			<tile asset="315312713" name="" priority="2" x="21" y="67" flags="hF"/>
+			<tile asset="3987115600" name="" priority="2" x="12" y="18" flags=""/>
+			<tile asset="162015146" name="" priority="2" x="3" y="97" flags="hF"/>
+			<tile asset="162015146" name="" priority="2" x="4" y="97" flags="hF"/>
+			<tile asset="76510203" name="" priority="2" x="18" y="18" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="27" y="8" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="42" y="7" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="29" y="8" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="30" y="8" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="31" y="8" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="15" y="136" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="5" y="107" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="50" y="106" flags=""/>
+			<tile asset="162015146" name="" priority="2" x="51" y="116" flags="hF"/>
+			<tile asset="76510203" name="" priority="2" x="4" y="48" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="14" y="107" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="16" y="107" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="18" y="107" flags=""/>
+			<tile asset="315312713" name="" priority="2" x="38" y="115" flags="hF"/>
+			<tile asset="76510203" name="" priority="2" x="7" y="127" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="24" y="107" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="45" y="18" flags=""/>
+			<tile asset="4111051083" name="" priority="2" x="21" y="66" flags="hF"/>
+			<tile asset="315312713" name="" priority="2" x="30" y="107" flags="hF"/>
+			<tile asset="162015146" name="" priority="2" x="50" y="116" flags="hF"/>
+			<tile asset="76510203" name="" priority="2" x="27" y="117" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="29" y="117" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="30" y="117" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="16" y="137" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="18" y="137" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="15" y="78" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="34" y="8" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="45" y="107" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="22" y="137" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="47" y="107" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="24" y="137" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="25" y="137" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="46" y="38" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="19" y="137" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="32" y="58" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="33" y="58" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="26" y="68" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="44" y="58" flags=""/>
+			<tile asset="76510203" name="" priority="2" x="46" y="58" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="14" y="78" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="48" y="58" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="5" y="49" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="38" y="137" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="34" y="58" flags=""/>
+			<tile asset="307153591" name="" priority="2" x="48" y="107" flags=""/>
+			<tile asset="3987115600" name="" priority="2" x="43" y="137" flags="hF"/>
+		</layer>
+		<layer name="collision" tileWidth="35" tileHeight="17.5">
+		</layer>
+		<layer name="waypoint" tileWidth="35" tileHeight="17.5">
+		</layer>
+	</layers>
+	<assets>
+		<asset id="172682252" file="/road/dirt/car_s_rod_drt_newArcWider_c0_r3.ajpg"/>
+		<asset id="147954195" file="/object/generic/car_s_obj_gen_campingStoneBridge_c5_r51.ajpg"/>
+		<asset id="139552796" file="/landscape/terrain/car_s_lnd_ter_paintableHotSprings_T.ajpg"/>
+		<asset id="153257761" file="/landscape/terrain/car_s_lnd_ter_paintableHotSprings_TRBL.ajpg"/>
+		<asset id="90950178" file="/road/dirt/car_s_rod_drt_newArcWider_c1_r5.ajpg"/>
+		<asset id="208420659" file="/landscape/dirt/car_s_lnd_drt_tailfinDirt_TRBL.ajpg"/>
+		<asset id="188608586" file="/landscape/terrain/car_s_lnd_ter_paintableHotSprings_L.ajpg"/>
+		<asset id="65311311" file="/road/dirt/car_s_rod_drt_verticalStraightDirt_c0_r4.ajpg"/>
+		<asset id="232110660" file="/road/dirt/car_s_rod_drt_newArc_c1_r5.ajpg"/>
+		<asset id="191832928" file="/object/generic/car_s_obj_gen_campingStoneBridge_c5_r49.ajpg"/>
+		<asset id="214283361" file="/road/dirt/car_s_rod_drt_verticalStraightDirt_c1_r2.ajpg"/>
+		<asset id="267577445" file="/road/dirt/car_s_rod_drt_horizontalStraightDirt_c1_r1.ajpg"/>
+		<asset id="49585258" file="/road/dirt/car_s_rod_drt_newArc_c0_r3.ajpg"/>
+		<asset id="258452846" file="/landscape/dirt/car_s_lnd_drt_tailfinDirt_02_TRBL.ajpg"/>
+		<asset id="221130869" file="/object/generic/car_s_obj_gen_campingStoneBridge_c6_r50.ajpg"/>
+		<asset id="160476025" file="/road/dirt/car_s_rod_drt_newArcWider_c3_r7.ajpg"/>
+		<asset id="41688961" file="/road/dirt/car_s_rod_drt_jogOverDirt_c0_r4.ajpg"/>
+		<asset id="30845573" file="/object/generic/car_s_obj_gen_campingStoneBridge_c5_r50.ajpg"/>
+		<asset id="235660424" file="/building/generic/car_s_bld_gen_tentBasicBack_000.ajpg"/>
+		<asset id="54478999" file="/landscape/terrain/car_s_lnd_ter_paintableHotSprings_RL.ajpg"/>
+		<asset id="162015146" file="/object/shadow/car_s_obj_shd_shadowBox2X2.ajpg"/>
+		<asset id="224213423" file="/road/dirt/car_s_rod_drt_jogOverDirt_c1_r2.ajpg"/>
+		<asset id="45432471" file="/building/generic/car_s_bld_gen_tentModernBack_000.ajpg"/>
+		<asset id="208468660" file="/road/dirt/car_s_rod_drt_newArcWider_c1_r4.ajpg"/>
+		<asset id="99988905" file="/road/dirt/car_s_rod_drt_tanVerticalArc_c2_r2.ajpg"/>
+		<asset id="190385595" file="/object/fence/car_s_obj_fnc_logFence_000.ajpg"/>
+		<asset id="80906962" file="/road/dirt/car_s_rod_drt_newArc_c1_r4.ajpg"/>
+		<asset id="259974361" file="/landscape/terrain/car_s_lnd_ter_paintableHotSprings_LTR.ajpg"/>
+		<asset id="103805660" file="/road/dirt/car_s_rod_drt_tanVerticalArc_c1_r6.ajpg"/>
+		<asset id="159026140" file="/building/generic/car_s_bld_gen_tentModern_000.ajpg"/>
+		<asset id="182690521" file="/road/dirt/car_s_rod_drt_verticalStraightDirt_c0_r5.ajpg"/>
+		<asset id="9935855" file="/road/dirt/car_s_rod_drt_newArcWider_c3_r6.ajpg"/>
+		<asset id="116775155" file="/road/dirt/car_s_rod_drt_horizontalStraightDirt_c1_r0.ajpg"/>
+		<asset id="96634103" file="/road/dirt/car_s_rod_drt_verticalStraightDirt_c1_r3.ajpg"/>
+		<asset id="90490617" file="/road/dirt/car_s_rod_drt_newArc_c1_r8.ajpg"/>
+		<asset id="76510203" file="/object/shadow/car_s_obj_shd_shadowPole.ajpg"/>
+		<asset id="4045232838" file="/landscape/terrain/car_s_lnd_ter_paintableHotSprings_BL.ajpg"/>
+		<asset id="4276243837" file="/object/fence/car_s_obj_fnc_fenceTTEnt_000.ajpg"/>
+		<asset id="516674893" file="/road/dirt/car_s_rod_drt_verticalStraightDirt_c1_r0.ajpg"/>
+		<asset id="4104022245" file="/road/dirt/car_s_rod_drt_newArc_c0_r6.ajpg"/>
+		<asset id="525555843" file="/road/dirt/car_s_rod_drt_jogOverDirt_c1_r0.ajpg"/>
+		<asset id="4112277350" file="/building/generic/car_s_bld_gen_tentModernB_000.ajpg"/>
+		<asset id="277308816" file="/landscape/terrain/car_s_lnd_ter_paintableHotSprings_RB.ajpg"/>
+		<asset id="3772367382" file="/landscape/terrain/car_s_lnd_ter_paintableHotSprings_TB.ajpg"/>
+		<asset id="4187495658" file="/road/dirt/car_s_rod_drt_horizontalStraightDirt_c1_r4.ajpg"/>
+		<asset id="410146348" file="/landscape/dirt/car_s_lnd_drt_tailfinDirt_03_TRBL.ajpg"/>
+		<asset id="3868199369" file="/road/dirt/car_s_rod_drt_newArc_c0_r4.ajpg"/>
+		<asset id="4040915416" file="/road/dirt/car_s_rod_drt_newArcWider_c2_r4.ajpg"/>
+		<asset id="4023074819" file="/landscape/dirt/car_s_lnd_drt_firstDirt_TRB.ajpg"/>
+		<asset id="4174743976" file="/vegetation/tree/car_s_veg_tre_treePineShort_000.ajpg"/>
+		<asset id="3902148764" file="/road/dirt/car_s_rod_drt_tanVerticalArc_c2_r4.ajpg"/>
+		<asset id="4150107611" file="/road/dirt/car_s_rod_drt_straightDirt_c1_r1.ajpg"/>
+		<asset id="302331353" file="/object/fence/car_s_obj_fnc_logFenceBar_000.ajpg"/>
+		<asset id="4242295579" file="/landscape/dirt/car_s_lnd_drt_firstDirt_L.ajpg"/>
+		<asset id="510858537" file="/landscape/dirt/car_s_lnd_drt_firstDirt_LTR.ajpg"/>
+		<asset id="392538894" file="/road/dirt/car_s_rod_drt_newArcWider_c1_r7.ajpg"/>
+		<asset id="3796592511" file="/road/dirt/car_s_rod_drt_tanVerticalArc_c1_r1.ajpg"/>
+		<asset id="3987762046" file="/road/dirt/car_s_rod_drt_horizontalStraightDirt_c0_r1.ajpg"/>
+		<asset id="534502248" file="/road/dirt/car_s_rod_drt_newArc_c1_r7.ajpg"/>
+		<asset id="303883593" file="/landscape/dirt/car_s_lnd_drt_firstDirt_RB.ajpg"/>
+		<asset id="345862087" file="/landscape/dirt/car_s_lnd_drt_firstDirt_LT.ajpg"/>
+		<asset id="4001838970" file="/road/dirt/car_s_rod_drt_verticalStraightDirt_c0_r2.ajpg"/>
+		<asset id="321894120" file="/road/dirt/car_s_rod_drt_newArcWider_c3_r8.ajpg"/>
+		<asset id="3902874050" file="/road/dirt/car_s_rod_drt_verticalStraightDirt_c1_r5.ajpg"/>
+		<asset id="315312713" file="/object/shadow/car_s_obj_shd_shadowBox1X1.ajpg"/>
+		<asset id="4181866181" file="/road/dirt/car_s_rod_drt_tanVerticalArc_c1_r2.ajpg"/>
+		<asset id="3964980321" file="/road/dirt/car_s_rod_drt_straightDirt_c1_r2.ajpg"/>
+		<asset id="4191372693" file="/road/dirt/car_s_rod_drt_newArc_c2_r8.ajpg"/>
+		<asset id="493802098" file="/landscape/terrain/car_s_lnd_ter_paintableHotSprings_TR.ajpg"/>
+		<asset id="3775386169" file="/interactive/hotspot/car_s_int_hot_checkerLine.swf"/>
+		<asset id="331113360" file="/interactive/generic/car_s_int_gen_campfire.swf"/>
+		<asset id="4034017037" file="/road/dirt/car_s_rod_drt_verticalStraightDirt_c2_r2.ajpg"/>
+		<asset id="383577086" file="/road/dirt/car_s_rod_drt_newArc_c1_r6.ajpg"/>
+		<asset id="4290644562" file="/road/dirt/car_s_rod_drt_horizontalStraightDirt_c0_r3.ajpg"/>
+		<asset id="4176516998" file="/landscape/rock/car_s_lnd_rok_rockMedBNew_000.ajpg"/>
+		<asset id="3845311785" file="/landscape/terrain/car_s_lnd_ter_paintableHotSprings_R.ajpg"/>
+		<asset id="527955479" file="/landscape/terrain/car_s_lnd_ter_paintableHotSprings_RBL.ajpg"/>
+		<asset id="4267355469" file="/road/dirt/car_s_rod_drt_straightDirt_c1_r0.ajpg"/>
+		<asset id="3987115600" file="/object/shadow/car_s_obj_shd_shadowBox1X5.ajpg"/>
+		<asset id="4274434547" file="/landscape/terrain/car_s_lnd_ter_paintableHotSprings_TRB.ajpg"/>
+		<asset id="307153591" file="/object/shadow/car_s_obj_shd_shadowTreeA.ajpg"/>
+		<asset id="4095142670" file="/road/dirt/car_s_rod_drt_jogOverDirt_c0_r1.ajpg"/>
+		<asset id="3785757012" file="/road/dirt/car_s_rod_drt_verticalStraightDirt_c1_r4.ajpg"/>
+		<asset id="3861023646" file="/vegetation/tree/car_s_veg_tre_pineTreeTopA.ajpg"/>
+		<asset id="399304155" file="/road/dirt/car_s_rod_drt_verticalStraightDirt_c1_r1.ajpg"/>
+		<asset id="3805519978" file="/landscape/dirt/car_s_lnd_drt_tailfinDirt_06_TRBL.ajpg"/>
+		<asset id="4174804558" file="/vegetation/tree/car_s_veg_tre_pineTreeTrunkA.ajpg"/>
+		<asset id="4031055443" file="/road/dirt/car_s_rod_drt_tanVerticalArc_c1_r3.ajpg"/>
+		<asset id="3932907666" file="/road/dirt/car_s_rod_drt_newArc_c2_r6.ajpg"/>
+		<asset id="4247509540" file="/vegetation/tree/car_s_veg_tre_pineTreeTopB.ajpg"/>
+		<asset id="3900133806" file="/landscape/dirt/car_s_lnd_drt_tailfinDirt_04_TRBL.ajpg"/>
+		<asset id="3815528452" file="/road/dirt/car_s_rod_drt_newArc_c2_r7.ajpg"/>
+		<asset id="3916729668" file="/building/generic/car_s_bld_gen_tentBasic_000.ajpg"/>
+		<asset id="411426125" file="/landscape/terrain/car_s_lnd_ter_paintableHotSprings_B.ajpg"/>
+		<asset id="4191963470" file="/road/dirt/car_s_rod_drt_newArcWider_c2_r5.ajpg"/>
+		<asset id="4016334364" file="/landscape/dirt/car_s_lnd_drt_firstDirt_B.ajpg"/>
+		<asset id="4019665247" file="/road/dirt/car_s_rod_drt_newArc_c0_r5.ajpg"/>
+		<asset id="4284656364" file="/landscape/dirt/car_s_lnd_drt_tailfinDirt_05_TRBL.ajpg"/>
+		<asset id="4119750336" file="/road/dirt/car_s_rod_drt_verticalStraightDirt_c0_r1.ajpg"/>
+		<asset id="4111051083" file="/object/shadow/car_s_obj_shd_shadowFence1X4.ajpg"/>
+		<asset id="352041439" file="/road/dirt/car_s_rod_drt_horizontalStraightDirt_c1_r2.ajpg"/>
+		<asset id="3956418658" file="/road/dirt/car_s_rod_drt_newArcWider_c2_r7.ajpg"/>
+		<asset id="4167697765" file="/road/dirt/car_s_rod_drt_newArcWider_c2_r9.ajpg"/>
+		<asset id="536171179" file="/landscape/dirt/car_s_lnd_drt_firstDirt_TR.ajpg"/>
+		<asset id="495804292" file="/building/generic/car_s_bld_gen_tentModernBback_000.ajpg"/>
+		<asset id="3805616372" file="/road/dirt/car_s_rod_drt_newArcWider_c2_r6.ajpg"/>
+		<asset id="3983163729" file="/road/dirt/car_s_rod_drt_tanVerticalArc_c0_r7.ajpg"/>
+		<asset id="503089481" file="/road/dirt/car_s_rod_drt_horizontalStraightDirt_c1_r3.ajpg"/>
+		<asset id="4254685299" file="/road/dirt/car_s_rod_drt_newArc_c0_r7.ajpg"/>
+		<asset id="509778840" file="/road/dirt/car_s_rod_drt_newArcWider_c1_r6.ajpg"/>
+		<asset id="316057576" file="/landscape/dirt/car_s_lnd_drt_tailfinDirt_01_TRBL.ajpg"/>
+		<asset id="433755808" file="/landscape/rock/car_s_lnd_rok_rockMedB_000.ajpg"/>
+		<asset id="4050466291" file="/road/dirt/car_s_rod_drt_newArcWider_c2_r8.ajpg"/>
+		<asset id="302482760" file="/road/dirt/car_s_rod_drt_tanVerticalArc_c0_r3.ajpg"/>
+		<asset id="337744880" file="/road/dirt/car_s_rod_drt_tanVerticalArc_c1_r4.ajpg"/>
+		<asset id="4085701151" file="/landscape/dirt/car_s_lnd_drt_firstDirt_BL.ajpg"/>
+		<asset id="369553182" file="/landscape/terrain/car_s_lnd_ter_paintableHotSprings_LT.ajpg"/>
+		<asset id="4210163903" file="/landscape/terrain/car_s_lnd_ter_paintableHotSprings_BLT.ajpg"/>
+		<asset id="3996023215" file="/road/dirt/car_s_rod_drt_newArcWider_c0_r4.ajpg"/>
+		<asset id="3883927532" file="/road/dirt/car_s_rod_drt_verticalStraightDirt_c0_r3.ajpg"/>
+		<asset id="4289778509" file="/landscape/dirt/car_s_lnd_drt_firstDirt_T.ajpg"/>
+		<asset id="3860367906" file="/road/dirt/car_s_rod_drt_jogOverDirt_c0_r3.ajpg"/>
+		<asset id="3892866839" file="/road/dirt/car_s_rod_drt_newArcWider_c1_r3.ajpg"/>
+		<asset id="489071462" file="/road/dirt/car_s_rod_drt_tanVerticalArc_c1_r5.ajpg"/>
+		<asset id="3963394044" file="/object/generic/car_s_obj_gen_logBig_000.ajpg"/>
+		<asset id="374630421" file="/road/dirt/car_s_rod_drt_jogOverDirt_c1_r1.ajpg"/>
+		<asset id="3878242617" file="/road/dirt/car_s_rod_drt_newArcWider_c0_r5.ajpg"/>
+		<asset id="354361024" file="/road/dirt/car_s_rod_drt_straightDirt_c0_r1.ajpg"/>
+		<asset id="315848312" file="/landscape/dirt/car_s_lnd_drt_firstDirt_R.ajpg"/>
+		<asset id="4132220020" file="/object/fence/car_s_obj_fnc_railStripeLong_000.ajpg"/>
+		<asset id="3775881089" file="/road/dirt/car_s_rod_drt_newArcWider_c1_r2.ajpg"/>
+		<asset id="4284751997" file="/road/dirt/car_s_rod_drt_tanVerticalArc_c0_r5.ajpg"/>
+		<asset id="4139334340" file="/road/dirt/car_s_rod_drt_horizontalStraightDirt_c0_r2.ajpg"/>
+	</assets>
+	<groups>
+	</groups>
+</map>
