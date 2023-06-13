@@ -8,10 +8,10 @@
 		<!-- format is the type and url points to the sound's location; loop is a flag to specify looping or not -->
 		<!-- pan ranges from -1 (left) to 1 (right) 0 is center -->
 		<!-- vol ranges from 0 (silent) to 1 (max) -->
-			
-		
+
+
 		<!-- Sound Effects -->
-		
+
 		<!-- Fizzy Fuel sound effects -->
 		<AudioEntry priority="0.7" alias="blastroGastroBackFire" url="sound/effect/consumable/car_o_efx_cns_blastroGastroBackFire.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />
 		<AudioEntry priority="0.7" alias="fizzyFuelBurp" url="sound/effect/consumable/car_o_efx_cns_fizzyFuelBurp.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />
@@ -27,7 +27,7 @@
 		<AudioEntry priority="0.7" alias="fizzyFuelLaserPink" url="sound/effect/consumable/car_o_efx_cns_laserPink.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />
 	</AudioGroup>
 
-		
+
 	<AudioGroup priority="1" alias="WorldSFX">
 		<!-- Fire sounds -->
 		<AudioEntry priority="0.7" alias="fireLoop01" url="sound/effect/event/car_o_efx_evt_campfireLoop01.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />
@@ -105,7 +105,7 @@
 		<AudioEntry priority="0.7" alias="fillmoreWaterTowerLever" url="sound/effect/global/car_o_efx_glb_waterLever.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />
 		<AudioEntry priority="0.7" alias="fillmoreConveyor" url="sound/effect/global/car_o_efx_glb_conveyor.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />
 		<AudioEntry priority="0.7" alias="fillmoreCrane" url="sound/effect/global/car_o_efx_glb_crane.mp3" loop="false" pan="0" vol=".5" mode="single-channel-block" stream="true" isMusic="false" />
-		
+
 		<!-- Dance Floor Audio -->
 		<AudioEntry priority="0.7" alias="dfRHVGong1" url="sound/effect/global/car_o_efx_glb_danceRHV_gong01.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />
 		<AudioEntry priority="0.7" alias="dfRHVGong2" url="sound/effect/global/car_o_efx_glb_danceRHV_gong02.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />
@@ -134,63 +134,63 @@
 		<AudioEntry priority="0.7" alias="dfWBJunk1" url="sound/effect/global/car_o_efx_glb_danceWB_junkChime01.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />
 		<AudioEntry priority="0.7" alias="dfWBJunk2" url="sound/effect/global/car_o_efx_glb_danceWB_junkChime02.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />
 		<AudioEntry priority="0.7" alias="dfWBJunk3" url="sound/effect/global/car_o_efx_glb_danceWB_junkChime03.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />
-		
+
 		<SubGroup name="rhvGongOnClick">
             <SubGroupEntry alias="dfRHVGong1" weight="1" />
             <SubGroupEntry alias="dfRHVGong2" weight="1" />
             <SubGroupEntry alias="dfRHVGong3" weight="1" />
         </SubGroup>
-		
+
 		<SubGroup name="rhvHubcapOnClick">
             <SubGroupEntry alias="dfRHVHubcap1" weight="1" />
             <SubGroupEntry alias="dfRHVHubcap2" weight="1" />
             <SubGroupEntry alias="dfRHVHubcap3" weight="1" />
         </SubGroup>
-		
+
 		<SubGroup name="rhvSteelDrumOnClick">
             <SubGroupEntry alias="dfRHVSteelDrum1" weight="1" />
             <SubGroupEntry alias="dfRHVSteelDrum2" weight="1" />
             <SubGroupEntry alias="dfRHVSteelDrum3" weight="1" />
         </SubGroup>
-		
+
 		<SubGroup name="rsChimesOnClick">
             <SubGroupEntry alias="dfRSChimes1" weight="1" />
             <SubGroupEntry alias="dfRSChimes2" weight="1" />
             <SubGroupEntry alias="dfRSChimes3" weight="1" />
         </SubGroup>
-		
+
 		<SubGroup name="rsDrumsOnClick">
             <SubGroupEntry alias="dfRSDrums1" weight="1" />
             <SubGroupEntry alias="dfRSDrums2" weight="1" />
             <SubGroupEntry alias="dfRSDrums3" weight="1" />
         </SubGroup>
-		
+
 		<SubGroup name="rsHornsOnClick">
             <SubGroupEntry alias="dfRSHorns1" weight="1" />
             <SubGroupEntry alias="dfRSHorns2" weight="1" />
             <SubGroupEntry alias="dfRSHorns3" weight="1" />
         </SubGroup>
-		
+
 		<SubGroup name="wbBassClick">
             <SubGroupEntry alias="dfWBBass1" weight="1" />
             <SubGroupEntry alias="dfWBBass2" weight="1" />
             <SubGroupEntry alias="dfWBBass3" weight="1" />
         </SubGroup>
-		
+
 		<SubGroup name="wbHornOnClick">
             <SubGroupEntry alias="dfWBHorn1" weight="1" />
             <SubGroupEntry alias="dfWBHorn2" weight="1" />
             <SubGroupEntry alias="dfWBHorn3" weight="1" />
         </SubGroup>
-		
+
 		<SubGroup name="wbJunkOnClick">
             <SubGroupEntry alias="dfWBJunk1" weight="1" />
             <SubGroupEntry alias="dfWBJunk2" weight="1" />
             <SubGroupEntry alias="dfWBJunk3" weight="1" />
         </SubGroup>
 	</AudioGroup>
-	
-	
+
+
 	<AudioGroup priority="1" alias="EventSFX">
 		<!-- This group provides SFX for Tanksgiving Gas Tanks -->
 		<AudioEntry priority="0.7" alias="tanksgivingSlurp01" url="sound/effect/global/car_o_efx_glb_slurp01.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />
@@ -200,7 +200,7 @@
 		<AudioEntry priority="0.7" alias="tanksgivingSlurp05" url="sound/effect/global/car_o_efx_glb_slurp05.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />
 		<AudioEntry priority="0.7" alias="tanksgivingSlurp06" url="sound/effect/global/car_o_efx_glb_slurp06.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />
 		<AudioEntry priority="0.7" alias="tanksgivingSlurp07" url="sound/effect/global/car_o_efx_glb_slurp07.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />
-	
+
 		<SubGroup name="tankOnClick">
             <SubGroupEntry alias="tanksgivingSlurp01" weight="1" />
             <SubGroupEntry alias="tanksgivingSlurp02" weight="1" />
@@ -211,22 +211,22 @@
             <SubGroupEntry alias="tanksgivingSlurp07" weight="1" />
         </SubGroup>
 	</AudioGroup>
-	
-	
+
+
 	<AudioGroup priority="0.5" alias="ui">
-		
+
 		<!-- Main User Interface -->
 		<AudioEntry priority="0.1" alias="HonkSmall" url="sound/effect/garage/car_o_efx_gar_carHorn_smallHappy.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="false" isMusic="false" />
 		<AudioEntry priority="0.1" alias="HonkMedium" url="sound/effect/garage/car_o_efx_gar_carHorn_medHappy.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="false" isMusic="false" />
 		<AudioEntry priority="0.1" alias="HonkLarge" url="sound/effect/garage/car_o_efx_gar_carHorn_largeHappy.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="false" isMusic="false" />
 		<AudioEntry priority="0.7" alias="uiClick" url="sound/effect/global/car_o_efx_glb_uiClick.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />
-		
+
 		<!-- World Coin Reward -->
 		<AudioEntry priority="0.7" alias="DialChange" url="sound/effect/global/car_o_efx_glb_uiCoinReward.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="false" isMusic="false" />
-		
+
 		<!-- DO NOT REMOVE/EDIT Additional Reward Audio UNUSED: DO NOT REMOVE/EDIT -->
 		<AudioEntry priority="0.7" alias="DialFinished" url="sound/effect/global/car_o_efx_glb_silence.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="false" isMusic="false" />
-		   
+
 		<!-- On Dashboard Open -->
 		<AudioEntry priority="0.7" alias="DashboardIntro" url="sound/effect/engine/car_o_efx_eng_carRev_nascar.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />
 
@@ -333,7 +333,7 @@
 		<AudioEntry priority="0.7" alias="uiRaceFinishLast" url="sound/effect/track/car_o_efx_trk_raceFourthPlace.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />
 		<AudioEntry priority="0.7" alias="uiRacePhotoFinish" url="sound/effect/global/car_o_efx_glb_uiDeclineQuest.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />
 		<!--<AudioEntry priority="0.7" alias="uiRaceFinish" url="sound/effect/global/car_o_efx_glb_uiClick.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />-->
-		
+
 		<!-- Player Yard -->
 		<AudioEntry priority="0.7" alias="uiYardEdit" url="sound/effect/global/car_o_efx_glb_uiEditYard.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />
 		<AudioEntry priority="0.7" alias="uiYardItemTrash" url="sound/effect/global/car_o_efx_glb_uiYardRemove.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />
@@ -341,7 +341,7 @@
 		<AudioEntry priority="0.7" alias="uiYardItemScroll" url="sound/effect/global/car_o_efx_glb_uiScrollRSN.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />
 		<AudioEntry priority="0.7" alias="uiYardItemPickUp" url="sound/effect/global/car_o_efx_glb_uiYardEdit.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />
 		<AudioEntry priority="0.7" alias="uiYardItemPlace" url="sound/effect/global/car_o_efx_glb_uiYardEdit.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />
-		
+
 		<!-- Profile: Main -->
 		<!--<AudioEntry priority="0.7" alias="uiProfileMain" url="sound/effect/global/car_o_efx_glb_uiClick.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />-->
 		<!--<AudioEntry priority="0.7" alias="uiProfileRace" url="sound/effect/global/car_o_efx_glb_uiClick.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />-->
@@ -353,13 +353,13 @@
 		<!--<AudioEntry priority="0.7" alias="uiPEditSelect" url="sound/effect/global/car_o_efx_glb_uiClick.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />-->
 		<!--<AudioEntry priority="0.7" alias="uiPEditSave" url="sound/effect/global/car_o_efx_glb_uiClick.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />-->
 		<!--<AudioEntry priority="0.7" alias="uiPEditClose" url="sound/effect/global/car_o_efx_glb_uiClick.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />-->
-		
+
 		<!-- Profile: Badges -->
 		<!--<AudioEntry priority="0.7" alias="uiPBadTabB" url="sound/effect/global/car_o_efx_glb_uiClick.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />-->
 		<!--<AudioEntry priority="0.7" alias="uiPBadTabS" url="sound/effect/global/car_o_efx_glb_uiClick.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />-->
 		<!--<AudioEntry priority="0.7" alias="uiPBadSelect" url="sound/effect/global/car_o_efx_glb_uiClick.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />-->
 		<AudioEntry priority="0.7" alias="uiPBadScroll" url="sound/effect/global/car_o_efx_glb_uiScrollRSN.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />
-		
+
 		<!-- Profile: Options -->
 		<!--<AudioEntry priority="0.7" alias="uiPSetChoose" url="sound/effect/global/car_o_efx_glb_uiClick.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />-->
 		<!--<AudioEntry priority="0.7" alias="uiPSetFastest" url="sound/effect/global/car_o_efx_glb_uiClick.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />-->
@@ -372,16 +372,16 @@
 		<!--<AudioEntry priority="0.7" alias="uiPDashCustom" url="sound/effect/global/car_o_efx_glb_uiClick.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />-->
 		<!--<AudioEntry priority="0.7" alias="uiPDashSelect" url="sound/effect/global/car_o_efx_glb_uiClick.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />-->
 		<AudioEntry priority="0.7" alias="uiPDashScroll" url="sound/effect/global/car_o_efx_glb_uiScrollRSN.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />
-		
+
 		<!-- MISCELLANEOUS SFX -->
 		<AudioEntry priority="0.7" alias="uiErrorWindow" url="sound/effect/global/car_o_efx_glb_windowPopUp.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />
 		<!--<AudioEntry priority="0.7" alias="uiWindowAlert" url="sound/effect/global/car_o_efx_glb_uiClick.mp3" loop="false" pan="0" vol="1" mode="single-channel-block" stream="true" isMusic="false" />-->
 
 	</AudioGroup>
-	
+
 
 	<AudioGroup priority="1" alias="VoiceOver">
-	
+
 		<!-- New Player Tutorial VO -->
 		<AudioEntry priority="0.7" alias="tutorial01" url="sound/voiceover/cutscene/car_o_voo_cut_tut_01_mackHorn.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="tutorial02" url="sound/voiceover/cutscene/car_o_voo_cut_tut_02_burnOut.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
@@ -418,8 +418,8 @@
 		<AudioEntry priority="0.7" alias="mssFillmore" url="sound/voiceover/racetracks/car_o_voo_mss_fillmore.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="mssLightning" url="sound/voiceover/racetracks/car_o_voo_mss_lightning.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="mssMater" url="sound/voiceover/racetracks/car_o_voo_mss_mater.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-		
-		
+
+
 		<!-- Doc Voiceovers -->
 		<AudioEntry priority="0.7" alias="docGreeting001" url="sound/voiceover/franchise/car_o_voo_frn_doc001.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="docGreeting002" url="sound/voiceover/franchise/car_o_voo_frn_doc002.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
@@ -457,7 +457,7 @@
 		<AudioEntry priority="0.7" alias="docGreeting034" url="sound/voiceover/franchise/car_o_voo_frn_doc034.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="docGreeting035" url="sound/voiceover/franchise/car_o_voo_frn_doc035.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="docGreeting036" url="sound/voiceover/franchise/car_o_voo_frn_doc036.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-		
+
 		<SubGroup name="docOnClick">
             <SubGroupEntry alias="docGreeting001" weight="1" />
             <SubGroupEntry alias="docGreeting002" weight="1" />
@@ -496,8 +496,8 @@
             <SubGroupEntry alias="docGreeting035" weight="1" />
             <SubGroupEntry alias="docGreeting036" weight="1" />
         </SubGroup>
-		
-		
+
+
         <!-- Fillmore Store Entrance and Exit VO -->
 		<AudioEntry priority="0.7" alias="voFillmoreStoreEnter001" url="sound/voiceover/franchise/car_o_voo_frn_fillmoreStoreEnter001.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="voFillmoreStoreEnter002" url="sound/voiceover/franchise/car_o_voo_frn_fillmoreStoreEnter002.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
@@ -509,7 +509,7 @@
 		<AudioEntry priority="0.7" alias="voFillmoreStoreExit003" url="sound/voiceover/franchise/car_o_voo_frn_fillmoreStoreExit003.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="voFillmoreStoreExit004" url="sound/voiceover/franchise/car_o_voo_frn_fillmoreStoreExit004.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="voFillmoreStoreExit005" url="sound/voiceover/franchise/car_o_voo_frn_fillmoreStoreExit005.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-		
+
 		<SubGroup name="voStoreFillmoreEnter">
             <SubGroupEntry alias="voFillmoreStoreEnter001" weight="1" />
             <SubGroupEntry alias="voFillmoreStoreEnter002" weight="1" />
@@ -517,7 +517,7 @@
             <SubGroupEntry alias="voFillmoreStoreEnter004" weight="1" />
             <SubGroupEntry alias="voFillmoreStoreEnter005" weight="1" />
         </SubGroup>
-        
+
         <SubGroup name="voStoreFillmoreExit">
             <SubGroupEntry alias="voFillmoreStoreExit001" weight="1" />
             <SubGroupEntry alias="voFillmoreStoreExit002" weight="1" />
@@ -525,7 +525,7 @@
             <SubGroupEntry alias="voFillmoreStoreExit004" weight="1" />
             <SubGroupEntry alias="voFillmoreStoreExit005" weight="1" />
         </SubGroup>
-        
+
 		<!-- Fillmore Voiceovers -->
 		<AudioEntry priority="0.7" alias="fillmoreGreeting001" url="sound/voiceover/franchise/car_o_voo_frn_fillmore001.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="fillmoreGreeting002" url="sound/voiceover/franchise/car_o_voo_frn_fillmore002.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
@@ -573,7 +573,7 @@
 		<AudioEntry priority="0.7" alias="fillmoreGreeting044" url="sound/voiceover/franchise/car_o_voo_frn_fillmore044.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="fillmoreGreeting045" url="sound/voiceover/franchise/car_o_voo_frn_fillmore045.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="fillmoreGreeting046" url="sound/voiceover/franchise/car_o_voo_frn_fillmore046.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-		
+
 		<SubGroup name="fillmoreOnClick">
             <!-- <SubGroupEntry alias="fillmoreGreeting001" weight="1" /> DO NOT UNCOMMENT; NO LONGER USED IN CASUAL CONVO -->
             <!-- <SubGroupEntry alias="fillmoreGreeting002" weight="1" /> DO NOT UNCOMMENT; NO LONGER USED IN CASUAL CONVO -->
@@ -622,8 +622,8 @@
             <SubGroupEntry alias="fillmoreGreeting045" weight="1" />
             <SubGroupEntry alias="fillmoreGreeting046" weight="1" />
         </SubGroup>
-		
-		
+
+
 		<!-- Flo Voiceovers -->
 		<AudioEntry priority="0.7" alias="floGreeting001" url="sound/voiceover/franchise/car_o_voo_frn_flo001.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="floGreeting002" url="sound/voiceover/franchise/car_o_voo_frn_flo002.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
@@ -687,7 +687,7 @@
             <SubGroupEntry alias="floGreeting029" weight="1" />
         </SubGroup>
 
-        
+
         <!-- Lightning Store Entrance and Exit VO -->
 		<AudioEntry priority="0.7" alias="voLightningStoreEnter001" url="sound/voiceover/franchise/car_o_voo_frn_lightningStoreEnter001.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
         <AudioEntry priority="0.7" alias="voLightningStoreEnter002" url="sound/voiceover/franchise/car_o_voo_frn_lightningStoreEnter002.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
@@ -701,7 +701,7 @@
 		<AudioEntry priority="0.7" alias="voLightningStoreExit003" url="sound/voiceover/franchise/car_o_voo_frn_lightningStoreExit003.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
         <AudioEntry priority="0.7" alias="voLightningStoreExit004" url="sound/voiceover/franchise/car_o_voo_frn_lightningStoreExit004.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="voLightningStoreExit005" url="sound/voiceover/franchise/car_o_voo_frn_lightningStoreExit005.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-        
+
 		<SubGroup name="voStoreLightningEnter">
 				<SubGroupEntry alias="voLightningStoreEnter001" weight="1" />
 				<SubGroupEntry alias="voLightningStoreEnter002" weight="1" />
@@ -741,7 +741,7 @@
 		<AudioEntry priority="0.7" alias="lightningGreeting018" url="sound/voiceover/franchise/car_o_voo_frn_lightning018.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="lightningGreeting019" url="sound/voiceover/franchise/car_o_voo_frn_lightning019.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="lightningGreeting020" url="sound/voiceover/franchise/car_o_voo_frn_lightning020.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-		
+
 		<SubGroup name="lightningOnClick">
             <!-- <SubGroupEntry alias="lightningGreeting001" weight="1" /> DO NOT UNCOMMENT; NO LONGER USED IN CASUAL CONVO -->
             <!-- <SubGroupEntry alias="lightningGreeting002" weight="1" /> DO NOT UNCOMMENT; NO LONGER USED IN CASUAL CONVO -->
@@ -764,7 +764,7 @@
             <SubGroupEntry alias="lightningGreeting019" weight="1" />
             <SubGroupEntry alias="lightningGreeting020" weight="1" />
         </SubGroup>
-		
+
 		<!-- Lizzie Voiceovers -->
 		<AudioEntry priority="0.7" alias="lizzieGreeting001" url="sound/voiceover/franchise/car_o_voo_frn_lizzie001.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="lizzieGreeting002" url="sound/voiceover/franchise/car_o_voo_frn_lizzie002.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
@@ -827,7 +827,7 @@
 		<AudioEntry priority="0.7" alias="lizzieGreeting059" url="sound/voiceover/franchise/car_o_voo_frn_lizzie059.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="lizzieGreeting060" url="sound/voiceover/franchise/car_o_voo_frn_lizzie060.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="lizzieGreeting061" url="sound/voiceover/franchise/car_o_voo_frn_lizzie061.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-		
+
 		<SubGroup name="lizzieOnClick">
             <!-- <SubGroupEntry alias="lizzieGreeting001" weight="1" /> DO NOT UNCOMMENT; NO LONGER USED IN CASUAL CONVO -->
             <SubGroupEntry alias="lizzieGreeting002" weight="1" />
@@ -891,8 +891,8 @@
             <SubGroupEntry alias="lizzieGreeting060" weight="1" />
             <SubGroupEntry alias="lizzieGreeting061" weight="1" />
         </SubGroup>
-		
-        
+
+
         <!-- Luigi Store Entrance and Exit VO -->
 		<AudioEntry priority="0.7" alias="voLuigiStoreEnter001" url="sound/voiceover/franchise/car_o_voo_frn_luigiStoreEnter001.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="voLuigiStoreEnter002" url="sound/voiceover/franchise/car_o_voo_frn_luigiStoreEnter002.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
@@ -905,7 +905,7 @@
 		<AudioEntry priority="0.7" alias="voLuigiStoreExit003" url="sound/voiceover/franchise/car_o_voo_frn_luigiStoreExit003.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="voLuigiStoreExit004" url="sound/voiceover/franchise/car_o_voo_frn_luigiStoreExit004.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="voLuigiStoreExit005" url="sound/voiceover/franchise/car_o_voo_frn_luigiStoreExit005.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-		
+
 		<SubGroup name="voStoreLuigiEnter">
             <SubGroupEntry alias="voLuigiStoreEnter001" weight="1" />
             <SubGroupEntry alias="voLuigiStoreEnter002" weight="1" />
@@ -914,7 +914,7 @@
             <SubGroupEntry alias="voLuigiStoreEnter005" weight="1" />
             <SubGroupEntry alias="voLuigiStoreEnter006" weight="1" />
         </SubGroup>
-        
+
         <SubGroup name="voStoreLuigiExit">
             <SubGroupEntry alias="voLuigiStoreExit001" weight="1" />
             <SubGroupEntry alias="voLuigiStoreExit002" weight="1" />
@@ -922,7 +922,7 @@
             <SubGroupEntry alias="voLuigiStoreExit004" weight="1" />
             <SubGroupEntry alias="voLuigiStoreExit005" weight="1" />
         </SubGroup>
-		
+
 		<!-- Luigi Voiceovers -->
 		<AudioEntry priority="0.7" alias="luigiGreeting001" url="sound/voiceover/franchise/car_o_voo_frn_luigi001.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="luigiGreeting002" url="sound/voiceover/franchise/car_o_voo_frn_luigi002.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
@@ -953,7 +953,7 @@
 		<AudioEntry priority="0.7" alias="luigiGreeting027" url="sound/voiceover/franchise/car_o_voo_frn_luigi027.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="luigiGreeting028" url="sound/voiceover/franchise/car_o_voo_frn_luigi028.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="luigiGreeting029" url="sound/voiceover/franchise/car_o_voo_frn_luigi029.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-		
+
 		<SubGroup name="luigiOnClick">
             <SubGroupEntry alias="luigiGreeting001" weight="1" />
             <!-- <SubGroupEntry alias="luigiGreeting002" weight="1" /> DO NOT UNCOMMENT; NO LONGER USED IN CASUAL CONVO -->
@@ -993,7 +993,7 @@
 		<AudioEntry priority="0.7" alias="mackGreeting03" url="sound/voiceover/franchise/car_o_voo_frn_mackGreet03.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="mackGreeting04" url="sound/voiceover/franchise/car_o_voo_frn_mackGreet04.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="mackGreeting05" url="sound/voiceover/franchise/car_o_voo_frn_mackGreet05.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-		
+
 		<SubGroup name="mackFirstTime">
             <SubGroupEntry alias="mackGreeting01" weight="1" />
             <SubGroupEntry alias="mackGreeting02" weight="1" />
@@ -1001,11 +1001,11 @@
             <SubGroupEntry alias="mackGreeting04" weight="1" />
             <SubGroupEntry alias="mackGreeting05" weight="1" />
         </SubGroup>
-        
+
         <AudioEntry priority="0.7" alias="mackLeaves01" url="sound/voiceover/franchise/car_o_voo_frn_mackLeave01.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="mackLeaves02" url="sound/voiceover/franchise/car_o_voo_frn_mackLeave02.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="mackLeaves03" url="sound/voiceover/franchise/car_o_voo_frn_mackLeave03.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-		
+
 		<SubGroup name="mackLeaves">
             <SubGroupEntry alias="mackLeaves01" weight="1" />
             <SubGroupEntry alias="mackLeaves02" weight="1" />
@@ -1038,7 +1038,7 @@
 		<AudioEntry priority="0.7" alias="mackRandom22" url="sound/voiceover/franchise/car_o_voo_frn_mackRandom22.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="mackRandom23" url="sound/voiceover/franchise/car_o_voo_frn_mackRandom23.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="mackRandom24" url="sound/voiceover/franchise/car_o_voo_frn_mackRandom24.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-		
+
 		<SubGroup name="mackOnClick">
             <SubGroupEntry alias="mackRandom01" weight="1" />
             <SubGroupEntry alias="mackRandom02" weight="1" />
@@ -1091,7 +1091,7 @@
             <SubGroupEntry alias="mackCarBQRandom10" weight="1" />
             <SubGroupEntry alias="mackCarBQRandom11" weight="1" />
         </SubGroup>
-        
+
         <!-- Mater Store Entrance and Exit VO -->
 		<AudioEntry priority="0.7" alias="voMaterStoreEnter001" url="sound/voiceover/franchise/car_o_voo_frn_materStoreEnter001.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="voMaterStoreEnter002" url="sound/voiceover/franchise/car_o_voo_frn_materStoreEnter002.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
@@ -1103,7 +1103,7 @@
 		<AudioEntry priority="0.7" alias="voMaterStoreExit003" url="sound/voiceover/franchise/car_o_voo_frn_materStoreExit003.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="voMaterStoreExit004" url="sound/voiceover/franchise/car_o_voo_frn_materStoreExit004.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="voMaterStoreExit005" url="sound/voiceover/franchise/car_o_voo_frn_materStoreExit005.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-		
+
 		<SubGroup name="voStoreMaterEnter">
             <SubGroupEntry alias="voMaterStoreEnter001" weight="1" />
             <SubGroupEntry alias="voMaterStoreEnter002" weight="1" />
@@ -1111,7 +1111,7 @@
             <SubGroupEntry alias="voMaterStoreEnter004" weight="1" />
             <SubGroupEntry alias="voMaterStoreEnter005" weight="1" />
         </SubGroup>
-        
+
         <SubGroup name="voStoreMaterExit">
             <SubGroupEntry alias="voMaterStoreExit001" weight="1" />
             <SubGroupEntry alias="voMaterStoreExit002" weight="1" />
@@ -1119,7 +1119,7 @@
             <SubGroupEntry alias="voMaterStoreExit004" weight="1" />
             <SubGroupEntry alias="voMaterStoreExit005" weight="1" />
         </SubGroup>
-        		
+
 		<!-- Mater Voiceover -->
 		<AudioEntry priority="0.7" alias="materGreeting001" url="sound/voiceover/franchise/car_o_voo_frn_mater001.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="materGreeting002" url="sound/voiceover/franchise/car_o_voo_frn_mater002.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
@@ -1143,7 +1143,7 @@
 		<AudioEntry priority="0.7" alias="materGreeting020" url="sound/voiceover/franchise/car_o_voo_frn_mater020.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="materGreeting021" url="sound/voiceover/franchise/car_o_voo_frn_mater021.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="materGreeting022" url="sound/voiceover/franchise/car_o_voo_frn_mater022.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-		
+
 		<SubGroup name="materOnClick">
             <!-- <SubGroupEntry alias="materGreeting001" weight="1" /> DO NOT UNCOMMENT; NO LONGER USED IN CASUAL CONVO -->
             <SubGroupEntry alias="materGreeting002" weight="1" />
@@ -1168,8 +1168,8 @@
             <SubGroupEntry alias="materGreeting021" weight="1" />
             <SubGroupEntry alias="materGreeting022" weight="1" />
         </SubGroup>
-		
-        
+
+
 		<!-- Ramone Store Entrance and Exit VO -->
 		<AudioEntry priority="0.7" alias="voRamoneStoreEnter001" url="sound/voiceover/franchise/car_o_voo_frn_ramoneStoreEnter001.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="voRamoneStoreEnter002" url="sound/voiceover/franchise/car_o_voo_frn_ramoneStoreEnter002.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
@@ -1180,14 +1180,14 @@
 		<AudioEntry priority="0.7" alias="voRamoneStoreExit003" url="sound/voiceover/franchise/car_o_voo_frn_ramoneStoreExit003.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="voRamoneStoreExit004" url="sound/voiceover/franchise/car_o_voo_frn_ramoneStoreExit004.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="voRamoneStoreExit005" url="sound/voiceover/franchise/car_o_voo_frn_ramoneStoreExit005.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-		
+
 		<SubGroup name="voStoreRamoneEnter">
             <SubGroupEntry alias="voRamoneStoreEnter001" weight="1" />
             <SubGroupEntry alias="voRamoneStoreEnter002" weight="1" />
             <SubGroupEntry alias="voRamoneStoreEnter003" weight="1" />
             <SubGroupEntry alias="voRamoneStoreEnter004" weight="1" />
         </SubGroup>
-        
+
         <SubGroup name="voStoreRamoneExit">
             <SubGroupEntry alias="voRamoneStoreExit001" weight="1" />
             <SubGroupEntry alias="voRamoneStoreExit002" weight="1" />
@@ -1195,7 +1195,7 @@
             <SubGroupEntry alias="voRamoneStoreExit004" weight="1" />
             <SubGroupEntry alias="voRamoneStoreExit005" weight="1" />
         </SubGroup>
-		
+
 		<!-- Ramone Voiceovers -->
 		<AudioEntry priority="0.7" alias="ramoneGreeting001" url="sound/voiceover/franchise/car_o_voo_frn_ramone001.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="ramoneGreeting002" url="sound/voiceover/franchise/car_o_voo_frn_ramone002.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
@@ -1230,7 +1230,7 @@
 		<AudioEntry priority="0.7" alias="ramoneGreeting031" url="sound/voiceover/franchise/car_o_voo_frn_ramone031.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="ramoneGreeting032" url="sound/voiceover/franchise/car_o_voo_frn_ramone032.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="ramoneGreeting033" url="sound/voiceover/franchise/car_o_voo_frn_ramone033.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-		
+
 		<SubGroup name="ramoneOnClick">
             <SubGroupEntry alias="ramoneGreeting001" weight="1" />
             <SubGroupEntry alias="ramoneGreeting002" weight="1" />
@@ -1266,8 +1266,8 @@
             <SubGroupEntry alias="ramoneGreeting032" weight="1" />
             <SubGroupEntry alias="ramoneGreeting033" weight="1" />
         </SubGroup>
-		
-		
+
+
 		<!-- Sally Voiceovers -->
 		<AudioEntry priority="0.7" alias="sallyGreeting001" url="sound/voiceover/franchise/car_o_voo_frn_sally001.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="sallyGreeting002" url="sound/voiceover/franchise/car_o_voo_frn_sally002.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
@@ -1299,7 +1299,7 @@
 		<AudioEntry priority="0.7" alias="sallyGreeting028" url="sound/voiceover/franchise/car_o_voo_frn_sally028.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="sallyGreeting029" url="sound/voiceover/franchise/car_o_voo_frn_sally029.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="sallyGreeting030" url="sound/voiceover/franchise/car_o_voo_frn_sally030.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-		
+
 		<SubGroup name="sallyOnClick">
             <!-- <SubGroupEntry alias="sallyGreeting001" weight="1" /> DO NOT UNCOMMENT; NO LONGER USED IN CASUAL CONVO -->
             <SubGroupEntry alias="sallyGreeting002" weight="1" />
@@ -1332,7 +1332,7 @@
             <SubGroupEntry alias="sallyGreeting029" weight="1" />
             <SubGroupEntry alias="sallyGreeting030" weight="1" />
         </SubGroup>
-        
+
         <!-- Sally Store Entrance, Exit and Try On VO -->
 		<AudioEntry priority="0.7" alias="voSallyStoreEnter001" url="sound/voiceover/franchise/car_o_voo_frn_sallyStoreEnter001.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="voSallyStoreEnter002" url="sound/voiceover/franchise/car_o_voo_frn_sallyStoreEnter002.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
@@ -1352,7 +1352,7 @@
 		<AudioEntry priority="0.7" alias="voSallyStoreTryOn005" url="sound/voiceover/franchise/car_o_voo_frn_sallyStoreTryOn005.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="voSallyStoreTryOn006" url="sound/voiceover/franchise/car_o_voo_frn_sallyStoreTryOn006.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="voSallyStoreTryOn007" url="sound/voiceover/franchise/car_o_voo_frn_sallyStoreTryOn007.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-		
+
 		<SubGroup name="voStoreSallyEnter">
             <SubGroupEntry alias="voSallyStoreEnter001" weight="1" />
             <SubGroupEntry alias="voSallyStoreEnter002" weight="1" />
@@ -1364,12 +1364,12 @@
             <SubGroupEntry alias="voSallyStoreEnter008" weight="1" />
             <SubGroupEntry alias="voSallyStoreEnter009" weight="1" />
         </SubGroup>
-        
+
         <SubGroup name="voStoreSallyExit">
             <SubGroupEntry alias="voSallyStoreExit001" weight="1" />
             <SubGroupEntry alias="voSallyStoreExit002" weight="1" />
         </SubGroup>
-        
+
         <SubGroup name="voStoreSallyTryOn">
             <SubGroupEntry alias="voSallyStoreTryOn001" weight="1" />
             <SubGroupEntry alias="voSallyStoreTryOn002" weight="1" />
@@ -1380,7 +1380,7 @@
             <SubGroupEntry alias="voSallyStoreTryOn007" weight="1" />
         </SubGroup>
 
-        
+
         <!-- Sarge Store Entrance and Exit VO -->
 		<AudioEntry priority="0.7" alias="voSargeStoreEnter001" url="sound/voiceover/franchise/car_o_voo_frn_sargeStoreEnter001.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="voSargeStoreEnter002" url="sound/voiceover/franchise/car_o_voo_frn_sargeStoreEnter002.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
@@ -1392,7 +1392,7 @@
 		<AudioEntry priority="0.7" alias="voSargeStoreExit003" url="sound/voiceover/franchise/car_o_voo_frn_sargeStoreExit003.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="voSargeStoreExit004" url="sound/voiceover/franchise/car_o_voo_frn_sargeStoreExit004.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="voSargeStoreExit005" url="sound/voiceover/franchise/car_o_voo_frn_sargeStoreExit005.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-		
+
 		<SubGroup name="voStoreSargeEnter">
             <SubGroupEntry alias="voSargeStoreEnter001" weight="1" />
             <SubGroupEntry alias="voSargeStoreEnter002" weight="1" />
@@ -1400,7 +1400,7 @@
             <SubGroupEntry alias="voSargeStoreEnter004" weight="1" />
             <SubGroupEntry alias="voSargeStoreEnter005" weight="1" />
         </SubGroup>
-        
+
         <SubGroup name="voStoreSargeExit">
             <SubGroupEntry alias="voSargeStoreExit001" weight="1" />
             <SubGroupEntry alias="voSargeStoreExit002" weight="1" />
@@ -1408,7 +1408,7 @@
             <SubGroupEntry alias="voSargeStoreExit004" weight="1" />
             <SubGroupEntry alias="voSargeStoreExit005" weight="1" />
         </SubGroup>
-        		
+
 		<!-- Sarge Voiceover -->
 		<AudioEntry priority="0.7" alias="sargeGreeting001" url="sound/voiceover/franchise/car_o_voo_frn_sarge001.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="sargeGreeting002" url="sound/voiceover/franchise/car_o_voo_frn_sarge002.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
@@ -1433,7 +1433,7 @@
 		<AudioEntry priority="0.7" alias="sargeGreeting021" url="sound/voiceover/franchise/car_o_voo_frn_sarge021.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="sargeGreeting022" url="sound/voiceover/franchise/car_o_voo_frn_sarge022.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="sargeGreeting023" url="sound/voiceover/franchise/car_o_voo_frn_sarge023.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-	
+
 	   <SubGroup name="sargeOnClick">
             <!-- <SubGroupEntry alias="sargeGreeting001" weight="1" /> DO NOT UNCOMMENT; NO LONGER USED IN CASUAL CONVO -->
             <SubGroupEntry alias="sargeGreeting002" weight="1" />
@@ -1459,8 +1459,8 @@
             <SubGroupEntry alias="sargeGreeting022" weight="1" />
             <SubGroupEntry alias="sargeGreeting023" weight="1" />
         </SubGroup>
-        
-        
+
+
         <!-- Sheriff Voiceover -->
 		<AudioEntry priority="0.7" alias="sheriffGreeting001" url="sound/voiceover/franchise/car_o_voo_frn_sheriff001.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="sheriffGreeting002" url="sound/voiceover/franchise/car_o_voo_frn_sheriff002.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
@@ -1484,7 +1484,7 @@
 		<AudioEntry priority="0.7" alias="sheriffGreeting020" url="sound/voiceover/franchise/car_o_voo_frn_sheriff020.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="sheriffGreeting021" url="sound/voiceover/franchise/car_o_voo_frn_sheriff021.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="sheriffGreeting022" url="sound/voiceover/franchise/car_o_voo_frn_sheriff022.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-		
+
 		<SubGroup name="sheriffOnClick">
             <SubGroupEntry alias="sheriffGreeting001" weight="1" />
 			<!-- <SubGroupEntry alias="sheriffGreeting002" weight="1" /> DO NOT UNCOMMENT; NO LONGER USED IN CASUAL CONVO -->
@@ -1509,7 +1509,7 @@
             <SubGroupEntry alias="sheriffGreeting021" weight="1" />
 			<SubGroupEntry alias="sheriffGreeting022" weight="1" />
         </SubGroup>
-		
+
         <!-- Sponsorship UI VO -->
 		<AudioEntry priority="0.7" alias="voSponsorLeakLess"	url="sound/voiceover/quest/car_o_voo_qst_rsn_leakLess.mp3"		loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="voSponsorShinyWax"	url="sound/voiceover/quest/car_o_voo_qst_rsn_shinyWax.mp3"		loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" attenuateOthers=".65" />
@@ -1522,7 +1522,7 @@
 		<AudioEntry priority="0.7" alias="voSponsorNoStall"		url="sound/voiceover/quest/car_o_voo_qst_rsn_noStall.mp3"		loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="voSponsorRevNGo"		url="sound/voiceover/quest/car_o_voo_qst_rsn_revNGo.mp3"		loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="voSponsorTankCoat"	url="sound/voiceover/quest/car_o_voo_qst_rsn_tankCoat.mp3"		loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" attenuateOthers=".65" />
-        
+
 		<!-- Cone and Tent Enter VO -->
 		<AudioEntry priority="0.7" alias="voTentConeEnter01" url="sound/voiceover/quest/car_o_voo_qst_tentCones01.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="voTentConeEnter02" url="sound/voiceover/quest/car_o_voo_qst_tentCones02.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
@@ -1530,7 +1530,7 @@
 		<AudioEntry priority="0.7" alias="voTentConeEnter04" url="sound/voiceover/quest/car_o_voo_qst_tentCones04.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="voTentConeEnter05" url="sound/voiceover/quest/car_o_voo_qst_tentCones05.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="voTentConeEnter06" url="sound/voiceover/quest/car_o_voo_qst_tentCones06.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-								
+
 		<SubGroup name="voTentAndConeEnter">
             <SubGroupEntry alias="voTentConeEnter01" weight="1" />
 			<SubGroupEntry alias="voTentConeEnter02" weight="1" />
@@ -1539,12 +1539,12 @@
             <SubGroupEntry alias="voTentConeEnter05" weight="1" />
 			<SubGroupEntry alias="voTentConeEnter06" weight="1" />
         </SubGroup>
-		
-		
+
+
         <!-- Snot Rod VO -->
 		<AudioEntry priority="0.7" alias="snotRodSneeze"	url="sound/voiceover/franchise/car_o_voo_frn_snotRodSneeze.mp3"		loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" attenuateOthers=".65" />
-        
-        
+
+
 		<!-- Quest 25001: Fillmore's Ingredients -->
 		<AudioEntry priority="0.7" alias="questStart25001" url="sound/voiceover/quest/car_o_voo_qst_fillmore_25001_01_questStart.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="questAccept25001" url="sound/voiceover/quest/car_o_voo_qst_fillmore_25001_02_questAccept.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
@@ -1553,35 +1553,35 @@
 		<AudioEntry priority="0.7" alias="questIncompleteB25001" url="sound/voiceover/quest/car_o_voo_qst_fillmore_25001_04b_questIncomplete.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="questIncompleteC25001" url="sound/voiceover/quest/car_o_voo_qst_fillmore_25001_04c_questIncomplete.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="questComplete25001" url="sound/voiceover/quest/car_o_voo_qst_fillmore_25001_05_questComplete.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-		
+
 		<!-- Start Quest -->
 		<SubGroup name="qStart25001">
             <SubGroupEntry alias="questStart25001" weight="1" />
         </SubGroup>
-		
+
 		<!-- Accept Quest -->
 		<SubGroup name="qAccept25001">
             <SubGroupEntry alias="questAccept25001" weight="1" />
         </SubGroup>
-        
+
         <!-- Decline Quest -->
 		<SubGroup name="qDecline25001">
             <SubGroupEntry alias="questDecline25001" weight="1" />
         </SubGroup>
-		
+
 		<!-- Incomplete Quest -->
 		<SubGroup name="qIncomplete25001">
             <SubGroupEntry alias="questIncompleteA25001" weight="1" />
 			<SubGroupEntry alias="questIncompleteB25001" weight="1" />
 			<SubGroupEntry alias="questIncompleteC25001" weight="1" />
         </SubGroup>
-		
+
 		<!-- Complete Quest -->
 		<SubGroup name="qComplete25001">
             <SubGroupEntry alias="questComplete25001" weight="1" />
         </SubGroup>
-		
-		
+
+
 		<!-- Quest 25002: McQueen's Intro Quest -->
 		<AudioEntry priority="0.7" alias="questStart25002" url="sound/voiceover/quest/car_o_voo_qst_mcqueen_25002_01_questStart.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="questAccept25002" url="sound/voiceover/quest/car_o_voo_qst_mcqueen_25002_02_questAccept.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
@@ -1590,95 +1590,95 @@
 		<AudioEntry priority="0.7" alias="questIncompleteB25002" url="sound/voiceover/quest/car_o_voo_qst_mcqueen_25002_04b_questIncomplete.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="questIncompleteC25002" url="sound/voiceover/quest/car_o_voo_qst_mcqueen_25002_04c_questIncomplete.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="questComplete25002" url="sound/voiceover/quest/car_o_voo_qst_mcqueen_25002_05_questComplete.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-		
+
 		<!-- Start Quest -->
 		<SubGroup name="qStart25002">
             <SubGroupEntry alias="questStart25002" weight="1" />
         </SubGroup>
-		
+
 		<!-- Accept Quest -->
 		<SubGroup name="qAccept25002">
             <SubGroupEntry alias="questAccept25002" weight="1" />
         </SubGroup>
-        
+
         <!-- Decline Quest -->
 		<SubGroup name="qDecline25002">
             <SubGroupEntry alias="questDecline25002" weight="1" />
         </SubGroup>
-		
+
 		<!-- Incomplete Quest -->
 		<SubGroup name="qIncomplete25002">
             <SubGroupEntry alias="questIncompleteA25002" weight="1" />
 			<SubGroupEntry alias="questIncompleteB25002" weight="1" />
 			<SubGroupEntry alias="questIncompleteC25002" weight="1" />
         </SubGroup>
-		
+
 		<!-- Complete Quest -->
 		<SubGroup name="qComplete25002">
             <SubGroupEntry alias="questComplete25002" weight="1" />
         </SubGroup>
-		
-		
+
+
 		<!-- Quest 25003: Mater's Collect Junk Quest -->
 		<AudioEntry priority="0.7" alias="welcomeQuest25003" url="sound/voiceover/quest/car_o_voo_qst_mater_25003_01_welcomeToAbode.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="offerQuest25003" url="sound/voiceover/quest/car_o_voo_qst_mater_25003_02_gotAJobForYou.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="acceptQuest25003" url="sound/voiceover/quest/car_o_voo_qst_mater_25003_03_letsGetToIt.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="completeQuest25003" url="sound/voiceover/quest/car_o_voo_qst_mater_25003_04_sweetJunk.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-		
+
 		<!-- Accept Quest -->
 		<SubGroup name="welcome25003">
             <SubGroupEntry alias="welcomeQuest25003" weight="1" />
         </SubGroup>
-		
+
 		<!-- Offer Quest -->
 		<SubGroup name="offer25003">
             <SubGroupEntry alias="offerQuest25003" weight="1" />
         </SubGroup>
-		
+
 		<!-- Accept Quest -->
 		<SubGroup name="accept25003">
             <SubGroupEntry alias="acceptQuest25003" weight="1" />
         </SubGroup>
-		
+
 		<!-- Finish Quest -->
 		<SubGroup name="complete25003">
             <SubGroupEntry alias="completeQuest25003" weight="1" />
         </SubGroup>
-		
-		
+
+
 		<!-- Quest 25004: McQueen Tailgator Speedway -->
 		<AudioEntry priority="0.7" alias="greetingQuest25004" url="sound/voiceover/quest/car_o_voo_qst_mcqueen_25004_01_gladYoureHere.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="introQuest25004" url="sound/voiceover/quest/car_o_voo_qst_mcqueen_25004_02_somethingSpecial.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="unfinishedQuest25004" url="sound/voiceover/quest/car_o_voo_qst_mcqueen_25004_03_pitStopOver.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="completeQuest25004" url="sound/voiceover/quest/car_o_voo_qst_mcqueen_25004_04_leanMeanMachine.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="chatterQuest25004" url="sound/voiceover/quest/car_o_voo_qst_mcqueen_25004_05_remindMeOfMe.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-		
+
 		<!-- Greeting Quest -->
 		<SubGroup name="greeting25004">
             <SubGroupEntry alias="greetingQuest25004" weight="1" />
         </SubGroup>
-		
+
 		<!-- Offer Quest -->
 		<SubGroup name="intro25004">
             <SubGroupEntry alias="introQuest25004" weight="1" />
         </SubGroup>
-		
+
 		<!-- Unfinished Quest -->
 		<SubGroup name="unfinished25004">
             <SubGroupEntry alias="unfinishedQuest25004" weight="1" />
         </SubGroup>
-		
+
 		<!-- Finish Quest -->
 		<SubGroup name="complete25004">
             <SubGroupEntry alias="completeQuest25004" weight="1" />
         </SubGroup>
-		
+
 		<!-- Extra VO Quest -->
 		<SubGroup name="chatter25004">
             <SubGroupEntry alias="chatterQuest25004" weight="1" />
         </SubGroup>
-		
-        
+
+
         <!-- Quest 25006: McQueen: Where's Sally Quest -->
 		<AudioEntry priority="0.7" alias="questStart25006" url="sound/voiceover/quest/car_o_voo_qst_mqueen_25006_01_questStart.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="questAccept25006" url="sound/voiceover/quest/car_o_voo_qst_mqueen_25006_02_questAccept.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
@@ -1687,62 +1687,62 @@
 		<AudioEntry priority="0.7" alias="questIncompleteB25006" url="sound/voiceover/quest/car_o_voo_qst_mqueen_25006_04b_questIncomplete.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="questIncompleteC25006" url="sound/voiceover/quest/car_o_voo_qst_mqueen_25006_04c_questIncomplete.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="questComplete25006" url="sound/voiceover/quest/car_o_voo_qst_mqueen_25006_05_questComplete.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-		
+
 		<!-- Start Quest -->
 		<SubGroup name="qStart25006">
             <SubGroupEntry alias="questStart25006" weight="1" />
         </SubGroup>
-		
+
 		<!-- Accept Quest -->
 		<SubGroup name="qAccept25006">
             <SubGroupEntry alias="questAccept25006" weight="1" />
         </SubGroup>
-        
+
         <!-- Decline Quest -->
 		<SubGroup name="qDecline25006">
             <SubGroupEntry alias="questDecline25006" weight="1" />
         </SubGroup>
-		
+
 		<!-- Incomplete Quest -->
 		<SubGroup name="qIncomplete25006">
             <SubGroupEntry alias="questIncompleteA25006" weight="1" />
 			<SubGroupEntry alias="questIncompleteB25006" weight="1" />
 			<SubGroupEntry alias="questIncompleteC25006" weight="1" />
         </SubGroup>
-		
+
 		<!-- Complete Quest -->
 		<SubGroup name="qComplete25006">
             <SubGroupEntry alias="questComplete25006" weight="1" />
         </SubGroup>
-        
-		
+
+
 		<!-- Quest 25010: Ramone's Intro Customization Quest -->
 		<AudioEntry priority="0.7" alias="welcomeQuest25010" url="sound/voiceover/quest/car_o_voo_qst_ramone_25010_01_welcomeToRamones.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="offerQuest25010" url="sound/voiceover/quest/car_o_voo_qst_ramone_25010_02_addSeriousStyle.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="inProgressQuest25010" url="sound/voiceover/quest/car_o_voo_qst_ramone_25010_03_wassup.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="congratsQuest25010" url="sound/voiceover/quest/car_o_voo_qst_ramone_25010_04_dudeLookNice.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="completeQuest25010" url="sound/voiceover/quest/car_o_voo_qst_ramone_25010_05_tellEveryone.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-		
+
 		<!-- Accept Quest -->
 		<SubGroup name="welcome25010">
             <SubGroupEntry alias="welcomeQuest25010" weight="1" />
         </SubGroup>
-		
+
 		<!-- Offer Quest -->
 		<SubGroup name="offer25010">
             <SubGroupEntry alias="offerQuest25010" weight="1" />
         </SubGroup>
-		
+
 		<!-- In Progress Quest -->
 		<SubGroup name="inProgress25010">
             <SubGroupEntry alias="inProgressQuest25010" weight="1" />
         </SubGroup>
-		
+
 		<!-- Congratulations Quest -->
 		<SubGroup name="congrats25010">
             <SubGroupEntry alias="congratsQuest25010" weight="1" />
         </SubGroup>
-		
+
 		<!-- Finish Quest -->
 		<SubGroup name="complete25010">
             <SubGroupEntry alias="completeQuest25010" weight="1" />
@@ -1755,33 +1755,33 @@
 		<AudioEntry priority="0.7" alias="unfinishedQuestOne25011" url="sound/voiceover/quest/car_o_voo_qst_mater_25011_03_noTimeForPitStop.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="unfinishedQuestTwo25011" url="sound/voiceover/quest/car_o_voo_qst_mater_25011_04_gasLeakJustMessin.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="completeQuest25011" url="sound/voiceover/quest/car_o_voo_qst_mater_25011_05_sweetNewJunkThanks.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-		
+
 		<!-- Greeting Quest -->
 		<SubGroup name="greeting25011">
             <SubGroupEntry alias="greetingQuest25011" weight="1" />
         </SubGroup>
-		
+
 		<!-- Offer Quest -->
 		<SubGroup name="offer25011">
             <SubGroupEntry alias="offerQuest25011" weight="1" />
         </SubGroup>
-		
+
 		<!-- Unfinished Quest -->
 		<SubGroup name="unfinishedOne25011">
             <SubGroupEntry alias="unfinishedQuestOne25011" weight="1" />
         </SubGroup>
-		
+
 		<!-- Unfinshed Quest Alt -->
 		<SubGroup name="unfinishedTwo25011">
             <SubGroupEntry alias="unfinishedQuestTwo25011" weight="1" />
         </SubGroup>
-		
+
 		<!-- Complete VO Quest -->
 		<SubGroup name="complete25011">
             <SubGroupEntry alias="completeQuest25011" weight="1" />
         </SubGroup>
-		
-		
+
+
 		<!-- Quest 25013: EVENT: Mater's Tanksgiving Quest -->
 		<AudioEntry priority="0.7" alias="questStart25013" url="sound/voiceover/quest/car_o_voo_qst_mater_25013_01_questStart.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="questAccept25013" url="sound/voiceover/quest/car_o_voo_qst_mater_25013_02_questAccept.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
@@ -1789,34 +1789,34 @@
 		<AudioEntry priority="0.7" alias="questIncompleteA25013" url="sound/voiceover/quest/car_o_voo_qst_mater_25013_04a_questIncomplete.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="questIncompleteB25013" url="sound/voiceover/quest/car_o_voo_qst_mater_25013_04b_questIncomplete.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="questComplete25013" url="sound/voiceover/quest/car_o_voo_qst_mater_25013_05_questComplete.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-		
+
 		<!-- Start Quest -->
 		<SubGroup name="qStart25013">
             <SubGroupEntry alias="questStart25013" weight="1" />
         </SubGroup>
-		
+
 		<!-- Accept Quest -->
 		<SubGroup name="qAccept25013">
             <SubGroupEntry alias="questAccept25013" weight="1" />
         </SubGroup>
-        
+
         <!-- Decline Quest -->
 		<SubGroup name="qDecline25013">
             <SubGroupEntry alias="questDecline25013" weight="1" />
         </SubGroup>
-		
+
 		<!-- Incomplete Quest -->
 		<SubGroup name="qIncomplete25013">
             <SubGroupEntry alias="questIncompleteA25013" weight="1" />
             <SubGroupEntry alias="questIncompleteB25013" weight="1" />
         </SubGroup>
-		
+
 		<!-- Complete Quest -->
 		<SubGroup name="qComplete25013">
             <SubGroupEntry alias="questComplete25013" weight="1" />
         </SubGroup>
-		
-        
+
+
         <!-- Quest 25555: Mater Collection Quest -->
 		<AudioEntry priority="0.7" alias="questStart25555" url="sound/voiceover/quest/car_o_voo_qst_mater_25555_01_questStart.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="questAccept25555" url="sound/voiceover/quest/car_o_voo_qst_mater_25555_02_questAccept.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
@@ -1824,34 +1824,34 @@
 		<AudioEntry priority="0.7" alias="questIncompleteA25555" url="sound/voiceover/quest/car_o_voo_qst_mater_25555_04a_questIncomplete.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="questIncompleteB25555" url="sound/voiceover/quest/car_o_voo_qst_mater_25555_04b_questIncomplete.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="questComplete25555" url="sound/voiceover/quest/car_o_voo_qst_mater_25555_05_questComplete.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-		
+
 		<!-- Start Quest -->
 		<SubGroup name="qStart25555">
             <SubGroupEntry alias="questStart25555" weight="1" />
         </SubGroup>
-		
+
 		<!-- Accept Quest -->
 		<SubGroup name="qAccept25555">
             <SubGroupEntry alias="questAccept25555" weight="1" />
         </SubGroup>
-        
+
         <!-- Decline Quest -->
 		<SubGroup name="qDecline25555">
             <SubGroupEntry alias="questDecline25555" weight="1" />
         </SubGroup>
-		
+
 		<!-- Incomplete Quest -->
 		<SubGroup name="qIncomplete25555">
             <SubGroupEntry alias="questIncompleteA25555" weight="1" />
 			<SubGroupEntry alias="questIncompleteB25555" weight="1" />
         </SubGroup>
-		
+
 		<!-- Complete Quest -->
 		<SubGroup name="qComplete25555">
             <SubGroupEntry alias="questComplete25555" weight="1" />
         </SubGroup>
-        
-        
+
+
         <!-- Quest 25667: McQueen: Where's Sally Quest -->
 		<AudioEntry priority="0.7" alias="questStart25667" url="sound/voiceover/quest/car_o_voo_qst_mqueen_25667_01_questStart.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="questAccept25667" url="sound/voiceover/quest/car_o_voo_qst_mqueen_25667_02_questAccept.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
@@ -1860,68 +1860,68 @@
 		<AudioEntry priority="0.7" alias="questIncompleteB25667" url="sound/voiceover/quest/car_o_voo_qst_mqueen_25667_04b_questIncomplete.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="questIncompleteC25667" url="sound/voiceover/quest/car_o_voo_qst_mqueen_25667_04c_questIncomplete.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="questComplete25667" url="sound/voiceover/quest/car_o_voo_qst_mqueen_25667_05_questComplete.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-		
+
 		<!-- Start Quest -->
 		<SubGroup name="qStart25667">
             <SubGroupEntry alias="questStart25667" weight="1" />
         </SubGroup>
-		
+
 		<!-- Accept Quest -->
 		<SubGroup name="qAccept25667">
             <SubGroupEntry alias="questAccept25667" weight="1" />
         </SubGroup>
-        
+
         <!-- Decline Quest -->
 		<SubGroup name="qDecline25667">
             <SubGroupEntry alias="questDecline25667" weight="1" />
         </SubGroup>
-		
+
 		<!-- Incomplete Quest -->
 		<SubGroup name="qIncomplete25667">
             <SubGroupEntry alias="questIncompleteA25667" weight="1" />
 			<SubGroupEntry alias="questIncompleteB25667" weight="1" />
 			<SubGroupEntry alias="questIncompleteC25667" weight="1" />
         </SubGroup>
-		
+
 		<!-- Complete Quest -->
 		<SubGroup name="qComplete25667">
             <SubGroupEntry alias="questComplete25667" weight="1" />
         </SubGroup>
-        
-        
+
+
         <!-- Quest 26011: Fillmore: Fillmore's Mix -->
 		<AudioEntry priority="0.7" alias="questStart26011" url="sound/voiceover/quest/car_o_voo_qst_fillmore_26011_01_questStart.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="questAccept26011" url="sound/voiceover/quest/car_o_voo_qst_fillmore_26011_02_questAccept.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="questDecline26011" url="sound/voiceover/quest/car_o_voo_qst_fillmore_26011_03_questDecline.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="questIncomplete26011" url="sound/voiceover/quest/car_o_voo_qst_fillmore_26011_04_questIncomplete.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="questComplete26011" url="sound/voiceover/quest/car_o_voo_qst_fillmore_26011_05_questComplete.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-		
+
 		<!-- Start Quest -->
 		<SubGroup name="qStart26011">
             <SubGroupEntry alias="questStart26011" weight="1" />
         </SubGroup>
-		
+
 		<!-- Accept Quest -->
 		<SubGroup name="qAccept26011">
             <SubGroupEntry alias="questAccept26011" weight="1" />
         </SubGroup>
-        
+
         <!-- Decline Quest -->
 		<SubGroup name="qDecline26011">
             <SubGroupEntry alias="questDecline26011" weight="1" />
         </SubGroup>
-		
+
 		<!-- Incomplete Quest -->
 		<SubGroup name="qIncomplete26011">
             <SubGroupEntry alias="questIncomplete26011" weight="1" />
         </SubGroup>
-		
+
 		<!-- Complete Quest -->
 		<SubGroup name="qComplete26011">
             <SubGroupEntry alias="questComplete26011" weight="1" />
         </SubGroup>
-        
-        
+
+
         <!-- Quest 26012: Doc: Doc's Racing Challenge, Twistin' Tailfin Trails -->
 		<AudioEntry priority="0.7" alias="questStart26012" url="sound/voiceover/quest/car_o_voo_qst_doc_26012_01_questStart.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="questAccept26012" url="sound/voiceover/quest/car_o_voo_qst_doc_26012_02_questAccept.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
@@ -1929,89 +1929,89 @@
 		<AudioEntry priority="0.7" alias="questIncompleteA26012" url="sound/voiceover/quest/car_o_voo_qst_doc_26012_04a_questIncomplete.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="questIncompleteB26012" url="sound/voiceover/quest/car_o_voo_qst_doc_26012_04b_questIncomplete.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="questComplete26012" url="sound/voiceover/quest/car_o_voo_qst_doc_26012_05_questComplete.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-		
+
 		<!-- Start Quest -->
 		<SubGroup name="qStart26012">
             <SubGroupEntry alias="questStart26012" weight="1" />
         </SubGroup>
-		
+
 		<!-- Accept Quest -->
 		<SubGroup name="qAccept26012">
             <SubGroupEntry alias="questAccept26012" weight="1" />
         </SubGroup>
-        
+
         <!-- Decline Quest -->
 		<SubGroup name="qDecline26012">
             <SubGroupEntry alias="questDecline26012" weight="1" />
         </SubGroup>
-		
+
 		<!-- Incomplete Quest -->
 		<SubGroup name="qIncomplete26012">
             <SubGroupEntry alias="questIncompleteA26012" weight="1" />
             <SubGroupEntry alias="questIncompleteB26012" weight="1" />
         </SubGroup>
-		
+
 		<!-- Complete Quest -->
 		<SubGroup name="qComplete26012">
             <SubGroupEntry alias="questComplete26012" weight="1" />
         </SubGroup>
-        
-        
+
+
         <!-- Quest 26013: Sheriff: Find My Billboard! -->
 		<AudioEntry priority="0.7" alias="questStart26013" url="sound/voiceover/quest/car_o_voo_qst_sheriff_26013_01_questStart.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="questAccept26013" url="sound/voiceover/quest/car_o_voo_qst_sheriff_26013_02_questAccept.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="questDecline26013" url="sound/voiceover/quest/car_o_voo_qst_sheriff_26013_03_questDecline.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="questIncomplete26013" url="sound/voiceover/quest/car_o_voo_qst_sheriff_26013_04_questIncomplete.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="questComplete26013" url="sound/voiceover/quest/car_o_voo_qst_sheriff_26013_05_questComplete.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-		
+
 		<!-- Start Quest -->
 		<SubGroup name="qStart26013">
             <SubGroupEntry alias="questStart26013" weight="1" />
         </SubGroup>
-		
+
 		<!-- Accept Quest -->
 		<SubGroup name="qAccept26013">
             <SubGroupEntry alias="questAccept26013" weight="1" />
         </SubGroup>
-        
+
         <!-- Decline Quest -->
 		<SubGroup name="qDecline26013">
             <SubGroupEntry alias="questDecline26013" weight="1" />
         </SubGroup>
-		
+
 		<!-- Incomplete Quest -->
 		<SubGroup name="qIncomplete26013">
             <SubGroupEntry alias="questIncomplete26013" weight="1" />
         </SubGroup>
-		
+
 		<!-- Complete Quest -->
 		<SubGroup name="qComplete26013">
             <SubGroupEntry alias="questComplete26013" weight="1" />
         </SubGroup>
-        
-        
+
+
         <!-- Quest 26014: Sheriff: Find Luigi's Tirestack! -->
 		<AudioEntry priority="0.7" alias="questStart26014" url="sound/voiceover/quest/car_o_voo_qst_sheriff_26014_01_questStart.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="questIncomplete26014" url="sound/voiceover/quest/car_o_voo_qst_sheriff_26014_02_questIncomplete.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="questComplete26014" url="sound/voiceover/quest/car_o_voo_qst_sheriff_26014_03_questComplete.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-		
+
 		<!-- Start Quest -->
 		<SubGroup name="qStart26014">
             <SubGroupEntry alias="questStart26014" weight="1" />
         </SubGroup>
-		
+
 		<!-- Incomplete Quest -->
 		<SubGroup name="qIncomplete26014">
             <SubGroupEntry alias="questIncomplete26014" weight="1" />
         </SubGroup>
-		
+
 		<!-- Complete Quest -->
 		<SubGroup name="qComplete26014">
             <SubGroupEntry alias="questComplete26014" weight="1" />
         </SubGroup>
-        
-        
-        
+
+
+
         <!-- Quest 26015: Sheriff: Find the Tuners! -->
 		<AudioEntry priority="0.7" alias="questStart26015" url="sound/voiceover/quest/car_o_voo_qst_sheriff_26015_01_questStart.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="questAccept26015" url="sound/voiceover/quest/car_o_voo_qst_sheriff_26015_02_questAccept.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
@@ -2020,48 +2020,48 @@
 		<AudioEntry priority="0.7" alias="questIncompleteB26015" url="sound/voiceover/quest/car_o_voo_qst_sheriff_26015_04b_questIncomplete.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="questIncompleteC26015" url="sound/voiceover/quest/car_o_voo_qst_sheriff_26015_04c_questIncomplete.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="questComplete26015" url="sound/voiceover/quest/car_o_voo_qst_sheriff_26015_05_questComplete.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-		
+
 		<!-- Start Quest -->
 		<SubGroup name="qStart26015">
             <SubGroupEntry alias="questStart26015" weight="1" />
         </SubGroup>
-		
+
 		<!-- Accept Quest -->
 		<SubGroup name="qAccept26015">
             <SubGroupEntry alias="questAccept26015" weight="1" />
         </SubGroup>
-        
+
         <!-- Decline Quest -->
 		<SubGroup name="qDecline26015">
             <SubGroupEntry alias="questDecline26015" weight="1" />
         </SubGroup>
-		
+
 		<!-- Incomplete Quest -->
 		<SubGroup name="qIncomplete26015">
             <SubGroupEntry alias="questIncompleteA26015" weight="1" />
             <SubGroupEntry alias="questIncompleteB26015" weight="1" />
             <SubGroupEntry alias="questIncompleteC26015" weight="1" />
         </SubGroup>
-		
+
 		<!-- Complete Quest -->
 		<SubGroup name="qComplete26015">
             <SubGroupEntry alias="questComplete26015" weight="1" />
         </SubGroup>
-        
-        
+
+
 
         <!-- EVENT: Sally Trapped -->
 		<AudioEntry priority="0.7" alias="sallyTrapped001" url="sound/voiceover/quest/car_o_voo_qst_sally_muffled01.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="sallyTrapped002" url="sound/voiceover/quest/car_o_voo_qst_sally_muffled02.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="sallyTrapped003" url="sound/voiceover/quest/car_o_voo_qst_sally_muffled03.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-		
+
         <!-- Sally Trapped Randomized -->
 		<SubGroup name="sallyTrapped">
             <SubGroupEntry alias="sallyTrapped001" weight="1" />
 			<SubGroupEntry alias="sallyTrapped002" weight="1" />
 			<SubGroupEntry alias="sallyTrapped003" weight="1" />
         </SubGroup>
-        
+
         <!-- EVENT: Sally Freed -->
 		<AudioEntry priority="0.7" alias="sallyFreed01" url="sound/voiceover/quest/car_o_voo_qst_sally_rockslideClear01.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="sallyFreed02" url="sound/voiceover/quest/car_o_voo_qst_sally_rockslideClear02.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
@@ -2080,8 +2080,8 @@
 		<AudioEntry priority="0.7" alias="sallyFreed15" url="sound/voiceover/quest/car_o_voo_qst_sally_rockslideClear15.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="sallyFreed16" url="sound/voiceover/quest/car_o_voo_qst_sally_rockslideClear16.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="sallyFreed17" url="sound/voiceover/quest/car_o_voo_qst_sally_rockslideClear17.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-		
-		
+
+
         <!-- Sally Trapped Randomized -->
 		<SubGroup name="sallyFreed">
             <SubGroupEntry alias="sallyFreed01" weight="1" />
@@ -2102,15 +2102,15 @@
             <SubGroupEntry alias="sallyFreed16" weight="1" />
             <SubGroupEntry alias="sallyFreed17" weight="1" />
         </SubGroup>
-		
+
 	<!-- Quest: Car Show OFF -->
 		<AudioEntry priority="0.7" alias="questStartShowOff" url="sound/voiceover/quest/car_o_voo_qst_26100_01_queststart.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="questAcceptShowOff" url="sound/voiceover/quest/car_o_voo_qst_26101_02_questaccept.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="questDeclineShowOff" url="sound/voiceover/quest/car_o_voo_qst_26102_03_questdecline.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
 		<AudioEntry priority="0.7" alias="questCompleteShowOff" url="sound/voiceover/quest/car_o_voo_qst_26103_04_questcomplete.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" cooldown="-2" attenuateOthers=".65" />
-        
+
 	</AudioGroup>
-	
+
 
 	<AudioGroup priority="1" alias="Tractors">
 		<AudioEntry priority="0.1" alias="TF1" url="sound/effect/event/car_o_efx_evt_tractorFart1.mp3" loop="false" pan="0" vol="1" mode="multi-channel" stream="true" isMusic="false" />
@@ -2121,11 +2121,11 @@
 		<AudioEntry priority="0.1" alias="TF6" url="sound/effect/event/car_o_efx_evt_tractorFart6.mp3" loop="false" pan="0" vol="1" mode="multi-channel" stream="true" isMusic="false" />
 		<AudioEntry priority="0.1" alias="TF7" url="sound/effect/event/car_o_efx_evt_tractorFart7.mp3" loop="false" pan="0" vol="1" mode="multi-channel" stream="true" isMusic="false" />
 		<AudioEntry priority="0.1" alias="TF8" url="sound/effect/event/car_o_efx_evt_tractorFart8.mp3" loop="false" pan="0" vol="1" mode="multi-channel" stream="true" isMusic="false" />
-		
+
 		<AudioEntry priority="0.1" alias="TS1" url="sound/effect/event/car_o_efx_evt_tractorSlosh1.mp3" loop="false" pan="0" vol="1" mode="multi-channel" stream="true" isMusic="false" />
 		<AudioEntry priority="0.1" alias="TS2" url="sound/effect/event/car_o_efx_evt_tractorSlosh2.mp3" loop="false" pan="0" vol="1" mode="multi-channel" stream="true" isMusic="false" />
 		<AudioEntry priority="0.1" alias="TS3" url="sound/effect/event/car_o_efx_evt_tractorSlosh3.mp3" loop="false" pan="0" vol="1" mode="multi-channel" stream="true" isMusic="false" />
-		
+
 		<SubGroup name="Farts">
 		  <SubGroupEntry alias="TF1" weight="5"/>
 		  <SubGroupEntry alias="TF2" weight="5"/>
@@ -2136,16 +2136,16 @@
 		  <SubGroupEntry alias="TF7" weight="5"/>
 		  <SubGroupEntry alias="TF8" weight="1"/>
 		</SubGroup>
-		
+
 		<SubGroup name="Sloshes">
 		  <SubGroupEntry alias="TS1" weight="5"/>
 		  <SubGroupEntry alias="TS2" weight="5"/>
 		  <SubGroupEntry alias="TS3" weight="5"/>
 		</SubGroup>
 	</AudioGroup>
-	
+
 	<AudioGroup priority="1" alias="Music">
-	
+
 		<!-- Zone Music -->
 		<AudioEntry priority="0.7" alias="zoneFillmoresFields" url="sound/music/global/car_o_mus_glb_zoneFillmoresFields.mp3" loop="true" pan="0" vol=".5" mode="single-channel-restart" stream="true" isMusic="true" />
 		<AudioEntry priority="0.7" alias="zoneRadiatorSprings01" url="sound/music/global/car_o_mus_glb_zoneRadiatorSprings01.mp3" loop="true" pan="0" vol=".5" mode="single-channel-restart" stream="true" isMusic="true" />
@@ -2154,13 +2154,13 @@
 		<AudioEntry priority="0.7" alias="zoneWilliesButte" url="sound/music/global/car_o_mus_glb_zoneWilliesButte01.mp3" loop="true" pan="0" vol=".5" mode="single-channel-restart" stream="true" isMusic="true" />
 		<AudioEntry priority="0.7" alias="zoneBigHeartland" url="sound/music/global/car_o_mus_glb_zoneBigHeartland.mp3" loop="true" pan="0" vol=".5" mode="single-channel-restart" stream="true" isMusic="true" />
 		<AudioEntry priority="0.7" alias="zoneLASpeedway" url="sound/music/global/car_o_mus_glb_zoneLASpeedway.mp3" loop="true" pan="0" vol=".5" mode="single-channel-restart" stream="true" isMusic="true" />
-		
+
 		<!-- Radiator Springs Zone Music -->
 		<SubGroup name="radiatorSprings">
 		  <SubGroupEntry alias="zoneRadiatorSprings01" weight="5"/>
 		  <SubGroupEntry alias="zoneRadiatorSprings02" weight="5"/>
 		</SubGroup>
-		
+
 		<!-- Racing Music -->
 		<AudioEntry priority="0.7" alias="raceCarburetorCountySpeedway" url="sound/music/track/car_o_mus_trk_raceCarburetorCountySpeedway.mp3" loop="true" pan="0" vol=".5" mode="single-channel-restart" stream="true" isMusic="true" />
 		<AudioEntry priority="0.7" alias="raceFillmoresFieldsRally" url="sound/music/track/car_o_mus_trk_raceFillmoresFieldsRally.mp3" loop="true" pan="0" vol=".5" mode="single-channel-restart" stream="true" isMusic="true" />
@@ -2171,12 +2171,12 @@
 		<AudioEntry priority="0.7" alias="racePetroleum" url="sound/music/track/car_o_mus_trk_racePetroleum.mp3" loop="true" pan="0" vol=".5" mode="single-channel-restart" stream="true" isMusic="true" />
 		<AudioEntry priority="0.7" alias="raceLASpeedway" url="sound/music/track/car_o_mus_trk_raceLASpeedway.mp3" loop="true" pan="0" vol=".5" mode="single-channel-restart" stream="true" isMusic="true" />
 		<AudioEntry priority="0.7" alias="raceBFC" url="sound/music/track/car_o_mus_trk_raceBFC.mp3" loop="true" pan="0" vol=".5" mode="single-channel-restart" stream="true" isMusic="true" />
-		<AudioEntry priority="0.7" alias="raceMSS" url="sound/music/track/car_o_mus_trk_raceMSS.mp3" loop="true" pan="0" vol=".5" mode="single-channel-restart" stream="true" isMusic="true" />		
-		
+		<AudioEntry priority="0.7" alias="raceMSS" url="sound/music/track/car_o_mus_trk_raceMSS.mp3" loop="true" pan="0" vol=".5" mode="single-channel-restart" stream="true" isMusic="true" />
+
 		<!-- RSN Music -->
 		<AudioEntry priority="0.7" alias="themeRSNmain" url="sound/music/rns/car_o_mus_rsn_themeRSNmain.mp3" loop="true" pan="0" vol=".6" mode="single-channel-restart" stream="true" isMusic="true" />
 		<AudioEntry priority="0.7" alias="themeRSNalternate" url="sound/music/rsn/car_o_mus_rsn_themeRSNalternate.mp3" loop="true" pan="0" vol=".3" mode="single-channel-restart" stream="true" isMusic="true" />
-		
+
 		<!-- music -->
 		<AudioEntry priority="0.7" alias="Garage" url="sound/music/garage/car_o_mus_gar_hudson_radioFilter.mp3" loop="true" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="true" />
 		<AudioEntry priority="0.7" alias="TwistinTailfinTrack" url="sound/music/track/car_o_mus_trk_twistingTailfin.mp3" loop="true" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="true" />
@@ -2187,7 +2187,7 @@
 		<AudioEntry priority="0.7" alias="Petroleum" url="sound/music/global/car_o_mus_glb_zonePetroleum.mp3" loop="true" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="true" />
 		<AudioEntry priority="0.7" alias="zoneBFC" url="sound/music/global/car_o_mus_glb_zoneBFC.mp3" loop="true" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="true" />
 		<AudioEntry priority="0.7" alias="FarmTrack" url="sound/music/track/car_o_mus_trk_farmAdventureTrack_monoVBR.mp3" loop="true" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="true" />
-	
+
 	</AudioGroup>
-	
+
 </AudioList>
