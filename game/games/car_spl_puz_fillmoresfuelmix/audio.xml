@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<AudioList>
+	<AudioGroup priority="0.7" alias="Main">
+			
+		<!-- Music tracks are streamed -->
+		<AudioEntry priority="0.5" alias="musTitle" url="audio/ffm_introMusic.mp3"					loop="true" pan="0" vol=".3" mode="single-channel-restart" stream="true" isMusic="true" />
+		<AudioEntry priority="0.5" alias="musSuccess" url="audio/ffm_successMusic.mp3"				loop="true" pan="0" vol=".3" mode="single-channel-restart" stream="true" isMusic="true" />
+		<AudioEntry priority="0.5" alias="musFailure" url="audio/ffm_failureMusic.mp3"				loop="true" pan="0" vol=".3" mode="single-channel-restart" stream="true" isMusic="true" />
+				
+		<!-- START SFX: Static sounds are pre-loaded and ready to play -->
+
+		<!-- Individual Mix Select Sounds -->
+		<AudioEntry priority="0.5" alias="selectFlurp" url="audio/ffm_sndSelectFlurp.mp3" 			loop="false" pan="0" vol="1.0" mode="multi-channel" />
+		<AudioEntry priority="0.5" alias="selectFlurrrp" url="audio/ffm_sndSelectFlurrrp.mp3" 		loop="false" pan="0" vol="1.0" mode="multi-channel" />
+		<AudioEntry priority="0.5" alias="selectGastro" url="audio/ffm_sndSelectGastro.mp3" 		loop="false" pan="0" vol="1.0" mode="multi-channel" />
+		<AudioEntry priority="0.5" alias="selectSBD" url="audio/ffm_sndSelectSBD.mp3"	 			loop="false" pan="0" vol="1.0" mode="multi-channel" />
+
+		<!-- SFX: Buttons -->
+		<AudioEntry priority="0.5" alias="buttonPress" url="audio/ffm_sndButton.mp3" 				loop="false" pan="0" vol="1.0" mode="multi-channel" />
+		<AudioEntry priority="0.5" alias="buttonPlay" url="audio/ffm_sndButtonPlay.mp3" 			loop="false" pan="0" vol="1.0" mode="multi-channel" />
+		<AudioEntry priority="0.5" alias="sndMouseOver" url="audio/ffm_sndButtonMouseOver.mp3" 			loop="false" pan="0" vol="1.0" mode="multi-channel" />
+
+		<!-- SFX: Window(s) Sliding Sound -->
+		<AudioEntry priority="0.5" alias="slideIn" url="audio/ffm_sndSlideIn.mp3" 					loop="false" pan="0" vol="1.0" mode="multi-channel" />
+		<AudioEntry priority="0.5" alias="slideOut" url="audio/ffm_sndSlideOut.mp3" 				loop="false" pan="0" vol="1.0" mode="multi-channel" />
+		
+		<!-- SFX: Pitty Sounds -->
+		<AudioEntry priority="0.5" alias="pittyDriveIn" url="audio/ffm_sndPittyDriveIn.mp3" 		loop="false" pan="0" vol="1.0" mode="multi-channel" />
+
+			<!-- SFX GROUP: Pitty Acceleration -->
+			<AudioEntry priority="0.5" alias="sndPittyAccel01" url="audio/ffm_sndPittyAccel01.mp3" 		loop="false" pan="0" vol="1.0" mode="multi-channel" />
+			<AudioEntry priority="0.5" alias="sndPittyAccel02" url="audio/ffm_sndPittyAccel02.mp3" 		loop="false" pan="0" vol="1.0" mode="multi-channel" />
+			<AudioEntry priority="0.5" alias="sndPittyAccel03" url="audio/ffm_sndPittyAccel03.mp3" 		loop="false" pan="0" vol="1.0" mode="multi-channel" />
+		
+			<SubGroup name="pittyDriveForward" default="RandomEachPass">
+			  <SubGroupEntry alias="sndPittyAccel01" weight="5"/>
+			  <SubGroupEntry alias="sndPittyAccel02" weight="5"/>
+			  <SubGroupEntry alias="sndPittyAccel03" weight="5"/>
+			</SubGroup>
+		
+			<!-- SFX GROUP: Pitty Reverse -->
+			<AudioEntry priority="0.5" alias="sndPittyReverse01" url="audio/ffm_sndPittyReverse01.mp3" 		loop="false" pan="0" vol="1.0" mode="multi-channel" />
+			<AudioEntry priority="0.5" alias="sndPittyReverse02" url="audio/ffm_sndPittyReverse02.mp3" 		loop="false" pan="0" vol="1.0" mode="multi-channel" />
+			<AudioEntry priority="0.5" alias="sndPittyReverse03" url="audio/ffm_sndPittyReverse03.mp3" 		loop="false" pan="0" vol="1.0" mode="multi-channel" />
+		
+			<SubGroup name="pittyDriveBack" default="RandomEachPass">
+			  <SubGroupEntry alias="sndPittyReverse01" weight="5"/>
+			  <SubGroupEntry alias="sndPittyReverse02" weight="5"/>
+			  <SubGroupEntry alias="sndPittyReverse03" weight="5"/>
+			</SubGroup>
+		
+			<AudioEntry priority="0.5" alias="pittyStop" url="audio/ffm_sndBLANK.mp3"	 		loop="false" pan="0" vol="1.0" mode="multi-channel" />
+				
+		<!-- SFX: Ingredients/Junk Sounds -->
+		<AudioEntry priority="0.5" alias="ingredientDrop" url="audio/ffm_sndIngDrop.mp3" 			loop="false" pan="0" vol="1.0" mode="multi-channel" />
+		<AudioEntry priority="0.5" alias="junkDrop" url="audio/ffm_sndJunkDrop.mp3" 				loop="false" pan="0" vol="1.0" mode="multi-channel" />
+
+			<!-- SFX GROUP: Ingredient Collecting -->
+			<AudioEntry priority="0.5" alias="sndIngCollect01" url="audio/ffm_sndIngCollect01.mp3"	 		loop="false" pan="0" vol="1.0" mode="multi-channel" />
+			<AudioEntry priority="0.5" alias="sndIngCollect02" url="audio/ffm_sndIngCollect02.mp3" 			loop="false" pan="0" vol="1.0" mode="multi-channel" />
+			<AudioEntry priority="0.5" alias="sndIngCollect03" url="audio/ffm_sndIngCollect02.mp3" 			loop="false" pan="0" vol="1.0" mode="multi-channel" />
+					
+			<SubGroup name="ingredientCollect" default="RandomEachPass">
+			  <SubGroupEntry alias="sndIngCollect01" weight="5"/>
+			  <SubGroupEntry alias="sndIngCollect02" weight="5"/>
+			  <SubGroupEntry alias="sndIngCollect03" weight="5"/>
+			</SubGroup>
+			
+			<!-- SFX GROUP: Ingredient Bounce -->
+			<AudioEntry priority="0.5" alias="sndIngBounce01" url="audio/ffm_sndIngBounce01.mp3"	 		loop="false" pan="0" vol="1.0" mode="multi-channel" />
+			<AudioEntry priority="0.5" alias="sndIngBounce02" url="audio/ffm_sndIngBounce02.mp3" 			loop="false" pan="0" vol="1.0" mode="multi-channel" />
+					
+			<SubGroup name="ingredientBounce" default="RandomEachPass">
+			  <SubGroupEntry alias="sndIngBounce01" weight="5"/>
+			  <SubGroupEntry alias="sndIngBounce02" weight="5"/>
+			</SubGroup>
+			
+			<!-- SFX GROUP: Junk Collecting -->
+			<AudioEntry priority="0.5" alias="sndJunkCollect01" url="audio/ffm_sndJunkCollect01.mp3"	 		loop="false" pan="0" vol="1.0" mode="multi-channel" />
+			<AudioEntry priority="0.5" alias="sndJunkCollect02" url="audio/ffm_sndJunkCollect02.mp3" 			loop="false" pan="0" vol="1.0" mode="multi-channel" />
+			<AudioEntry priority="0.5" alias="sndJunkCollect03" url="audio/ffm_sndJunkCollect02.mp3" 			loop="false" pan="0" vol="1.0" mode="multi-channel" />
+					
+			<SubGroup name="junkCollect" default="RandomEachPass">
+			  <SubGroupEntry alias="sndJunkCollect01" weight="5"/>
+			  <SubGroupEntry alias="sndJunkCollect02" weight="5"/>
+			  <SubGroupEntry alias="sndJunkCollect03" weight="5"/>
+			</SubGroup>
+			
+			<!-- SFX GROUP: Junk Bounce -->
+			<AudioEntry priority="0.5" alias="sndJunkBounce01" url="audio/ffm_sndJunkBounce01.mp3"	 		loop="false" pan="0" vol="1.0" mode="multi-channel" />
+			<AudioEntry priority="0.5" alias="sndJunkBounce02" url="audio/ffm_sndJunkBounce02.mp3" 			loop="false" pan="0" vol="1.0" mode="multi-channel" />
+					
+			<SubGroup name="junkBounce" default="RandomEachPass">
+			  <SubGroupEntry alias="sndJunkBounce01" weight="5"/>
+			  <SubGroupEntry alias="sndJunkBounce02" weight="5"/>
+			</SubGroup>
+		
+		<!-- SFX: Bonus, Timers, and Warning Sounds -->
+		<AudioEntry priority="0.5" alias="timerFinal5" url="audio/ffm_sndTimerFinal5.mp3" 			loop="false" pan="0" vol="1.0" mode="multi-channel" />
+		<AudioEntry priority="0.5" alias="timerWarning" url="audio/ffm_sndTimerWarning.mp3" 		loop="false" pan="0" vol="1.0" mode="multi-channel" />
+		<AudioEntry priority="0.5" alias="timerBuzz" url="audio/ffm_sndTimerBuzz.mp3"	 			loop="false" pan="0" vol="1.0" mode="multi-channel" />
+
+		<AudioEntry priority="0.5" alias="bonusTime" url="audio/ffm_sndBonusTime.mp3" 				loop="false" pan="0" vol="1.0" mode="multi-channel" />
+		<AudioEntry priority="0.5" alias="bonusMixer" url="audio/ffm_sndBonusMixer.mp3"				loop="false" pan="0" vol="1.0" mode="multi-channel" />
+		<AudioEntry priority="0.5" alias="bonusSunflower" url="audio/ffm_sndBonusSunflower.mp3" 	loop="false" pan="0" vol="1.0" mode="multi-channel" />
+		<AudioEntry priority="0.5" alias="bonusOrganic" url="audio/ffm_sndBonusOrganic.mp3" 		loop="false" pan="0" vol="1.0" mode="multi-channel" />
+
+		<AudioEntry priority="0.5" alias="mixComplete" url="audio/ffm_sndMixComplete.mp3" 			loop="false" pan="0" vol="1.0" mode="multi-channel" />
+
+		<AudioEntry priority="0.5" alias="volatileMix01" url="audio/ffm_sndVolatileMix01.mp3" 		loop="true" pan="0" vol="1.0" mode="multi-channel" />
+		<AudioEntry priority="0.5" alias="volatileMix02" url="audio/ffm_sndVolatileMix02.mp3" 		loop="true" pan="0" vol="1.0" mode="multi-channel" />
+		<AudioEntry priority="0.5" alias="awwBadMix" url="audio/ffm_sndAwwBadMix.mp3" 				loop="false" pan="0" vol="1.0" mode="multi-channel" />
+		<AudioEntry priority="0.5" alias="awwMissedMix" url="audio/ffm_sndAwwMissedMix.mp3" 		loop="false" pan="0" vol="1.0" mode="multi-channel" />
+
+		
+		<!-- Fillmore VoiceOver: Encouragment -->
+		<AudioEntry priority="0.5" alias="voFillmoreHappy01" url="audio/voFillmoreHappy01.mp3" 		loop="false" pan="0" vol="1" mode="multi-channel" cooldown="-5" />
+		<AudioEntry priority="0.5" alias="voFillmoreHappy02" url="audio/voFillmoreHappy02.mp3" 		loop="false" pan="0" vol="1" mode="multi-channel" cooldown="-5" />
+		<AudioEntry priority="0.5" alias="voFillmoreHappy03" url="audio/voFillmoreHappy03.mp3" 		loop="false" pan="0" vol="1" mode="multi-channel" cooldown="-5" />
+		<AudioEntry priority="0.5" alias="voFillmoreHappy04" url="audio/voFillmoreHappy04.mp3" 		loop="false" pan="0" vol="1" mode="multi-channel" cooldown="-5" />
+		<AudioEntry priority="0.5" alias="voFillmoreHappy05" url="audio/voFillmoreHappy05.mp3" 		loop="false" pan="0" vol="1" mode="multi-channel" cooldown="-5" />
+		<AudioEntry priority="0.5" alias="voFillmoreHappy06" url="audio/voFillmoreHappy06.mp3" 		loop="false" pan="0" vol="1" mode="multi-channel" cooldown="-5" />
+		<AudioEntry priority="0.5" alias="voFillmoreHappy07" url="audio/voFillmoreHappy07.mp3" 		loop="false" pan="0" vol="1" mode="multi-channel" cooldown="-5" />
+		<AudioEntry priority="0.5" alias="voFillmoreHappy08" url="audio/voFillmoreHappy08.mp3" 		loop="false" pan="0" vol="1" mode="multi-channel" cooldown="-5" />
+
+		<!-- Fillmore VoiceOver: Bummer -->
+		<AudioEntry priority="0.5" alias="voFillmoreBummer01" url="audio/voFillmoreBummer01.mp3" 	loop="false" pan="0" vol="1" mode="multi-channel" cooldown="-5" />
+		<AudioEntry priority="0.5" alias="voFillmoreBummer02" url="audio/voFillmoreBummer02.mp3" 	loop="false" pan="0" vol="1" mode="multi-channel" cooldown="-5" />
+		<AudioEntry priority="0.5" alias="voFillmoreBummer03" url="audio/voFillmoreBummer03.mp3" 	loop="false" pan="0" vol="1" mode="multi-channel" cooldown="-5" />
+		<AudioEntry priority="0.5" alias="voFillmoreBummer04" url="audio/voFillmoreBummer04.mp3" 	loop="false" pan="0" vol="1" mode="multi-channel" cooldown="-5" />
+		<AudioEntry priority="0.5" alias="voFillmoreBummer05" url="audio/voFillmoreBummer05.mp3" 	loop="false" pan="0" vol="1" mode="multi-channel" cooldown="-5" />
+		<AudioEntry priority="0.5" alias="voFillmoreBummer06" url="audio/voFillmoreBummer06.mp3" 	loop="false" pan="0" vol="1" mode="multi-channel" cooldown="-5" />
+		<AudioEntry priority="0.5" alias="voFillmoreBummer07" url="audio/voFillmoreBummer07.mp3" 	loop="false" pan="0" vol="1" mode="multi-channel" cooldown="-5" />
+		<AudioEntry priority="0.5" alias="voFillmoreBummer08" url="audio/voFillmoreBummer08.mp3" 	loop="false" pan="0" vol="1" mode="multi-channel" cooldown="-5" />
+		
+		<SubGroup name="voFillmoreHappy" default="RandomEachPass">
+		  <SubGroupEntry alias="voFillmoreHappy01" weight="5"/>
+		  <SubGroupEntry alias="voFillmoreHappy02" weight="5"/>
+		  <SubGroupEntry alias="voFillmoreHappy03" weight="5"/>
+		  <SubGroupEntry alias="voFillmoreHappy04" weight="5"/>
+		  <SubGroupEntry alias="voFillmoreHappy05" weight="5"/>
+		  <SubGroupEntry alias="voFillmoreHappy06" weight="5"/>
+		  <SubGroupEntry alias="voFillmoreHappy07" weight="5"/>
+		  <SubGroupEntry alias="voFillmoreHappy08" weight="5"/>
+		</SubGroup>
+
+		<SubGroup name="voFillmoreBummer" default="RandomEachPass">
+		  <SubGroupEntry alias="voFillmoreBummer01" weight="5"/>
+		  <SubGroupEntry alias="voFillmoreBummer02" weight="5"/>
+		  <SubGroupEntry alias="voFillmoreBummer03" weight="5"/>
+		  <SubGroupEntry alias="voFillmoreBummer04" weight="5"/>
+		  <SubGroupEntry alias="voFillmoreBummer05" weight="5"/>
+		  <SubGroupEntry alias="voFillmoreBummer06" weight="5"/>
+		  <SubGroupEntry alias="voFillmoreBummer07" weight="5"/>
+		  <SubGroupEntry alias="voFillmoreBummer08" weight="5"/>
+		</SubGroup>
+		
+		<!-- Sound Chains for SFX (Only Used On Item/Junk Collecting) -->
+		<ChainEntry alias="collectIngredient" chain="ingredientCollect,voFillmoreHappy" />
+		<ChainEntry alias="collectJunk" chain="junkCollect,voFillmoreBummer" />
+		<ChainEntry alias="junkBounce" chain="junkBounce" />
+		<ChainEntry alias="ingredientBounce" chain="ingredientBounce" />
+		<ChainEntry alias="pittyDriveForward" chain="pittyDriveForward" />
+		<ChainEntry alias="pittyDriveBack" chain="pittyDriveBack" />
+		<ChainEntry alias="pittyStop" chain="pittyStop" />
+			
+	</AudioGroup>
+
+	
+	<AudioGroup priority="0.7" alias="MusLevel">
+		<!-- Music for: Mix 1 - FLURP (loaded only for Mix 1) -->
+		<AudioEntry priority="0.5" alias="mix0" url="audio/ffm_musMix01_flurp.mp3" 					loop="true" pan="0" vol="0.3" mode="single-channel-restart" stream="true" isMusic="true" />
+
+		<!-- Music for: Mix 2 - FLURRRP (loaded only for Mix 2) -->
+		<AudioEntry priority="0.5" alias="mix1" url="audio/ffm_musMix02_flurrrp.mp3"	 				loop="true" pan="0" vol="0.3" mode="single-channel-restart" stream="true" isMusic="true" />
+	
+		<!-- Music for: Mix 3 - GASTRO BLASTRO (loaded only for Mix 3) -->
+		<AudioEntry priority="0.5" alias="mix2" url="audio/ffm_musMix03_gastroBlastro.mp3" 			loop="true" pan="0" vol="0.3" mode="single-channel-restart" stream="true" isMusic="true" />
+	
+		<!-- Music for: Mix 4 - SBD (loaded only for Mix 4) -->
+		<AudioEntry priority="0.5" alias="mix3" url="audio/ffm_musMix04_sbd.mp3"	 				loop="true" pan="0" vol="0.3" mode="single-channel-restart" stream="true" isMusic="true" />
+	</AudioGroup>
+	
+</AudioList>

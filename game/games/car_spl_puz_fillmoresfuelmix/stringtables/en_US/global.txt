@@ -1,0 +1,31 @@
+MIX
+HELP
+PICK A FIZZY FUEL
+WARNING: Except for Flurp, fuels are too dangerous to mix unless you've tested them first.
+Boom Factor:
+OKAY
+FIZZY FUEL MIX
+WARNING: Avoid falling junk, and catch only these organic ingredients. Too much junk turns a Fizzy Fuel into a Messed Up Mix. Three Messed Up Mixes and it's over, Man!
+Fizzy Fuel
+Ingredients
+Score
+Fizzy Fuels
+Messed Up Mixes
+MIXING IT UP
+Game Over
+PLAY AGAIN
+MIX MORE
+Fizzy Fuels
+CHILL OUT
+Ran Out of Time
+MESSED UP THE MIX
+TRY AGAIN
+NEXT
+LAST
+HOW TO PLAY
+Help Fillmore make Fizzy Fuels. Use Arrow Keys to move Fillmore's Pitty left and right to catch falling ingredients. Don't catch too much Junk, or Mixes will go Boom!
+Watch out! Mixes with too much Junk become Messed Up Mixes. Three Messed Up Mixes and you've Totally Messed Up!
+Try to catch Sunflowers. These rare ingredients reduce the Boom Factor in your Mixes and make them less Messed Up.
+Only a sponsored racer that's used this fuel can mix it!
+Paused
+The game is currently paused.

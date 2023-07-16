@@ -1,0 +1,74 @@
+<game_config>
+	<content swf="car_spl_puz_fillmoreFuelMix_content.swf" stringTable="stringtables/en_US/" sound="audio.xml" frameRate="30" />
+	<loading swf="car_spl_puz_fillmoreFuelMix_loader.swf" initialAmount="50" initialTime="5000" />
+
+	<scoreModifiers>
+		<!-- In Game -->
+		<scoreModifier name="COLLECT_INGREDIENT"			value="100"	/>
+		<scoreModifier name="COLLECT_BONUS"					value="500"	/>
+		<scoreModifier name="COMPLETE_PURE_MIX"				value="5000"	/>
+		<scoreModifier name="COMPLETE_REQ_MIXES"			value="2000"	/>
+		<scoreModifier name="COMPLETE_ADD_MIX"				value="2000"	/>
+		<scoreModifier name="COLLECT_IMPURITY"				value="-100"	/>
+		<scoreModifier name="MIX_EXPLODED"					value="-1000"	/>
+	</scoreModifiers>
+	
+	<ingredients>
+		<!-- Regular Ingredients -->
+		<ingredient name="Orange Flower"		timeModifier="0"	volatility="0.0"	impurity="false" bonus="false" artIndex="0" color="0xe4913e" gravMod="1.0" startLevel="0" spawnFrequency="1" elasticity="1.0" />
+		<ingredient name="Sweet Cactus Fruit"	timeModifier="0"	volatility="0.0"	impurity="false" bonus="false" artIndex="1" color="0xcf282c" gravMod="1.2" startLevel="0" spawnFrequency="1" elasticity="1.0" />
+		<ingredient name="Pink Flower"			timeModifier="0"	volatility="0.0"	impurity="false" bonus="false" artIndex="2" color="0xd95fca" gravMod="1.0" startLevel="0" spawnFrequency="1" elasticity="1.0" />
+		<ingredient name="Mushroom"				timeModifier="0"	volatility="0.0"	impurity="false" bonus="false" artIndex="3" color="0xeac763" gravMod="1.1" startLevel="0" spawnFrequency="1" elasticity="1.0" />
+		<ingredient name="Corn"					timeModifier="0"	volatility="0.0"	impurity="false" bonus="false" artIndex="4" color="0xf5ca26" gravMod="1.3" startLevel="0" spawnFrequency="1" elasticity="1.0" />
+		<ingredient name="Blue Flower"			timeModifier="0"	volatility="0.0"	impurity="false" bonus="false" artIndex="5" color="0x5f93df" gravMod="1.0" startLevel="0" spawnFrequency="1" elasticity="1.0" />
+	                                                                    
+		<!-- Impurities -->                            
+		<ingredient name="Rock"				timeModifier="0"	volatility="0.5" 	impurity="true" bonus="false" artIndex="6" color="0x423838" gravMod="2.5" startLevel="5" spawnFrequency="2" elasticity="0.3" />
+		<ingredient name="Fan"				timeModifier="0"	volatility="0.2" 	impurity="true" bonus="false" artIndex="7" color="0x938989" gravMod="1.6" startLevel="0" spawnFrequency="1" elasticity="0.75" />
+		<ingredient name="Spring"			timeModifier="0"	volatility="0.3" 	impurity="true" bonus="false" artIndex="8" color="0x938989" gravMod="2.0" startLevel="2" spawnFrequency="1" elasticity="0.75" />
+		<ingredient name="Tire Rim"			timeModifier="0"	volatility="0.4" 	impurity="true" bonus="false" artIndex="9" color="0x938989" gravMod="2.2" startLevel="3" spawnFrequency="1" elasticity="0.5" />
+                                                                             
+		<!-- Bonus Items -->                        
+		<ingredient name="Sunflower"		timeModifier="0"	volatility="-.3" 	impurity="false" bonus="true" artIndex="10" color="0xfff000" gravMod="1.5" startLevel="0" spawnFrequency="1" elasticity="0.75"/>
+		<!--<ingredient name="badge"		timeModifier="5"	volatility="0.0"	impurity="false" bonus="true" artIndex="0"/>-->
+	</ingredients>                                     
+
+	<fuels>
+		<fuel name="Flurp" difficultyLevel="1" ruleId="0" artIndex="1" numChutes="3" time="80" spawnDelay="1.5" badBonusSpawns="18,5" fallSpeed="100" color="0x723482" >
+			<ingredient name="Orange Flower" 		amount="5" />
+			<ingredient name="Sweet Cactus Fruit" 	amount="7" />
+			<ingredient name="Pink Flower" 			amount="8" />
+		</fuel>
+		
+		<fuel name="Flurrrp" difficultyLevel="2" ruleId="40002" artIndex="0" numChutes="3" time="85" spawnDelay="1.4" badBonusSpawns="20,5" fallSpeed="110" color="0x00a2ff" >
+			<ingredient name="Mushroom" 		amount="6" />
+			<ingredient name="Corn" 			amount="7" />
+			<ingredient name="Blue Flower" 		amount="9" />
+		</fuel>
+
+		<fuel name="Gastro Blastro" difficultyLevel="3" ruleId="40003" artIndex="2" numChutes="4" time="90" spawnDelay="1.3" badBonusSpawns="22,5" fallSpeed="115" color="0x13cf43"  >
+			<ingredient name="Sweet Cactus Fruit"	amount="7" />
+			<ingredient name="Pink Flower"			amount="5" />
+			<ingredient name="Corn" 				amount="9" />
+			<ingredient name="Blue Flower" 			amount="9" />	
+		</fuel>
+		
+		<fuel name="SBD NRG" difficultyLevel="4" ruleId="40004" artIndex="3" numChutes="4" time="95" spawnDelay="1.2" badBonusSpawns="24,5" fallSpeed="120" color="0xcf1374" >
+			<ingredient name="Blue Flower" 			amount="7" />
+			<ingredient name="Orange Flower" 		amount="7" />
+			<ingredient name="Sweet Cactus Fruit" 	amount="9" />
+			<ingredient name="Corn" 				amount="9" />
+		</fuel>
+	</fuels>
+
+	<!-- amount to reduce the time and spawn delay between rounds | increase the bad spawn % amount | increase the falling speed -->
+	<difficultyRamp timeReduction="2" spawnDelayReduction="0.5" badSpawnIncrease="1" fallSpeedIncrease="20" />
+	
+	<!-- 	minium starting time | minimum delay for spawns | maximum % of bad spawn | maximum fall speed | y to splat on floor | rate the items rotate when falling (degrees/second) | 
+		bad mixes until game over | delay to show explanation | seconds remaining to start warning light & spawn modifications | amount to chain to get the time bonus | time bonus in seconds from a chain -->
+	<minMax time="30" spawnDelay="0.5" badSpawn="40" fallSpeed="200" floorY="500" rotationRate="180" badMixes="3" exclamationDelay="950" warnTime="15" chainAmount="10" chainTime="12" transitionSpeed="1500" />
+	
+	<!-- 	how fast he can go | how fast he gets faster | decay rate of speed | start pos | minimum screen x | max screen x | how long in MS to wince and apply impure mods | accel after hitting impure |
+		decel after hitting impure | how much speed to carry into an ingredient that's hit | rate that the bucket fills when collecting -->
+	<pitty maxSpeed="1000" accel="1800" decelRate="0.75" startX="342" minX="52" maxX="633" winceDelay="1500" impureAccel="1000" impureDecel="0.99" collisionXSpeed="0.25" fillRate="0.3" />
+</game_config>
