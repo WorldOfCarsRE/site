@@ -1,0 +1,386 @@
+<map version="3.0.4" width="34" height="75">
+	<version>19</version>
+	<layers>
+		<layer name="ground" tileWidth="140" tileHeight="70">
+		</layer>
+		<layer name="road" tileWidth="140" tileHeight="70">
+		</layer>
+		<layer name="object" tileWidth="35" tileHeight="17.5">
+			<tile asset="158922174" name="" priority="2" x="42" y="104" flags=""/>
+			<tile asset="265081095" name="" priority="2" x="42" y="104" flags="oT"/>
+			<tile asset="524264126" name="" priority="2" x="50" y="108" flags=""/>
+			<tile asset="265081095" name="" priority="2" x="56" y="109" flags="oB"/>
+			<tile asset="4032031893" name="" priority="2" x="56" y="115" flags=""/>
+			<tile asset="265081095" name="" priority="2" x="51" y="120" flags="oB"/>
+			<tile asset="4032031893" name="" priority="2" x="51" y="126" flags=""/>
+			<tile asset="150893080" name="" priority="2" x="54" y="132" flags="oT"/>
+			<tile asset="265081095" name="" priority="2" x="73" y="151" flags="oT"/>
+			<tile asset="265081095" name="" priority="2" x="70" y="161" flags="oT"/>
+			<tile asset="4212083479" name="" priority="2" x="85" y="175" flags=""/>
+			<tile asset="265081095" name="" priority="2" x="85" y="175" flags="oT"/>
+			<tile asset="4212083479" name="" priority="2" x="82" y="184" flags=""/>
+			<tile asset="265081095" name="" priority="2" x="82" y="184" flags="oT"/>
+			<tile asset="265081095" name="" priority="2" x="112" y="220" flags="oB"/>
+			<tile asset="4032031893" name="" priority="2" x="112" y="226" flags=""/>
+			<tile asset="265081095" name="" priority="2" x="106" y="231" flags="oB"/>
+			<tile asset="4032031893" name="" priority="2" x="106" y="237" flags=""/>
+			<tile asset="150893080" name="" priority="2" x="109" y="243" flags="oT"/>
+			<tile asset="3973132258" name="rs_dance_interact1" priority="2" x="97" y="245" flags=""/>
+			<tile asset="3973132258" name="rs_dance_interact1" priority="2" x="105" y="260" flags=""/>
+		</layer>
+		<layer name="shadow" tileWidth="35" tileHeight="17.5">
+		</layer>
+		<layer name="collision" tileWidth="35" tileHeight="17.5">
+			<tile x="112" y="226" d="1"/>
+			<tile x="98" y="258" d="1"/>
+			<tile x="106" y="237" d="1"/>
+			<tile x="105" y="260" d="1" objects="rs_dance_interact1|"/>
+			<tile x="98" y="253" d="1"/>
+			<tile x="85" y="175" d="1"/>
+			<tile x="56" y="115" d="1"/>
+			<tile x="97" y="245" d="1" objects="rs_dance_interact1|"/>
+			<tile x="98" y="254" d="1"/>
+			<tile x="99" y="254" d="1"/>
+			<tile x="99" y="256" d="1"/>
+			<tile x="82" y="153" d="1"/>
+			<tile x="99" y="255" d="1"/>
+			<tile x="98" y="255" d="1"/>
+			<tile x="51" y="126" d="1"/>
+			<tile x="100" y="256" d="1"/>
+			<tile x="82" y="151" d="1"/>
+			<tile x="98" y="257" d="1"/>
+			<tile x="99" y="257" d="1"/>
+			<tile x="82" y="184" d="1"/>
+			<tile x="42" y="104" d="1"/>
+			<tile x="99" y="258" d="1"/>
+			<tile x="84" y="156" d="1"/>
+			<tile x="82" y="152" d="1"/>
+			<tile x="98" y="259" d="1"/>
+			<tile x="83" y="155" d="1"/>
+			<tile x="98" y="256" d="1"/>
+			<tile x="83" y="154" d="1"/>
+			<tile x="104" y="259" d="2" objects="rs_dance_interact1|"/>
+			<tile x="105" y="259" d="2" objects="rs_dance_interact1|"/>
+			<tile x="106" y="259" d="2" objects="rs_dance_interact1|"/>
+			<tile x="99" y="244" d="2" objects="rs_dance_interact1|"/>
+			<tile x="84" y="150" d="2"/>
+			<tile x="96" y="244" d="2" objects="rs_dance_interact1|"/>
+			<tile x="97" y="244" d="2" objects="rs_dance_interact1|"/>
+			<tile x="98" y="244" d="2" objects="rs_dance_interact1|"/>
+			<tile x="83" y="150" d="2"/>
+			<tile x="80" y="184" d="2"/>
+			<tile x="81" y="184" d="2"/>
+			<tile x="50" y="124" d="2"/>
+			<tile x="82" y="150" d="2"/>
+			<tile x="113" y="225" d="2"/>
+			<tile x="111" y="229" d="2"/>
+			<tile x="112" y="229" d="2"/>
+			<tile x="98" y="263" d="2"/>
+			<tile x="51" y="124" d="2"/>
+			<tile x="52" y="124" d="2"/>
+			<tile x="112" y="225" d="2"/>
+			<tile x="104" y="263" d="2" objects="rs_dance_interact1|"/>
+			<tile x="105" y="263" d="2" objects="rs_dance_interact1|"/>
+			<tile x="98" y="248" d="2" objects="rs_dance_interact1|"/>
+			<tile x="84" y="154" d="2"/>
+			<tile x="84" y="184" d="2"/>
+			<tile x="81" y="150" d="2"/>
+			<tile x="97" y="248" d="2" objects="rs_dance_interact1|"/>
+			<tile x="82" y="154" d="2"/>
+			<tile x="85" y="154" d="2"/>
+			<tile x="83" y="184" d="2"/>
+			<tile x="106" y="233" d="2"/>
+			<tile x="51" y="128" d="2"/>
+			<tile x="52" y="128" d="2"/>
+			<tile x="50" y="128" d="2"/>
+			<tile x="84" y="173" d="2"/>
+			<tile x="85" y="173" d="2"/>
+			<tile x="86" y="173" d="2"/>
+			<tile x="55" y="113" d="2"/>
+			<tile x="56" y="113" d="2"/>
+			<tile x="97" y="252" d="2"/>
+			<tile x="98" y="252" d="2"/>
+			<tile x="99" y="252" d="2"/>
+			<tile x="100" y="252" d="2"/>
+			<tile x="85" y="158" d="2"/>
+			<tile x="81" y="154" d="2"/>
+			<tile x="57" y="113" d="2"/>
+			<tile x="83" y="158" d="2"/>
+			<tile x="84" y="158" d="2"/>
+			<tile x="82" y="188" d="2"/>
+			<tile x="104" y="237" d="2"/>
+			<tile x="105" y="237" d="2"/>
+			<tile x="107" y="237" d="2"/>
+			<tile x="108" y="237" d="2"/>
+			<tile x="41" y="102" d="2"/>
+			<tile x="42" y="102" d="2"/>
+			<tile x="43" y="102" d="2"/>
+			<tile x="84" y="177" d="2"/>
+			<tile x="85" y="177" d="2"/>
+			<tile x="86" y="177" d="2"/>
+			<tile x="55" y="117" d="2"/>
+			<tile x="112" y="222" d="2"/>
+			<tile x="97" y="256" d="2"/>
+			<tile x="101" y="256" d="2"/>
+			<tile x="102" y="256" d="2"/>
+			<tile x="56" y="117" d="2"/>
+			<tile x="105" y="256" d="2" objects="rs_dance_interact1|"/>
+			<tile x="82" y="147" d="2"/>
+			<tile x="97" y="241" d="2" objects="rs_dance_interact1|"/>
+			<tile x="106" y="241" d="2"/>
+			<tile x="81" y="181" d="2"/>
+			<tile x="82" y="181" d="2"/>
+			<tile x="43" y="106" d="2"/>
+			<tile x="57" y="117" d="2"/>
+			<tile x="110" y="226" d="2"/>
+			<tile x="111" y="226" d="2"/>
+			<tile x="113" y="226" d="2"/>
+			<tile x="114" y="226" d="2"/>
+			<tile x="99" y="260" d="2"/>
+			<tile x="100" y="260" d="2"/>
+			<tile x="96" y="256" d="2"/>
+			<tile x="103" y="260" d="2" objects="rs_dance_interact1|"/>
+			<tile x="104" y="260" d="2" objects="rs_dance_interact1|"/>
+			<tile x="97" y="260" d="2"/>
+			<tile x="98" y="260" d="2"/>
+			<tile x="107" y="260" d="2" objects="rs_dance_interact1|"/>
+			<tile x="84" y="151" d="2"/>
+			<tile x="95" y="245" d="2" objects="rs_dance_interact1|"/>
+			<tile x="96" y="245" d="2" objects="rs_dance_interact1|"/>
+			<tile x="81" y="151" d="2"/>
+			<tile x="106" y="260" d="2" objects="rs_dance_interact1|"/>
+			<tile x="99" y="245" d="2" objects="rs_dance_interact1|"/>
+			<tile x="41" y="106" d="2"/>
+			<tile x="42" y="106" d="2"/>
+			<tile x="80" y="185" d="2"/>
+			<tile x="49" y="125" d="2"/>
+			<tile x="50" y="125" d="2"/>
+			<tile x="98" y="245" d="2" objects="rs_dance_interact1|"/>
+			<tile x="83" y="151" d="2"/>
+			<tile x="112" y="230" d="2"/>
+			<tile x="81" y="185" d="2"/>
+			<tile x="82" y="185" d="2"/>
+			<tile x="51" y="125" d="2"/>
+			<tile x="52" y="125" d="2"/>
+			<tile x="81" y="155" d="2"/>
+			<tile x="98" y="249" d="2"/>
+			<tile x="83" y="185" d="2"/>
+			<tile x="85" y="155" d="2"/>
+			<tile x="80" y="151" d="2"/>
+			<tile x="105" y="264" d="2" objects="rs_dance_interact1|"/>
+			<tile x="82" y="155" d="2"/>
+			<tile x="84" y="155" d="2"/>
+			<tile x="97" y="249" d="2" objects="rs_dance_interact1|"/>
+			<tile x="107" y="234" d="2"/>
+			<tile x="106" y="234" d="2"/>
+			<tile x="51" y="129" d="2"/>
+			<tile x="84" y="174" d="2"/>
+			<tile x="85" y="174" d="2"/>
+			<tile x="86" y="174" d="2"/>
+			<tile x="87" y="174" d="2"/>
+			<tile x="96" y="253" d="2"/>
+			<tile x="97" y="253" d="2"/>
+			<tile x="58" y="114" d="2"/>
+			<tile x="99" y="253" d="2"/>
+			<tile x="100" y="253" d="2"/>
+			<tile x="55" y="114" d="2"/>
+			<tile x="56" y="114" d="2"/>
+			<tile x="57" y="114" d="2"/>
+			<tile x="83" y="159" d="2"/>
+			<tile x="84" y="159" d="2"/>
+			<tile x="50" y="129" d="2"/>
+			<tile x="105" y="238" d="2"/>
+			<tile x="106" y="238" d="2"/>
+			<tile x="107" y="238" d="2"/>
+			<tile x="108" y="238" d="2"/>
+			<tile x="40" y="103" d="2"/>
+			<tile x="41" y="103" d="2"/>
+			<tile x="42" y="103" d="2"/>
+			<tile x="43" y="103" d="2"/>
+			<tile x="85" y="178" d="2"/>
+			<tile x="86" y="178" d="2"/>
+			<tile x="111" y="223" d="2"/>
+			<tile x="96" y="257" d="2"/>
+			<tile x="97" y="257" d="2"/>
+			<tile x="100" y="257" d="2"/>
+			<tile x="101" y="257" d="2"/>
+			<tile x="56" y="118" d="2"/>
+			<tile x="97" y="242" d="2" objects="rs_dance_interact1|"/>
+			<tile x="98" y="242" d="2" objects="rs_dance_interact1|"/>
+			<tile x="83" y="148" d="2"/>
+			<tile x="104" y="257" d="2" objects="rs_dance_interact1|"/>
+			<tile x="112" y="223" d="2"/>
+			<tile x="57" y="118" d="2"/>
+			<tile x="81" y="182" d="2"/>
+			<tile x="105" y="257" d="2" objects="rs_dance_interact1|"/>
+			<tile x="51" y="122" d="2"/>
+			<tile x="110" y="227" d="2"/>
+			<tile x="111" y="227" d="2"/>
+			<tile x="112" y="227" d="2"/>
+			<tile x="113" y="227" d="2"/>
+			<tile x="98" y="261" d="2"/>
+			<tile x="99" y="261" d="2"/>
+			<tile x="82" y="148" d="2"/>
+			<tile x="103" y="261" d="2" objects="rs_dance_interact1|"/>
+			<tile x="104" y="261" d="2" objects="rs_dance_interact1|"/>
+			<tile x="97" y="261" d="2"/>
+			<tile x="106" y="261" d="2" objects="rs_dance_interact1|"/>
+			<tile x="99" y="246" d="2" objects="rs_dance_interact1|"/>
+			<tile x="84" y="152" d="2"/>
+			<tile x="96" y="246" d="2" objects="rs_dance_interact1|"/>
+			<tile x="105" y="261" d="2" objects="rs_dance_interact1|"/>
+			<tile x="98" y="246" d="2" objects="rs_dance_interact1|"/>
+			<tile x="83" y="152" d="2"/>
+			<tile x="41" y="107" d="2"/>
+			<tile x="82" y="182" d="2"/>
+			<tile x="83" y="182" d="2"/>
+			<tile x="49" y="126" d="2"/>
+			<tile x="97" y="246" d="2" objects="rs_dance_interact1|"/>
+			<tile x="83" y="186" d="2"/>
+			<tile x="52" y="126" d="2"/>
+			<tile x="53" y="126" d="2"/>
+			<tile x="42" y="107" d="2"/>
+			<tile x="81" y="186" d="2"/>
+			<tile x="50" y="126" d="2"/>
+			<tile x="80" y="152" d="2"/>
+			<tile x="81" y="152" d="2"/>
+			<tile x="85" y="171" d="2"/>
+			<tile x="56" y="111" d="2"/>
+			<tile x="98" y="250" d="2"/>
+			<tile x="99" y="250" d="2"/>
+			<tile x="85" y="156" d="2"/>
+			<tile x="86" y="156" d="2"/>
+			<tile x="82" y="156" d="2"/>
+			<tile x="83" y="156" d="2"/>
+			<tile x="82" y="186" d="2"/>
+			<tile x="105" y="235" d="2"/>
+			<tile x="106" y="235" d="2"/>
+			<tile x="107" y="235" d="2"/>
+			<tile x="42" y="100" d="2"/>
+			<tile x="83" y="175" d="2"/>
+			<tile x="84" y="175" d="2"/>
+			<tile x="86" y="175" d="2"/>
+			<tile x="87" y="175" d="2"/>
+			<tile x="96" y="254" d="2"/>
+			<tile x="97" y="254" d="2"/>
+			<tile x="58" y="115" d="2"/>
+			<tile x="100" y="254" d="2"/>
+			<tile x="101" y="254" d="2"/>
+			<tile x="54" y="115" d="2"/>
+			<tile x="55" y="115" d="2"/>
+			<tile x="57" y="115" d="2"/>
+			<tile x="84" y="160" d="2"/>
+			<tile x="51" y="130" d="2"/>
+			<tile x="105" y="239" d="2"/>
+			<tile x="106" y="239" d="2"/>
+			<tile x="107" y="239" d="2"/>
+			<tile x="40" y="104" d="2"/>
+			<tile x="41" y="104" d="2"/>
+			<tile x="43" y="104" d="2"/>
+			<tile x="44" y="104" d="2"/>
+			<tile x="85" y="179" d="2"/>
+			<tile x="111" y="224" d="2"/>
+			<tile x="112" y="224" d="2"/>
+			<tile x="113" y="224" d="2"/>
+			<tile x="100" y="258" d="2"/>
+			<tile x="101" y="258" d="2"/>
+			<tile x="104" y="258" d="2" objects="rs_dance_interact1|"/>
+			<tile x="105" y="258" d="2" objects="rs_dance_interact1|"/>
+			<tile x="82" y="149" d="2"/>
+			<tile x="83" y="149" d="2"/>
+			<tile x="96" y="243" d="2" objects="rs_dance_interact1|"/>
+			<tile x="97" y="243" d="2" objects="rs_dance_interact1|"/>
+			<tile x="106" y="258" d="2" objects="rs_dance_interact1|"/>
+			<tile x="80" y="183" d="2"/>
+			<tile x="81" y="183" d="2"/>
+			<tile x="50" y="123" d="2"/>
+			<tile x="98" y="243" d="2" objects="rs_dance_interact1|"/>
+			<tile x="97" y="258" d="2"/>
+			<tile x="111" y="228" d="2"/>
+			<tile x="112" y="228" d="2"/>
+			<tile x="113" y="228" d="2"/>
+			<tile x="98" y="262" d="2"/>
+			<tile x="51" y="123" d="2"/>
+			<tile x="81" y="149" d="2"/>
+			<tile x="96" y="258" d="2"/>
+			<tile x="104" y="262" d="2" objects="rs_dance_interact1|"/>
+			<tile x="105" y="262" d="2" objects="rs_dance_interact1|"/>
+			<tile x="106" y="262" d="2" objects="rs_dance_interact1|"/>
+			<tile x="83" y="153" d="2"/>
+			<tile x="84" y="153" d="2"/>
+			<tile x="96" y="247" d="2" objects="rs_dance_interact1|"/>
+			<tile x="97" y="247" d="2" objects="rs_dance_interact1|"/>
+			<tile x="56" y="119" d="2"/>
+			<tile x="99" y="262" d="2"/>
+			<tile x="82" y="183" d="2"/>
+			<tile x="83" y="183" d="2"/>
+			<tile x="80" y="153" d="2"/>
+			<tile x="81" y="153" d="2"/>
+			<tile x="98" y="247" d="2" objects="rs_dance_interact1|"/>
+			<tile x="52" y="127" d="2"/>
+			<tile x="42" y="108" d="2"/>
+			<tile x="49" y="127" d="2"/>
+			<tile x="50" y="127" d="2"/>
+			<tile x="51" y="127" d="2"/>
+			<tile x="85" y="172" d="2"/>
+			<tile x="86" y="172" d="2"/>
+			<tile x="56" y="112" d="2"/>
+			<tile x="97" y="251" d="2"/>
+			<tile x="82" y="157" d="2"/>
+			<tile x="99" y="251" d="2"/>
+			<tile x="84" y="157" d="2"/>
+			<tile x="85" y="157" d="2"/>
+			<tile x="57" y="112" d="2"/>
+			<tile x="98" y="251" d="2"/>
+			<tile x="83" y="157" d="2"/>
+			<tile x="81" y="187" d="2"/>
+			<tile x="82" y="187" d="2"/>
+			<tile x="105" y="236" d="2"/>
+			<tile x="106" y="236" d="2"/>
+			<tile x="107" y="236" d="2"/>
+			<tile x="108" y="236" d="2"/>
+			<tile x="41" y="101" d="2"/>
+			<tile x="42" y="101" d="2"/>
+			<tile x="84" y="176" d="2"/>
+			<tile x="85" y="176" d="2"/>
+			<tile x="86" y="176" d="2"/>
+			<tile x="87" y="176" d="2"/>
+			<tile x="56" y="116" d="2"/>
+			<tile x="97" y="255" d="2"/>
+			<tile x="58" y="116" d="2"/>
+			<tile x="100" y="255" d="2"/>
+			<tile x="101" y="255" d="2"/>
+			<tile x="55" y="116" d="2"/>
+			<tile x="96" y="255" d="2"/>
+			<tile x="57" y="116" d="2"/>
+			<tile x="106" y="240" d="2"/>
+			<tile x="107" y="240" d="2"/>
+			<tile x="40" y="105" d="2"/>
+			<tile x="41" y="105" d="2"/>
+			<tile x="82" y="180" d="2"/>
+			<tile x="43" y="105" d="2"/>
+			<tile x="110" y="225" d="2"/>
+			<tile x="111" y="225" d="2"/>
+			<tile x="96" y="259" d="2"/>
+			<tile x="97" y="259" d="2"/>
+			<tile x="42" y="105" d="2"/>
+			<tile x="99" y="259" d="2"/>
+			<tile x="100" y="259" d="2"/>
+			<tile x="103" y="259" d="2" objects="rs_dance_interact1|"/>
+		</layer>
+		<layer name="waypoint" tileWidth="35" tileHeight="17.5">
+		</layer>
+	</layers>
+	<assets>
+		<asset id="265081095" file="/interactive/holiday/car_s_int_hol_balloons.swf"/>
+		<asset id="150893080" file="/sign/generic/car_s_sgn_gen_CarsShowOff2011Long_090.ajpg"/>
+		<asset id="158922174" file="/sign/roadsign/car_s_sgn_rds_arrowRedSignB_270.ajpg"/>
+		<asset id="4032031893" file="/sign/generic/car_s_sgn_gen_startingPoleBig_000.ajpg"/>
+		<asset id="524264126" file="/sign/generic/car_s_sgn_gen_CarsShowOff2011Short_000.ajpg"/>
+		<asset id="4212083479" file="/sign/roadsign/car_s_sgn_rds_arrowRedSignB_000.ajpg"/>
+		<asset id="3973132258" file="/interactive/generic/car_s_int_gen_danceFloorLightPoleRS.swf"/>
+	</assets>
+	<groups>
+	</groups>
+	<bound x="-70" y="-35" width="4777.5" height="2642.5"/>
+</map>

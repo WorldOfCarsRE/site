@@ -1,0 +1,12 @@
+<events>
+	<event name = "car_show_off_end">
+		<overlay name = "carShowoff" />
+	</event>	<event name = "car_show_off_week_1">
+		<overlay name = "carShowoff" />
+	</event>	<event name = "car_show_off_week_2">
+		<overlay name = "carShowoff" />
+	</event>	<event name = "car_show_off_week_3">
+		<overlay name = "carShowoff" />
+	</event>	<event name = "car_show_off_week_4">
+		<overlay name = "carShowoff" />
+	</event></events>
