@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<AudioList>
+	<AudioGroup priority="0.7" alias="Main">	
+		<!-- Music tracks are streamed -->
+		<AudioEntry priority="0.5" alias="starBtn" url="sounds/computer_beep_X2.mp3"	loop="false" pan="0" vol="1" mode="single-channel-restart" stream="false" isMusic="false" />
+		<AudioEntry priority="0.5" alias="beginDiagnosis" url="sounds/computer_beep05.mp3" loop="false" pan="0" vol=".3" mode="single-channel-restart" stream="false" isMusic="false" />
+		<AudioEntry priority="0.5" alias="analyze" url="sounds/diagnostic_scanner01.mp3" loop="false" pan="0" vol=".3" mode="single-channel-restart" stream="false" isMusic="false" />
+		<AudioEntry priority="0.5" alias="optionsAppear" url="sounds/computer_beep_X2.mp3" loop="false" pan="0" vol=".3" mode="single-channel-restart" stream="false" isMusic="false" />	
+		<AudioEntry priority="0.3" alias="right" url="sounds/computer_beep05.mp3" loop="false" pan="0" vol=".3" mode="single-channel-restart" stream="false" isMusic="false" />
+		<AudioEntry priority="0.5" alias="wrong" url="sounds/computer13.mp3" loop="false" pan="0" vol=".3" mode="single-channel-restart" stream="false" isMusic="false" />	
+		<AudioEntry priority="0.5" alias="timeWarning" url="sounds/computer_beep02.mp3" loop="false" pan="0" vol=".3" mode="single-channel-restart" stream="false" isMusic="false" />
+	</AudioGroup>
+	<AudioGroup priority="0.7" alias="CarsIn">
+		<AudioEntry priority="0.5" alias="car_VW_drivein.mp3" url="sounds/car_VW_drivein.mp3"	loop="false" pan="0" vol=".7" mode="single-channel-restart" stream="true" isMusic="false" />
+		<AudioEntry priority="0.5" alias="car_truck_drivein_03.mp3" url="sounds/car_truck_drivein_03.mp3"	loop="false" pan="0" vol=".7" mode="single-channel-restart" stream="true" isMusic="false" />
+		<AudioEntry priority="0.5" alias="car_porche_drivein.mp3" url="sounds/car_porche_drivein.mp3"	loop="false" pan="0" vol=".7" mode="single-channel-restart" stream="true" isMusic="false" />
+		<AudioEntry priority="0.5" alias="car_drivein01.mp3" url="sounds/car_drivein01.mp3"	loop="false" pan="0" vol=".7" mode="single-channel-restart" stream="true" isMusic="false" />
+		<AudioEntry priority="0.5" alias="car_drivein03.mp3" url="sounds/car_drivein03.mp3"	loop="false" pan="0" vol=".7" mode="single-channel-restart" stream="true" isMusic="false" />
+		<AudioEntry priority="0.5" alias="car_drivein04.mp3" url="sounds/car_drivein04.mp3"	loop="false" pan="0" vol=".7" mode="single-channel-restart" stream="true" isMusic="false" />
+	</AudioGroup>
+	<AudioGroup priority="0.7" alias="CarsOut">
+		<AudioEntry priority="0.5" alias="car_VW_driveoff.mp3" url="sounds/car_VW_driveoff.mp3"	loop="false" pan="0" vol=".4" mode="single-channel-restart" stream="true" isMusic="false" />
+		<AudioEntry priority="0.5" alias="car_truck_driveoff_03.mp3" url="sounds/car_truck_driveoff_03.mp3"	loop="false" pan="0" vol=".4" mode="single-channel-restart" stream="true" isMusic="false" />
+		<AudioEntry priority="0.5" alias="car_porche_driveoff04.mp3" url="sounds/car_porche_driveoff04.mp3"	loop="false" pan="0" vol=".4" mode="single-channel-restart" stream="true" isMusic="false" />
+		<AudioEntry priority="0.5" alias="car_driveoff02.mp3" url="sounds/car_driveoff02.mp3"	loop="false" pan="0" vol=".4" mode="single-channel-restart" stream="true" isMusic="false" />
+		<AudioEntry priority="0.5" alias="car_driveoff03.mp3" url="sounds/car_driveoff03.mp3"	loop="false" pan="0" vol=".4" mode="single-channel-restart" stream="true" isMusic="false" />
+		<AudioEntry priority="0.5" alias="car_driveoff05.mp3" url="sounds/car_driveoff05.mp3"	loop="false" pan="0" vol=".4" mode="single-channel-restart" stream="true" isMusic="false" />
+	</AudioGroup>
+	<AudioGroup priority="0.7" alias="CarsHorns">
+		<AudioEntry priority="0.5" alias="horn_VW_01.mp3" url="sounds/horn_VW_01.mp3"	loop="false" pan="0" vol=".4" mode="single-channel-restart" stream="true" isMusic="false" />
+		<AudioEntry priority="0.5" alias="horn03.mp3" url="sounds/horn03.mp3"	loop="false" pan="0" vol=".4" mode="single-channel-restart" stream="true" isMusic="false" />
+		<AudioEntry priority="0.5" alias="horn02.mp3" url="sounds/horn02.mp3"	loop="false" pan="0" vol=".4" mode="single-channel-restart" stream="true" isMusic="false" />
+		<AudioEntry priority="0.5" alias="horn04.mp3" url="sounds/horn04.mp3"	loop="false" pan="0" vol=".4" mode="single-channel-restart" stream="true" isMusic="false" />
+		<AudioEntry priority="0.5" alias="horn06.mp3" url="sounds/horn06.mp3"	loop="false" pan="0" vol=".4" mode="single-channel-restart" stream="true" isMusic="false" />
+		<AudioEntry priority="0.5" alias="horn05.mp3" url="sounds/horn05.mp3"	loop="false" pan="0" vol=".4" mode="single-channel-restart" stream="true" isMusic="false" />
+	</AudioGroup>
+	<AudioGroup priority="0.7" alias="Work">
+		<AudioEntry priority="0.5" alias="work0" url="sounds/shop_comp01.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" />
+		<AudioEntry priority="0.5" alias="work1" url="sounds/shop_comp02.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" />
+		<AudioEntry priority="0.5" alias="work2" url="sounds/shop_comp03.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" />
+		<AudioEntry priority="0.5" alias="work3" url="sounds/shop_comp04.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" />
+		<AudioEntry priority="0.5" alias="work4" url="sounds/shop_comp05.mp3" loop="false" pan="0" vol="1" mode="single-channel-restart" stream="true" isMusic="false" />
+	</AudioGroup>
+</AudioList>

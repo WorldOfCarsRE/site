@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DATA>
+	<TEXTS>
+		<TEXT name="title"><![CDATA[Doc's Clinic]]></TEXT>
+		<TEXT name="ailmentLabel"><![CDATA[Ailment:]]></TEXT>
+		<TEXT name="diagnosisLabel"><![CDATA[Diagnosis:]]></TEXT>
+		<TEXT name="scoreLabel"><![CDATA[SCORE]]></TEXT>
+		<TEXT name="timeLabel"><![CDATA[SHIFT TIME]]></TEXT>
+		<TEXT name="countLabel"><![CDATA[CARS REPAIRED]]></TEXT>
+		<TEXT name="correct"><![CDATA[Correct]]></TEXT>
+		<TEXT name="correctSub"><![CDATA[ points awarded]]></TEXT>
+		<TEXT name="loadingNext"><![CDATA[loading next car]]></TEXT>
+		<TEXT name="wrong"><![CDATA[Please try again]]></TEXT>
+		<TEXT name="analyzing"><![CDATA[Analyzing...]]></TEXT>
+		<TEXT name="instructionsButton"><![CDATA[START SHIFT]]></TEXT>
+		
+		<TEXT name="responceRight"><![CDATA[Correct!]]></TEXT>
+		<TEXT name="responcePointsPre"><![CDATA[+]]></TEXT>
+		<TEXT name="responcePointsPost"><![CDATA[ points]]></TEXT>
+		<TEXT name="responceBonusPre"><![CDATA[First Try Bonus = ]]></TEXT>
+		<TEXT name="responceBonusPost"><![CDATA[ points]]></TEXT>
+		
+		<TEXT name="responceWrong"><![CDATA[Please Try Again]]></TEXT>
+
+		<TEXT name="gameOverButton"><![CDATA[OK]]></TEXT>
+		<TEXT name="gameOverHeader"><![CDATA[SHIFT OVER]]></TEXT>
+		<TEXT name="gameOverMessage"><![CDATA[THANKS FOR YOUR HELP!]]></TEXT>
+		<TEXT name="gameOverScoreLabel"><![CDATA[SCORE: ]]></TEXT>
+		<TEXT name="gameOverCountLabel"><![CDATA[CARS FIXED: ]]></TEXT>
+		<TEXT name="gameOverFirstTryLabel"><![CDATA[FIRST TRY BONUSES: ]]></TEXT>
+		<TEXT name="gameOverBonusLabel"><![CDATA[+ CARS REPAIRED BONUS: ]]></TEXT>
+		<TEXT name="allQuestionsAnswered"><![CDATA[All vehicles serviced ]]></TEXT>
+	</TEXTS>
+	<PROBLEMS>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I can't stop!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="bottomLeft" item="Brakes" />
+			<DISTRACTORS>
+				<WRONG location="topLeft" item="Wipers" />
+				<WRONG location="bottomRight" item="Exhaust" />
+				<WRONG location="topRight" item="Trunk" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I can't slow down!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="bottomLeft" item="Brakes" />
+			<DISTRACTORS>
+				<WRONG location="topLeft" item="Air Filter" />
+				<WRONG location="bottomRight" item="Tires" />
+				<WRONG location="topRight" item="Trunk" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I drive through red lights!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="bottomLeft" item="Brakes" />
+			<DISTRACTORS>
+				<WRONG location="topLeft" item="Hood" />
+				<WRONG location="bottomRight" item="Hubcaps" />
+				<WRONG location="topRight" item="Bumper" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I squeak when I stop!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="bottomLeft" item="Brakes" />
+			<DISTRACTORS>
+				<WRONG location="topLeft" item="Windshield" />
+				<WRONG location="bottomRight" item="Axle" />
+				<WRONG location="topRight" item="Tail Lights" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I keep backfiring]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="bottomLeft" item="Carburetor" />
+			<DISTRACTORS>
+				<WRONG location="topLeft" item="Headlights" />
+				<WRONG location="bottomRight" item="License Plate" />
+				<WRONG location="topRight" item="Spoiler" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[Black smoke's coming out of my tailpipes!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="bottomLeft" item="Carburetor" />
+			<DISTRACTORS>
+				<WRONG location="topLeft" item="Battery" />
+				<WRONG location="bottomRight" item="Brakes" />
+				<WRONG location="topRight" item="Signal Lights" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[My engine's flooded with fuel!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="bottomLeft" item="Carburetor" />
+			<DISTRACTORS>
+				<WRONG location="topLeft" item="Antenna" />
+				<WRONG location="bottomRight" item="Wheels" />
+				<WRONG location="topRight" item="Gas" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[My engine's overheating!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="bottomLeft" item="Radiator" />
+			<DISTRACTORS>
+				<WRONG location="topLeft" item="Choke" />
+				<WRONG location="bottomRight" item="Exhaust" />
+				<WRONG location="topRight" item="Rear Window" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I'm colder than normal]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="bottomLeft" item="Radiator" />
+			<DISTRACTORS>
+				<WRONG location="topLeft" item="Accelerator Pump" />
+				<WRONG location="bottomRight" item="Rims" />
+				<WRONG location="topRight" item="Blinkers" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[Steam's coming out of my hood!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="bottomLeft" item="Radiator" />
+			<DISTRACTORS>
+				<WRONG location="topLeft" item="Spark Plugs" />
+				<WRONG location="bottomRight" item="Tail Lights" />
+				<WRONG location="topRight" item="Defroster" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I smell burnt coolant!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="bottomLeft" item="Radiator" />
+			<DISTRACTORS>
+				<WRONG location="topLeft" item="Alternator" />
+				<WRONG location="bottomRight" item="Hubcaps" />
+				<WRONG location="topRight" item="Windshield" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I'm embarrassed! I've got an oil leak!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="topLeft" item="Head Gasket" />
+			<DISTRACTORS>
+				<WRONG location="bottomLeft" item="Suspension" />
+				<WRONG location="bottomRight" item="License Plate" />
+				<WRONG location="topRight" item="Brake Lights" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I just can't get started]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="topLeft" item="Ignition" />
+			<DISTRACTORS>
+				<WRONG location="bottomLeft" item="Radiator" />
+				<WRONG location="bottomRight" item="Tires" />
+				<WRONG location="topRight" item="Axle" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I keep stalling!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="topLeft" item="Ignition" />
+			<DISTRACTORS>
+				<WRONG location="bottomLeft" item="Radiator" />
+				<WRONG location="bottomRight" item="Axle" />
+				<WRONG location="topRight" item="Trunk" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I can't turn off!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="topLeft" item="Ignition" />
+			<DISTRACTORS>
+				<WRONG location="bottomLeft" item="Engine Block" />
+				<WRONG location="bottomRight" item="Rims" />
+				<WRONG location="topRight" item="Rear Window" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I keep going in the wrong direction!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="topLeft" item="Steering" />
+			<DISTRACTORS>
+				<WRONG location="bottomLeft" item="Cylinder Head" />
+				<WRONG location="bottomRight" item="Exhaust" />
+				<WRONG location="topRight" item="Spare Tire" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I can only go straight!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="topLeft" item="Steering" />
+			<DISTRACTORS>
+				<WRONG location="bottomLeft" item="Head Gasket" />
+				<WRONG location="bottomRight" item="Tail Lights" />
+				<WRONG location="topRight" item="Wheels" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I can't see the road at night!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="topLeft" item="Headlights" />
+			<DISTRACTORS>
+				<WRONG location="bottomLeft" item="Fuel Injector" />
+				<WRONG location="bottomRight" item="Brake Lights" />
+				<WRONG location="topRight" item="Spoiler" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I feel hot!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="topLeft" item="Cooling System" />
+			<DISTRACTORS>
+				<WRONG location="bottomLeft" item="Carburetor" />
+				<WRONG location="bottomRight" item="Bumper" />
+				<WRONG location="topRight" item="Blinkers" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I’m running a high temperature!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="topLeft" item="Thermostat" />
+			<DISTRACTORS>
+				<WRONG location="bottomLeft" item="Wheels" />
+				<WRONG location="bottomRight" item="Bumper Stcker" />
+				<WRONG location="topRight" item="Gas" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[My engine's making a knocking sound!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="topLeft" item="Spark Plugs" />
+			<DISTRACTORS>
+				<WRONG location="bottomLeft" item="Rims" />
+				<WRONG location="bottomRight" item="Brakes" />
+				<WRONG location="topRight" item="Decals" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[My engine's been losing power!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="topLeft" item="Spark Plugs" />
+			<DISTRACTORS>
+				<WRONG location="bottomLeft" item="Engine" />
+				<WRONG location="bottomRight" item="Hubcaps" />
+				<WRONG location="topRight" item="Trunk Lock" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[My headlights are dim!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="topLeft" item="Alternator" />
+			<DISTRACTORS>
+				<WRONG location="bottomLeft" item="Radiator" />
+				<WRONG location="bottomRight" item="Blinkers" />
+				<WRONG location="topRight" item="Rear Defroster" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I just can't get started!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="topRight" item="Gas" />
+			<DISTRACTORS>
+				<WRONG location="topLeft" item="Battery" />
+				<WRONG location="bottomRight" item="Brakes" />
+				<WRONG location="bottomLeft" item="Engine" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I go real slow and then stop!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="topRight" item="Gas" />
+			<DISTRACTORS>
+				<WRONG location="topLeft" item="Air Filter" />
+				<WRONG location="bottomRight" item="Bumper" />
+				<WRONG location="bottomLeft" item="Thermostat" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I've got black smoke coming out of my tailpipes!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="topRight" item="Gas" />
+			<DISTRACTORS>
+				<WRONG location="topLeft" item="Radiator" />
+				<WRONG location="bottomRight" item="Tail Lights" />
+				<WRONG location="bottomLeft" item="Head Gasket" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I smell like gas!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="topRight" item="Gas Cap" />
+			<DISTRACTORS>
+				<WRONG location="topLeft" item="Spark Plugs" />
+				<WRONG location="bottomRight" item="Exhaust" />
+				<WRONG location="bottomLeft" item="Engine Block" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[It fell off and now I don't go as fast!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="topRight" item="Spoiler" />
+			<DISTRACTORS>
+				<WRONG location="topLeft" item="Alternator" />
+				<WRONG location="bottomRight" item="Rims" />
+				<WRONG location="bottomLeft" item="Suspension" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[My engine stalls while I try to speed up!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="topLeft" item="Accelerator Pump" />
+			<DISTRACTORS>
+				<WRONG location="bottomLeft" item="Radiator" />
+				<WRONG location="bottomRight" item="Tires" />
+				<WRONG location="topRight" item="Trunk" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I can't see when it rains!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="topLeft" item="Wipers" />
+			<DISTRACTORS>
+				<WRONG location="bottomLeft" item="Fuel Injector" />
+				<WRONG location="bottomRight" item="Bumper" />
+				<WRONG location="topRight" item="Gas" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[Bugs keep getting in my eyes!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="topLeft" item="Wipers" />
+			<DISTRACTORS>
+				<WRONG location="bottomLeft" item="Carburetor" />
+				<WRONG location="bottomRight" item="Exhaust" />
+				<WRONG location="topRight" item="Spare Tire" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I can't get any cool air going!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="topLeft" item="Air Conditioning" />
+			<DISTRACTORS>
+				<WRONG location="bottomLeft" item="Throttle" />
+				<WRONG location="bottomRight" item="License Plate" />
+				<WRONG location="topRight" item="Spoiler" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I can't breathe!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="topLeft" item="Air Filter" />
+			<DISTRACTORS>
+				<WRONG location="bottomLeft" item="Choke" />
+				<WRONG location="bottomRight" item="Tail Lights" />
+				<WRONG location="topRight" item="Axle" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I'm all stuffed up!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="topLeft" item="Air Filter" />
+			<DISTRACTORS>
+				<WRONG location="bottomLeft" item="Head Gasket" />
+				<WRONG location="bottomRight" item="Brakes" />
+				<WRONG location="topRight" item="Rear Window" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I go slow when I first try to go!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="topLeft" item="Throttle" />
+			<DISTRACTORS>
+				<WRONG location="bottomLeft" item="Engine Block" />
+				<WRONG location="bottomRight" item="License Plate" />
+				<WRONG location="topRight" item="Blinkers" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[My engine is hard to start]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="topLeft" item="Choke" />
+			<DISTRACTORS>
+				<WRONG location="bottomLeft" item="Wheels" />
+				<WRONG location="bottomRight" item="Side Doors" />
+				<WRONG location="topRight" item="Brake Lights" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I can't move because it's drained!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="topLeft" item="Battery" />
+			<DISTRACTORS>
+				<WRONG location="bottomLeft" item="Suspension" />
+				<WRONG location="bottomRight" item="Shock Absorbers" />
+				<WRONG location="topRight" item="Trunk" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I need a jump start!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="topLeft" item="Battery" />
+			<DISTRACTORS>
+				<WRONG location="bottomLeft" item="Choke Plate" />
+				<WRONG location="bottomRight" item="Rims" />
+				<WRONG location="topRight" item="Antenna Ball" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[My wipers hurt my dry eyes!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="topLeft" item="Wiper Fluid" />
+			<DISTRACTORS>
+				<WRONG location="bottomLeft" item="Manifold" />
+				<WRONG location="bottomRight" item="Exhaust" />
+				<WRONG location="topRight" item="Headlights" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[My coolant keeps mixing with my oil!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="topLeft" item="Head Gasket" />
+			<DISTRACTORS>
+				<WRONG location="bottomLeft" item="Thermostat" />
+				<WRONG location="bottomRight" item="Bumper Sticker" />
+				<WRONG location="topRight" item="Cooling System" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I keep going up and down after I go over a bump]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="bottomLeft" item="Suspension" />
+			<DISTRACTORS>
+				<WRONG location="topLeft" item="Antenna" />
+				<WRONG location="bottomRight" item="Headlights" />
+				<WRONG location="topRight" item="Trunk" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[My wheels wander and wiggle around]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="bottomLeft" item="Suspension" />
+			<DISTRACTORS>
+				<WRONG location="topLeft" item="Radiator" />
+				<WRONG location="bottomRight" item="Tires" />
+				<WRONG location="topRight" item="Gas" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[When I'm going slow, it's hard to steer!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="bottomLeft" item="Suspension" />
+			<DISTRACTORS>
+				<WRONG location="topLeft" item="Wipers" />
+				<WRONG location="bottomRight" item="Axle" />
+				<WRONG location="topRight" item="Rear Window" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I'm hearing weird pops, clunks, and squeaks!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="bottomLeft" item="Suspension" />
+			<DISTRACTORS>
+				<WRONG location="topLeft" item="Starter" />
+				<WRONG location="bottomRight" item="Exhaust" />
+				<WRONG location="topRight" item="Rear Defroster" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I keep leaking coolant!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="bottomLeft" item="Cylinder Head" />
+			<DISTRACTORS>
+				<WRONG location="topLeft" item="Battery" />
+				<WRONG location="bottomRight" item="License Plate" />
+				<WRONG location="topRight" item="Spare Tire" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I can't get it into gear!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="bottomLeft" item="Transmission" />
+			<DISTRACTORS>
+				<WRONG location="topLeft" item="Air Filter" />
+				<WRONG location="bottomRight" item="Decals" />
+				<WRONG location="topRight" item="Brakes" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I hear a grinding sound!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="bottomLeft" item="Transmission" />
+			<DISTRACTORS>
+				<WRONG location="topLeft" item="Starter" />
+				<WRONG location="bottomRight" item="Bumper" />
+				<WRONG location="topRight" item="Axle" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I can't go full speed!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="bottomLeft" item="Transmission" />
+			<DISTRACTORS>
+				<WRONG location="topLeft" item="Starter" />
+				<WRONG location="bottomRight" item="Driveshaft" />
+				<WRONG location="topRight" item="Blinkers" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I'm handling poorly and steam is coming out of my exhaust!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="bottomLeft" item="Engine Block" />
+			<DISTRACTORS>
+				<WRONG location="topLeft" item="Antenna Ball" />
+				<WRONG location="bottomRight" item="Wheels" />
+				<WRONG location="topRight" item="Tail Lights" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[My engine turns but my wheels don't!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="bottomRight" item="Driveshaft" />
+			<DISTRACTORS>
+				<WRONG location="topLeft" item="Thermostat" />
+				<WRONG location="bottomLeft" item="Throttle" />
+				<WRONG location="topRight" item="Bumper" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I have a flat one!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="bottomRight" item="Tires" />
+			<DISTRACTORS>
+				<WRONG location="topLeft" item="Alternator" />
+				<WRONG location="bottomLeft" item="Carburetor" />
+				<WRONG location="topRight" item="License Plate" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I need some more air in them!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="bottomRight" item="Tires" />
+			<DISTRACTORS>
+				<WRONG location="topLeft" item="Cooling System" />
+				<WRONG location="bottomLeft" item="Fuel Injector" />
+				<WRONG location="topRight" item="Spoiler" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I got a nail stuck in one!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="bottomRight" item="Tires" />
+			<DISTRACTORS>
+				<WRONG location="topLeft" item="Choke Plate" />
+				<WRONG location="bottomLeft" item="Choke" />
+				<WRONG location="topRight" item="Exhaust" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I keep drifting to one side!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="bottomRight" item="Tires" />
+			<DISTRACTORS>
+				<WRONG location="topLeft" item="Starter" />
+				<WRONG location="bottomLeft" item="Head Gasket" />
+				<WRONG location="topRight" item="Axle" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I keep slipping on the road!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="bottomRight" item="Tires" />
+			<DISTRACTORS>
+				<WRONG location="topLeft" item="Wipers" />
+				<WRONG location="bottomLeft" item="Radiator" />
+				<WRONG location="topRight" item="Gas Cap" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I got hit, and now it's dragging on the ground!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="bottomRight" item="Bumper" />
+			<DISTRACTORS>
+				<WRONG location="topLeft" item="Ignition" />
+				<WRONG location="bottomLeft" item="Cylinder Head" />
+				<WRONG location="topRight" item="Blinkers" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[Sheriff told it's illegal to drive without one!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="bottomRight" item="License Plate" />
+			<DISTRACTORS>
+				<WRONG location="topLeft" item="Alternator" />
+				<WRONG location="bottomLeft" item="Engine Block" />
+				<WRONG location="topRight" item="Gas" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[Nobody knows when I'm braking!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="bottomRight" item="Tail Lights" />
+			<DISTRACTORS>
+				<WRONG location="topLeft" item="Engine" />
+				<WRONG location="bottomLeft" item="Brakes" />
+				<WRONG location="topRight" item="Exhaust" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I bounce too much!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="bottomRight" item="Shock Absorbers" />
+			<DISTRACTORS>
+				<WRONG location="topLeft" item="Radiator" />
+				<WRONG location="bottomLeft" item="Engine" />
+				<WRONG location="topRight" item="Tail Lights" />
+			</DISTRACTORS>
+		</PROBLEM>
+		<PROBLEM>
+			<DESCRIPTIONS>
+				<DESCRIPTION><![CDATA[I hear clunking and knocking when I turn!]]></DESCRIPTION>
+			</DESCRIPTIONS>
+			<SOLUTION location="bottomRight" item="Axle" />
+			<DISTRACTORS>
+				<WRONG location="topLeft" item="Antenna Ball" />
+				<WRONG location="bottomLeft" item="Radiator" />
+				<WRONG location="topRight" item="Trunk" />
+			</DISTRACTORS>
+		</PROBLEM>
+	</PROBLEMS>
+	<VEHICLES>
+		<VEHICLE image="doc_car_luigi.png"  useOnlyOnce="true">
+			<SOUNDS in="car_VW_drivein.mp3" out="car_VW_driveoff.mp3" horn="horn_VW_01.mp3"/>
+			<PARTS>
+				<LOCATION name="topLeft" x="-20" y="50"/>
+				<LOCATION name="topRight" x="280" y="80"/>
+				<LOCATION name="bottomLeft" x="-20" y="145"/>
+				<LOCATION name="bottomRight" x="280" y="160"/>
+			</PARTS>
+		</VEHICLE>
+		<VEHICLE image="doc_car_mater.png" useOnlyOnce="true">
+			<SOUNDS in="car_truck_drivein_03.mp3" out="car_truck_driveoff_03.mp3" horn="horn03.mp3"/>
+			<PARTS>
+				<LOCATION name="topLeft" x="20" y="70"/>
+				<LOCATION name="topRight" x="300" y="80"/>
+				<LOCATION name="bottomLeft" x="7" y="165"/>
+				<LOCATION name="bottomRight" x="300" y="170"/>
+			</PARTS>
+		</VEHICLE>
+		<VEHICLE image="doc_car_mcqueen.png" useOnlyOnce="true">
+			<SOUNDS in="car_porche_drivein.mp3" out="car_porche_driveoff04.mp3" horn="horn02.mp3"/>
+			<PARTS>
+				<LOCATION name="topLeft" x="25" y="40"/>
+				<LOCATION name="topRight" x="310" y="15"/>
+				<LOCATION name="bottomLeft" x="45" y="140"/>
+				<LOCATION name="bottomRight" x="340" y="125"/>
+			</PARTS>
+		</VEHICLE>
+		<VEHICLE image="doc_car1.png" useOnlyOnce="false">
+			<SOUNDS in="car_drivein01.mp3" out="car_driveoff02.mp3" horn="horn04.mp3"/>
+			<PARTS>
+				<LOCATION name="topLeft" x="25" y="50"/>
+				<LOCATION name="topRight" x="350" y="25"/>
+				<LOCATION name="bottomLeft" x="15" y="145"/>
+				<LOCATION name="bottomRight" x="340" y="140"/>
+			</PARTS>
+		</VEHICLE>
+		<VEHICLE image="doc_car2.png" useOnlyOnce="false">
+			<SOUNDS in="car_drivein03.mp3" out="car_driveoff03.mp3" horn="horn06.mp3"/>
+			<PARTS>
+				<LOCATION name="topLeft" x="25" y="45"/>
+				<LOCATION name="topRight" x="330" y="30"/>
+				<LOCATION name="bottomLeft" x="35" y="130"/>
+				<LOCATION name="bottomRight" x="330" y="140"/>
+			</PARTS>
+		</VEHICLE>
+		<VEHICLE image="doc_car3.png" useOnlyOnce="false">
+			<SOUNDS in="car_drivein04.mp3" out="car_driveoff05.mp3" horn="horn05.mp3"/>
+			<PARTS>
+				<LOCATION name="topLeft" x="25" y="40"/>
+				<LOCATION name="topRight" x="320" y="35"/>
+				<LOCATION name="bottomLeft" x="40" y="140"/>
+				<LOCATION name="bottomRight" x="350" y="130"/>
+			</PARTS>
+		</VEHICLE>
+	</VEHICLES>
+	
+	<!--  SOUND ARE LISTED ONLY FOR STAND ALONE TEST VERSION -->
+	
+	<SOUNDS>
+		<STARTBTN><![CDATA[computer_beep_X2.mp3]]></STARTBTN>
+		<BEGINDIAGNOSIS><![CDATA[computer_beep05.mp3]]></BEGINDIAGNOSIS>
+		<ANALYZE><![CDATA[diagnostic_scanner01.mp3]]></ANALYZE>
+		<OPTIONS><![CDATA[computer_beep_X2.mp3]]></OPTIONS>
+		<BUTTON><![CDATA[computer_beep02.mp3]]></BUTTON>
+		<RIGHT><![CDATA[computer_beep05.mp3]]></RIGHT>
+		<WRONG><![CDATA[computer13.mp3]]></WRONG>
+		<TIMERBEEP><![CDATA[computer_beep02.mp3]]></TIMERBEEP>
+		<WORKING>
+			<WORKINGSOUND><![CDATA[shop_comp01.mp3]]></WORKINGSOUND>
+			<WORKINGSOUND><![CDATA[shop_comp02.mp3]]></WORKINGSOUND>
+			<WORKINGSOUND><![CDATA[shop_comp03.mp3]]></WORKINGSOUND>
+			<WORKINGSOUND><![CDATA[shop_comp04.mp3]]></WORKINGSOUND>
+			<WORKINGSOUND><![CDATA[shop_comp05.mp3]]></WORKINGSOUND>
+		</WORKING>
+	</SOUNDS>
+</DATA>

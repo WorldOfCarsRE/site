@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+	<VARIABLES>
+		<TIME>30</TIME>
+		<FRAMEOFFSET x="40" y="36" /><!-- placement of the play area within the frame -->
+	</VARIABLES>
+	<POINTS>
+		<LEVEL options="2" value="100"/>
+		<LEVEL options="3" value="250"/>
+		<LEVEL options="4" value="400"/>
+	</POINTS>
+	<BONUS firstTry="200">
+		<LEVEL serviced="8" value="1500"/> 
+		<LEVEL serviced="12" value="3000"/>
+	</BONUS>
+	<TIMINGS><!-- in milliseconds-->
+		<DELAY label="carSound" time="1200" />
+		<DELAY label="carIn" time="500" />
+		<DELAY label="newCar" time="1200" />
+		<DELAY label="showOptions" time="500" />
+		<DELAY label="delayWorkSound" time="5" />
+		<DELAY label="correctResponce" time="2000" />
+		<DELAY label="wrongResponce" time="800" />
+		<DELAY label="wrongTimerRestart" time="2000" />
+		<DELAY label="hornDelay" time="1" />
+		<DELAY label="carExit" time="500" />
+		<DELAY label="nextCar" time="2700" />
+		<DELAY label="loadingScreen" time="500" />
+	</TIMINGS>
+	<REUSEQUESTIONS value="0"/><!-- 1 allow questions to be reused for testing 0 asks questions only once -->
+</xml>
