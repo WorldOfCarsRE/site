@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta name="description" content="World of Cars Description" />
+    <meta name="author" content="Disney Interactive Media Group" />
+    <meta name="keywords" content="World of Cars Keys" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="icon" href="/worldofcars/1.0/images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/worldofcars/1.0/images/favicon.ico" type="image/x-icon" />
+
+
+    <title>World of Cars Online | Membership</title>
+
+    <script type="text/javascript" src="/worldofcars/1.0/js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="/js/environment.js"></script>
+    <script type="text/javascript" src="/worldofcars/1.0/js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="/worldofcars/1.0/js/swfobject.js"></script>
+    <script type="text/javascript" src="/worldofcars/1.0/js/woc_global.js"></script>
+    <script type="text/javascript" src="/worldofcars/1.0/js/reportutils.js"></script>
+    <link rel="stylesheet" type="text/css" href="/worldofcars/1.0/css/cars_subpage.css" />
+
+    <script type="text/javascript">
+        jq(function () {
+            jq('#slideshow li').hover(function () {
+                jq(this).addClass('over');
+            }, function () {
+                if (!jq(this).hasClass('selected'))
+                    jq(this).removeClass('over');
+            });
+            jq('#slideshow li').click(function () {
+                jq(this).siblings().removeClass('selected').removeClass('over');
+                jq(this).addClass('selected');
+                //					var lID = jq(this).attr('id').replace('_','-');
+                //					var dImg = imgPath+'/misc/'+lID+'-dreamer.png';
+                var currentTab = jq('#slideshow li').index(this);
+
+                jq('.slide').each(function (i) {
+                    if (i != currentTab) {
+                        jq(this).fadeOut();
+                    } else {
+                        jq(this).fadeIn();
+                    }
+                });
+            });
+        });
+    </script>
+
+    <!--[if IE 6]>
+<link rel="stylesheet" type="text/css" href="/worldofcars/1.0/css/ie6.css" />
+<![endif]-->
+
+
+</head>
+
+<body id="membership" class="sec_membership"><a name="top"></a>
+
+    <div id="woc_container">
+
+
+        <div class="sys-toolbar">
+            <a href="/membership/manage-account/" class="sys-sprocketLink " name="lid=toolbar/manage_account">Manage
+                Account</a>
+        </div>
+
+        <div id="content_wrap">
+
+            <div id="subnav_bg"></div>
+
+            <div id="main_content">
+                <div id="frame_wrap">
+
+
+
+                    <div id="woc_header">
+
+
+                        <h2 id="woc_logo"><a name="lid=nav/logo" href="/" title="The World of Cars Online">The World of
+                                Cars Online</a></h2>
+
+
+
+                        <ul id="nav">
+                            <li class="nav_community"><a name="lid=nav/community" href="/community/">community</a></li>
+                            <li class="nav_membership"><a name="lid=nav/membership" href="/membership/">membership</a>
+                            </li>
+                            <li class="nav_about"><a name="lid=nav/about" href="/about-game/">about game</a></li>
+                            <li class="nav_parents"><a name="lid=nav/parents" href="/parents/">parents</a></li>
+                            <li class="nav_help"><a name="lid=nav/help" href="/help/">help</a></li>
+                        </ul>
+
+                        <div id="header_play" class="header_play"><a name="lid=nav/play" id="play_button"
+                                class="play_inactive" href="javascript:void(0);">Play</a></div>
+
+                        <ul id="membership_sub" class="subnav">
+                            <li><a name="lid=subnav/sec_membership" href="/membership/purchase/"
+                                    class="sub_purchase">Upgrade Account</a></li>
+                            <li><a name="lid=subnav/sec_membership" href="/membership/manage-account/"
+                                    class="sub_manage-account">Manage Account</a></li>
+                            <li><a name="lid=subnav/sec_membership" href="/membership/guest-services/"
+                                    class="sub_guest-services">Guest Services</a></li>
+                            <li class="noborderplease"><a name="lid=subnav/sec_membership"
+                                    href="/help/frequently-asked-questions/" class="sub_faqs">FAQs</a></li>
+                        </ul>
+
+                    </div><!-- cars header -->
+
+                    <div id="page_content">
+
+
+                        <div id="page_header">
+                            <h1>Membership</h1>
+                        </div>
+                        <div id="content">
+
+                            <div id="slideshow">
+                                <ul>
+                                    <li id="tune_up" class="selected">Tune Up</li>
+                                    <li id="build">Build</li>
+                                    <li id="unlock">Unlock</li>
+                                    <li id="stand_out">Stand Out</li>
+                                </ul>
+
+                                <div id="slide_wrap">
+                                    <div class="slide">
+                                        <img src="/worldofcars/1.0/images/promotes/membership/tune-up.jpg"
+                                            alt="Tune Up" />
+                                    </div>
+                                    <div class="slide" style="display:none;">
+                                        <img src="/worldofcars/1.0/images/promotes/membership/build-out.jpg"
+                                            alt="Build Out" />
+                                    </div>
+                                    <div class="slide" style="display:none;">
+                                        <img src="/worldofcars/1.0/images/promotes/membership/unlock-more.jpg"
+                                            alt="Unlock More" />
+                                    </div>
+                                    <div class="slide" style="display:none;">
+                                        <img src="/worldofcars/1.0/images/promotes/membership/go-pro.jpg"
+                                            alt="Go Pro" />
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="purchase_container">
+                                <div class="only595">Only $5.95/month</div>
+                                <div class="buy_online_container">
+                                    <a class="buy_online" href="/membership/purchase/">Buy Online</a>
+                                    AUTOMATIC RECURRING PAYMENTS
+                                </div>
+                                <div class="activate_card_container">
+                                    <a class="activate_card" href="/membership/card-activation/">Activate Card</a>
+                                    YOU CAN BUY CARDS AT
+                                </div>
+                            </div>
+                            <div class="account_links">
+                                <a href="/membership/manage-account/">MANAGE ACCOUNT</a> |
+                                <a href="/membership/guest-services/">GUEST SERVICES</a> |
+                                <a href="/membership/manage-account/">CHANGE MEMBERSHIP</a> |
+                                <a href="/membership/manage-account/">CANCEL MEMBERSHIP</a>
+                            </div>
+
+
+                        </div><!-- content -->
+
+
+                    </div><!-- page content -->
+                </div><!-- frame wrap -->
+                <div id="frame_footer"></div>
+            </div><!-- main content -->
+
+        </div><!-- content -->
+
+
+        <div class="sys-footer">
+            <div class="sys-footNav">
+                <a href="http://disney.go.com/cars/" target="_blank"><img
+                        src="/worldofcars/1.0/img/msc/ico-leftArrow.gif" /> Visit the Official Cars Site</a> |
+                <a href="/sitemap/">Sitemap</a>
+            </div>
+        </div>
+
+    </div><!-- cars container -->
+
+</body>
+
+</html>
