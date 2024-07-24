@@ -57,7 +57,7 @@ jQuery(document).ready(function () {
 	}
 
 	if (!swfobject.hasFlashPlayerVersion('10')) {
-		window.location = 'flash-upgrade.html';
+		window.location = '/flash-upgrade';
 	}
 
 	heartbeatTick();
