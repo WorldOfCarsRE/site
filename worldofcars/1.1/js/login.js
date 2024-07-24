@@ -57,6 +57,7 @@ jQuery(document).ready(function () {
 	}
 
 	if (!swfobject.hasFlashPlayerVersion('10')) {
+		// 'flash-upgrade.html' previously.
 		window.location = '/flash-upgrade';
 	}
 
