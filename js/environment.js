@@ -96,7 +96,7 @@ var GAME = {
 		'loginURL': CFG.login,
 		'mapAssetsBaseUrl': CFG.assetsBaseUrl,
 		'minigameBaseUrl': PATH.cdnRootBase + '/game/games/',
-		'otpLoginURL': (CFG.ssl ? '45.61.162.168' : 'localhost'),
+		'otpLoginURL': (CFG.ssl ? '49.13.159.82' : 'localhost'),
 		'otpTokenPort': '8012',
 		'otpTokenURL': CFG.apps + '/carsds/api/GenerateTokenRequest',
 		'physicsAssetsBaseUrl': PATH.cdnRootBase + '/game/assets/track_physics',
