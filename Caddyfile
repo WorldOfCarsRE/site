@@ -2,4 +2,5 @@ localhost:80
 
 reverse_proxy /carsds/* localhost:8013
 reverse_proxy /dxd/* localhost:8013
+reverse_proxy /commerce/* localhost:8013
 file_server

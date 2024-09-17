@@ -58,37 +58,37 @@
 		</logout>
 		<!-- purchasing -->
 		<creditCardValidation>
-			https://register.go.com/dxd/validation/authorize
+			/dxd/validation/authorize
 		</creditCardValidation>
 		<lookupSubscriptions>
-			https://register.go.com/commerce/flashapi/lookupSubscriptions
+			/commerce/flashapi/lookupSubscriptions
 		</lookupSubscriptions>
 		<lookupOffers>
-			https://register.go.com/commerce/flashapi/lookupOffers
+			/commerce/flashapi/lookupOffers
 		</lookupOffers>
 		<purchaseOffer>
-			https://register.go.com/commerce/flashapi/purchaseOffer
+			/commerce/flashapi/purchaseOffer
 		</purchaseOffer>
 		<validatePaymentAccount>
-			https://register.go.com/commerce/flashapi/validatePaymentAccount
+			/commerce/flashapi/validatePaymentAccount
 		</validatePaymentAccount>
 		<lookupPaymentAccounts>
-			https://register.go.com/commerce/flashapi/lookupPaymentAccounts
+			/commerce/flashapi/lookupPaymentAccounts
 		</lookupPaymentAccounts>
 		<lookupShippingAddresses>
-			https://register.go.com/commerce/flashapi/lookupShippingAddresses
+			/commerce/flashapi/lookupShippingAddresses
 		</lookupShippingAddresses>
 		<updateShippingAddress>
-			https://register.go.com/commerce/flashapi/updateShippingAddressOnSubscription
+			/commerce/flashapi/updateShippingAddressOnSubscription
 		</updateShippingAddress>
 		<updateShippingAddressOnSubscription>
-			https://register.go.com/commerce/flashapi/updateShippingAddressOnSubscription
+			/commerce/flashapi/updateShippingAddressOnSubscription
 		</updateShippingAddressOnSubscription>
 		<updatePaymentAccountOnSubscription>
-			https://register.go.com/commerce/flashapi/updatePaymentAccountOnSubscription
+			/commerce/flashapi/updatePaymentAccountOnSubscription
 		</updatePaymentAccountOnSubscription>
 		<paypal>
-			https://register.go.com/commerce/paypal/redirect
+			/commerce/paypal/redirect
 		</paypal>
 		<paypalSuccessDestination>
 			http://worldofcars.go.com/welcome-sponsored-racer/
@@ -97,7 +97,7 @@
 			http://worldofcars.go.com/sponsorship/paypal-error/
 		</paypalErrorDestination>
 		<disableAutoRenew>
-			https://register.go.com/commerce/flashapi/disableAutoRenew
+			/commerce/flashapi/disableAutoRenew
 		</disableAutoRenew>
 		<!-- /purchasing -->
 		<!-- whoami service -->
