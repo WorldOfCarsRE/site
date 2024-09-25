@@ -89,7 +89,7 @@ var GAME = {
 		'cheats': true,
 		'clientVersion': window.clientVersion || false,
 		'customMsg': '',
-		'disableAssetService': true,
+		// 'disableAssetService': false,
 		'errorReportUrl': RDR.reportabug,
 		'isoMapServiceHost': CFG.carsDS,
 		'live': true,
