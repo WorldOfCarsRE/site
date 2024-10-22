@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<AudioList>
+	<AudioGroup priority="0.7" alias="Main">	
+		<AudioEntry priority="0.5" alias="conveyor" url="sounds/conveyerbelt_01.mp3"	loop="false" pan="0" vol=".3" mode="multi-channel" stream="false" isMusic="true" />
+		<AudioEntry priority="0.5" alias="bump" url="sounds/junk_jump01.mp3"	loop="false" pan="0" vol=".1" mode="multi-channel" stream="false" isMusic="false" />
+		<AudioEntry priority="0.5" alias="strech" url="sounds/rubberband_stretch02.mp3"	loop="false" pan="0" vol=".5" mode="multi-channel" stream="false" isMusic="false" />		
+		<AudioEntry priority="0.5" alias="shot" url="sounds/shoot_no_whistle.mp3"	loop="false" pan="0" vol=".7" mode="multi-channel" stream="false" isMusic="false" />
+		<AudioEntry priority="0.5" alias="dirthit" url="sounds/dirt_hit01.mp3"	loop="false" pan="0" vol="1" mode="multi-channel" stream="false" isMusic="false" />
+		<AudioEntry priority="0.5" alias="fencebounce" url="sounds/wood_hit01.mp3"	loop="false" pan="0" vol=".6" mode="multi-channel" stream="false" isMusic="false" />
+		<AudioEntry priority="0.5" alias="lightBreak" url="sounds/lightbulb_loud.mp3"	loop="false" pan="0" vol=".3" mode="multi-channel" stream="false" isMusic="false" />
+		<AudioEntry priority="0.5" alias="score" url="sounds/score_register01.mp3"	loop="false" pan="0" vol=".5" mode="multi-channel" stream="false" isMusic="false" />
+		<AudioEntry priority="0.5" alias="timerBeep" url="sounds/computer_beep02.mp3"	loop="false" pan="0" vol=".6" mode="multi-channel" stream="false" isMusic="false" />
+		<AudioEntry priority="0.5" alias="startButton" url="sounds/cog_hit01.mp3"	loop="false" pan="0" vol=".6" mode="multi-channel" stream="false" isMusic="false" />
+		<AudioEntry priority="0.5" alias="buzzer" url="sounds/horn03.mp3"	loop="false" pan="0" vol=".5" mode="multi-channel" stream="false" isMusic="false" />	
+
+		<AudioEntry priority="0.5" alias="cone_hit01.mp3" url="sounds/cone_hit01.mp3"	loop="false" pan="0" vol="1" mode="multi-channel" stream="false" isMusic="false" />
+		<AudioEntry priority="0.5" alias="cog_hit01.mp3" url="sounds/cog_hit01.mp3" loop="false" pan="0" vol="1" mode="multi-channel" stream="false" isMusic="false" />
+		<AudioEntry priority="0.5" alias="oilcan_hit.mp3" url="sounds/oilcan_hit.mp3" loop="false" pan="0" vol="1" mode="multi-channel" stream="false" isMusic="false" />
+		<AudioEntry priority="0.5" alias="spring_01.mp3" url="sounds/spring_01.mp3" loop="false" pan="0" vol="1" mode="multi-channel" stream="false" isMusic="false" />	
+		<AudioEntry priority="0.3" alias="tire_hit02.mp3" url="sounds/tire_hit02.mp3" loop="false" pan="0" vol=".6" mode="multi-channel" stream="false" isMusic="false" />
+		<AudioEntry priority="0.5" alias="tire_hit03.mp3" url="sounds/tire_hit03.mp3" loop="false" pan="0" vol=".6" mode="multi-channel" stream="false" isMusic="false" />	
+		<AudioEntry priority="0.5" alias="tire_hit04.mp3" url="sounds/tire_hit04.mp3" loop="false" pan="0" vol=".6" mode="multi-channel" stream="false" isMusic="false" />
+		<AudioEntry priority="0.5" alias="tire_hit01.mp3" url="sounds/tire_hit01.mp3" loop="false" pan="0" vol=".6" mode="multi-channel" stream="false" isMusic="false" />
+				
+		<AudioEntry priority="0.5" alias="licenseplate_hit01.mp3" url="sounds/licenseplate_hit01.mp3" loop="false" pan="0" vol=".6" mode="multi-channel" stream="false" isMusic="false" />
+		<AudioEntry priority="0.5" alias="licenseplate_hit02.mp3" url="sounds/licenseplate_hit02.mp3" loop="false" pan="0" vol=".6" mode="multi-channel" stream="false" isMusic="false" />
+		<AudioEntry priority="0.5" alias="licenseplate_hit01.mp3" url="sounds/licenseplate_hit01.mp3" loop="false" pan="0" vol=".6" mode="multi-channel" stream="false" isMusic="false" />
+		<AudioEntry priority="0.5" alias="sign_hit_bright.mp3" url="sounds/sign_hit_bright.mp3" loop="false" pan="0" vol=".6" mode="multi-channel" stream="false" isMusic="false" />
+		<AudioEntry priority="0.5" alias="sign_hit_dull01.mp3" url="sounds/sign_hit_dull01.mp3" loop="false" pan="0" vol=".6" mode="multi-channel" stream="false" isMusic="false" />
+		<AudioEntry priority="0.5" alias="roadclosed_sign01.mp3" url="sounds/roadclosed_sign01.mp3" loop="false" pan="0" vol=".6" mode="multi-channel" stream="false" isMusic="false" />
+	</AudioGroup>
+</AudioList>
