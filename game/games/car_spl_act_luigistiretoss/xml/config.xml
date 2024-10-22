@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+	<VARIABLES>
+		<TIME>30</TIME>
+		<STARTSCORE>0</STARTSCORE>
+		<CHANGERATE>50</CHANGERATE> <!--how often the rate of tire entry changes  in frames-->
+		<MINCHANCE>.04</MINCHANCE> <!-- minimum rate of tire entry, 1 would create a tire every frame-->
+		<MAXCHANCE>.24</MAXCHANCE> <!-- maximum chance of tire entry, 1 would create a tire every frame -->
+		<MAXTIRES>13</MAXTIRES> <!-- maximum number of tires on screen -->
+		<MINTIRES>1</MINTIRES> <!-- minimum number the max tires can be set to at any given time -->
+		<MAXGAP>4</MAXGAP> <!-- maximum gap between tires in frames -->
+		<STACKCOMPLETEBONUS>500</STACKCOMPLETEBONUS>
+		<INTRODELAY>4000</INTRODELAY>
+		<FRAMEOFFSET x="40" y="36" /><!-- placement of the play area within the frame -->
+	</VARIABLES>
+	<TIRES><!-- mass of 1 is infinetly heavy and will not bounce -->
+		<TIRE path="img/tire_whiteWall.swf" class="Tire_view" mass=".2" value="50" bonus="500" odds="4" id="whiteWall" max="8" stackSound="tire_stack_bounce01.mp3" bounceSound="tire_hit01.mp3"/>
+		<TIRE path="img/tire_redSpike.swf" class="Tire_view" mass=".3" value="50" bonus="500" odds="4" id="redSpike" max="8" stackSound="tire_stack_bounce02.mp3" bounceSound="tire_hit01B.mp3"/>
+		<TIRE path="img/tire_plain.swf" class="Tire_view" mass=".1" value="50" bonus="500" odds="4" id="plain" max="8" stackSound="tire_stack_bounce03.mp3" bounceSound="tire_hit01.mp3"/>
+		<TIRE path="img/tire_tractor.swf" class="Tire_view" mass=".5" value="75" bonus="500" odds="1" id="tractor" max="3" stackSound="tire_stack_bounce04.mp3" bounceSound="tire_hit04B.mp3"/>
+	</TIRES>
+	
+	<!--  SOUND ARE LISTED ONLY FOR STAND ALONE TEST VERSION -->
+	
+	<SOUNDS>
+		<SOUND label="startButton">innertube_hit01.mp3</SOUND>
+		<SOUND label="introSound">truck_backup_edit.mp3</SOUND>
+		<SOUND label="bgSound">tires_rolling_loop01.mp3</SOUND>
+		<SOUND label="stackComplete">service_station_bellx2.mp3</SOUND>
+		<SOUND label="timeWarning">beep_02.mp3</SOUND>
+		<SOUND label="gameOver">service_station_bellx1.mp3</SOUND>
+	</SOUNDS>
+	<WORKSOUNDS>
+		<SOUND>air_wrench01.mp3</SOUND>
+		<SOUND>air_wrench02.mp3</SOUND>
+		<SOUND>hydrolic_lift02.mp3</SOUND>
+		<SOUND>impact_wrench01.mp3</SOUND>
+		<SOUND>ratchet_wrench_X3.mp3</SOUND>
+	</WORKSOUNDS>
+</xml>
