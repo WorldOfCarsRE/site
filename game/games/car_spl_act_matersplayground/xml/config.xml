@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+	<VARIABLES>
+		<TIME>60</TIME>
+		<STARTSCORE>0</STARTSCORE>
+		<CHANGERATE>.012</CHANGERATE> <!-- 1 would change the conveyor speed avery frame-->
+		<MAXSPEED>4</MAXSPEED> <!-- conveyor speed in pixels -->
+		<MINSPEED>0.85</MINSPEED>  <!-- conveyor speed in pixels -->
+		<STARTSPEED>1.5</STARTSPEED> <!-- conveyor speed in pixels -->
+		<MAXACCEL>0.09</MAXACCEL> <!-- rate of conveyor acceleration in pixels -->
+		<GRAVITY>3</GRAVITY> <!-- value of gravity used for shots and falling objects -->
+		<PITCH>1.2</PITCH> <!-- angle the bolt is shot at -->
+		<BOUNCEDAMPER>.1</BOUNCEDAMPER> <!-- damper applied to the bolt speed after hitting fence -->
+		<OBJECTSPACER>40</OBJECTSPACER> <!-- space between objects on conveyor -->
+		<BOLTORIGINX>310</BOLTORIGINX>
+		<BOLTORIGINY>340</BOLTORIGINY>
+		<BOLTORIGINZ>0</BOLTORIGINZ>
+		<TENSIONMOD>.3</TENSIONMOD> <!-- modifies the tension -->
+		<TENSIONZMOD>30</TENSIONZMOD> <!-- modifies tension to set a Z speed -->
+		<TENSIONXMOD>1.5</TENSIONXMOD> <!-- modifies tension to set an X speed -->
+		<TENSIONYMOD>1</TENSIONYMOD> <!-- modifies tension to set a Y speed -->
+		<STEPS>15</STEPS> <!-- time taken for bolt to reach the fence (need to be set for cross hiar placement) -->
+		<CONVEYORTOP>255</CONVEYORTOP> <!-- y position of the conveyor top (against screen - no 3D modification) -->
+		<CROSSHAIRSIZE>30</CROSSHAIRSIZE>
+		<FENCEZ>5000</FENCEZ> <!-- the Z deepth of the fence and conveyor - not actual coordinate, just reference against bolt-->
+		<FRAMEOFFSET x="40" y="36" /><!-- placement of the play area within the frame -->
+	</VARIABLES>
+	<TARGETS>
+		<TARGET type="normal" mass="2" points="100" sound="cone_hit01.mp3" volume="1"><![CDATA[images/maters_playground_target_cone.png]]></TARGET>
+		<TARGET type="normal" mass="1.5" points="150" sound="cog_hit01.mp3" volume="1"><![CDATA[images/maters_playground_target_gear.png]]></TARGET>
+		<TARGET type="normal" mass="1" points="150" sound="oilcan_hit.mp3" volume="1"><![CDATA[images/maters_playground_target_oilcan.png]]></TARGET>
+		<TARGET type="normal" mass=".5" points="150" sound="spring_01.mp3" volume="1"><![CDATA[images/maters_playground_target_spring.png]]></TARGET>
+		<TARGET type="hoop" mass="3" points="50" outerRadius="60" innerRadius="29" sound="tire_hit02.mp3" volume="1"><![CDATA[images/maters_playground_target_tireA.png]]></TARGET>
+		<TARGET type="hoop" mass="3" points="50" outerRadius="60" innerRadius="29" sound="tire_hit03.mp3" volume="1"><![CDATA[images/maters_playground_target_tireB.png]]></TARGET>
+		<TARGET type="hoop" mass="4" points="75" outerRadius="65" innerRadius="29" sound="tire_hit04.mp3" volume="1"><![CDATA[images/maters_playground_target_tireC.png]]></TARGET>
+		<TARGET type="hoop" mass="3" points="100" outerRadius="60" innerRadius="29" sound="tire_hit01.mp3" volume="1"><![CDATA[images/maters_playground_target_tireD.png]]></TARGET>
+	</TARGETS>
+	<BONUS>
+		<TARGET  type="bonus" mass="1" points="5" xPos="108" yPos="315" bonus="true" sound="licenseplate_hit01.mp3" volume=".6"><![CDATA[images/maters_playground_bonus_blueplate.png]]></TARGET>
+		<TARGET  type="bonus" mass="1" points="5" xPos="478" yPos="192" bonus="true" sound="licenseplate_hit02.mp3" volume=".6"><![CDATA[images/maters_playground_bonus_yellowplate.png]]></TARGET>
+		<TARGET  type="bonus" mass="1" points="5" xPos="493" yPos="260" bonus="true" sound="licenseplate_hit01.mp3" volume=".6"><![CDATA[images/maters_playground_bonus_blackplate.png]]></TARGET>
+		<TARGET  type="bonus" mass="1" points="5" xPos="107" yPos="204" bonus="true" sound="sign_hit_bright.mp3" volume=".6"><![CDATA[images/maters_playground_bonus_hubcap_n.png]]></TARGET>
+		<TARGET  type="bonus" mass="1" points="5" xPos="482" yPos="163" bonus="true" sound="sign_hit_dull01.mp3" volume=".6"><![CDATA[images/maters_playground_bonus_hubcap_gills.png]]></TARGET>
+		<TARGET  type="bonus" mass="1" points="5" xPos="206" yPos="103" bonus="true" sound="roadclosed_sign01.mp3" volume=".6"><![CDATA[images/maters_playground_bonus_roadclosed.png]]></TARGET>
+	</BONUS>
+	<LIGHTVALUE>50</LIGHTVALUE>
+	
+	<!--  SOUND ARE LISTED ONLY FOR STAND ALONE TEST VERSION -->
+	
+	<SOUNDS>
+		<CONVEYOR label="conveyor"><![CDATA[conveyerbelt_01.mp3]]></CONVEYOR>
+		<BUMP label="bump"><![CDATA[junk_jump01.mp3]]></BUMP>
+		<BAND label="strech"><![CDATA[rubberband_stretch02.mp3]]></BAND>
+		<SHOT label="shot"><![CDATA[shoot_no_whistle.mp3]]></SHOT>
+		<DIRTHIT label="dirthit"><![CDATA[dirt_hit01.mp3]]></DIRTHIT>
+		<FENCEBOUNCE label="fencebounce"><![CDATA[wood_hit01.mp3]]></FENCEBOUNCE>
+		<LIGHTBREAK label="lightBreak"><![CDATA[lightbulb_loud.mp3]]></LIGHTBREAK>
+		<SCORE label="score"><![CDATA[score_register01.mp3]]></SCORE>
+		<TIMERBEEP label="timerBeep"><![CDATA[computer_beep02.mp3]]></TIMERBEEP>
+		<STARTBUTTON label="startBtn"><![CDATA[cog_hit01.mp3]]> </STARTBUTTON>
+		<BUZZER label="buzzer"><![CDATA[horn03.mp3]]> </BUZZER>
+	</SOUNDS>
+</xml>

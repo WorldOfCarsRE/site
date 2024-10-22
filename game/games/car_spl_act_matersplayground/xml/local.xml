@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML>
+	<TEXTS>
+		<TEXT label="ready"><![CDATA[READY!]]></TEXT>
+		<TEXT label="aim"><![CDATA[AIM!]]></TEXT>
+		<TEXT label="fire"><![CDATA[FIRE!]]></TEXT>
+		<TEXT label="click"><![CDATA[CLICK & PULL BACK]]></TEXT>
+		<TEXT label="drag"><![CDATA[DRAG YOUR MOUSE]]></TEXT>
+		<TEXT label="release"><![CDATA[RELEASE YOUR MOUSE]]></TEXT>
+		<TEXT label="items"><![CDATA[TARGET THESE ITEMS]]></TEXT>
+		<TEXT label="shot"><![CDATA[SHOOT THROUGH TIRES FOR BONUS POINTS]]></TEXT>
+		<TEXT label="startBtn"><![CDATA[PLAY]]></TEXT>
+		<TEXT label="scoreLabel"><![CDATA[score]]></TEXT>
+		<TEXT label="timeLabel"><![CDATA[time]]></TEXT>
+		<TEXT label="gameOver">![CDATA[Shift over]]></TEXT>
+		<TEXT label="timesUp"><![CDATA[TIME'S UP!]]></TEXT>
+		<TEXT label="junkPoints"><![CDATA[JUNK POINTS]]></TEXT>
+		<TEXT label="junkHit"><![CDATA[JUNK HIT]]></TEXT>
+		<TEXT label="junkMissed"><![CDATA[JUNK MISSED]]></TEXT>
+		<TEXT label="endBtn"><![CDATA[OK]]></TEXT>
+    </TEXTS>
+</XML>
