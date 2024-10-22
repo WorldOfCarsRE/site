@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML>
+	<TEXTS>
+		<TEXT name="scoreLabel"><![CDATA[SCORE:]]></TEXT>
+		<TEXT name="countLabel"><![CDATA[TIRES STACKED:]]></TEXT>
+		<TEXT name="timeLabel"><![CDATA[time]]></TEXT>
+		
+		<TEXT name="instructionsButton"><![CDATA[START]]></TEXT>
+		
+		<TEXT name="stepOne"><![CDATA[STEP 1:]]></TEXT>
+		<TEXT name="dirOne"><![CDATA[CLICK & HOLD TO GRAB A TIRE]]></TEXT>
+		<TEXT name="stepTwo"><![CDATA[STEP 2:]]></TEXT>
+		<TEXT name="dirTwo"><![CDATA[DRAG TIRE TO MATCHING SIGN]]></TEXT>
+		<TEXT name="stepThree"><![CDATA[STEP 3:]]></TEXT>
+		<TEXT name="dirThree"><![CDATA[RELEASE TO STACK ON CART]]></TEXT>
+		
+		<TEXT name="gameOver"><![CDATA[TIME'S UP!]]></TEXT>
+		<TEXT name="thanks"><![CDATA[THANKS FOR HELPING]]></TEXT>
+		<TEXT name="gameOverScore"><![CDATA[SCORE: ]]></TEXT>
+		<TEXT name="gameOverStacked"><![CDATA[TIRES STACKED: ]]></TEXT>
+		<TEXT name="gameOverKnocked"><![CDATA[TIRES KNOCKED OVER: ]]></TEXT>
+		<TEXT name="gameOverComplete"><![CDATA[STACKS COMPLETE BONUS: ]]></TEXT>
+    </TEXTS>
+</XML>

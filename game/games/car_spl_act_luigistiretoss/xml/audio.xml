@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<AudioList>
+	<AudioGroup priority="0.7" alias="Main">	
+		<!-- Music tracks are streamed -->
+		<AudioEntry priority="0.5" alias="startButton" url="sounds/innertube_hit01.mp3"		loop="false" pan="0" vol="1" mode="multi-channel" stream="false" isMusic="false" />
+		<AudioEntry priority="0.5" alias="introSound" url="sounds/truck_backup_edit.mp3"		loop="false" pan="0" vol=".8" mode="multi-channel" stream="false" isMusic="false" />
+		<AudioEntry priority="0.5" alias="bgSound" url="sounds/tires_rolling_loop01.mp3"		loop="true" pan="0" vol=".25" mode="multi-channel" stream="false" isMusic="false" />
+		<AudioEntry priority="0.5" alias="stackComplete" url="sounds/service_station_bellx2.mp3"	loop="false" pan="0" vol="1" mode="multi-channel" stream="false" isMusic="false" />
+		<AudioEntry priority="0.5" alias="timeWarning" url="sounds/beep_02.mp3"			loop="false" pan="0" vol="1" mode="multi-channel" stream="false" isMusic="false" />
+		<AudioEntry priority="0.5" alias="gameOver" url="sounds/service_station_bellx1.mp3"	loop="false" pan="0" vol="1" mode="multi-channel" stream="false" isMusic="false" />
+
+		<AudioEntry priority="0.5" alias="tire_stack_bounce01.mp3" url="sounds/tire_stack_bounce01.mp3"	loop="false" pan="0" vol=".3" mode="multi-channel" stream="false" isMusic="false" />
+		<AudioEntry priority="0.5" alias="tire_stack_bounce02.mp3" url="sounds/tire_stack_bounce02.mp3"	loop="false" pan="0" vol=".3" mode="multi-channel" stream="false" isMusic="false" />
+		<AudioEntry priority="0.5" alias="tire_stack_bounce03.mp3" url="sounds/tire_stack_bounce03.mp3"	loop="false" pan="0" vol=".3" mode="multi-channel" stream="false" isMusic="false" />
+		<AudioEntry priority="0.5" alias="tire_stack_bounce04.mp3" url="sounds/tire_stack_bounce04.mp3"	loop="false" pan="0" vol=".3" mode="multi-channel" stream="false" isMusic="false" />
+		
+		<AudioEntry priority="0.5" alias="tire_hit01.mp3" url="sounds/tire_hit01.mp3"		loop="false" pan="0" vol=".4" mode="multi-channel" stream="false" isMusic="false" />
+		<AudioEntry priority="0.5" alias="tire_hit01B.mp3" url="sounds/tire_hit01B.mp3"	loop="false" pan="0" vol=".4" mode="multi-channel" stream="false" isMusic="false" />
+		<AudioEntry priority="0.5" alias="tire_hit01.mp3" url="sounds/tire_hit01.mp3"		loop="false" pan="0" vol=".4" mode="multi-channel" stream="false" isMusic="false" />
+		<AudioEntry priority="0.5" alias="tire_hit04B.mp3" url="sounds/tire_hit04B.mp3"	loop="false" pan="0" vol=".4" mode="multi-channel" stream="false" isMusic="false" />	
+		<AudioEntry priority="0.5" alias="work0" url="sounds/air_wrench01.mp3"			loop="false" pan="0" vol=".3" mode="multi-channel" stream="false" isMusic="false" />
+		<AudioEntry priority="0.5" alias="work1" url="sounds/air_wrench02.mp3"			loop="false" pan="0" vol=".3" mode="multi-channel" stream="false" isMusic="false" />
+		<AudioEntry priority="0.5" alias="work2" url="sounds/hydrolic_lift02.mp3"		loop="false" pan="0" vol=".3" mode="multi-channel" stream="false" isMusic="false" />
+		<AudioEntry priority="0.5" alias="work3" url="sounds/impact_wrench01.mp3"		loop="false" pan="0" vol=".3" mode="multi-channel" stream="false" isMusic="false" />
+		<AudioEntry priority="0.5" alias="work4" url="sounds/ratchet_wrench_X3.mp3"		loop="false" pan="0" vol=".3" mode="multi-channel" stream="false" isMusic="false" />
+	</AudioGroup>
+</AudioList>
