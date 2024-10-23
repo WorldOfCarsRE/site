@@ -2,11 +2,11 @@
 var WMG = new windowManager({
 	pages: RDR,
 	omnitureTracking: {
-		'purchase_sponsor_your_car_nav': { 'property': 'car', 'account': 'worldofcars', 'category': 'dgame', 'site': 'woc', 'siteSection': 'game:sponsorship', 'contentType': 'regular' },
-		'crews_news_landing_nav': { 'property': 'car', 'account': 'worldofcars', 'category': 'dgame', 'site': 'woc', 'siteSection': 'game:community', 'contentType': 'regular' },
-		'help_contact_us_report_a_bug_nav': { 'property': 'car', 'account': 'worldofcars', 'category': 'dgame', 'site': 'woc', 'siteSection': 'game:community', 'contentType': 'regular' },
-		'help_home_nav': { 'property': 'car', 'account': 'worldofcars', 'category': 'dgame', 'site': 'woc', 'siteSection': 'game:community', 'contentType': 'homepage' },
-		'change_server_nav': { 'property': 'car', 'account': 'worldofcars', 'category': 'dgame', 'site': 'woc', 'siteSection': 'game:server', 'contentType': 'regular' }
+		// 'purchase_sponsor_your_car_nav': { 'property': 'car', 'account': 'worldofcars', 'category': 'dgame', 'site': 'woc', 'siteSection': 'game:sponsorship', 'contentType': 'regular' },
+		// 'crews_news_landing_nav': { 'property': 'car', 'account': 'worldofcars', 'category': 'dgame', 'site': 'woc', 'siteSection': 'game:community', 'contentType': 'regular' },
+		// 'help_contact_us_report_a_bug_nav': { 'property': 'car', 'account': 'worldofcars', 'category': 'dgame', 'site': 'woc', 'siteSection': 'game:community', 'contentType': 'regular' },
+		// 'help_home_nav': { 'property': 'car', 'account': 'worldofcars', 'category': 'dgame', 'site': 'woc', 'siteSection': 'game:community', 'contentType': 'homepage' },
+		// 'change_server_nav': { 'property': 'car', 'account': 'worldofcars', 'category': 'dgame', 'site': 'woc', 'siteSection': 'game:server', 'contentType': 'regular' }
 	}
 });
 

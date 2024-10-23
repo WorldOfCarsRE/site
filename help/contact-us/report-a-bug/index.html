@@ -1,0 +1,245 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta name="description" content="World of Cars Description" />
+    <meta name="author" content="Disney Interactive Media Group" />
+    <meta name="keywords" content="World of Cars Keys" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="icon" href="/worldofcars/1.0/images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/worldofcars/1.0/images/favicon.ico"
+        type="image/x-icon" />
+
+    <title>World of Cars Online | Report A Bug</title>
+
+    <script type="text/javascript" src="/worldofcars/1.0/js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="/js/environment.js"></script>
+    <script type="text/javascript" src="/worldofcars/1.0/js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="/worldofcars/1.0/js/swfobject.js"></script>
+    <script type="text/javascript" src="/worldofcars/1.0/js/woc_global.js"></script>
+    <script type="text/javascript" src="/worldofcars/1.0/js/reportutils.js"></script>
+    <link rel="stylesheet" type="text/css" href="/worldofcars/1.0/css/cars_subpage.css" />
+
+    <script type="text/javascript" src="/worldofcars/1.0/js/le_validator.js"></script>
+    <script type="text/javascript">
+        jQuery(function () {
+            document.forms["contact_form"].action = CFG.eventum;
+
+            jQuery('#custom_field_8').html(getBrowserInfo());
+            jQuery('#custom_field_9').val(whichBrs() + ' ' + (navigator.userAgent.toLowerCase().match(/.+(?:rv|it|ra|ie|me|ox|on)[\/: ]([\d.]+)/) || [0, '0'])[1] + ' (' + jq.browser.version + ')');
+
+            jQuery('.file').change(function () {
+                jQuery(this).closest('.custom_file').find('.file_clone').val(jQuery(this).val());
+            });
+            jQuery('.file').mouseover(function () {
+                jQuery(this).parent().find('.browse_btn').css('background-position', '0 -26px');
+            });
+            jQuery('.file').mouseout(function () {
+                jQuery(this).parent().find('.browse_btn').css('background-position', '0 0');
+            });
+            jQuery('.clear_attachments').click(function () {
+                jQuery('.custom_file').each(function () {
+                    jQuery(this).find('.file_clone').val('');
+                    var fileInput = jQuery(this).find('.file');
+                    jQuery(this).prepend('<input class="file" type="file" size="' + fileInput.attr('size') + '" />');
+                    fileInput.remove();
+                    jQuery(this).find('.file').css('opacity', '0');
+                    jQuery(this).find('.error_msg').remove();
+                });
+                jQuery('.file').change(function () {
+                    jQuery(this).closest('.custom_file').find('.file_clone').val(jQuery(this).val());
+                });
+            });
+            jQuery('.file').css({ 'opacity': '0' });// IE8 compatibility
+        });
+    </script>
+    <!--[if IE 6]>
+<link rel="stylesheet" type="text/css" href="/worldofcars/1.0/css/ie6.css" />
+<![endif]-->
+
+</head>
+
+<body id="report_a_bug" class="sec_help"><a name="top"></a>
+
+    <div id="woc_container">
+
+        <div class="sys-toolbar">
+            <a href="https://worldofcars.go.com/membership/manage-account/" class="sys-sprocketLink "
+                name="lid=toolbar/manage_account">Manage Account</a>
+        </div>
+
+        <div id="content_wrap">
+
+            <div id="subnav_bg"></div>
+
+            <div id="main_content">
+                <div id="frame_wrap">
+
+                    <div id="woc_header">
+
+                        <h2 id="woc_logo"><a name="lid=nav/logo" href="/"
+                                title="The World of Cars Online">The World of Cars Online</a></h2>
+
+                        <ul id="nav">
+                            <li class="nav_community"><a name="lid=nav/community"
+                                    href="/community/">community</a></li>
+                            <li class="nav_membership"><a name="lid=nav/membership"
+                                    href="/membership/">membership</a></li>
+                            <li class="nav_about"><a name="lid=nav/about"
+                                    href="/about-game/">about game</a></li>
+                            <li class="nav_parents"><a name="lid=nav/parents"
+                                    href="/parents/">parents</a></li>
+                            <li class="nav_help"><a name="lid=nav/help" href="/help/">help</a>
+                            </li>
+                        </ul>
+
+                        <div id="header_play" class="header_play"><a name="lid=nav/play" id="play_button"
+                                class="play_inactive" href="javascript:void(0);">Play</a></div>
+
+                        <ul id="help_sub" class="subnav">
+                            <li><a name="lid=subnav/sec_help" href="/help/tips-tricks"
+                                    class="sub_tips-tricks">Tips & Tricks</a></li>
+                            <li><a name="lid=subnav/sec_help"
+                                    href="/help/frequently-asked-questions/"
+                                    class="sub_faqs">FAQs</a></li>
+                            <li class="noborderplease"><a name="lid=subnav/sec_help"
+                                    href="/help/contact-us/" class="sub_contact-us">Contact
+                                    Us</a></li>
+                        </ul>
+
+                    </div><!-- cars header -->
+
+                    <div id="page_content" class="contact_form">
+                        <div id="page_header">
+                            <h1>Report A Bug</h1>
+                        </div>
+                        <div id="content">
+                            <form name="contact_form" action="#" method="post" class="form_contact"
+                                enctype="multipart/form-data">
+                                <fieldset>
+                                    <legend>Billing &amp; Membership Questions</legend>
+                                    <input type="hidden" name="cat" value="report" />
+                                    <input type="hidden" name="project" value="8" />
+                                    <input type="hidden" name="submit" value="1" />
+                                    <input type="hidden" name="formtype" value="feedback" />
+                                    <input type="hidden" name="summary" value="World of Cars Feedback" />
+                                    <input type="hidden" name="Dname" />
+                                    <input type="hidden" name="Access" />
+                                    <input type="hidden" name="VersionToken" />
+                                    <input type="hidden" name="carID" />
+                                    <input type="hidden" name="os_version" />
+                                    <input id="custom_field_9" type="hidden" name="custom_fields[9]" />
+
+                                    <div class="col_left">
+
+                                        <table cellspacing="0" cellpadding="0">
+                                            <tr valign="middle">
+
+                                                <td class="field_title">First Name:</td>
+                                                <td><input type="text" name="custom_fields[5]" id="first_name" /></td>
+                                            </tr>
+                                            <tr>
+
+                                                <td class="field_title">Email:</td>
+                                                <td><input type="text" name="custom_fields[10]" id="parent_email" />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="field_title">Description:</td>
+                                                <td><textarea name="description" id="question"></textarea></td>
+                                            </tr>
+
+                                        </table>
+                                    </div>
+                                    <div class="col_right">
+                                        <table cellspacing="0" cellpadding="0">
+                                            <tr valign="top">
+                                                <td class="field_title">Attach File:</td>
+                                                <td>
+                                                    <div class="custom_file">
+
+                                                        <input type="file" class="file" name="file[]" size="37" />
+                                                        <div class="file_mask">
+                                                            <input type="text" class="file_clone" name="file_clone[]" />
+                                                            <div class="browse_btn"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="custom_file">
+                                                        <input type="file" class="file" name="file[]" size="37" />
+                                                        <div class="file_mask">
+
+                                                            <input type="text" class="file_clone" name="file_clone[]" />
+                                                            <div class="browse_btn"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="custom_file">
+                                                        <input type="file" class="file" name="file[]" size="37" />
+                                                        <div class="file_mask">
+                                                            <input type="text" class="file_clone" name="file_clone[]" />
+                                                            <div class="browse_btn"></div>
+
+                                                        </div>
+                                                    </div>
+                                                    <p><a class="clear_attachments"
+                                                            name="lid=report_a_bug/clear_attachments"
+                                                            href="javascript:void(0);">clear attachments</a></p>
+                                                    <p>Please attach only the following file formats: .JPG, .GIF, .BMP,
+                                                        .LOG, .TXT, .PNG</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="field_title">Game Log:</td>
+                                                <td><textarea class="textarea_small" name="custom_fields[8]"
+                                                        id="custom_field_8" readonly="readonly"></textarea></td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2"><button type="submit" name="submit" id="submit_btn"
+                                                        class="submit_btn" title="Submit" value="submit">Submit</button>
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <div id="flash_content"
+                                style="position: absolute; bottom: 0px; left: 0px; visibility: hidden; height: 1px; width: 1px;">
+                            </div>
+                            <script type="text/javascript">
+                                jq(function () {
+                                    var flashvars = {};
+                                    var params = {};
+                                    params.allowscriptaccess = "always";
+                                    var varSwf = PATH.cdnRoot + '/1.0/swf/reporting/DVC_Reporting.swf';
+                                    swfobject.embedSWF(varSwf, "flash_content", "1", "1", "10", "", flashvars, params);
+                                });
+                            </script>
+                        </div> <!-- content -->
+
+                    </div><!-- page content --><img
+                        src="/worldofcars/1.0/images/characters/bug-1.png" class="bug bug_1"
+                        title="World of Cars Online | Report a Bug 1" alt="World of Cars Online | Report a Bug 1" /><img
+                        src="/worldofcars/1.0/images/characters/bug-2.png" class="bug bug_2"
+                        title="World of Cars Online | Report a Bug 2" alt="World of Cars Online | Report a Bug 2" /><img
+                        src="/worldofcars/1.0/images/characters/bug-3.png" class="bug bug_3"
+                        title="World of Cars Online | Report a Bug 3" alt="World of Cars Online | Report a Bug 3" />
+                </div><!-- frame wrap -->
+                <div id="frame_footer"></div>
+            </div><!-- main content -->
+
+        </div><!-- content -->
+
+        <div class="sys-footer">
+            <div class="sys-footNav">
+                <a href="http://disney.go.com/cars/" target="_blank"><img
+                        src="/worldofcars/1.0/img/msc/ico-leftArrow.gif" /> Visit the Official
+                    Cars Site</a> |
+                <a href="/sitemap/">Sitemap</a>
+            </div>
+        </div>
+
+    </div><!-- cars container -->
+
+</body>
+
+</html>
