@@ -58,7 +58,7 @@ RDR.afk = PATH.siteRoot + '/afk/';
 RDR.accountHold = CFG.dxd + '/guestservices/your_account/account_hold';
 RDR.blog = PATH.siteRoot + '/blog/';
 RDR.community = PATH.siteRoot + '/community/';
-RDR.manageAccount = PATH.siteRootSecure + '/membership/manage-account/';
+RDR.manageAccount = PATH.siteRoot + '/membership/manage-account/';
 RDR.connectFailure = PATH.siteRoot + '/help/frequently-asked-questions/cant-connect/';
 RDR.dNameSelect = RDR.manageAccount;
 RDR.enterCodes = PATH.siteRoot + '/';
@@ -70,7 +70,7 @@ RDR.logOff = RDR.community;
 RDR.openChat = RDR.manageAccount;
 RDR.parents = PATH.siteRoot + '/parents/';
 RDR.play = PATH.siteRoot + '/play/login.html';
-RDR.purchase = PATH.siteRootSecure + '/membership/purchase/';
+RDR.purchase = PATH.siteRoot + '/membership/purchase/';
 RDR.reportabug = PATH.siteRoot + '/help/contact-us/report-a-bug/';
 RDR.signUpNow = PATH.siteRoot + '/membership/';
 RDR.sponsorship = PATH.siteRoot + '/membership/';
@@ -216,7 +216,7 @@ RAMP.purchase = {
 		'topDialogPadding': 50,
 		'topPadding': 0,
 		'width': 915,
-		'widgetURL': PATH.siteRootSecure + '/membership/purchase/'
+		'widgetURL': PATH.siteRoot + '/membership/purchase/'
 	}),
 	'params': jQuery.extend({}, RAMP.params, {
 		'base': PATH.swf + '/purchasing/',
