@@ -16,7 +16,7 @@ PATH.siteRoot = (CFG.ssl ? 'https://woc.sunrise.games' : 'http://localhost');
 /*--------------------------------------------------------*/
 
 /* Config ------------------------------------------------*/
-CFG.appsSecure = 'https://dxd.sunrise.games'; // http on dev, https on qa/live
+CFG.appsSecure = 'https://woc.sunrise.games'; // http on dev, https on qa/live
 CFG.apps = CFG.ssl ? CFG.appsSecure : 'http://localhost';
 CFG.appsProxy = PATH.siteRoot + '/apps';
 CFG.carsDSSecure = CFG.appsSecure + '/carsds';
@@ -25,13 +25,13 @@ CFG.carsDSProxy = CFG.appsProxy + '/carsds';
 CFG.apiSecure = CFG.carsDSSecure + '/api/';
 CFG.api = CFG.carsDS + '/api/';
 CFG.apiProxy = CFG.carsDSProxy + '/api/';
-CFG.dxdSecure = 'https://dxd.sunrise.games/dxd'; // live = apps.dxd.go.com
+CFG.dxdSecure = 'https://woc.sunrise.games/dxd'; // live = apps.dxd.go.com
 CFG.dxd = CFG.ssl ? CFG.dxdSecure : 'http://localhost/dxd'; // live = apps.dxd.go.com
 CFG.swfBaseUrl = '';
 CFG.clientVersion = '1.1'; // TODO: Real version
 
 CFG.ajaxLogin = CFG.carsDS + '/api/AccountLoginRequest'; // same-domain login request for AJAX apps
-CFG.ajaxLogout = CFG.apiProxy + 'AccountLogoutRequest'; // same-domain logout request for AJAX apps
+CFG.ajaxLogout = CFG.apps + '/carsds/api/AccountLogoutRequest'; // same-domain logout request for AJAX apps
 CFG.assetsBaseUrl = PATH.cdnRootBase + '/game/assets/';
 CFG.assetServiceHost = CFG.carsDS + '/messagebroker/amf';
 CFG.chatPermissionUrl = CFG.dxd + '/flashAPI/sendChatPermissionEmails';
