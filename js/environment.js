@@ -31,7 +31,7 @@ CFG.swfBaseUrl = '';
 CFG.clientVersion = '1.1'; // TODO: Real version
 
 CFG.ajaxLogin = CFG.carsDS + '/api/AccountLoginRequest'; // same-domain login request for AJAX apps
-CFG.ajaxLogout = CFG.apiProxy + 'AccountLogoutRequest'; // same-domain logout request for AJAX apps
+CFG.ajaxLogout = CFG.apps + '/carsds/api/AccountLogoutRequest'; // same-domain logout request for AJAX apps
 CFG.assetsBaseUrl = PATH.cdnRootBase + '/game/assets/';
 CFG.assetServiceHost = CFG.carsDS + '/messagebroker/amf';
 CFG.chatPermissionUrl = CFG.dxd + '/flashAPI/sendChatPermissionEmails';
