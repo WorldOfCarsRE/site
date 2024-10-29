@@ -30,6 +30,9 @@ jQuery(document).ready(function () {
 			dataType: 'xml',
 			type: 'GET',
 			url: CFG.whoAmI,
+			xhrFields: {
+				withCredentials: true
+			},
 			error: function () {
 				if (heartbeatFails > 2) {
 					displayGate('The World of Cars Online is currently unavailable. We apologize for the inconvenience and are working quickly to resolve the problem. Please try again soon and thank you for your patience!');

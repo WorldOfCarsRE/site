@@ -397,7 +397,11 @@
     };
 
     api.requireLogin = function (onLoginConfirmed) {
-        $.get(cfg.whoAmI, false, function (xml) {
+        $.get(cfg.whoAmI, {
+            xhrFields: {
+                withCredentials: true
+            }
+        }, function (xml) {
             if ($(xml).find('status').text() === 'logged_in_player') {
                 onLoginConfirmed();
             } else {
