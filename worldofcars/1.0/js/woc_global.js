@@ -140,9 +140,6 @@ function checkGate() {
 		'type': 'GET',
 		'url': CFG.whoAmI,
 		'dataType': 'xml',
-		xhrFields: {
-			withCredentials: true
-		},
 		'success': function (data) {
 			if (typeof data == 'object' || data != false) {
 				processGate(data);

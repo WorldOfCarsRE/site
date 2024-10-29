@@ -48,12 +48,9 @@ var WorldOfCars = function() {
 		This.heartbeatTick = function() {
 			jQuery.ajax( {
 				cache		: false,
-				dataType	: 'xml',
+				dataType	: 'text', // Previously xml type but our api service returns text
 				type		: 'GET',
 				url			: CFG.whoAmI,
-				xhrFields: {
-					withCredentials: true
-				},
 				error		: function() {
 					if( heartbeatFails > 2 ) {
 						This.gateSite( 'The World of Cars Online is currently unavailable. We apologize for the inconvenience and are working quickly to resolve the problem. Please try again soon and thank you for your patience!' );
