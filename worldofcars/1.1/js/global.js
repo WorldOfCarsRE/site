@@ -48,7 +48,7 @@ var WorldOfCars = function() {
 		This.heartbeatTick = function() {
 			jQuery.ajax( {
 				cache		: false,
-				dataType	: 'text', // Previously xml type but our api service returns text
+				dataType	: 'xml',
 				type		: 'GET',
 				url			: CFG.whoAmI,
 				error		: function() {
