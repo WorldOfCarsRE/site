@@ -1,0 +1,22 @@
+﻿Redeem
+OK
+Cancel
+Error
+Congratulations!
+Enter Race Codes
+Enter Your Race Code
+That Race Code has already been entered. Please try another one.
+The Race Code that you entered is incorrect. Make sure you enter each digit carefully.
+You have entered ${codeNum} Race Codes.
+You have received the ${collectibleName} collectible and ${consumableNum} ${consumableName}${extraText}
+You have earned ${numCoins} Car Coins.
+You need ${numOfCodes} more Race Codes to get a special bonus.
+You need 1 more Race Code to unlock the next item.
+You have unlocked a new track!
+Show Info
+Hide Info
+Collectibles
+Close
+Race Codes
+Unlock cool stuff
+Dad-gum!
