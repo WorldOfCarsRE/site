@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+
+		public static const ANIMATION:int = 	1;
+		public static const PAINT:int = 		2;
+		public static const DECAL:int = 		3;
+		public static const ADDON:int = 		4;
+		public static const CONSUMABLE:int = 	5;
+		public static const TROPHY:int = 		6;
+		public static const TROPHY3D:int = 		7;
+		public static const TROPHYISO:int = 	8;
+		public static const DANCE:int = 		9;
+		public static const SPONSOR:int = 		10;
+		public static const EYE_COLOR:int = 	11;
+		public static const DETAILING:int = 	12;
+		public static const BADGE:int = 		13;
+		public static const WHEEL:int = 		14;
+		public static const TIRE:int = 			15;
+ -->
+
+<promoBonusItems>
+    <promoBonusItem threshold="3" bonusItemType="5" bonusItemId="9901" awardCarCoins="90"/>
+    <promoBonusItem threshold="6" bonusItemType="5" bonusItemId="9902" awardCarCoins="90"/>
+    <promoBonusItem threshold="9" bonusItemType="5" bonusItemId="9901" awardCarCoins="90"/>
+    <promoBonusItem threshold="15" bonusItemType="5" bonusItemId="9902" awardCarCoins="90"/>
+    <promoBonusItem threshold="30" bonusItemType="5" bonusItemId="9901" awardCarCoins="90"/>
+	<promoBonusItem threshold="45" bonusItemType="5" bonusItemId="9902" awardCarCoins="90"/>
+	<promoBonusItem threshold="60" bonusItemType="5" bonusItemId="9901" awardCarCoins="90"/>
+	<promoBonusItem threshold="75" bonusItemType="5" bonusItemId="9902" awardCarCoins="90"/>
+	<promoBonusItem threshold="100" bonusItemType="5" bonusItemId="9901" awardCarCoins="90"/>
+	<promoBonusItem threshold="125" bonusItemType="5" bonusItemId="9902" awardCarCoins="90"/>
+	<promoBonusItem threshold="173" bonusItemType="5" bonusItemId="9901" awardCarCoins="90"/>
+</promoBonusItems>
+
