@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<offer name="CARS1M" term="Monthly" description="Monthly recurring - USD $5.95" />
+	<offer name="CARS6M" term="Semi-Annual" description="6 months recurring - USD $29.95" />
+	<offer name="CARS1Y" term="Annual" description="12 months recurring - USD $57.95" />
+</data>
