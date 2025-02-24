@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<boot app="Cars_Purchasing.swf" id="carspurchasing">
+	<libs>
+		<lib url="DVC_UI.swf"/>
+		<lib url="DVC_Cars_UI.swf"/>
+		<lib url="DVC_RegUtils.swf"/>
+		<lib url="DVC_Tracking.swf"/>
+		<lib url="SharedAssetsLibrary_Fonts.swf"/>
+		<lib url="SharedAssetsLibrary_Website.swf"/>
+	</libs>
+</boot>
