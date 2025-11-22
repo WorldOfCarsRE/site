@@ -1,0 +1,53 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start Caddy Server",
+      "type": "shell",
+      "command": "${workspaceFolder}/../caddy_windows_amd64.exe",
+      "args": ["run", "--config", "Caddyfile"],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      },
+      "isBackground": true,
+      "runOptions": {
+        "instanceLimit": 1
+      }
+    },
+    {
+      "label": "Stop Caddy Server",
+      "type": "shell",
+      "command": "${workspaceFolder}/../caddy_windows_amd64.exe",
+      "args": ["stop"],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      }
+    },
+    {
+      "label": "Reload Caddy Config",
+      "type": "shell",
+      "command": "${workspaceFolder}/../caddy_windows_amd64.exe",
+      "args": ["reload", "--config", "Caddyfile"],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      }
+    },
+    {
+      "label": "Validate Caddyfile",
+      "type": "shell",
+      "command": "${workspaceFolder}/../caddy_windows_amd64.exe",
+      "args": ["validate", "--config", "Caddyfile"],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      }
+    }
+  ]
+}
